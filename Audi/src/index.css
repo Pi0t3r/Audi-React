@@ -4,6 +4,8 @@
 
 ul.slider li.slide div p.legend {
   bottom: 5px;
+  background: none;
+  color: black;
 }
 .carousel-status {
   display: none;
