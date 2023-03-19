@@ -84,12 +84,52 @@ export const CarouselTwo = () => {
     <div>
       <Carousel>
         <div>
-          <img src="/src/utilities/img/r8.jpg" />
-          <p className="legend">R8</p>
+          <img src="/src/utilities/img/a4.png" />
+          <p className="legend">Sportback</p>
         </div>
         <div>
-          <img src="/src/utilities/img/r8.jpg" />
-          <p className="legend">R8</p>
+          <img src="/src/utilities/img/a1.jpg" />
+          <p className="legend">Kompaktowy</p>
+        </div>
+        <div>
+          <img src="/src/utilities/img/a8.jpg" />
+          <p className="legend">Limousine</p>
+        </div>
+        <div>
+          <img src="/src/utilities/img/a6avant.jpg" />
+          <p className="legend">Avant</p>
+        </div>
+        <div>
+          <img src="/src/utilities/img/allroad.jpg" />
+          <p className="legend">allroad quattro</p>
+        </div>
+        <div>
+          <img src="/src/utilities/img/tt.jpg" />
+          <p className="legend">Coupe</p>
+        </div>
+        <div>
+          <img src="/src/utilities/img/q5.jpg" />
+          <p className="legend">SUV</p>
+        </div>
+        <div>
+          <img src="/src/utilities/img/rs6.jpg" />
+          <p className="legend">Sport</p>
+        </div>
+        <div>
+          <img src="/src/utilities/img/electric.jpg" />
+          <p className="legend">Napęd elektryczny</p>
+        </div>
+        <div>
+          <img src="/src/utilities/img/a3.jpg" />
+          <p className="legend">Plug-in Hybrid</p>
+        </div>
+        <div>
+          <img src="/src/utilities/img/a6.png" />
+          <p className="legend">Napęd alternatywny</p>
+        </div>
+        <div>
+          <img src="/src/utilities/img/spyder.jpg" />
+          <p className="legend">Spyder</p>
         </div>
       </Carousel>
     </div>
