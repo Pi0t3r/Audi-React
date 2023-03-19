@@ -78,3 +78,20 @@ export const CarouselOne = () => {
     </div>
   );
 };
+
+export const CarouselTwo = () => {
+  return (
+    <div>
+      <Carousel>
+        <div>
+          <img src="/src/utilities/img/r8.jpg" />
+          <p className="legend">R8</p>
+        </div>
+        <div>
+          <img src="/src/utilities/img/r8.jpg" />
+          <p className="legend">R8</p>
+        </div>
+      </Carousel>
+    </div>
+  );
+};

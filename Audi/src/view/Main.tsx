@@ -1,6 +1,7 @@
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
-import { CarouselOne } from "../components/Carousel";
+import { CarouselOne, CarouselTwo } from "../components/Carousel";
+import { useState } from "react";
 interface iButton {
   text: string;
   border: string;
@@ -28,6 +29,12 @@ const Button = ({
 };
 
 function Main() {
+  const [activeButton, setActiveButton] = useState("Modele");
+  const [activeCarousel, setActiveCarousel] = useState("CarouselOne");
+  const handleButtonClick = (buttonName: string, carouselName: string) => {
+    setActiveButton(buttonName);
+    setActiveCarousel(carouselName);
+  };
   return (
     <div>
       <div className="bg-headerImageMain bg-cover bg-center w-full h-[30rem] text-white relative flex flex-col items-start px-4 mt-16">
@@ -44,14 +51,14 @@ function Main() {
             border="border-none"
             background="bg-white"
             textColor="text-black"
-            height="h-20"
+            height="h-16"
             margin="mb-2"
           />
           <Button
             text="Poznaj gamę Audi A6"
             border="border-2 border-white"
             background="none"
-            height="h-24"
+            height="h-20"
           />
         </div>
       </div>
@@ -75,11 +82,30 @@ function Main() {
       <div className="p-4 w-full">
         <h3 className="text-3xl font-medium">Skonfiguruj swoje Audi</h3>
         <div className="flex flex-row justify-between mt-4 text-lg">
-          <button className="border-b-2 border-black">Modele</button>
-          <button className="text-gray-400">Typ nadwozia</button>
+          <button
+            className={
+              activeButton === "Modele"
+                ? "border-b-2 border-black"
+                : "text-gray-400"
+            }
+            onClick={() => handleButtonClick("Modele", "CarouselOne")}
+          >
+            Modele
+          </button>
+          <button
+            className={
+              activeButton === "Typ nadwozia"
+                ? "border-b-2 border-black"
+                : "text-gray-400"
+            }
+            onClick={() => handleButtonClick("Typ nadwozia", "CarouselTwo")}
+          >
+            Typ nadwozia
+          </button>
         </div>
         <div className="mt-4">
-          <CarouselOne />
+          {activeCarousel === "CarouselOne" && <CarouselOne />}
+          {activeCarousel === "CarouselTwo" && <CarouselTwo />}
         </div>
       </div>
     </div>
