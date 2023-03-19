@@ -1,7 +1,7 @@
 import MenuIcon from "@mui/icons-material/Menu";
 function Nav() {
   return (
-    <div className="flex flex-row h-24 items-center px-4">
+    <div className="flex flex-row h-16 items-center px-4 fixed left-0 right-0 z-10 top-0 bg-white">
       <div className="w-1/4 flex items-center">
         <button>
           <MenuIcon />
