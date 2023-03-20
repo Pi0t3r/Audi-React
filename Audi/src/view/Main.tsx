@@ -1,11 +1,12 @@
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import { CarouselOne, CarouselTwo } from "../components/Carousel";
-import { useState } from "react";
+import React, { useState, useContext } from "react";
 import {
   OfferWithBackground,
   OfferWithoutBackground,
 } from "../components/Offers";
+import { ThemeContext } from "../utilities/style/ThemeContext";
 
 interface iButton {
   text: string;
@@ -34,6 +35,7 @@ const Button = ({
 };
 
 function Main() {
+  const theme = useContext(ThemeContext);
   const [activeButton, setActiveButton] = useState("Modele");
   const [activeCarousel, setActiveCarousel] = useState("CarouselOne");
   const handleButtonClick = (buttonName: string, carouselName: string) => {
