@@ -2,9 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-
-div.slick-slider.slick-initialized div.slick-list div.slick-track {
-  transform: translateX(100%);
+html {
+  scroll-behavior: smooth;
+  overscroll-behavior: contain;
+  scroll-padding: 100px;
 }
 ul.slider li.slide div p.legend {
   bottom: 5px;

@@ -149,7 +149,6 @@ function Main() {
           </span>
         </button>
       </div>
-      <div></div>
     </div>
   );
 }
