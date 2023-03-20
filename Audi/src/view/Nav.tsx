@@ -4,10 +4,16 @@ import LightModeIcon from "@mui/icons-material/LightMode";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
 import { ThemeContext } from "../utilities/style/ThemeContext";
 import { themeLight, themeDark } from "../utilities/style/theme";
+import Sidebar from "../components/Sidebar";
+
 function Nav() {
   const [isDarkMode, setIsDarkMode] = useState(false);
+  const [move, setMove] = useState(false);
+  const handleClick = () => {
+    setMove(!move);
+  };
   return (
-    <div className="h-16 fixed left-0 right-0 z-10 top-0 bg-white">
+    <div className="h-16 fixed left-0 right-0 z-10 top-0">
       <ul
         style={{
           backgroundColor: isDarkMode
@@ -17,7 +23,7 @@ function Nav() {
             ? themeDark.colors.whiteText
             : themeLight.colors.blackText,
         }}
-        className="flex flex-row items-center justify-between w-full h-full px-4"
+        className="flex flex-row items-center justify-between w-full h-full px-4 ease-in duration-300"
       >
         <li
           style={{
@@ -26,7 +32,7 @@ function Nav() {
               : themeLight.colors.blackText,
           }}
         >
-          <button>
+          <button onClick={handleClick}>
             <MenuIcon />
           </button>
         </li>
@@ -37,6 +43,9 @@ function Nav() {
           </button>
         </li>
       </ul>
+      <div>
+        <Sidebar move={move} handleClick={handleClick} />
+      </div>
     </div>
   );
 }
