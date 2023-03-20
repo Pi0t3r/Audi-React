@@ -2,6 +2,11 @@ import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import { CarouselOne, CarouselTwo } from "../components/Carousel";
 import { useState } from "react";
+import {
+  OfferWithBackground,
+  OfferWithoutBackground,
+} from "../components/Offers";
+
 interface iButton {
   text: string;
   border: string;
@@ -108,6 +113,43 @@ function Main() {
           {activeCarousel === "CarouselTwo" && <CarouselTwo />}
         </div>
       </div>
+      <OfferWithoutBackground
+        title="Bezkompromisowa oferta Audi Business Edition"
+        text="Audi Classic Leasing 104%"
+        button="Poznaj ofertę"
+      />
+      <OfferWithBackground
+        title="Nie czekamy na przyszłość. Tworzymy ją."
+        text="Poznaj nowe, w pełni elektryczne Audi activesphere concept z rodziny
+            samochodów koncepcyjnych sphere."
+        button="Dowiedz się więcej"
+        background="bg-backgroundEle"
+      />
+      <OfferWithoutBackground
+        title=" Wyjątkowa oferta na modele z rocznika 2022"
+        text="Audi Classing Leasing 103%"
+        button="Poznaj ofertę"
+      />
+      <OfferWithBackground
+        title="Elektryczne e-tron GT quattro"
+        text="Z ratą już od 5943 zł netto/m-c"
+        button="Poznaj ofertę"
+        background="bg-etron"
+      />
+      <div className="p-10 text-center">
+        <h3 className="font-medium text-2xl">Oferta Audi Perfect Lease</h3>
+        <p className="my-10">
+          Twoje nowe Audi - w bezkonkurencyjnej ofercie finansowania dla
+          przedsiębiorców, z niską miesięczną ratą leasingu.
+        </p>
+        <button>
+          Poznaj Audi Perfect Lease{" "}
+          <span>
+            <ChevronRightIcon />
+          </span>
+        </button>
+      </div>
+      <div></div>
     </div>
   );
 }
