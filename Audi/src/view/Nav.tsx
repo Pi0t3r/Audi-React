@@ -4,7 +4,7 @@ import LightModeIcon from "@mui/icons-material/LightMode";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
 import { themeLight, themeDark } from "../utilities/style/theme";
 import Sidebar from "../components/Sidebar";
-
+import Main from "../view/Main";
 function Nav() {
   const [isDarkMode, setIsDarkMode] = useState(false);
   const [move, setMove] = useState(false);
@@ -37,13 +37,16 @@ function Nav() {
         </li>
         <li className="tracking-[-0.4em] text-4xl">OOOO</li>
         <li>
-          <button className="z-20 relative" onClick={() => setIsDarkMode(!isDarkMode)}>
+          <button
+            className="z-20 relative"
+            onClick={() => setIsDarkMode(!isDarkMode)}
+          >
             {isDarkMode ? <LightModeIcon /> : <DarkModeIcon />}
           </button>
         </li>
       </ul>
       <div>
-        <Sidebar move={move} handleClick={handleClick} DarkMode={isDarkMode}/>
+        <Sidebar move={move} handleClick={handleClick} DarkMode={isDarkMode} />
       </div>
     </div>
   );

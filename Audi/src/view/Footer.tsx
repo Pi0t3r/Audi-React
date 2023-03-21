@@ -8,7 +8,9 @@ import Twitter from "@mui/icons-material/Twitter";
 import CopyrightIcon from "@mui/icons-material/Copyright";
 function Footer() {
   return (
-    <div className="bg-black text-white py-4">
+    <div
+      className="bg-black text-white py-4"
+    >
       <div className="text-right px-4">
         <button>
           <a href="#">
@@ -16,8 +18,8 @@ function Footer() {
           </a>
         </button>
       </div>
-      <div className="mt-4 last:border-b-[1px] border-neutral-100/70">
-        <ul>
+      <div className="mt-4">
+        <ul className="last:border-b-[1px] border-neutral-100/70">
           <ListItem text="Modele" />
           <ListItem text="Oferty i porady" />
           <ListItem text="Świat Audi" />
@@ -156,7 +158,10 @@ function Footer() {
             wymaganiami ustawy z 20 stycznia 2005 r. o recyklingu pojazdów
             wycofanych z eksploatacji. Więcej informacji dotyczących ekologii
             znajdą Państwo na stronie{" "}
-            <a className="font-medium" href="https://vw-group.pl/grupa-volkswagen,srodowisko.html.">
+            <a
+              className="font-medium"
+              href="https://vw-group.pl/grupa-volkswagen,srodowisko.html."
+            >
               https://vw-group.pl/grupa-volkswagen,srodowisko.html.
             </a>
           </p>

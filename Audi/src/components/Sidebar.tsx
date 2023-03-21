@@ -1,9 +1,7 @@
 import CloseOutlinedIcon from "@mui/icons-material/CloseOutlined";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import { themeLight, themeDark } from "../utilities/style/theme";
-import LightModeIcon from "@mui/icons-material/LightMode";
-import DarkModeIcon from "@mui/icons-material/DarkMode";
-import React, { useContext, useState } from "react";
+import React, { useState } from "react";
 
 interface iItem {
   title: string;
@@ -60,6 +58,7 @@ function Sidebar({ move, handleClick, DarkMode }: iSidebar) {
           <Item title="Serwis i akcesoria" href="#services" />
         </ul>
       </div>
+      
     </div>
   );
 }

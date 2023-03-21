@@ -8,7 +8,7 @@ interface iListItem {
 
 export const ListItem = ({ text }: iListItem) => {
   return (
-    <li className="flex justify-between items-center border-t-[1px] border-neutral-100/70">
+    <li className="flex justify-between items-center border-t-[1px] border-neutral-100/70 py-2">
       {text}
       <span>
         <KeyboardArrowDownIcon />
