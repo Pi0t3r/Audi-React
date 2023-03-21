@@ -2,7 +2,6 @@ import React, { useContext, useState } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import LightModeIcon from "@mui/icons-material/LightMode";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
-import { ThemeContext } from "../utilities/style/ThemeContext";
 import { themeLight, themeDark } from "../utilities/style/theme";
 import Sidebar from "../components/Sidebar";
 
@@ -38,13 +37,13 @@ function Nav() {
         </li>
         <li className="tracking-[-0.4em] text-4xl">OOOO</li>
         <li>
-          <button onClick={() => setIsDarkMode(!isDarkMode)}>
+          <button className="z-20 relative" onClick={() => setIsDarkMode(!isDarkMode)}>
             {isDarkMode ? <LightModeIcon /> : <DarkModeIcon />}
           </button>
         </li>
       </ul>
       <div>
-        <Sidebar move={move} handleClick={handleClick} />
+        <Sidebar move={move} handleClick={handleClick} DarkMode={isDarkMode}/>
       </div>
     </div>
   );

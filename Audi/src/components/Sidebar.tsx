@@ -1,6 +1,5 @@
 import CloseOutlinedIcon from "@mui/icons-material/CloseOutlined";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
-import { ThemeContext } from "../utilities/style/ThemeContext";
 import { themeLight, themeDark } from "../utilities/style/theme";
 import LightModeIcon from "@mui/icons-material/LightMode";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
@@ -27,30 +26,28 @@ const Item = ({ title, href }: iItem) => {
 interface iSidebar {
   move: boolean;
   handleClick: () => void;
+  DarkMode: boolean;
 }
 
-function Sidebar({ move, handleClick }: iSidebar) {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+function Sidebar({ move, handleClick, DarkMode }: iSidebar) {
+  const [isDarkMode, setIsDarkMode] = useState(DarkMode);
   return (
     <div
       style={{
-        backgroundColor: isDarkMode
+        backgroundColor: DarkMode
           ? themeDark.colors.blackBackground
           : themeLight.colors.whiteBackground,
-        color: isDarkMode
+        color: DarkMode
           ? themeDark.colors.whiteText
           : themeLight.colors.blackText,
       }}
-      className={`fixed top-0 bottom-0 ease-in w-full duration-300 bg-white ${
+      className={`fixed z-10 top-0 bottom-0 ease-in w-full duration-300 bg-white ${
         move ? "left-0" : "-left-full"
       }`}
     >
       <div className="flex flex-row justify-between p-5">
         <button onClick={handleClick}>
           <CloseOutlinedIcon />
-        </button>
-        <button onClick={() => setIsDarkMode(!isDarkMode)}>
-          {isDarkMode ? <LightModeIcon /> : <DarkModeIcon />}
         </button>
       </div>
 

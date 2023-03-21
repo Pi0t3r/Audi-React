@@ -6,7 +6,7 @@ import {
   OfferWithBackground,
   OfferWithoutBackground,
 } from "../components/Offers";
-import { ThemeContext } from "../utilities/style/ThemeContext";
+import { themeDark, themeLight } from "../utilities/style/theme";
 
 interface iButton {
   text: string;
@@ -26,8 +26,7 @@ const Button = ({
   margin,
 }: iButton) => {
   return (
-    <button
-      className={`${border} ${background} ${textColor} w-full ${height} ${margin} font-medium text-xl cursor-pointer`}
+    <button className={`${border} ${background} ${textColor} w-full ${height} ${margin} font-medium text-xl cursor-pointer`}
     >
       {text}
     </button>
@@ -35,7 +34,6 @@ const Button = ({
 };
 
 function Main() {
-  const theme = useContext(ThemeContext);
   const [activeButton, setActiveButton] = useState("Modele");
   const [activeCarousel, setActiveCarousel] = useState("CarouselOne");
   const handleButtonClick = (buttonName: string, carouselName: string) => {
