@@ -2,6 +2,7 @@ export const themeDark = {
   colors: {
     whiteText: "rgb(255 255 255)",
     blackBackground: "rgb(0 0 0)",
+    
   },
 };
 

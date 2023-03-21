@@ -18,30 +18,29 @@ interface iButton {
   margin?: string;
 }
 
-const Button = ({
-  text,
-  border,
-  background,
-  textColor,
-  height,
-  margin,
-}: iButton) => {
-  return (
-    <button
-      className={`${border} ${background} ${textColor} w-full ${height} ${margin} font-medium text-xl cursor-pointer`}
-    >
-      {text}
-    </button>
-  );
-};
-
 function Main() {
-  
+  const { isDarkMode, setIsDarkMode } = useContext(ThemeContext);
   const [activeButton, setActiveButton] = useState("Modele");
   const [activeCarousel, setActiveCarousel] = useState("CarouselOne");
   const handleButtonClick = (buttonName: string, carouselName: string) => {
     setActiveButton(buttonName);
     setActiveCarousel(carouselName);
+  };
+  const Button = ({
+    text,
+    border,
+    background,
+    textColor,
+    height,
+    margin,
+  }: iButton) => {
+    return (
+      <button
+        className={`${border} ${background} ${textColor} w-full ${height} ${margin} font-medium text-xl cursor-pointer`}
+      >
+        {text}
+      </button>
+    );
   };
   return (
     <div>
@@ -139,7 +138,15 @@ function Main() {
         button="Poznaj ofertę"
         background="bg-etron"
       />
-      <div className="p-10 text-center">
+      <div
+        style={{
+          backgroundColor: isDarkMode
+            ? themeDark.colors.blackBackground
+            : themeLight.colors.whiteBackground,
+          color: isDarkMode ? themeDark.colors.whiteText : themeLight.colors.blackText
+        }}
+        className="p-10 text-center ease-in duration-300"
+      >
         <h3 className="font-medium text-2xl">Oferta Audi Perfect Lease</h3>
         <p className="my-10">
           Twoje nowe Audi - w bezkonkurencyjnej ofercie finansowania dla

@@ -4,9 +4,10 @@ import LightModeIcon from "@mui/icons-material/LightMode";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
 import { themeLight, themeDark } from "../utilities/style/theme";
 import Sidebar from "../components/Sidebar";
-import Main from "../view/Main";
+import { ThemeContext } from "../utilities/style/ThemeContext";
 function Nav() {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const { themeLight, themeDark, isDarkMode, setIsDarkMode } =
+    useContext(ThemeContext);
   const [move, setMove] = useState(false);
   const handleClick = () => {
     setMove(!move);
@@ -46,7 +47,7 @@ function Nav() {
         </li>
       </ul>
       <div>
-        <Sidebar move={move} handleClick={handleClick} DarkMode={isDarkMode} />
+        <Sidebar move={move} handleClick={handleClick} />
       </div>
     </div>
   );

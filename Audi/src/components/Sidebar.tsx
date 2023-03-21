@@ -1,7 +1,8 @@
 import CloseOutlinedIcon from "@mui/icons-material/CloseOutlined";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import { themeLight, themeDark } from "../utilities/style/theme";
-import React, { useState } from "react";
+import React, { useContext } from "react";
+import { ThemeContext } from "../utilities/style/ThemeContext";
 
 interface iItem {
   title: string;
@@ -24,18 +25,17 @@ const Item = ({ title, href }: iItem) => {
 interface iSidebar {
   move: boolean;
   handleClick: () => void;
-  DarkMode: boolean;
 }
 
-function Sidebar({ move, handleClick, DarkMode }: iSidebar) {
-  const [isDarkMode, setIsDarkMode] = useState(DarkMode);
+function Sidebar({ move, handleClick }: iSidebar) {
+  const {themeLight, themeDark, isDarkMode, setIsDarkMode} = useContext(ThemeContext)
   return (
     <div
       style={{
-        backgroundColor: DarkMode
+        backgroundColor: isDarkMode
           ? themeDark.colors.blackBackground
           : themeLight.colors.whiteBackground,
-        color: DarkMode
+        color: isDarkMode
           ? themeDark.colors.whiteText
           : themeLight.colors.blackText,
       }}

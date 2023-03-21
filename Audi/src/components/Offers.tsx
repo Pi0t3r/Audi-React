@@ -1,5 +1,6 @@
-import React from "react";
-
+import React, { useContext } from "react";
+import { ThemeContext } from "../utilities/style/ThemeContext";
+import { themeLight, themeDark } from "../utilities/style/theme";
 interface iOffer {
   title: string;
   text: string;
@@ -7,12 +8,12 @@ interface iOffer {
   background?: string;
 }
 
-export const OfferWithBackground = ({
+export function OfferWithBackground({
   title,
   text,
   button,
   background,
-}: iOffer) => {
+}: iOffer) {
   return (
     <div
       className={`${background} bg-cover bg-center w-full h-[30rem] flex items-center justify-center bg-fixed`}
@@ -26,18 +27,27 @@ export const OfferWithBackground = ({
       </div>
     </div>
   );
-};
+}
 
-export const OfferWithoutBackground = ({
-  title,
-  text,
-  button,
-}: iOffer) => {
+export function OfferWithoutBackground({ title, text, button }: iOffer) {
+  const { isDarkMode, setIsDarkMode } = useContext(ThemeContext);
   return (
-    <div className="text-left px-14 pb-14 mt-10">
+    <div
+      style={{
+        backgroundColor: isDarkMode
+          ? themeDark.colors.blackBackground
+          : themeLight.colors.whiteBackground,
+        color: isDarkMode
+          ? themeDark.colors.whiteText
+          : themeLight.colors.blackText,
+      }}
+      className="text-left px-14 pb-14 pt-5 ease-in duration-300"
+    >
       <h3 className="font-bold text-xl">{title}</h3>
       <p className="my-5">{text}</p>
-      <button className="border-2 border-black w-full py-3">{button}</button>
+      <button style={{
+        borderColor: isDarkMode ? "white" : "black"
+      }} className="border-2 border-black w-full py-3">{button}</button>
     </div>
   );
-};
+}
