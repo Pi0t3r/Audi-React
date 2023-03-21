@@ -8,9 +8,7 @@ import Twitter from "@mui/icons-material/Twitter";
 import CopyrightIcon from "@mui/icons-material/Copyright";
 function Footer() {
   return (
-    <div
-      className="bg-black text-white py-4"
-    >
+    <div className="bg-black text-white py-4">
       <div className="text-right px-4">
         <button>
           <a href="#">
@@ -19,11 +17,73 @@ function Footer() {
         </button>
       </div>
       <div className="mt-4">
-        <ul className="last:border-b-[1px] border-neutral-100/70">
-          <ListItem text="Modele" />
-          <ListItem text="Oferty i porady" />
-          <ListItem text="Świat Audi" />
-          <ListItem text="Serwis i akcesoria" />
+        <ul className="last:border-b-[1px] border-neutral-100/70 ">
+          <ListItem
+            text="Modele"
+            listItems={[
+              "Menu",
+              "Wszystkie modele",
+              "Konfigurator",
+              "Oferty Specjalne",
+            ]}
+          />
+          <ListItem
+            text="Oferty i porady"
+            listItems={[
+              "Menu",
+              "Oferty Audi",
+              "Business Edition",
+              "Finansowanie i ubezpieczenia",
+              "Samochody gotowe do odbioru",
+              "Audi Select:plus",
+              "Jazda testowa",
+              "Audi dla biznesu",
+              "Audi exclusive",
+              "Audi Expert online",
+              "Dealerzy Audi",
+            ]}
+          />
+
+          <ListItem
+            text="Elektromobilność"
+            listItems={[
+              "Menu",
+              "Elektromobilność",
+              "Wszystkie modele elektryczne",
+              "Wszystkie hybrydy plug-in",
+              "Ładowanie",
+              "Zasięg",
+              "Ładowanie w drodze",
+            ]}
+          />
+          <ListItem
+            text="Świat Audi"
+            listItems={[
+              "Menu",
+              "Future in an attitude",
+              "Audi R/RS",
+              "Audi Sport",
+              "Historia marki",
+              "Aktualności",
+              "Ochrona środowiska",
+              "WLTP",
+              "Etykieta opon",
+            ]}
+          />
+          <ListItem
+            text="Serwis i akcesoria"
+            listItems={[
+              "Menu",
+              "Akcesoria",
+              "Serwis części",
+              "Audi connect",
+              "Centrum napraw powypadkowych",
+              "Gwarancja",
+              "Akcja serwisowa EA189",
+              "Sklep online",
+              "Audi Connect Plug&Play",
+            ]}
+          />
         </ul>
       </div>
       <div className="mt-10 border-b-[1px] border-neutral-100/70 pb-5 mx-4">

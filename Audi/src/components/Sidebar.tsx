@@ -28,7 +28,7 @@ interface iSidebar {
 }
 
 function Sidebar({ move, handleClick }: iSidebar) {
-  const {themeLight, themeDark, isDarkMode, setIsDarkMode} = useContext(ThemeContext)
+  const {isDarkMode, setIsDarkMode} = useContext(ThemeContext)
   return (
     <div
       style={{

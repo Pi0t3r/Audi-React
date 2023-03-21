@@ -1,18 +1,34 @@
-import React from "react";
+import React, { useState } from "react";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
-
 interface iListItem {
   text: string;
+  listItems?: string[];
 }
 
-export const ListItem = ({ text }: iListItem) => {
+export const ListItem = ({ text, listItems }: iListItem) => {
+  const [expand, setExpand] = useState(false);
+  const handleClick = () => {
+    setExpand(!expand);
+  };
   return (
-    <li className="flex justify-between items-center border-t-[1px] border-neutral-100/70 py-2 pl-4">
-      {text}
-      <span>
-        <KeyboardArrowDownIcon />
-      </span>
-    </li>
+    <div>
+      <li
+        onClick={handleClick}
+        className="flex justify-between items-center border-t-[1px] border-neutral-100/70 py-2 pl-4"
+      >
+        {text}
+        <span>
+          <KeyboardArrowDownIcon />
+        </span>
+      </li>
+      {expand && (
+        <div className="bg-neutral-900 p-4 leading-8">
+          {listItems?.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
+        </div>
+      )}
+    </div>
   );
 };
