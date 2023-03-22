@@ -16,14 +16,35 @@ export function OfferWithBackground({
   background,
   height,
 }: iOffer) {
+  const { isDarkMode, setIsDarkMode } = useContext(ThemeContext);
   return (
     <div
       className={`${background} bg-cover bg-center w-full h-[50rem] flex items-center justify-center bg-fixed`}
     >
-      <div className={`bg-white w-3/4 ${height}  pt-5 px-6 relative`}>
+      <div
+        style={{
+          backgroundColor: isDarkMode
+            ? themeDark.colors.blackBackground
+            : themeLight.colors.whiteBackground,
+          color: isDarkMode
+            ? themeDark.colors.whiteText
+            : themeLight.colors.blackText,
+        }}
+        className={`bg-white w-3/4 ${height}  pt-5 px-6 relative ease-in duration-300`}
+      >
         <h3 className="font-bold text-2xl">{title}</h3>
         <p className="mt-5 text-base">{text}</p>
-        <button className="bg-black text-white font-medium py-5 mt-5 absolute left-0 right-0 mx-5 bottom-10">
+        <button
+          style={{
+            backgroundColor: isDarkMode
+              ? themeLight.colors.whiteBackground
+              : themeDark.colors.blackBackground,
+            color: isDarkMode
+              ? themeLight.colors.blackText
+              : themeDark.colors.whiteText,
+          }}
+          className="bg-black text-white font-medium py-5 mt-5 absolute left-0 right-0 mx-5 bottom-10 ease-in duration-300"
+        >
           {button}
         </button>
       </div>
@@ -43,7 +64,7 @@ export function OfferWithoutBackground({ title, text, button }: iOffer) {
           ? themeDark.colors.whiteText
           : themeLight.colors.blackText,
       }}
-      className="text-left px-14 node:px-12 text-lg pb-14 pt-5 ease-in duration-300"
+      className="text-left px-14 node:px-12 text-lg pb-14 pt-14 ease-in duration-300"
     >
       <h3 className="font-bold text-xl">{title}</h3>
       <p className="my-5">{text}</p>

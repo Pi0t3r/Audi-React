@@ -49,7 +49,8 @@ function Main() {
         <div className="absolute bottom-1/2 node:pr-10 text-2xl pr-16 md:bottom-[30%]">
           <h2 className="font-medium text-3xl">Doświadczaj postępu.</h2>
           <p className="mt-4">
-            Poznaj nową gamę w pełni elektrycznych modeli Audi Q8 e-tron, z zasięgiem blisko 600 km.
+            Poznaj nową gamę w pełni elektrycznych modeli Audi Q8 e-tron, z
+            zasięgiem blisko 600 km.
           </p>
         </div>
         <div className="flex flex-col w-full bottom-20 fold:max-node:w-[90%] absolute node:left-0 node:px-4 md:w-3/5 md:flex-row md:justify-between">
@@ -86,7 +87,17 @@ function Main() {
           </p>
         </div>
       </div>
-      <div className="p-4 w-full">
+      <div
+        className="p-4 w-full ease-in duration-300"
+        style={{
+          backgroundColor: isDarkMode
+            ? themeDark.colors.blackBackground
+            : themeLight.colors.whiteBackground,
+          color: isDarkMode
+            ? themeDark.colors.whiteText
+            : themeLight.colors.blackText,
+        }}
+      >
         <h3 className="text-3xl font-medium">Skonfiguruj swoje Audi</h3>
         <div className="flex flex-row justify-start mt-4 text-lg">
           <button
@@ -153,7 +164,9 @@ function Main() {
         }}
         className="p-10 text-center ease-in duration-300 pb-20"
       >
-        <h3 className="font-medium text-2xl node:text-4xl">Oferta Audi Perfect Lease</h3>
+        <h3 className="font-medium text-2xl node:text-4xl">
+          Oferta Audi Perfect Lease
+        </h3>
         <p className="my-10 node:text-lg">
           Twoje nowe Audi - w bezkonkurencyjnej ofercie finansowania dla
           przedsiębiorców, z niską miesięczną ratą leasingu.
