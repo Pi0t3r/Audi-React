@@ -10,6 +10,14 @@ module.exports = {
         etron: "url('/src/utilities/img/mobi.jpg')",
       },
     },
+    screens: {
+      fold: "280px",
+      small: "320px",
+      node: "360px",
+      iphone: "412px",
+      md:"768px",
+      nethub: "912px",
+    },
   },
   plugins: [],
 };

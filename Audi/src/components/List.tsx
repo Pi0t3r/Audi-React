@@ -15,7 +15,7 @@ export const ListItem = ({ text, listItems }: iListItem) => {
     <div>
       <li
         onClick={handleClick}
-        className="flex justify-between items-center border-t-[1px] border-neutral-100/70 py-2 pl-4"
+        className="flex justify-between items-center border-t-[1px] border-neutral-100/70 py-2 pl-4 node:text-lg font-medium py-4"
       >
         {text}
         <span>

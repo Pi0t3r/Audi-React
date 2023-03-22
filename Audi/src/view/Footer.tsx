@@ -6,6 +6,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import Twitter from "@mui/icons-material/Twitter";
 import CopyrightIcon from "@mui/icons-material/Copyright";
+import { ParagraphFooter } from "../components/FooterP";
 function Footer() {
   return (
     <div className="bg-black text-white py-4">
@@ -106,7 +107,7 @@ function Footer() {
         <p>
           <CopyrightIcon /> 2022 Audi Polska.
         </p>
-        <ul className="mt-3">
+        <ul className="mt-3 node:leading-9">
           <li>
             <a href="">Dealerzy i partnerzy</a>
           </li>
@@ -148,8 +149,8 @@ function Footer() {
           </li>
         </ul>
         <>
-          <p>
-            Od 1 września 2018 r. wszystkie nowe pojazdy wprowadzane do obrotu w
+          <ParagraphFooter
+            text=" Od 1 września 2018 r. wszystkie nowe pojazdy wprowadzane do obrotu w
             Unii Europejskiej muszą być badane i homologowane zgodnie z
             procedurą WLTP określoną w rozporządzeniu Komisji (UE) 2017/1151.
             WLTP zapewnia bardziej rygorystyczne warunki badania i bardziej
@@ -161,26 +162,26 @@ function Footer() {
             audi.pl/danewltp. Montaż akcesoriów w pojeździe może mieć wpływ na
             poziom zużycia paliwa/energii, emisję CO2 lub zasięg oraz może
             nastąpić najwcześniej po pierwszej rejestracji pojazdu, wyłącznie na
-            Państwa życzenie.
-          </p>
-          <p>
-            Zasięg dla samochodów elektrycznych lub zasięg w trybie elektrycznym
+            Państwa życzenie."
+          />
+          <ParagraphFooter
+            text="Zasięg dla samochodów elektrycznych lub zasięg w trybie elektrycznym
             dla hybryd typu Plug-In może się różnić w zależności od wersji i
             wyposażenia oraz zamontowanych akcesoriów. W praktyce rzeczywisty
             zasięg różni się w zależności od stylu jazdy, prędkości, korzystania
             z dodatkowych odbiorników energii, temperatury zewnętrznej, liczby
-            pasażerów, obciążenia ładunkiem i topografii terenu.
-          </p>
-          <p>
-            Zasięg dla samochodów elektrycznych lub zasięg w trybie elektrycznym
+            pasażerów, obciążenia ładunkiem i topografii terenu."
+          />
+          <ParagraphFooter
+            text="Zasięg dla samochodów elektrycznych lub zasięg w trybie elektrycznym
             dla hybryd typu Plug-In może się różnić w zależności od wersji i
             wyposażenia oraz zamontowanych akcesoriów. W praktyce rzeczywisty
             zasięg różni się w zależności od stylu jazdy, prędkości, korzystania
             z dodatkowych odbiorników energii, temperatury zewnętrznej, liczby
-            pasażerów, obciążenia ładunkiem i topografii terenu.
-          </p>
-          <p>
-            Wszelkie prezentowane informacje, w szczególności zdjęcia, wykresy,
+            pasażerów, obciążenia ładunkiem i topografii terenu."
+          />
+          <ParagraphFooter
+            text="Wszelkie prezentowane informacje, w szczególności zdjęcia, wykresy,
             specyfikacje, opisy, rysunki lub parametry techniczne nie stanowią
             oferty w rozumieniu Kodeksu cywilnego oraz nie są wiążące i mogą
             ulec zmianie bez wcześniejszego powiadomienia. Prezentowane
@@ -188,14 +189,14 @@ function Footer() {
             Kodeksu cywilnego. Z uwagi na ograniczenia parametrów ekranu, na
             którym obraz jest wyświetlany, kolory przedstawione w niniejszym
             materiale mogą nieznacznie różnić się od faktycznych kolorów lakieru
-            i materiałów.
-          </p>
-          <p>
-            Podane kwoty są rekomendowane i obejmują podatek VAT (23%), chyba że
-            inaczej zaznaczono.
-          </p>
-          <p>
-            Audi zastrzega sobie możliwość wprowadzenia zmian w prezentowanych
+            i materiałów."
+          />
+          <ParagraphFooter
+            text="Podane kwoty są rekomendowane i obejmują podatek VAT (23%), chyba że
+            inaczej zaznaczono."
+          />
+          <ParagraphFooter
+            text="Audi zastrzega sobie możliwość wprowadzenia zmian w prezentowanych
             wersjach. Przedstawione detale wyposażenia mogą różnić się od
             specyfikacji przewidzianej na rynek polski. Zamieszczone zdjęcia
             mogą przedstawiać wyposażenie opcjonalne, dostępne za dopłatą.
@@ -205,10 +206,10 @@ function Footer() {
             zmian i pomyłek. Wszelkie informacje prezentowane na stronie są
             aktualne na dzień ich zamieszczania. W celu uzyskania najnowszych
             informacji prosimy kontaktować się z Autoryzowanym Dealerem Marki
-            Audi.
-          </p>
-          <p>
-            Wszystkie produkowane obecnie samochody marki Audi są wykonywane z
+            Audi."
+          />
+          <ParagraphFooter
+            text="Wszystkie produkowane obecnie samochody marki Audi są wykonywane z
             materiałów spełniających pod względem możliwości odzysku i
             recyklingu wymagania określone w normie ISO 22628 i są zgodne z
             europejskimi świadectwami homologacji wydanymi wg dyrektywy
@@ -217,14 +218,9 @@ function Footer() {
             odbioru pojazdów po wycofaniu ich z eksploatacji, zgodnie z
             wymaganiami ustawy z 20 stycznia 2005 r. o recyklingu pojazdów
             wycofanych z eksploatacji. Więcej informacji dotyczących ekologii
-            znajdą Państwo na stronie{" "}
-            <a
-              className="font-medium"
-              href="https://vw-group.pl/grupa-volkswagen,srodowisko.html."
-            >
-              https://vw-group.pl/grupa-volkswagen,srodowisko.html.
-            </a>
-          </p>
+            znajdą Państwo na stronie"
+            link="https://vw-group.pl/grupa-volkswagen,srodowisko.html."
+          />
         </>
       </div>
     </div>

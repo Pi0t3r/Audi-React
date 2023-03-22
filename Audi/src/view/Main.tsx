@@ -36,7 +36,7 @@ function Main() {
   }: iButton) => {
     return (
       <button
-        className={`${border} ${background} ${textColor} w-full ${height} ${margin} font-medium text-xl cursor-pointer`}
+        className={`${border} ${background} ${textColor} w-full ${height} ${margin} font-medium text-xl cursor-pointer md:w-[49%] md:h-16`}
       >
         {text}
       </button>
@@ -44,15 +44,15 @@ function Main() {
   };
   return (
     <div>
-      <div className="bg-headerImageMain bg-cover bg-center w-full h-[30rem] text-white relative flex flex-col items-start px-4 mt-16">
+      <div className="bg-headerImageMain bg-cover bg-center w-full h-[100vh] text-white relative flex flex-col items-start px-4 mt-16">
         <div className="absolute inset-0 bg-black/50" />
-        <div className="absolute top-[10%] text-2xl pr-16">
+        <div className="absolute bottom-1/2 node:pr-10 text-2xl pr-16 md:bottom-[30%]">
           <h2 className="font-medium text-3xl">Doświadczaj postępu.</h2>
           <p className="mt-4">
             Poznaj bliżej rodzinne sportowe kombi Audi RS6.
           </p>
         </div>
-        <div className="flex flex-col w-72 bottom-10 absolute">
+        <div className="flex flex-col w-full bottom-20 fold:max-node:w-[90%] absolute node:left-0 node:px-4 md:w-3/5 md:flex-row md:justify-between">
           <Button
             text="Poznaj Audi RS6"
             border="border-none"
@@ -69,10 +69,10 @@ function Main() {
           />
         </div>
       </div>
-      <div className="p-4 bg-neutral-600 text-white">
+      <div className="p-4 bg-neutral-700 text-white">
         <h3 className="font-bold text-2xl">Wirtualny salon Audi</h3>
         <p className="font-light py-2">Model</p>
-        <div className="flex flex-row justify-between font-medium border-b-2 border-white">
+        <div className="flex flex-row justify-between font-medium border-b-[1px] border-white pb-2">
           <p>A1 Sportback</p> <KeyboardArrowDownIcon />
         </div>
         <div className="flex flex-col mt-4">
@@ -88,11 +88,11 @@ function Main() {
       </div>
       <div className="p-4 w-full">
         <h3 className="text-3xl font-medium">Skonfiguruj swoje Audi</h3>
-        <div className="flex flex-row justify-between mt-4 text-lg">
+        <div className="flex flex-row justify-start mt-4 text-lg">
           <button
             className={
               activeButton === "Modele"
-                ? "border-b-2 border-black"
+                ? "border-b-[1px] border-black"
                 : "text-gray-400"
             }
             onClick={() => handleButtonClick("Modele", "CarouselOne")}
@@ -100,11 +100,13 @@ function Main() {
             Modele
           </button>
           <button
-            className={
-              activeButton === "Typ nadwozia"
-                ? "border-b-2 border-black"
-                : "text-gray-400"
-            }
+            className={`
+              ${
+                activeButton === "Typ nadwozia"
+                  ? "border-b-[1px] border-black"
+                  : "text-gray-400"
+              } ml-8
+            `}
             onClick={() => handleButtonClick("Typ nadwozia", "CarouselTwo")}
           >
             Typ nadwozia
@@ -126,6 +128,7 @@ function Main() {
             samochodów koncepcyjnych sphere."
         button="Dowiedz się więcej"
         background="bg-backgroundEle"
+        height="h-1/2"
       />
       <OfferWithoutBackground
         title=" Wyjątkowa oferta na modele z rocznika 2022"
@@ -137,22 +140,25 @@ function Main() {
         text="Z ratą już od 5943 zł netto/m-c"
         button="Poznaj ofertę"
         background="bg-etron"
+        height="h-1/3"
       />
       <div
         style={{
           backgroundColor: isDarkMode
             ? themeDark.colors.blackBackground
             : themeLight.colors.whiteBackground,
-          color: isDarkMode ? themeDark.colors.whiteText : themeLight.colors.blackText
+          color: isDarkMode
+            ? themeDark.colors.whiteText
+            : themeLight.colors.blackText,
         }}
-        className="p-10 text-center ease-in duration-300"
+        className="p-10 text-center ease-in duration-300 pb-20"
       >
-        <h3 className="font-medium text-2xl">Oferta Audi Perfect Lease</h3>
-        <p className="my-10">
+        <h3 className="font-medium text-2xl node:text-4xl">Oferta Audi Perfect Lease</h3>
+        <p className="my-10 node:text-lg">
           Twoje nowe Audi - w bezkonkurencyjnej ofercie finansowania dla
           przedsiębiorców, z niską miesięczną ratą leasingu.
         </p>
-        <button>
+        <button className="node:text-lg">
           Poznaj Audi Perfect Lease{" "}
           <span>
             <ChevronRightIcon />
