@@ -49,12 +49,12 @@ function Main() {
         <div className="absolute bottom-1/2 node:pr-10 text-2xl pr-16 md:bottom-[30%]">
           <h2 className="font-medium text-3xl">Doświadczaj postępu.</h2>
           <p className="mt-4">
-            Poznaj bliżej rodzinne sportowe kombi Audi RS6.
+            Poznaj nową gamę w pełni elektrycznych modeli Audi Q8 e-tron, z zasięgiem blisko 600 km.
           </p>
         </div>
         <div className="flex flex-col w-full bottom-20 fold:max-node:w-[90%] absolute node:left-0 node:px-4 md:w-3/5 md:flex-row md:justify-between">
           <Button
-            text="Poznaj Audi RS6"
+            text="Poznaj Audi Q8 e-tron"
             border="border-none"
             background="bg-white"
             textColor="text-black"
@@ -62,7 +62,7 @@ function Main() {
             margin="mb-2"
           />
           <Button
-            text="Poznaj gamę Audi A6"
+            text="Poznaj Audi Q8 Sportback e-tron"
             border="border-2 border-white"
             background="none"
             height="h-20"

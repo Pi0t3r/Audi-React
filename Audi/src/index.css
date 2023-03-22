@@ -8,5 +8,8 @@ html {
   scroll-padding: 100px;
 }
 ul.react-multi-carousel-track li.react-multi-carousel-item div img {
-  height: 250px;
+  height: 100%
+}
+.legend {
+  text-align: center;
 }

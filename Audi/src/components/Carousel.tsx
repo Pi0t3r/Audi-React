@@ -126,51 +126,51 @@ export const CarouselTwo = () => {
         removeArrowOnDeviceType={["mobile"]}
       >
         <div>
-          <img src="/src/utilities/img/a4.png" />
+          <img src="/src/utilities/img/bodyType/sportback.png" />
           <p className="legend">Sportback</p>
         </div>
         <div>
-          <img src="/src/utilities/img/a1.jpg" />
+          <img src="/src/utilities/img/bodyType/compact.png" />
           <p className="legend">Kompaktowy</p>
         </div>
         <div>
-          <img src="/src/utilities/img/a8.jpg" />
+          <img src="/src/utilities/img/bodyType/limousine.png" />
           <p className="legend">Limousine</p>
         </div>
         <div>
-          <img src="/src/utilities/img/a6avant.jpg" />
+          <img src="/src/utilities/img/bodyType/avant.png" />
           <p className="legend">Avant</p>
         </div>
         <div>
-          <img src="/src/utilities/img/allroad.jpg" />
+          <img src="/src/utilities/img/bodyType/allroad.png" />
           <p className="legend">allroad quattro</p>
         </div>
         <div>
-          <img src="/src/utilities/img/tt.jpg" />
+          <img src="/src/utilities/img/bodyType/coupe.png" />
           <p className="legend">Coupe</p>
         </div>
         <div>
-          <img src="/src/utilities/img/q5.jpg" />
+          <img src="/src/utilities/img/bodyType/suv.png" />
           <p className="legend">SUV</p>
         </div>
         <div>
-          <img src="/src/utilities/img/rs6.jpg" />
+          <img src="/src/utilities/img/bodyType/sport.png" />
           <p className="legend">Sport</p>
         </div>
         <div>
-          <img src="/src/utilities/img/electric.jpg" />
+          <img src="/src/utilities/img/bodyType/eleN.png" />
           <p className="legend">Napęd elektryczny</p>
         </div>
         <div>
-          <img src="/src/utilities/img/a3.jpg" />
+          <img src="/src/utilities/img/bodyType/plug-in.png" />
           <p className="legend">Plug-in Hybrid</p>
         </div>
         <div>
-          <img src="/src/utilities/img/a6.png" />
+          <img src="/src/utilities/img/bodyType/alternative.png" />
           <p className="legend">Napęd alternatywny</p>
         </div>
         <div>
-          <img src="/src/utilities/img/spyder.jpg" />
+          <img src="/src/utilities/img/bodyType/spyder.png" />
           <p className="legend">Spyder</p>
         </div>
       </Carousel>

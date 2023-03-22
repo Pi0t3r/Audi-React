@@ -6,8 +6,8 @@ module.exports = {
       backgroundImage: {
         logo: "url('/src/utilities/img/logo.jpg')",
         headerImageMain: "url('/src/utilities/img/headerImage.jpg')",
-        backgroundEle: "url('/src/utilities/img/electricbackground.jpg')",
-        etron: "url('/src/utilities/img/mobi.jpg')",
+        backgroundEle: "url('/src/utilities/img/sphere.jpg')",
+        etron: "url('/src/utilities/img/e-tronDrive.jpg')",
       },
     },
     screens: {
