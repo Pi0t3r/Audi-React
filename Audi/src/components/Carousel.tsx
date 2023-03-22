@@ -1,7 +1,7 @@
 import Carousel from "react-multi-carousel";
 import "../index.css";
 import "react-multi-carousel/lib/styles.css";
-import "../index.css"
+import "../index.css";
 const responsive = {
   mobile: {
     breakpoint: { max: 464, min: 0 },
@@ -37,71 +37,71 @@ export const CarouselOne = () => {
         removeArrowOnDeviceType={["mobile"]}
       >
         <div>
-          <img src="/src/utilities/img/etrongt.jpg" />
+          <img src="/src/utilities/img/e-tron/etrongt.jpg" />
           <p className="legend">e-tron GT</p>
         </div>
         <div>
-          <img src="/src/utilities/img/q8etron.jpg" />
+          <img src="/src/utilities/img/Q8-etron/Q8e-tron.png" />
           <p className="legend">Q8 e-tron</p>
         </div>
         <div>
-          <img src="/src/utilities/img/a1.jpg" />
+          <img src="/src/utilities/img/A1/A1.png" />
           <p className="legend">A1</p>
         </div>
         <div>
-          <img src="/src/utilities/img/a3.jpg" />
+          <img src="/src/utilities/img/A3/a3.png" />
           <p className="legend">A3</p>
         </div>
         <div>
-          <img src="/src/utilities/img/a4.png" />
+          <img src="/src/utilities/img/A4/a4.png" />
           <p className="legend">A4</p>
         </div>
         <div>
-          <img src="/src/utilities/img/a5.jpg" />
+          <img src="/src/utilities/img/A5/a5.png" />
           <p className="legend">A5</p>
         </div>
         <div>
-          <img src="/src/utilities/img/a6.png" />
+          <img src="/src/utilities/img/A6/a6.png" />
           <p className="legend">A6</p>
         </div>
         <div>
-          <img src="/src/utilities/img/a7.jpg" />
+          <img src="/src/utilities/img/A7/a7.png" />
           <p className="legend">A7</p>
         </div>
         <div>
-          <img src="/src/utilities/img/a8.jpg" />
+          <img src="/src/utilities/img/A8/a8.png" />
           <p className="legend">A8</p>
         </div>
         <div>
-          <img src="/src/utilities/img/q2.jpg" />
+          <img src="/src/utilities/img/Q2/q2.png" />
           <p className="legend">Q2</p>
         </div>
         <div>
-          <img src="/src/utilities/img/q3.jpg" />
+          <img src="/src/utilities/img/Q3/q3.png" />
           <p className="legend">Q3</p>
         </div>
         <div>
-          <img src="/src/utilities/img/q4etron.jpg" />
+          <img src="/src/utilities/img/Q4e-tron/q4e.png" />
           <p className="legend">Q4 e-tron</p>
         </div>
         <div>
-          <img src="/src/utilities/img/q5.jpg" />
+          <img src="/src/utilities/img/Q5/q5.png" />
           <p className="legend">Q5</p>
         </div>
         <div>
-          <img src="/src/utilities/img/q7.jpg" />
+          <img src="/src/utilities/img/Q7/q7.png" />
           <p className="legend">Q7</p>
         </div>
         <div>
-          <img src="/src/utilities/img/q8.jpg" />
+          <img src="/src/utilities/img/Q8/q8.png" />
           <p className="legend">Q8</p>
         </div>
         <div>
-          <img src="/src/utilities/img/tt.jpg" />
+          <img src="/src/utilities/img/TT/tt.png" />
           <p className="legend">TT</p>
         </div>
         <div>
-          <img src="/src/utilities/img/r8.jpg" />
+          <img src="/src/utilities/img/R8/r8.png" />
           <p className="legend">R8</p>
         </div>
       </Carousel>
