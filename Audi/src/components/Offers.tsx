@@ -30,10 +30,10 @@ export function OfferWithBackground({
             ? themeDark.colors.whiteText
             : themeLight.colors.blackText,
         }}
-        className={`bg-white w-3/4 ${height}  pt-5 px-6 relative ease-in duration-300`}
+        className={`bg-white w-3/4 ${height} iphone:h-96 tablet:h-80  pt-5 px-6 relative ease-in duration-300`}
       >
-        <h3 className="font-bold text-2xl">{title}</h3>
-        <p className="mt-5 text-base">{text}</p>
+        <h3 className="font-extrabold text-2xl iphone:text-3xl">{title}</h3>
+        <p className="mt-5 text-base iphone:text-lg">{text}</p>
         <button
           style={{
             backgroundColor: isDarkMode
@@ -43,7 +43,7 @@ export function OfferWithBackground({
               ? themeLight.colors.blackText
               : themeDark.colors.whiteText,
           }}
-          className="bg-black text-white font-medium py-5 mt-5 absolute left-0 right-0 mx-5 bottom-10 ease-in duration-300"
+          className="bg-black text-white font-medium py-5 mt-5 absolute left-0 right-0 mx-5 bottom-10 ease-in duration-300 iphone:w-48"
         >
           {button}
         </button>
@@ -72,7 +72,7 @@ export function OfferWithoutBackground({ title, text, button }: iOffer) {
         style={{
           borderColor: isDarkMode ? "white" : "black",
         }}
-        className="border-[1px] border-black w-full py-3"
+        className="border-[1px] border-black w-full py-3 iphone:w-2/3"
       >
         {button}
       </button>

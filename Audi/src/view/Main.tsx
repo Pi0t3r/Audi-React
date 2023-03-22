@@ -45,15 +45,14 @@ function Main() {
   return (
     <div>
       <div className="bg-headerImageMain bg-cover bg-center w-full h-[100vh] text-white relative flex flex-col items-start px-4 mt-16">
-        <div className="absolute inset-0 bg-black/50" />
+        <div className="absolute inset-0 bg-gradient-to-t via-transparent from-black to-transparent" />
         <div className="absolute bottom-1/2 node:pr-10 text-2xl pr-16 md:bottom-[30%]">
           <h2 className="font-medium text-3xl">Doświadczaj postępu.</h2>
-          <p className="mt-4">
-            Poznaj nową gamę w pełni elektrycznych modeli Audi Q8 e-tron, z
-            zasięgiem blisko 600 km.
+          <p className="mt-4 pr-20">
+            Poznaj nową gamę w pełni elektrycznych modeli Audi Q8 e-tron, z zasięgiem blisko 600 km.
           </p>
         </div>
-        <div className="flex flex-col w-full bottom-20 fold:max-node:w-[90%] absolute node:left-0 node:px-4 md:w-3/5 md:flex-row md:justify-between">
+        <div className="flex flex-col w-full bottom-20 fold:max-node:w-[90%] absolute node:left-0 node:px-4 md:w-3/5 md:flex-row md:justify-between md:w-4/5">
           <Button
             text="Poznaj Audi Q8 e-tron"
             border="border-none"

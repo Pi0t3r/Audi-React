@@ -13,7 +13,7 @@ function Nav() {
     setMove(!move);
   };
   return (
-    <div className="h-16 fixed left-0 right-0 z-10 top-0">
+    <div className="h-16 fixed left-0 right-0 z-10 top-0 shadow-[0_14px_20px_5px_#959595]">
       <ul
         style={{
           backgroundColor: isDarkMode
@@ -36,7 +36,7 @@ function Nav() {
             <MenuIcon />
           </button>
         </li>
-        <li className="tracking-[-0.4em] text-4xl">OOOO</li>
+        <li className="tracking-[-0.3em] text-4xl">OOOO</li>
         <li>
           <button
             className="z-20 relative"
