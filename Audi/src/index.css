@@ -7,20 +7,6 @@ html {
   overscroll-behavior: contain;
   scroll-padding: 100px;
 }
-ul.slider li.slide div p.legend {
-  bottom: 5px;
-  background: none;
-  color: black;
-}
-.carousel-status {
-  display: none;
-}
-.control-dots {
-  display: none;
-}
-.carousel-root .carousel.carousel-slider button {
-  background: rgb(52, 51, 51);
-}
-.thumbs-wrapper {
-  display: none;
+ul.react-multi-carousel-track li.react-multi-carousel-item div img {
+  height: 250px;
 }

@@ -1,11 +1,41 @@
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from "react-responsive-carousel";
+import Carousel from "react-multi-carousel";
 import "../index.css";
-
+import "react-multi-carousel/lib/styles.css";
+import "../index.css"
+const responsive = {
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+  },
+  tablet: {
+    breakpoint: { max: 768, min: 464 },
+    items: 2,
+  },
+  desktop: {
+    breakpoint: { max: 1024, min: 768 },
+    items: 3,
+  },
+  superLarge: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 4,
+  },
+};
 export const CarouselOne = () => {
   return (
     <div>
-      <Carousel>
+      <Carousel
+        responsive={responsive}
+        swipeable={true}
+        draggable={false}
+        showDots={false}
+        ssr={true}
+        infinite={true}
+        autoPlay={true}
+        autoPlaySpeed={5000}
+        keyBoardControl={true}
+        transitionDuration={500}
+        removeArrowOnDeviceType={["mobile"]}
+      >
         <div>
           <img src="/src/utilities/img/etrongt.jpg" />
           <p className="legend">e-tron GT</p>
@@ -82,7 +112,19 @@ export const CarouselOne = () => {
 export const CarouselTwo = () => {
   return (
     <div>
-      <Carousel>
+      <Carousel
+        responsive={responsive}
+        swipeable={true}
+        draggable={false}
+        showDots={false}
+        ssr={true}
+        infinite={true}
+        autoPlay={true}
+        autoPlaySpeed={5000}
+        keyBoardControl={true}
+        transitionDuration={500}
+        removeArrowOnDeviceType={["mobile"]}
+      >
         <div>
           <img src="/src/utilities/img/a4.png" />
           <p className="legend">Sportback</p>
