@@ -51,7 +51,7 @@ function Sidebar({ move, handleClick }: iSidebar) {
 
       <div className="absolute top-20 w-full">
         <ul className="flex flex-col leading-10 justify-center items-center">
-          <Item title="Modele" href="/" />
+          <Item title="Modele" href="/Models" />
           <Item title="Oferty i porady" href="#Offers" />
           <Item title="Elektromobilność" href="#Electro" />
           <Item title="Świat Audi" href="#AudiWorld" />

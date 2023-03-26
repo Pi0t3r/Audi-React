@@ -35,20 +35,22 @@ function Nav() {
             <MenuIcon />
           </button>
         </li>
-        <li className="tracking-[-0.3em] text-4xl w-1/3 h-full flex items-center justify-center">
-          {isDarkMode ? (
-            <img
-              src="https://www.freepnglogos.com/uploads/audi-logo-2.png"
-              alt="logo Audi gray"
-              className="w-20"
-            />
-          ) : (
-            <img
-              src="https://logos-world.net/wp-content/uploads/2021/03/Audi-Logo.png"
-              alt="logo Audi black"
-              className="w-20"
-            />
-          )}
+        <li className="tracking-[-0.3em] text-4xl w-1/3 h-full flex items-center justify-center z-20 relative">
+          <a href="/">
+            {isDarkMode ? (
+              <img
+                src="https://www.freepnglogos.com/uploads/audi-logo-2.png"
+                alt="logo Audi gray"
+                className="w-20"
+              />
+            ) : (
+              <img
+                src="https://logos-world.net/wp-content/uploads/2021/03/Audi-Logo.png"
+                alt="logo Audi black"
+                className="w-20"
+              />
+            )}
+          </a>
         </li>
         <li>
           <button

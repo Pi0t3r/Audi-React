@@ -1,5 +1,4 @@
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
-import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import { ListItem } from "../components/List";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
@@ -7,6 +6,27 @@ import YouTubeIcon from "@mui/icons-material/YouTube";
 import Twitter from "@mui/icons-material/Twitter";
 import CopyrightIcon from "@mui/icons-material/Copyright";
 import { ParagraphFooter } from "../components/FooterP";
+
+interface iItem {
+  title: string;
+  listItems: string[];
+}
+
+const Item = ({ title, listItems }: iItem) => {
+  return (
+    <ul className="text-xl font-bold tracking-widest">
+      {title}
+      <div className="mt-6 tracking-normal">
+        {listItems.map((item, index) => (
+          <li key={index} className="font-light cursor-pointer hover:text-neutral-400 transition-colors">
+            {item}
+          </li>
+        ))}
+      </div>
+    </ul>
+  );
+};
+
 function Footer() {
   return (
     <div className="bg-black text-white py-4">
@@ -18,7 +38,7 @@ function Footer() {
         </button>
       </div>
       <div className="mt-4">
-        <ul className="last:border-b-[1px] border-neutral-100/70 ">
+        <ul className="last:border-b-[1px] border-neutral-100/70 md:hidden">
           <ListItem
             text="Modele"
             listItems={[
@@ -86,6 +106,64 @@ function Footer() {
             ]}
           />
         </ul>
+        <ol className="md:block md:flex md:flex-row md:flex-wrap md:justify-between md:px-8 md:gap-2">
+          <Item
+            title="Modele"
+            listItems={["Wszystkie modele", "Konfigurator", "Oferty specjalne"]}
+          />
+          <Item
+            title="Oferty i porady"
+            listItems={[
+              "Oferty Audi",
+              "Business Edition",
+              "Finansowanie i ubezpieczenia",
+              "Samochody gotowe do odbioru",
+              "Audi Select:plus",
+              "Jazda testowa",
+              "Audi dla biznesu",
+              "Audi exclusive",
+              "Audi Expert online",
+              "Dealerzy Audi",
+            ]}
+          />
+          <Item
+            title="Elektromobilność"
+            listItems={[
+              "Elektromobilność Audi",
+              ">Wszystkie modele elektryczne",
+              "Wszysktie hybrydy plug-in",
+              "Ładowanie",
+              "Zasięg",
+              "Ładowanie w drodze",
+            ]}
+          />
+          <Item
+            title="Świat Audi"
+            listItems={[
+              "Future is an attitude",
+              "Audi R/RS",
+              "Audi Sport",
+              "Historia marki",
+              "Aktualności",
+              "Ochrona środowiska",
+              "WLTP",
+              "Etykieta opon",
+            ]}
+          />
+          <Item
+            title="Serwis i akcesoria"
+            listItems={[
+              "Akcesoria",
+              "Serwis i części",
+              "Audi connect",
+              "Centrum napraw powypadkowych",
+              "Gwarancja",
+              "Akcja serwisowa EA189",
+              "Sklep online",
+              "Audi Connect Plug&Play",
+            ]}
+          />
+        </ol>
       </div>
       <div className="mt-10 border-b-[1px] border-neutral-100/70 pb-5 mx-4">
         <ul className="flex flex-row justify-between px-14">

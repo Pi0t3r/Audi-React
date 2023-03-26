@@ -18,7 +18,11 @@ export const ListItem = ({ text, listItems }: iListItem) => {
         className="flex justify-between items-center border-t-[1px] border-neutral-100/70 py-2 pl-4 node:text-lg font-medium py-4"
       >
         {text}
-        <span>
+        <span
+          className={`${
+            expand ? "rotate-180" : "rotate-0"
+          } ease-in duration-200`}
+        >
           <KeyboardArrowDownIcon />
         </span>
       </li>
