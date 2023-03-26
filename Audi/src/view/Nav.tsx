@@ -6,8 +6,7 @@ import { themeLight, themeDark } from "../utilities/style/theme";
 import Sidebar from "../components/Sidebar";
 import { ThemeContext } from "../utilities/style/ThemeContext";
 function Nav() {
-  const {isDarkMode, setIsDarkMode } =
-    useContext(ThemeContext);
+  const { isDarkMode, setIsDarkMode } = useContext(ThemeContext);
   const [move, setMove] = useState(false);
   const handleClick = () => {
     setMove(!move);
@@ -36,7 +35,21 @@ function Nav() {
             <MenuIcon />
           </button>
         </li>
-        <li className="tracking-[-0.3em] text-4xl">OOOO</li>
+        <li className="tracking-[-0.3em] text-4xl w-1/3 h-full flex items-center justify-center">
+          {isDarkMode ? (
+            <img
+              src="https://www.freepnglogos.com/uploads/audi-logo-2.png"
+              alt="logo Audi gray"
+              className="w-20"
+            />
+          ) : (
+            <img
+              src="https://logos-world.net/wp-content/uploads/2021/03/Audi-Logo.png"
+              alt="logo Audi black"
+              className="w-20"
+            />
+          )}
+        </li>
         <li>
           <button
             className="z-20 relative"

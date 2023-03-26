@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        logo: "url('/src/utilities/img/audi-logo-black.png')",
+        
         headerImageMain: "url('/src/utilities/img/headerImage.jpg')",
         backgroundEle: "url('/src/utilities/img/sphere.jpg')",
         etron: "url('/src/utilities/img/e-tronDrive.jpg')",
@@ -15,7 +15,7 @@ module.exports = {
       small: "320px",
       node: "360px",
       iphone: "412px",
-      tablet:"552px",
+      tablet: "552px",
       md: "768px",
       nethub: "912px",
     },
