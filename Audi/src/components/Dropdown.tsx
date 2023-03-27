@@ -3,53 +3,62 @@ import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import CloseIcon from "@mui/icons-material/Close";
 import { Audi } from "../utilities/data/cars";
+interface iList {
+  title: string;
+  listItems: string[];
+  setSelected: (value: string) => void;
+  setNewCar: (value: number) => void;
+  setUsedCar: (value: number) => void;
+  setExpand: (value:boolean) => void;
+}
 
+const List = ({
+  title,
+  listItems,
+  setSelected,
+  setNewCar,
+  setUsedCar,
+  setExpand,
+}: iList) => {
+  return (
+    <div>
+      <li>
+        <div className="flex flex-row justify-between">
+          <span className="text-neutral-400 p-3">{title}</span>
+        </div>
+        <div className="mt-4 flex flex-col">
+          {listItems.map((item) => (
+            <li
+              onClick={() => {
+                setSelected(item);
+                const filterAudi = Audi.filter((name) => name.name === item);
+                const amountNew = filterAudi[0]?.amountNew ?? 0;
+                const amountUsed = filterAudi[0]?.amountUsed ?? 0;
+                setNewCar(amountNew);
+                setUsedCar(amountUsed);
+                setExpand(false);
+              }}
+              className="py-3 pl-6 w-full active:bg-neutral-700"
+            >
+              {item}
+            </li>
+          ))}
+        </div>
+      </li>
+    </div>
+  );
+};
 function DropdownModel() {
+  const [selected, setSelected] = useState<string>("A1 Sportback");
+  const [newCar, setNewCar] = useState<number>(3);
+  const [usedCar, setUsedCar] = useState<number>(14);
   const [expand, setExpand] = useState<boolean>(false);
-  const [newCar, setNewCar] = useState(0);
-  const [usedCar, setUsedCar] = useState(0);
   const handleCLick = () => {
     setExpand(!expand);
   };
-  const [selected, setSelected] = useState<string>("A1 Sportback");
-  const filterAudi = Audi.filter((name) => name.name === selected);
-  console.log(filterAudi);
-  console.log(() => filterAudi.map((amount) => amount.amountNew));
-  interface iList {
-    title: string;
-    listItems: string[];
-  }
-  const List = ({ title, listItems }: iList) => {
-    return (
-      <div>
-        <li>
-          <div className="flex flex-row justify-between">
-            <span className="text-neutral-400 p-3">{title}</span>
-          </div>
-          <div className="mt-4 flex flex-col">
-            {listItems.map((item) => (
-              <li
-                onClick={() => {
-                  setSelected(item);
-                  setExpand(false);
-                  setNewCar(() => filterAudi.map((amount) => amount.amountNew));
-                  setUsedCar(() =>
-                    filterAudi.map((amount) => amount.amountUsed)
-                  );
-                }}
-                className="py-3 pl-6 w-full active:bg-neutral-700"
-              >
-                {item}
-              </li>
-            ))}
-          </div>
-        </li>
-      </div>
-    );
-  };
   return (
     <div>
-      <label htmlFor="model" className="">
+      <label htmlFor="model">
         Model
         <div
           onClick={handleCLick}
@@ -74,9 +83,20 @@ function DropdownModel() {
             <ul>
               <List
                 title="e-tron GT"
-                listItems={["e-tron GT quattro", "RS e-tron"]}
+                listItems={["e-tron GT quattro", "RS e-tron GT"]}
+                setSelected={setSelected}
+                setNewCar={setNewCar}
+                setUsedCar={setUsedCar}
+                setExpand={setExpand}
               />
-              <List title="A1" listItems={["A1 Sportback"]} />
+              <List
+                title="A1"
+                listItems={["A1 Sportback"]}
+                setSelected={setSelected}
+                setNewCar={setNewCar}
+                setUsedCar={setUsedCar}
+                setExpand={setExpand}
+              />
               <List
                 title="A3"
                 listItems={[
@@ -85,9 +105,13 @@ function DropdownModel() {
                   "A3 Limousine",
                   "S3 Sportback",
                   "S3 Limousine",
-                  "RS 3 Sportback",
-                  "RS 3 Limousine",
+                  "RS3 Sportback",
+                  "RS3 Limousine",
                 ]}
+                setSelected={setSelected}
+                setNewCar={setNewCar}
+                setUsedCar={setUsedCar}
+                setExpand={setExpand}
               />
               <List
                 title="A4"
@@ -97,8 +121,12 @@ function DropdownModel() {
                   "A4 allroad quattro",
                   "S4 Limousine",
                   "S4 Avant",
-                  "RS 4 Avant",
+                  "RS4 Avant",
                 ]}
+                setSelected={setSelected}
+                setNewCar={setNewCar}
+                setUsedCar={setUsedCar}
+                setExpand={setExpand}
               />
               <List
                 title="A5"
@@ -107,9 +135,13 @@ function DropdownModel() {
                   "A5 Sportback",
                   "S5 Coupe",
                   "S5 Sportback",
-                  "RS 5 Coupe",
-                  "RS 5 Sportback",
+                  "RS5 Coupe",
+                  "RS5 Sportback",
                 ]}
+                setSelected={setSelected}
+                setNewCar={setNewCar}
+                setUsedCar={setUsedCar}
+                setExpand={setExpand}
               />
               <List
                 title="A6"
@@ -123,6 +155,10 @@ function DropdownModel() {
                   "S6 Limousine",
                   "RS6 Avant",
                 ]}
+                setSelected={setSelected}
+                setNewCar={setNewCar}
+                setUsedCar={setUsedCar}
+                setExpand={setExpand}
               />
               <List
                 title="A7"
@@ -132,12 +168,27 @@ function DropdownModel() {
                   "S7 Sportback TDI",
                   "RS5 Sportback",
                 ]}
+                setSelected={setSelected}
+                setNewCar={setNewCar}
+                setUsedCar={setUsedCar}
+                setExpand={setExpand}
               />
               <List
                 title="A8"
                 listItems={["A8", "A8 TFSI e", "A8 L", "A8 L TFSI e", "S8"]}
+                setSelected={setSelected}
+                setNewCar={setNewCar}
+                setExpand={setExpand}
+                setUsedCar={setUsedCar}
               />
-              <List title="Q2" listItems={["Q2"]} />
+              <List
+                title="Q2"
+                listItems={["Q2"]}
+                setSelected={setSelected}
+                setNewCar={setNewCar}
+                setUsedCar={setUsedCar}
+                setExpand={setExpand}
+              />
               <List
                 title="Q3"
                 listItems={[
@@ -148,10 +199,18 @@ function DropdownModel() {
                   "RSQ3 ",
                   "RSQ3 Sportback",
                 ]}
+                setSelected={setSelected}
+                setNewCar={setNewCar}
+                setUsedCar={setUsedCar}
+                setExpand={setExpand}
               />
               <List
                 title="Q4 e-tron"
                 listItems={["Q4 e-tron", "Q4 Sportback e-tron"]}
+                setSelected={setSelected}
+                setNewCar={setNewCar}
+                setUsedCar={setUsedCar}
+                setExpand={setExpand}
               />
               <List
                 title="Q5"
@@ -163,10 +222,35 @@ function DropdownModel() {
                   "SQ5 ",
                   "SQ5 Sportback",
                 ]}
+                setSelected={setSelected}
+                setNewCar={setNewCar}
+                setUsedCar={setUsedCar}
+                setExpand={setExpand}
               />
-              <List title="Q7" listItems={["Q7", "Q7 TFSI e", "SQ7 TFSI"]} />
-              <List title="Q8" listItems={["Q8", "SQ8 TFSI", "RSQ8"]} />
-              <List title="TT" listItems={["TT Coupe", "TTS Coupe"]} />
+              <List
+                title="Q7"
+                listItems={["Q7", "Q7 TFSI e", "SQ7 TFSI"]}
+                setSelected={setSelected}
+                setNewCar={setNewCar}
+                setUsedCar={setUsedCar}
+                setExpand={setExpand}
+              />
+              <List
+                title="Q8"
+                listItems={["Q8", "SQ8 TFSI", "RSQ8"]}
+                setSelected={setSelected}
+                setNewCar={setNewCar}
+                setUsedCar={setUsedCar}
+                setExpand={setExpand}
+              />
+              <List
+                title="TT"
+                listItems={["TT Coupe", "TTS Coupe"]}
+                setSelected={setSelected}
+                setNewCar={setNewCar}
+                setUsedCar={setUsedCar}
+                setExpand={setExpand}
+              />
               <List
                 title="R8"
                 listItems={[
@@ -175,6 +259,10 @@ function DropdownModel() {
                   "R8 Spyder V10 performance",
                   "R8 Coupe V10 performance RWD",
                 ]}
+                setSelected={setSelected}
+                setNewCar={setNewCar}
+                setUsedCar={setUsedCar}
+                setExpand={setExpand}
               />
 
               <List
@@ -185,6 +273,10 @@ function DropdownModel() {
                   "Audi e-tron S",
                   "Audi e-tron S Sportback",
                 ]}
+                setSelected={setSelected}
+                setNewCar={setNewCar}
+                setUsedCar={setUsedCar}
+                setExpand={setExpand}
               />
             </ul>
           </div>
