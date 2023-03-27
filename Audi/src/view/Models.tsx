@@ -20,7 +20,7 @@ function Models() {
             : themeLight.colors.blackText,
         }}
       >
-        siemka
+        Witam
       </div>
     </>
   );
