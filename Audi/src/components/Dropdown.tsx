@@ -2,32 +2,43 @@ import React, { useState } from "react";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import CloseIcon from "@mui/icons-material/Close";
-interface iList {
-  title: string;
-  listItems: string[];
-}
 
-const List = ({ title, listItems }: iList) => {
-  return (
-    <div>
-      <li>
-        <div className="flex flex-row justify-between">
-          <span className="text-neutral-400 p-3">{title}</span>
-        </div>
-        <div className="mt-4 flex flex-col">
-          {listItems.map((item) => (
-            <li className="py-3 pl-6 w-full">{item}</li>
-          ))}
-        </div>
-      </li>
-    </div>
-  );
-};
 function DropdownModel() {
   const [expand, setExpand] = useState(false);
   const handleCLick = () => {
     setExpand(!expand);
   };
+  const [selected, setSelected] = useState("");
+  interface iList {
+    title: string;
+    listItems: string[];
+  }
+
+  const List = ({ title, listItems }: iList) => {
+    return (
+      <div>
+        <li>
+          <div className="flex flex-row justify-between">
+            <span className="text-neutral-400 p-3">{title}</span>
+          </div>
+          <div className="mt-4 flex flex-col">
+            {listItems.map((item) => (
+              <li
+                onClick={() => {
+                  setSelected(item);
+                  setExpand(false);
+                }}
+                className="py-3 pl-6 w-full active:bg-neutral-700"
+              >
+                {item}
+              </li>
+            ))}
+          </div>
+        </li>
+      </div>
+    );
+  };
+
   return (
     <div>
       <label htmlFor="model" className="">
@@ -36,7 +47,7 @@ function DropdownModel() {
           onClick={handleCLick}
           className="flex flex-row justify-between border-b-[1px]"
         >
-          <span>A1 Sportback</span>
+          <span>{selected}</span>
           <span>
             <KeyboardArrowDownIcon />
           </span>
@@ -46,7 +57,7 @@ function DropdownModel() {
             <div className="flex flex-row justify-between bg-neutral-600 p-4 text-white">
               <div className="flex flex-col">
                 <span className="text-neutral-300">Model</span>
-                <span>A1 Sportback</span>
+                <span>{selected}</span>
               </div>
               <div onClick={handleCLick}>
                 <CloseIcon />
@@ -171,25 +182,16 @@ function DropdownModel() {
           </div>
         )}
       </label>
+      <div className="mt-4">
+        <p>
+          <span>8</span> Samochody nowe <ChevronRightIcon />
+        </p>
+        <p>
+          <span>0</span> Samochody używane <ChevronRightIcon />
+        </p>
+      </div>
     </div>
   );
 }
 
 export default DropdownModel;
-
-//  <p className="font-light py-2">Model</p>
-{
-  /* <div className="flex flex-row justify-between font-medium border-b-[1px] border-white pb-2">
-<p>A1 Sportback</p> <KeyboardArrowDownIcon />
-</div>
-<div className="flex flex-col mt-4">
-<p>
-  <span className="font-bold">17</span> samochody nowe{" "}
-  <ChevronRightIcon />
-</p>
-<p>
-  <span className="font-bold">5</span> samochody używane{" "}
-  <ChevronRightIcon />
-</p>
-</div> */
-}
