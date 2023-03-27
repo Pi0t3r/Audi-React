@@ -1,5 +1,4 @@
 import Nav from "./Nav";
-import Sidebar from "../components/Sidebar";
 import { useContext } from "react";
 import { ThemeContext } from "../utilities/style/ThemeContext";
 import { themeDark, themeLight } from "../utilities/style/theme";

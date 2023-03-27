@@ -1,4 +1,3 @@
-import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import { CarouselOne, CarouselTwo } from "../components/Carousel";
 import React, { useContext, useState } from "react";
@@ -8,6 +7,7 @@ import {
 } from "../components/Offers";
 import { themeDark, themeLight } from "../utilities/style/theme";
 import { ThemeContext } from "../utilities/style/ThemeContext";
+import DropdownModel from "../components/Dropdown";
 
 interface iButton {
   text: string;
@@ -49,7 +49,8 @@ function Main() {
         <div className="absolute bottom-1/2 node:pr-10 text-2xl pr-16 md:bottom-[30%]">
           <h2 className="font-medium text-3xl">Doświadczaj postępu.</h2>
           <p className="mt-4 pr-20">
-            Poznaj nową gamę w pełni elektrycznych modeli Audi Q8 e-tron, z zasięgiem blisko 600 km.
+            Poznaj nową gamę w pełni elektrycznych modeli Audi Q8 e-tron, z
+            zasięgiem blisko 600 km.
           </p>
         </div>
         <div className="flex flex-col w-full bottom-20 fold:max-node:w-[90%] absolute node:left-0 node:px-4 md:w-3/5 md:flex-row md:justify-between md:w-4/5">
@@ -71,20 +72,7 @@ function Main() {
       </div>
       <div className="p-4 bg-neutral-700 text-white">
         <h3 className="font-bold text-2xl">Wirtualny salon Audi</h3>
-        <p className="font-light py-2">Model</p>
-        <div className="flex flex-row justify-between font-medium border-b-[1px] border-white pb-2">
-          <p>A1 Sportback</p> <KeyboardArrowDownIcon />
-        </div>
-        <div className="flex flex-col mt-4">
-          <p>
-            <span className="font-bold">17</span> samochody nowe{" "}
-            <ChevronRightIcon />
-          </p>
-          <p>
-            <span className="font-bold">5</span> samochody używane{" "}
-            <ChevronRightIcon />
-          </p>
-        </div>
+        <DropdownModel />
       </div>
       <div
         className="p-4 w-full ease-in duration-300"
