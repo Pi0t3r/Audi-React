@@ -17,7 +17,7 @@ const router = createBrowserRouter([
 ]);
 
 const AppContainer = () => {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState<boolean>(false);
 
   return (
     <ThemeContext.Provider

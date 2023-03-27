@@ -20,8 +20,8 @@ interface iButton {
 
 function Main() {
   const { isDarkMode, setIsDarkMode } = useContext(ThemeContext);
-  const [activeButton, setActiveButton] = useState("Modele");
-  const [activeCarousel, setActiveCarousel] = useState("CarouselOne");
+  const [activeButton, setActiveButton] = useState<string>("Modele");
+  const [activeCarousel, setActiveCarousel] = useState<string>("CarouselOne");
   const handleButtonClick = (buttonName: string, carouselName: string) => {
     setActiveButton(buttonName);
     setActiveCarousel(carouselName);

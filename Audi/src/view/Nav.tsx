@@ -7,7 +7,7 @@ import Sidebar from "../components/Sidebar";
 import { ThemeContext } from "../utilities/style/ThemeContext";
 function Nav() {
   const { isDarkMode, setIsDarkMode } = useContext(ThemeContext);
-  const [move, setMove] = useState(false);
+  const [move, setMove] = useState<boolean>(false);
   const handleClick = () => {
     setMove(!move);
   };

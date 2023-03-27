@@ -7,7 +7,7 @@ interface iListItem {
 }
 
 export const ListItem = ({ text, listItems }: iListItem) => {
-  const [expand, setExpand] = useState(false);
+  const [expand, setExpand] = useState<boolean>(false);
   const handleClick = () => {
     setExpand(!expand);
   };

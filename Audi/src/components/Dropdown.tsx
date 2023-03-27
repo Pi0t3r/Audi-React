@@ -2,18 +2,23 @@ import React, { useState } from "react";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import CloseIcon from "@mui/icons-material/Close";
+import { Audi } from "../utilities/data/cars";
 
 function DropdownModel() {
-  const [expand, setExpand] = useState(false);
+  const [expand, setExpand] = useState<boolean>(false);
+  const [newCar, setNewCar] = useState(0);
+  const [usedCar, setUsedCar] = useState(0);
   const handleCLick = () => {
     setExpand(!expand);
   };
-  const [selected, setSelected] = useState("");
+  const [selected, setSelected] = useState<string>("A1 Sportback");
+  const filterAudi = Audi.filter((name) => name.name === selected);
+  console.log(filterAudi);
+  console.log(() => filterAudi.map((amount) => amount.amountNew));
   interface iList {
     title: string;
     listItems: string[];
   }
-
   const List = ({ title, listItems }: iList) => {
     return (
       <div>
@@ -27,6 +32,10 @@ function DropdownModel() {
                 onClick={() => {
                   setSelected(item);
                   setExpand(false);
+                  setNewCar(() => filterAudi.map((amount) => amount.amountNew));
+                  setUsedCar(() =>
+                    filterAudi.map((amount) => amount.amountUsed)
+                  );
                 }}
                 className="py-3 pl-6 w-full active:bg-neutral-700"
               >
@@ -38,7 +47,6 @@ function DropdownModel() {
       </div>
     );
   };
-
   return (
     <div>
       <label htmlFor="model" className="">
@@ -184,10 +192,10 @@ function DropdownModel() {
       </label>
       <div className="mt-4">
         <p>
-          <span>8</span> Samochody nowe <ChevronRightIcon />
+          <span>{newCar}</span> Samochody nowe <ChevronRightIcon />
         </p>
         <p>
-          <span>0</span> Samochody używane <ChevronRightIcon />
+          <span>{usedCar}</span> Samochody używane <ChevronRightIcon />
         </p>
       </div>
     </div>
