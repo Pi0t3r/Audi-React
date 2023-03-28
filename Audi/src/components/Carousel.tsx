@@ -1,8 +1,7 @@
+import "../index.css";
 import Carousel from "react-multi-carousel";
-import "../index.css";
 import "react-multi-carousel/lib/styles.css";
-import "../index.css";
-const responsive = {
+export const responsive = {
   mobile: {
     breakpoint: { max: 464, min: 0 },
     items: 1,

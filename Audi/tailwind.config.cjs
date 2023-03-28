@@ -7,6 +7,7 @@ module.exports = {
         headerImageMain: "url('/src/utilities/img/headerImage.jpg')",
         backgroundEle: "url('/src/utilities/img/sphere.jpg')",
         etron: "url('/src/utilities/img/e-tronDrive.jpg')",
+        card1: "url('./src/utilities/img/e-tron/etrongt.jpg')",
       },
     },
     screens: {
