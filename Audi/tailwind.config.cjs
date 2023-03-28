@@ -4,7 +4,6 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        
         headerImageMain: "url('/src/utilities/img/headerImage.jpg')",
         backgroundEle: "url('/src/utilities/img/sphere.jpg')",
         etron: "url('/src/utilities/img/e-tronDrive.jpg')",

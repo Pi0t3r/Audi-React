@@ -3,13 +3,14 @@ import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import CloseIcon from "@mui/icons-material/Close";
 import { Audi } from "../utilities/data/cars";
+
 interface iList {
   title: string;
   listItems: string[];
   setSelected: (value: string) => void;
   setNewCar: (value: number) => void;
   setUsedCar: (value: number) => void;
-  setExpand: (value:boolean) => void;
+  setExpand: (value: boolean) => void;
 }
 
 const List = ({

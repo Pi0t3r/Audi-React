@@ -38,7 +38,7 @@ function Footer() {
         </button>
       </div>
       <div className="mt-4">
-        <ul className="last:border-b-[1px] border-neutral-100/70 md:hidden">
+        <ul className="first:border-t-[1px] border-neutral-100/70 md:hidden">
           <ListItem
             text="Modele"
             listItems={[
@@ -106,7 +106,7 @@ function Footer() {
             ]}
           />
         </ul>
-        <ol className="md:block md:flex md:flex-row md:flex-wrap md:justify-between md:px-8 md:gap-2">
+        <ol className="hidden md:block md:flex md:flex-row md:flex-wrap md:justify-between md:px-8 md:gap-2">
           <Item
             title="Modele"
             listItems={["Wszystkie modele", "Konfigurator", "Oferty specjalne"]}
