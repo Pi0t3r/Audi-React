@@ -57,6 +57,7 @@ export const Audi = [
     instalment: undefined,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/gegswc/2024.png?imwidth=550",
+    alt: "view card SQ8 e-tron side",
   },
   {
     model: "Q8 e-tron",
@@ -67,6 +68,7 @@ export const Audi = [
     instalment: undefined,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/getswc/2024.png?imwidth=550",
+    alt: "view card SQ8 Sportback e-tron side",
   },
 
   //   A1
@@ -80,6 +82,7 @@ export const Audi = [
     instalment: 1125,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/gbaasg/2023.png?imwidth=550",
+    alt: "view card A1 Sportback side",
   },
 
   //   A3
@@ -91,6 +94,9 @@ export const Audi = [
     amountUsed: 16,
     amountNew: 16,
     instalment: 1183,
+    alt: "view card A3 Sportback side",
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8yaar/2021.png?imwidth=550",
   },
   {
     model: "A3",
@@ -99,6 +105,8 @@ export const Audi = [
     amountUsed: 1,
     amountNew: 2,
     instalment: 2215,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8yabpx/2021.png?imwidth=550",
   },
   {
     model: "A3",
@@ -107,6 +115,8 @@ export const Audi = [
     amountUsed: 24,
     amountNew: 15,
     instalment: 1215,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8ysar/2021.png?imwidth=550",
   },
   {
     model: "A3",
@@ -115,6 +125,8 @@ export const Audi = [
     amountUsed: 6,
     amountNew: 9,
     instalment: 2216,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8yas3/2021.png?imwidth=550",
   },
   {
     model: "A3",
@@ -123,6 +135,8 @@ export const Audi = [
     amountUsed: 9,
     amountNew: 6,
     instalment: 2250,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8yss3/2021.png?imwidth=550",
   },
   {
     model: "A3",
@@ -131,6 +145,8 @@ export const Audi = [
     amountUsed: 5,
     amountNew: 4,
     instalment: 3876,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8yarwy/2022.png?imwidth=550",
   },
   {
     model: "A3",
@@ -139,6 +155,8 @@ export const Audi = [
     amountUsed: 12,
     amountNew: 1,
     instalment: 3998,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8ysrwy/2022.png?imwidth=550",
   },
 
   //   A4
@@ -150,6 +168,8 @@ export const Audi = [
     amountUsed: 209,
     amountNew: 50,
     instalment: 1666,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8wc/2023.png?imwidth=550",
   },
   {
     model: "A4",
@@ -158,6 +178,8 @@ export const Audi = [
     amountUsed: 58,
     amountNew: 25,
     instalment: 1747,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8wd/2023.png?imwidth=550",
   },
   {
     model: "A4",
@@ -166,6 +188,8 @@ export const Audi = [
     amountUsed: 38,
     amountNew: 14,
     instalment: 2257,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8wj/2023.png?imwidth=550",
   },
   {
     model: "A4",
@@ -174,6 +198,8 @@ export const Audi = [
     amountUsed: 1,
     amountNew: 1,
     instalment: 3730,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8wcs/2023.png?imwidth=550",
   },
   {
     model: "A4",
@@ -182,6 +208,8 @@ export const Audi = [
     amountUsed: 9,
     amountNew: 2,
     instalment: 3813,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8wds/2023.png?imwidth=550",
   },
   {
     model: "A4",
@@ -190,6 +218,8 @@ export const Audi = [
     amountUsed: 8,
     amountNew: 0,
     instalment: 5892,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8wdr/2023.png?imwidth=550",
   },
 
   //   A5
@@ -200,6 +230,8 @@ export const Audi = [
     amountUsed: 16,
     amountNew: 3,
     instalment: 1941,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f5pbzg/2023.png?imwidth=550",
   },
   {
     model: "A5",
@@ -208,6 +240,8 @@ export const Audi = [
     amountUsed: 124,
     amountNew: 39,
     instalment: 2027,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f5fbzg/2023.png?imwidth=550",
   },
   {
     model: "A5",
@@ -216,6 +250,8 @@ export const Audi = [
     amountUsed: 0,
     amountNew: 0,
     instalment: 3763,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f5ps5a/2023.png?imwidth=550",
   },
   {
     model: "A5",
@@ -224,6 +260,8 @@ export const Audi = [
     amountUsed: 30,
     amountNew: 2,
     instalment: 3849,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f5fs5a/2023.png?imwidth=550",
   },
   {
     model: "A5",
@@ -232,6 +270,8 @@ export const Audi = [
     amountUsed: 0,
     amountNew: 0,
     instalment: 5883,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f5prxa/2023.png?imwidth=550",
   },
   {
     model: "A5",
@@ -240,6 +280,8 @@ export const Audi = [
     amountUsed: 8,
     amountNew: 3,
     instalment: 5991,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f5frxa/2023.png?imwidth=550",
   },
 
   // A6
@@ -251,6 +293,8 @@ export const Audi = [
     amountUsed: 134,
     amountNew: 54,
     instalment: 2357,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4a2a/2023.png?imwidth=550",
   },
   {
     model: "A6",
@@ -259,6 +303,8 @@ export const Audi = [
     amountUsed: 4,
     amountNew: 11,
     instalment: 3307,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4a2bqy/2023.png?imwidth=550",
   },
   {
     model: "A6",
@@ -267,6 +313,8 @@ export const Audi = [
     amountUsed: 56,
     amountNew: 39,
     instalment: 2489,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4a5a2/2023.png?imwidth=550",
   },
   {
     model: "A6",
@@ -275,6 +323,8 @@ export const Audi = [
     amountUsed: 8,
     amountNew: 0,
     instalment: 3456,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4a5bqy/2023.png?imwidth=550",
   },
   {
     model: "A6",
@@ -283,6 +333,8 @@ export const Audi = [
     amountUsed: 8,
     amountNew: 17,
     instalment: 2946,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4aha/2023.png?imwidth=550",
   },
   {
     model: "A6",
@@ -291,6 +343,8 @@ export const Audi = [
     amountUsed: 1,
     amountNew: 2,
     instalment: 4543,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4a5sv/2023.png?imwidth=550",
   },
   {
     model: "A6",
@@ -299,6 +353,8 @@ export const Audi = [
     amountUsed: 3,
     amountNew: 3,
     instalment: 4419,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4a2sv/2023.png?imwidth=550",
   },
   {
     model: "A6",
@@ -307,6 +363,8 @@ export const Audi = [
     amountUsed: 3,
     amountNew: 1,
     instalment: 8434,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4a5rca/2021.png?imwidth=550",
   },
   {
     model: "A6",
@@ -315,6 +373,8 @@ export const Audi = [
     amountUsed: undefined,
     amountNew: undefined,
     instalment: 8874,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4a5rrae/2023.png?imwidth=550",
   },
 
   //   A7
@@ -326,6 +386,8 @@ export const Audi = [
     amountUsed: 22,
     amountNew: 28,
     instalment: 2892,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4ka02y/2023.png?imwidth=550",
   },
   {
     model: "A7",
@@ -334,6 +396,8 @@ export const Audi = [
     amountUsed: 6,
     amountNew: 1,
     instalment: 3614,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4ka0qy/2023.png?imwidth=550",
   },
   {
     model: "A7",
@@ -342,6 +406,8 @@ export const Audi = [
     amountUsed: 3,
     amountNew: 2,
     instalment: 4674,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4kaspa/2023.png?imwidth=550",
   },
   {
     model: "A7",
@@ -350,6 +416,8 @@ export const Audi = [
     amountUsed: 5,
     amountNew: 1,
     instalment: 8456,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4karca/2023.png?imwidth=550",
   },
   {
     model: "A7",
@@ -358,6 +426,8 @@ export const Audi = [
     amountUsed: undefined,
     amountNew: undefined,
     instalment: 8924,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4karra/2023.png?imwidth=550",
   },
 
   //   A8
@@ -369,6 +439,8 @@ export const Audi = [
     amountUsed: 5,
     amountNew: 14,
     instalment: 4873,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4nc0da/2022.png?imwidth=550",
   },
   {
     model: "A8",
@@ -377,6 +449,8 @@ export const Audi = [
     amountUsed: 1,
     amountNew: 1,
     instalment: 6246,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4nc0ha/2022.png?imwidth=550",
   },
   {
     model: "A8",
@@ -385,6 +459,8 @@ export const Audi = [
     amountUsed: 2,
     amountNew: 6,
     instalment: 5092,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4nl0da/2022.png?imwidth=550",
   },
   {
     model: "A8",
@@ -393,6 +469,8 @@ export const Audi = [
     amountUsed: 1,
     amountNew: 1,
     instalment: 6490,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4nl0ha/2022.png?imwidth=550",
   },
   {
     model: "A8",
@@ -401,6 +479,8 @@ export const Audi = [
     amountUsed: 6,
     amountNew: 1,
     instalment: 6934,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4ncssa/2022.png?imwidth=550",
   },
 
   //   Q2
@@ -412,6 +492,8 @@ export const Audi = [
     amountUsed: 43,
     amountNew: 12,
     instalment: 1311,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/gagbzg/2023.png?imwidth=550",
   },
 
   //   Q3
@@ -423,6 +505,8 @@ export const Audi = [
     amountUsed: 83,
     amountNew: 25,
     instalment: 1595,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f3bbky/2023.png?imwidth=550",
   },
   {
     model: "Q3",
@@ -431,6 +515,8 @@ export const Audi = [
     amountUsed: 8,
     amountNew: 11,
     instalment: 2511,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f3bapx/2023.png?imwidth=550",
   },
   {
     model: "Q3",
@@ -439,6 +525,8 @@ export const Audi = [
     amountUsed: 103,
     amountNew: 12,
     instalment: 1682,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f3ncky/2023.png?imwidth=550",
   },
   {
     model: "Q3",
@@ -447,6 +535,8 @@ export const Audi = [
     amountUsed: 5,
     amountNew: 3,
     instalment: 2608,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f3napx/2023.png?imwidth=550",
   },
   {
     model: "Q3",
@@ -455,6 +545,8 @@ export const Audi = [
     amountUsed: 4,
     amountNew: 0,
     instalment: 3962,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f3brwy/2023.png?imwidth=550",
   },
   {
     model: "Q3",
@@ -463,6 +555,8 @@ export const Audi = [
     amountUsed: 39,
     amountNew: 1,
     instalment: 4069,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f3nrwy/2023.png?imwidth=550",
   },
 
   //   Q4 e-tron
@@ -474,6 +568,8 @@ export const Audi = [
     amountUsed: undefined,
     amountNew: undefined,
     instalment: 3424,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f4b/2022.png?imwidth=550",
   },
   {
     model: "Q4",
@@ -482,6 +578,8 @@ export const Audi = [
     amountUsed: undefined,
     amountNew: undefined,
     instalment: 3583,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f4n/2022.png?imwidth=550",
   },
 
   //   Q5
@@ -493,6 +591,8 @@ export const Audi = [
     amountUsed: 215,
     amountNew: 39,
     instalment: 2180,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fygbuy/2023.png?imwidth=550",
   },
   {
     model: "Q5",
@@ -501,6 +601,8 @@ export const Audi = [
     amountUsed: 2,
     amountNew: 3,
     instalment: 3052,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fygb9y/2023.png?imwidth=550",
   },
   {
     model: "Q5",
@@ -509,6 +611,8 @@ export const Audi = [
     amountUsed: 192,
     amountNew: 4,
     instalment: 2348,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fytbuy/2023.png?imwidth=550",
   },
   {
     model: "Q5",
@@ -517,6 +621,8 @@ export const Audi = [
     amountUsed: 4,
     amountNew: 1,
     instalment: 3240,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fytb9y/2023.png?imwidth=550",
   },
   {
     model: "Q5",
@@ -525,6 +631,8 @@ export const Audi = [
     amountUsed: 9,
     amountNew: 5,
     instalment: 3904,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fygs5a/2023.png?imwidth=550",
   },
   {
     model: "Q5",
@@ -533,6 +641,8 @@ export const Audi = [
     amountUsed: 12,
     amountNew: 1,
     instalment: 4036,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fyts5a/2023.png?imwidth=550",
   },
 
   //   Q7
@@ -544,6 +654,8 @@ export const Audi = [
     amountUsed: 40,
     amountNew: 29,
     instalment: 3462,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4mgcb2/2023.png?imwidth=550",
   },
   {
     model: "Q7",
@@ -552,6 +664,8 @@ export const Audi = [
     amountUsed: 3,
     amountNew: 1,
     instalment: 4050,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4mgcy3/2023.png?imwidth=550",
   },
   {
     model: "Q7",
@@ -560,6 +674,8 @@ export const Audi = [
     amountUsed: 26,
     amountNew: 7,
     instalment: 5166,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4mgsw1/2023.png?imwidth=550",
   },
 
   //   Q8
@@ -571,6 +687,8 @@ export const Audi = [
     amountUsed: 57,
     amountNew: 12,
     instalment: 3858,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4mn0b2/2023.png?imwidth=550",
   },
   {
     model: "Q8",
@@ -579,6 +697,8 @@ export const Audi = [
     amountUsed: undefined,
     amountNew: undefined,
     instalment: 4911,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4mn0y3/2023.png?imwidth=550",
   },
   {
     model: "Q8",
@@ -587,6 +707,8 @@ export const Audi = [
     amountUsed: 15,
     amountNew: 1,
     instalment: 5424,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4mnsw1/2023.png?imwidth=550",
   },
   {
     model: "Q8",
@@ -595,6 +717,8 @@ export const Audi = [
     amountUsed: 7,
     amountNew: 0,
     instalment: 8748,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4mnrv2/2023.png?imwidth=550",
   },
 
   //   TT
@@ -606,6 +730,8 @@ export const Audi = [
     amountUsed: 14,
     amountNew: 0,
     instalment: 2586,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fvp08y/2023.png?imwidth=550",
   },
   {
     model: "TT",
@@ -614,6 +740,8 @@ export const Audi = [
     amountUsed: 11,
     amountNew: 0,
     instalment: 3172,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fvpsky/2023.png?imwidth=550",
   },
 
   //   R8
@@ -625,6 +753,8 @@ export const Audi = [
     amountUsed: 1,
     amountNew: 0,
     instalment: undefined,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4sprde/2022.png?imwidth=550",
   },
   {
     model: "R8",
@@ -633,6 +763,8 @@ export const Audi = [
     amountUsed: 0,
     amountNew: 0,
     instalment: undefined,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4spref/2022.png?imwidth=550",
   },
   {
     model: "R8",
@@ -641,6 +773,8 @@ export const Audi = [
     amountUsed: 0,
     amountNew: 0,
     instalment: undefined,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4srrde/2022.png?imwidth=550",
   },
   {
     model: "R8",
@@ -649,6 +783,8 @@ export const Audi = [
     amountUsed: 1,
     amountNew: 0,
     instalment: undefined,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4srref/2022.png?imwidth=550",
   },
   {
     model: "R8",
@@ -657,5 +793,7 @@ export const Audi = [
     amountUsed: undefined,
     amountNew: undefined,
     instalment: undefined,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4sprdf/2023.png?imwidth=550",
   },
 ];
