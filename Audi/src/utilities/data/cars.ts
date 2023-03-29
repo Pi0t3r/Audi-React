@@ -7,6 +7,9 @@ export const Audi = [
     amountUsed: 2,
     amountNew: 37,
     instalment: 5943,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f83rj7/2022.png?imwidth=550",
+    alt: "view card e-tron GT quattro side",
   },
   {
     model: "e-tron",
@@ -15,6 +18,9 @@ export const Audi = [
     amountUsed: 0,
     amountNew: 8,
     instalment: 8007,
+    imageCar:
+      "https://mediaervice.audi.com/media/live/50900/fly1400x601n8/f83rh7/2022.png?imwidth=550",
+    alt: "view card RS e-tron GT side",
   },
 
   //   Q8 E-TRON
@@ -26,6 +32,9 @@ export const Audi = [
     amountUsed: 2,
     amountNew: 4,
     instalment: 4381,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/gegcvc/2024.png?imwidth=550",
+    alt: "view card Q8 e-tron side",
   },
   {
     model: "Q8 e-tron",
@@ -34,6 +43,20 @@ export const Audi = [
     amountUsed: 1,
     amountNew: 3,
     instalment: 4524,
+    alt: "view card Q8 Sportback e-tron side",
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/getcvc/2024.png?imwidth=550",
+  },
+
+  {
+    model: "Q8 e-tron",
+    name: "SQ8 e-tron",
+    price: undefined,
+    amountUsed: 0,
+    amountNew: 0,
+    instalment: undefined,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/gegswc/2024.png?imwidth=550",
   },
   {
     model: "Q8 e-tron",
@@ -42,14 +65,8 @@ export const Audi = [
     amountUsed: 0,
     amountNew: 0,
     instalment: undefined,
-  },
-  {
-    model: "Q8 e-tron",
-    name: "SQ8 e-tron",
-    price: undefined,
-    amountUsed: 0,
-    amountNew: 0,
-    instalment: undefined,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/getswc/2024.png?imwidth=550",
   },
 
   //   A1
@@ -61,6 +78,8 @@ export const Audi = [
     amountUsed: 14,
     amountNew: 3,
     instalment: 1125,
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/gbaasg/2023.png?imwidth=550",
   },
 
   //   A3

@@ -15,4 +15,6 @@ ul.react-multi-carousel-track li.react-multi-carousel-item div img {
   text-align: center;
 }
 
-
+div.react-multi-carousel-list {
+  height: 100%;
+}

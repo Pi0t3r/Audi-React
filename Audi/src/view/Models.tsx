@@ -7,62 +7,19 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { responsive } from "../components/Carousel";
 import { Audi } from "../utilities/data/cars";
-interface iCard {
-  model: string;
-  price: number;
-  instalment: number;
-  background: string;
-  image: string;
-  alt: string;
-}
-interface iCardsProps {
-  cards?: iCard[];
-  name:string,
+import "../index.css";
+interface iModel {
+  background?: string;
+  image?: string;
+  alt?: string;
+  filter?: string;
+  textImage?: string;
 }
 
-const Card = ({ model, price, instalment, background, image, alt }: iCard) => {
+const Card = ({ alt, image, filter }: iModel) => {
+  const filterAudi = Audi.filter((name) => name.model === filter);
   return (
     <>
-      <div className="w-full overflow-hidden h-screen ">
-        <div className="absolute w-full h-1/5">
-          <div>
-            <img
-              src="https://www.audi.pl/bin/nemo.static.20230323062350/cms4i-nemo-mofi/assets/img/modelfinder-2/etrongt.svg"
-              className="absolute top-0 "
-            />
-            <img
-              src={background}
-              className="absolute top-10 -right-1/3 scale-150"
-            />
-          </div>
-
-          <div className="bg-white absolute top-[130%] inset-x-0 h-96 mx-5">
-            <div className="h-[45%] p-5">
-              <h4 className="font-bold mb-3">{model}</h4>
-              <p>Cena od {price} PLN</p>
-              <p className="text-neutral-500">
-                rata od {instalment} PLN (w Audi Perfect Lease dla
-                przedsiębiorców - rata netto)
-              </p>
-            </div>
-            <div className="w-full h-1/3">
-              <img src={image} alt={alt} />
-            </div>
-            <div className="text-center">
-              <button className="border-[1px] w-[90%] text-lg p-5 border-black">
-                Poznaj model
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </>
-  );
-};
-const Cards = ({ cards }: iCardsProps) => {
-  // const filterAudi = Audi.filter((name))
-  return (
-    <div>
       <Carousel
         responsive={responsive}
         swipeable={true}
@@ -75,47 +32,57 @@ const Cards = ({ cards }: iCardsProps) => {
         transitionDuration={500}
         removeArrowOnDeviceType={["mobile"]}
       >
-        {cards?.map((card, index) => (
-          <Card
-            key={index}
-            model={card.model}
-            price={card.price}
-            instalment={card.instalment}
-            image={card.image}
-            alt={card.alt}
-            background={card.background}
-          />
+        {filterAudi.map((item) => (
+          <div className="bg-white absolute -top-60 inset-x-5 h-96">
+            <div className="h-[45%] p-5">
+              <h4 className="font-bold mb-3">{item.name}</h4>
+              <p>Cena od {item.price} PLN</p>
+              <p className="text-neutral-500">
+                rata od {item.instalment} PLN (w Audi Perfect Lease dla
+                przedsiębiorców - rata netto)
+              </p>
+            </div>
+            <div>
+              <img src={item.imageCar} alt={item.alt} />
+            </div>
+            <div className="text-center mt-3">
+              <button className="border-[1px] w-11/12 text-lg p-3 border-black">
+                Poznaj model
+              </button>
+            </div>
+          </div>
         ))}
       </Carousel>
-    </div>
+    </>
+  );
+};
+
+const Model = ({ background, textImage, filter }: iModel) => {
+  return (
+    <>
+      <div className="overflow-hidden w-full h-screen">
+        <div className="absolute w-full h-1/3">
+          <div className="relative w-full h-[90%] overflow-x-hidden">
+            <img
+              src={textImage}
+              className="absolute top-0 scale-75 -left-[15%]"
+            />
+            <img
+              src={background}
+              className="absolute top-10 -right-1/3 scale-125"
+            />
+          </div>
+          <div className="h-[30rem]">
+            <Card filter={filter} />
+          </div>
+        </div>
+      </div>
+    </>
   );
 };
 
 function Models() {
   const { isDarkMode, setIsDarkMode } = useContext(ThemeContext);
-  const cardsData: iCard[] = [
-    
-    {
-      model: "e-tron GT quattro",
-      price: 468000,
-      instalment: 5943,
-      alt: "side view for car e-tron GT quattro",
-      background:
-        "https://mediaservice.audi.com/media/live/50900/fly1400x601n1/f83rj7/2022.png?imwidth=850",
-      image:
-        "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f83rj7/2022.png?imwidth=550",
-    },
-    {
-      model: "RS e-tron GT",
-      price: 630600,
-      instalment: 8007,
-      alt: "side view for car RS e-tron GT",
-      background:
-        "https://mediaservice.audi.com/media/live/50900/fly1400x601n1/f83rj7/2022.png?imwidth=850",
-      image:
-        "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f83rh7/2022.png?imwidth=550",
-    },
-  ];
   return (
     <div>
       <Nav />
@@ -146,7 +113,21 @@ function Models() {
           </button>
         </div>
         <div className="w-full bg-[#f2f2f2]">
-          <Cards cards={cardsData} />
+          <Model
+            background="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/f83rj7/2022.png?imwidth=850"
+            textImage="https://www.audi.pl/bin/nemo.static.20230323062727/cms4i-nemo-mofi/assets/img/modelfinder-2/etrongt.svg"
+            filter="e-tron"
+          />
+          <Model
+            background="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/gegcvc/2024.png?imwidth=850"
+            textImage="https://www.audi.pl/bin/nemo.static.20230323062727/cms4i-nemo-mofi/assets/img/modelfinder-2/q8etron.svg"
+            filter="Q8 e-tron"
+          />
+          <Model
+            background="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/gbaasg/2023.png?imwidth=850"
+            textImage="https://www.audi.pl/bin/nemo.static.20230323062727/cms4i-nemo-mofi/assets/img/modelfinder-2/a1.svg"
+            filter="A1"
+          />
         </div>
       </div>
     </div>
