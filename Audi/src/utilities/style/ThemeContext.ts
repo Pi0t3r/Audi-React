@@ -1,15 +1,25 @@
 import React, { createContext } from "react";
-
+import { themeDark, themeLight } from "./theme";
 interface ThemeContextType {
-  darkMode: boolean;
-  toggleDarkMode: () => void;
   isDarkMode: boolean;
-  setIsDarkMode: (value: boolean) => void;
+  setIsDarkMode: React.Dispatch<React.SetStateAction<boolean>>;
+  themeLight: {
+    colors: {
+      whiteBackground: string;
+      blackText: string;
+    };
+  };
+  themeDark: {
+    colors: {
+      whiteText: string;
+      blackBackground: string;
+    };
+  };
 }
 
 export const ThemeContext = createContext<ThemeContextType>({
-  darkMode: false,
-  toggleDarkMode: () => {},
   isDarkMode: false,
-  setIsDarkMode: (value: boolean) => {},
+  themeDark,
+  themeLight,
+  setIsDarkMode: (value: boolean | ((prevValue: boolean) => boolean)) => {},
 });
