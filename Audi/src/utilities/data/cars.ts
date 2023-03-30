@@ -1,12 +1,17 @@
 export const Audi = [
   // E-TRON GT
   {
+    legend: "e-tron",
+    titleImage:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f83rj7/2022.png?imwidth=550",
     model: "e-tron",
     name: "e-tron GT quattro",
     price: 468000,
     amountUsed: 2,
     amountNew: 37,
     instalment: 5943,
+    imageCarSide:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n1/f83rj7/2022.png?imwidth=291",
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f83rj7/2022.png?imwidth=550",
     alt: "view card e-tron GT quattro side",
@@ -19,13 +24,18 @@ export const Audi = [
     amountNew: 8,
     instalment: 8007,
     imageCar:
-      "https://mediaervice.audi.com/media/live/50900/fly1400x601n8/f83rh7/2022.png?imwidth=550",
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f83rh7/2022.png?imwidth=550",
     alt: "view card RS e-tron GT side",
   },
 
   //   Q8 E-TRON
 
   {
+    legend: "Q8 e-tron",
+    titleImage:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/gegcvc/2024.png?imwidth=291",
+    imageCarSide:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n1/gegcvc/2024.png?imwidth=291",
     model: "Q8 e-tron",
     name: "Q8 e-tron",
     price: 345000,
@@ -74,6 +84,11 @@ export const Audi = [
   //   A1
 
   {
+    legend: "A1",
+    titleImage:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/gbaasg/2023.png?imwidth=550",
+    imageCarSide:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n1/gbaasg/2023.png?imwidth=291",
     model: "A1",
     name: "A1 Sportback",
     price: 105100,
@@ -88,6 +103,7 @@ export const Audi = [
   //   A3
 
   {
+    legend: "A3",
     model: "A3",
     name: "A3 Sportback",
     price: 110500,
@@ -97,6 +113,10 @@ export const Audi = [
     alt: "view card A3 Sportback side",
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8yaar/2021.png?imwidth=550",
+    titleImage:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8yaar/2021.png?imwidth=550",
+    imageCarSide:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n1/8yaar/2021.png?imwidth=291",
   },
   {
     model: "A3",
@@ -162,6 +182,7 @@ export const Audi = [
   //   A4
 
   {
+    legend: "A4",
     model: "A4",
     name: "A4 Limousine",
     price: 155600,
@@ -170,6 +191,10 @@ export const Audi = [
     instalment: 1666,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8wc/2023.png?imwidth=550",
+    titleImage:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8wc/2023.png?imwidth=550",
+    imageCarSide:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n1/8wc/2023.png?imwidth=291",
   },
   {
     model: "A4",
@@ -224,6 +249,7 @@ export const Audi = [
 
   //   A5
   {
+    legend: "A5",
     model: "A5",
     name: "A5 Coupe",
     price: 181300,
@@ -232,6 +258,10 @@ export const Audi = [
     instalment: 1941,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f5pbzg/2023.png?imwidth=550",
+    titleImage:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f5pbzg/2023.png?imwidth=550",
+    imageCarSide:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n1/f5pbzg/2023.png?imwidth=291",
   },
   {
     model: "A5",
@@ -287,6 +317,7 @@ export const Audi = [
   // A6
 
   {
+    legend: "A6",
     model: "A6",
     name: "A6 Limousine",
     price: 220100,
@@ -295,6 +326,11 @@ export const Audi = [
     instalment: 2357,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4a2a/2023.png?imwidth=550",
+    titleImage:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4a2a/2023.png?imwidth=550",
+
+    imageCarSide:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n1/4a2a/2023.png?imwidth=291",
   },
   {
     model: "A6",
@@ -380,6 +416,7 @@ export const Audi = [
   //   A7
 
   {
+    legend: "A7",
     model: "A7",
     name: "A7 Sportback",
     price: 270100,
@@ -388,6 +425,10 @@ export const Audi = [
     instalment: 2892,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4ka02y/2023.png?imwidth=550",
+    titleImage:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4ka02y/2023.png?imwidth=550",
+    imageCarSide:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n1/4ka02y/2023.png?imwidth=291",
   },
   {
     model: "A7",

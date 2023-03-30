@@ -1,6 +1,8 @@
+import React, { useState } from "react";
 import "../index.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import { Audi } from "../utilities/data/cars";
 export const responsive = {
   mobile: {
     breakpoint: { max: 464, min: 0 },
@@ -19,6 +21,44 @@ export const responsive = {
     items: 4,
   },
 };
+
+interface iItem {
+  filter: string;
+}
+
+const Item = ({ filter }: iItem) => {
+  const [expand, setExpand] = useState<boolean>(false);
+  const handleClick = () => {
+    setExpand(!expand);
+  };
+  const filterAudi = Audi.filter((item) => item.model === filter);
+
+  return (
+    <div>
+      <div>
+        {filterAudi.map((item) => (
+          <div>
+            <img
+              onClick={handleClick}
+              src={expand ? item.imageCarSide : item.titleImage}
+            />
+            <p className="legend font-medium text-lg">{item.legend}</p>
+            {expand && (
+              <div className="relative">
+                <h3 className="font-bold text-3xl">{item.legend}</h3>
+                <div>
+                  <img src={item.imageCar} />
+                  <p className="text-center">{item.name}</p>
+                </div>
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
 export const CarouselOne = () => {
   return (
     <div>
@@ -28,45 +68,22 @@ export const CarouselOne = () => {
         draggable={false}
         showDots={false}
         ssr={true}
-        infinite={true}
-        autoPlay={true}
+        infinite={false}
+        autoPlay={false}
         autoPlaySpeed={5000}
         keyBoardControl={true}
         transitionDuration={500}
         removeArrowOnDeviceType={["mobile"]}
       >
-        <div>
-          <img src="/src/utilities/img/e-tron/etrongt.jpg" />
-          <p className="legend">e-tron GT</p>
-        </div>
-        <div>
-          <img src="/src/utilities/img/Q8-etron/Q8e-tron.png" />
-          <p className="legend">Q8 e-tron</p>
-        </div>
-        <div>
-          <img src="/src/utilities/img/A1/A1.png" />
-          <p className="legend">A1</p>
-        </div>
-        <div>
-          <img src="/src/utilities/img/A3/a3.png" />
-          <p className="legend">A3</p>
-        </div>
-        <div>
-          <img src="/src/utilities/img/A4/a4.png" />
-          <p className="legend">A4</p>
-        </div>
-        <div>
-          <img src="/src/utilities/img/A5/a5.png" />
-          <p className="legend">A5</p>
-        </div>
-        <div>
-          <img src="/src/utilities/img/A6/a6.png" />
-          <p className="legend">A6</p>
-        </div>
-        <div>
-          <img src="/src/utilities/img/A7/a7.png" />
-          <p className="legend">A7</p>
-        </div>
+        <Item filter="e-tron" />
+        <Item filter="Q8 e-tron" />
+        <Item filter="A1" />
+        <Item filter="A3" />
+        <Item filter="A4" />
+        <Item filter="A5" />
+        <Item filter="A6" />
+        <Item filter="A7" />
+        {/* 
         <div>
           <img src="/src/utilities/img/A8/a8.png" />
           <p className="legend">A8</p>
@@ -102,7 +119,7 @@ export const CarouselOne = () => {
         <div>
           <img src="/src/utilities/img/R8/r8.png" />
           <p className="legend">R8</p>
-        </div>
+        </div> */}
       </Carousel>
     </div>
   );
