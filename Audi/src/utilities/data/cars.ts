@@ -2,8 +2,7 @@ export const Audi = [
   // E-TRON GT
   {
     legend: "e-tron",
-    titleImage:
-      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f83rj7/2022.png?imwidth=550",
+
     model: "e-tron",
     name: "e-tron GT quattro",
     price: 468000,
@@ -13,6 +12,8 @@ export const Audi = [
     imageCarSide:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n1/f83rj7/2022.png?imwidth=291",
     imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f83rj7/2022.png?imwidth=550",
+    titleImage:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f83rj7/2022.png?imwidth=550",
     alt: "view card e-tron GT quattro side",
   },
@@ -32,10 +33,6 @@ export const Audi = [
 
   {
     legend: "Q8 e-tron",
-    titleImage:
-      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/gegcvc/2024.png?imwidth=291",
-    imageCarSide:
-      "https://mediaservice.audi.com/media/live/50900/fly1400x601n1/gegcvc/2024.png?imwidth=291",
     model: "Q8 e-tron",
     name: "Q8 e-tron",
     price: 345000,
@@ -44,9 +41,14 @@ export const Audi = [
     instalment: 4381,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/gegcvc/2024.png?imwidth=550",
+    titleImage:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/gegcvc/2024.png?imwidth=291",
+    imageCarSide:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n1/gegcvc/2024.png?imwidth=291",
     alt: "view card Q8 e-tron side",
   },
   {
+    body: "Sportback",
     model: "Q8 e-tron",
     name: "Q8 Sportback e-tron",
     price: 356300,
@@ -70,6 +72,7 @@ export const Audi = [
     alt: "view card SQ8 e-tron side",
   },
   {
+    body: "Sportback",
     model: "Q8 e-tron",
     name: "SQ8 Sportback e-tron",
     price: undefined,
@@ -84,11 +87,8 @@ export const Audi = [
   //   A1
 
   {
+    body: "Sportback",
     legend: "A1",
-    titleImage:
-      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/gbaasg/2023.png?imwidth=550",
-    imageCarSide:
-      "https://mediaservice.audi.com/media/live/50900/fly1400x601n1/gbaasg/2023.png?imwidth=291",
     model: "A1",
     name: "A1 Sportback",
     price: 105100,
@@ -97,12 +97,17 @@ export const Audi = [
     instalment: 1125,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/gbaasg/2023.png?imwidth=550",
+    titleImage:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/gbaasg/2023.png?imwidth=550",
+    imageCarSide:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n1/gbaasg/2023.png?imwidth=291",
     alt: "view card A1 Sportback side",
   },
 
   //   A3
 
   {
+    body: "Sportback",
     legend: "A3",
     model: "A3",
     name: "A3 Sportback",
@@ -139,6 +144,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8ysar/2021.png?imwidth=550",
   },
   {
+    body: "Sportback",
     model: "A3",
     name: "S3 Sportback",
     price: 207000,
@@ -159,6 +165,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8yss3/2021.png?imwidth=550",
   },
   {
+    body:"Sportback",
     model: "A3",
     name: "RS3 Sportback",
     price: 291900,
@@ -474,6 +481,7 @@ export const Audi = [
   //   A8
 
   {
+    legend: "A8",
     model: "A8",
     name: "A8",
     price: 455100,
@@ -482,6 +490,10 @@ export const Audi = [
     instalment: 4873,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4nc0da/2022.png?imwidth=550",
+    titleImage:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4nc0da/2022.png?imwidth=550",
+    imageCarSide:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n1/4nc0da/2022.png?imwidth=291",
   },
   {
     model: "A8",
@@ -527,6 +539,7 @@ export const Audi = [
   //   Q2
 
   {
+    legend: "Q2",
     model: "Q2",
     name: "Q2",
     price: 122400,
@@ -535,11 +548,16 @@ export const Audi = [
     instalment: 1311,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/gagbzg/2023.png?imwidth=550",
+    titleImage:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/gagbzg/2023.png?imwidth=550",
+    imageCarSide:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n1/gagbzg/2023.png?imwidth=291",
   },
 
   //   Q3
 
   {
+    legend: "Q3",
     model: "Q3",
     name: "Q3",
     price: 149000,
@@ -548,6 +566,10 @@ export const Audi = [
     instalment: 1595,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f3bbky/2023.png?imwidth=550",
+    titleImage:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f3bbky/2023.png?imwidth=550",
+    imageCarSide:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n1/f3bbky/2023.png?imwidth=291",
   },
   {
     model: "Q3",
@@ -603,6 +625,7 @@ export const Audi = [
   //   Q4 e-tron
 
   {
+    legend: "Q4 e-tron",
     model: "Q4",
     name: "Q4 e-tron",
     price: 244200,
@@ -611,6 +634,10 @@ export const Audi = [
     instalment: 3424,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f4b/2022.png?imwidth=550",
+    titleImage:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f4b/2022.png?imwidth=550",
+    imageCarSide:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n1/f4b/2022.png?imwidth=291",
   },
   {
     model: "Q4",
@@ -626,6 +653,7 @@ export const Audi = [
   //   Q5
 
   {
+    legend: "Q5",
     model: "Q5",
     name: "Q5",
     price: 203600,
@@ -634,6 +662,10 @@ export const Audi = [
     instalment: 2180,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fygbuy/2023.png?imwidth=550",
+    titleImage:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fygbuy/2023.png?imwidth=550",
+    imageCarSide:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n1/f4b/2022.png?imwidth=291",
   },
   {
     model: "Q5",
@@ -689,6 +721,7 @@ export const Audi = [
   //   Q7
 
   {
+    legend: "Q7",
     model: "Q7",
     name: "Q7",
     price: 323300,
@@ -697,6 +730,10 @@ export const Audi = [
     instalment: 3462,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4mgcb2/2023.png?imwidth=550",
+    titleImage:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4mgcb2/2023.png?imwidth=550",
+    imageCarSide:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n1/4mgcb2/2023.png?imwidth=291",
   },
   {
     model: "Q7",
@@ -722,6 +759,7 @@ export const Audi = [
   //   Q8
 
   {
+    legend: "Q8",
     model: "Q8",
     name: "Q8",
     price: 360300,
@@ -730,6 +768,10 @@ export const Audi = [
     instalment: 3858,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4mn0b2/2023.png?imwidth=550",
+    titleImage:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4mn0b2/2023.png?imwidth=550",
+    imageCarSide:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n1/4mn0b2/2023.png?imwidth=291",
   },
   {
     model: "Q8",
@@ -765,6 +807,7 @@ export const Audi = [
   //   TT
 
   {
+    legend: "TT",
     model: "TT",
     name: "TT Coupe",
     price: 241500,
@@ -773,6 +816,10 @@ export const Audi = [
     instalment: 2586,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fvp08y/2023.png?imwidth=550",
+    titleImage:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fvp08y/2023.png?imwidth=550",
+    imageCarSide:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n1/fvp08y/2023.png?imwidth=291",
   },
   {
     model: "TT",
@@ -788,6 +835,7 @@ export const Audi = [
   //   R8
 
   {
+    legend: "R8",
     model: "R8",
     name: "R8 Coupe V10 performance quattro",
     price: 1007900,
@@ -796,6 +844,10 @@ export const Audi = [
     instalment: undefined,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4sprde/2022.png?imwidth=550",
+    titleImage:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4sprde/2022.png?imwidth=550",
+    imageCarSide:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n1/4sprde/2022.png?imwidth=291",
   },
   {
     model: "R8",

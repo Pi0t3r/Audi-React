@@ -83,43 +83,15 @@ export const CarouselOne = () => {
         <Item filter="A5" />
         <Item filter="A6" />
         <Item filter="A7" />
-        {/* 
-        <div>
-          <img src="/src/utilities/img/A8/a8.png" />
-          <p className="legend">A8</p>
-        </div>
-        <div>
-          <img src="/src/utilities/img/Q2/q2.png" />
-          <p className="legend">Q2</p>
-        </div>
-        <div>
-          <img src="/src/utilities/img/Q3/q3.png" />
-          <p className="legend">Q3</p>
-        </div>
-        <div>
-          <img src="/src/utilities/img/Q4e-tron/q4e.png" />
-          <p className="legend">Q4 e-tron</p>
-        </div>
-        <div>
-          <img src="/src/utilities/img/Q5/q5.png" />
-          <p className="legend">Q5</p>
-        </div>
-        <div>
-          <img src="/src/utilities/img/Q7/q7.png" />
-          <p className="legend">Q7</p>
-        </div>
-        <div>
-          <img src="/src/utilities/img/Q8/q8.png" />
-          <p className="legend">Q8</p>
-        </div>
-        <div>
-          <img src="/src/utilities/img/TT/tt.png" />
-          <p className="legend">TT</p>
-        </div>
-        <div>
-          <img src="/src/utilities/img/R8/r8.png" />
-          <p className="legend">R8</p>
-        </div> */}
+        <Item filter="A8" />
+        <Item filter="Q2" />
+        <Item filter="Q3" />
+        <Item filter="Q4" />
+        <Item filter="Q5" />
+        <Item filter="Q7" />
+        <Item filter="Q8" />
+        <Item filter="TT" />
+        <Item filter="R8" />
       </Carousel>
     </div>
   );
@@ -134,8 +106,8 @@ export const CarouselTwo = () => {
         draggable={false}
         showDots={false}
         ssr={true}
-        infinite={true}
-        autoPlay={true}
+        infinite={false}
+        autoPlay={false}
         autoPlaySpeed={5000}
         keyBoardControl={true}
         transitionDuration={500}
