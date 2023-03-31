@@ -8,35 +8,7 @@ import "../index.css";
 import ModelsComponent from "../components/ModelsComponent";
 import Footer from "./Footer";
 import { Audi } from "../utilities/data/cars";
-
-interface iFilter {
-  title: string;
-  setList: string;
-}
-
-const Filter = ({ title, setList }: iFilter) => {
-  const models = Array.from(new Set(Audi.map((car) => car.model)));
-  const uniqueBodies = Array.from(new Set(Audi.flatMap((car) => car.body)));
-  return (
-    <div>
-      <h3 className="p-4 text-2xl font-medium text-neutral-400">{title}</h3>
-      <ul className="list-none">
-        {setList === "Body" &&
-          uniqueBodies.map((car) => (
-            <button className="border-2 border-neutral-200 p-3 text-neutral-200 m-1">
-              {car}
-            </button>
-          ))}
-        {setList === "Model" &&
-          models.map((car) => (
-            <button className="border-2 border-neutral-200 p-3 text-neutral-200 m-1">
-              {car}
-            </button>
-          ))}
-      </ul>
-    </div>
-  );
-};
+import Filter from "../components/FilterModelsBodies";
 
 function Models() {
   const { isDarkMode, setIsDarkMode } = useContext(ThemeContext);
@@ -50,15 +22,9 @@ function Models() {
       <Nav />
       <div className="mt-16">
         <div
-          className="text-4xl py-10 pl-5 ease-in duration-300"
-          style={{
-            backgroundColor: isDarkMode
-              ? themeDark.colors.blackBackground
-              : themeLight.colors.whiteBackground,
-            color: isDarkMode
-              ? themeDark.colors.whiteText
-              : themeLight.colors.blackText,
-          }}
+          className={`text-4xl py-10 pl-5 ease-in duration-300 ${
+            isDarkMode ? "bg-black text-white" : "bg-white text-black"
+          }`}
         >
           <h2>Modele</h2>
         </div>
