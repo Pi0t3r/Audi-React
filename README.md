@@ -1,4 +1,4 @@
 # Audi-React
 
 
-Live:https://Pi0t3r.github.io/Audi-React/
+Live: pi0t3r-audi.netlify.app
