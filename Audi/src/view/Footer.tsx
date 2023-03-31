@@ -18,7 +18,7 @@ const Item = ({ title, listItems }: iItem) => {
       {title}
       <div className="mt-6 tracking-normal">
         {listItems.map((item, index) => (
-          <li key={index} className="font-light cursor-pointer hover:text-neutral-400 transition-colors">
+          <li key={index} className="font-light cursor-pointer hover:text-neutral-400">
             {item}
           </li>
         ))}

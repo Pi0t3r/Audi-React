@@ -39,7 +39,7 @@ function Sidebar({ move, handleClick }: iSidebar) {
           ? themeDark.colors.whiteText
           : themeLight.colors.blackText,
       }}
-      className={`fixed z-10 top-0 bottom-0 ease-in w-full duration-300 bg-white ${
+      className={`fixed z-50 top-0 bottom-0 ease-in w-full duration-300 bg-white ${
         move ? "left-0" : "-left-full"
       }`}
     >

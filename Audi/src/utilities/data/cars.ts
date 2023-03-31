@@ -78,7 +78,6 @@ export const Audi = [
   //   A1
 
   {
-    bodyTitle: "Sportback",
     body: ["Sportback", "Compact"],
     model: "A1",
     name: "A1 Sportback",
@@ -124,12 +123,10 @@ export const Audi = [
     amountUsed: 24,
     amountNew: 15,
     instalment: 1215,
-    bodyTitle: "Limousine",
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8ysar/2021.png?imwidth=550",
   },
   {
-    bodyTitle: "Sport",
     body: ["Sportback", "Sport", "Compact"],
     model: "A3",
     name: "S3 Sportback",
@@ -152,7 +149,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8yss3/2021.png?imwidth=550",
   },
   {
-    body: ["Sportback", "Sport"],
+    body: ["Sportback", "Sport", "Compact"],
     model: "A3",
     name: "RS3 Sportback",
     price: 291900,
@@ -163,7 +160,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8yarwy/2022.png?imwidth=550",
   },
   {
-    body: ["Limousine", "Sport", "Compact"],
+    body: ["Limousine", "Sport"],
     model: "A3",
     name: "RS3 Limousine",
     price: 301100,
@@ -188,7 +185,6 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8wc/2023.png?imwidth=550",
   },
   {
-    bodyTitle: "Avant",
     body: ["Avant"],
     model: "A4",
     name: "A4 Avant",
@@ -200,7 +196,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8wd/2023.png?imwidth=550",
   },
   {
-    bodyTitle: "Allroad quattro",
+
     body: ["allroad"],
     model: "A4",
     name: "A4 allroad quattro",
@@ -247,7 +243,6 @@ export const Audi = [
 
   //   A5
   {
-    bodyTitle: "Coupe",
     body: ["Coupe"],
     model: "A5",
     name: "A5 Coupe",
@@ -619,7 +614,7 @@ export const Audi = [
   //   Q4 e-tron
 
   {
-    body: ["Suv", "Electric","Alternative"],
+    body: ["Suv", "Electric", "Alternative"],
     model: "Q4",
     name: "Q4 e-tron",
     price: 244200,
@@ -630,7 +625,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f4b/2022.png?imwidth=550",
   },
   {
-    body: ["Sportback", "Electric","Alternative"],
+    body: ["Sportback", "Electric", "Alternative"],
     model: "Q4",
     name: "Q4 Sportback e-tron",
     price: 255500,
@@ -655,7 +650,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fygbuy/2023.png?imwidth=550",
   },
   {
-    body: ["Suv", "plugin","Alternative"],
+    body: ["Suv", "plugin", "Alternative"],
     model: "Q5",
     name: "Q5 TFSI e",
     price: 254900,
@@ -677,7 +672,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fytbuy/2023.png?imwidth=550",
   },
   {
-    body: ["Sportback", "Suv", "plugin","Alternative"],
+    body: ["Sportback", "Suv", "plugin", "Alternative"],
     model: "Q5",
     name: "Q5 Sportback TFSI e",
     price: 270600,
@@ -724,7 +719,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4mgcb2/2023.png?imwidth=550",
   },
   {
-    body: ["Suv", "plugin","Alternative"],
+    body: ["Suv", "plugin", "Alternative"],
     model: "Q7",
     name: "Q7 TFSI e",
     price: 338300,
@@ -760,7 +755,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4mn0b2/2023.png?imwidth=550",
   },
   {
-    body: ["Suv", "plugin","Alternative"],
+    body: ["Suv", "plugin", "Alternative"],
     model: "Q8",
     name: "Q8 TFSI e",
     price: 410200,
