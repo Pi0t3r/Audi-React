@@ -85,7 +85,7 @@ const Model = ({ background, textImage, filter }: iModel) => {
             />
             <img
               src={background}
-              className="absolute top-10 -right-1/3 scale-125"
+              className="absolute top-10 -right-1/3"
             />
           </div>
           <div className="h-[30rem]">
