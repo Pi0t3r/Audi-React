@@ -75,14 +75,18 @@ const Body = ({ body, imageFront, imageBack, title }: iBody) => {
   return (
     <>
       <div>
-        <img onClick={handleClick} src={expand ? imageFront : imageBack} />
+        <img
+          onClick={handleClick}
+          src={expand ? imageFront : imageBack}
+          className="h-26"
+        />
         <p className="legend font-medium text-lg">{title}</p>
         {bodyFilter.map((item) => (
           <>
             {expand && (
               <div className="relative">
                 <div>
-                  <img src={item.imageCar} />
+                  <img src={item.imageCar} className="h-26" />
                   <p className="text-center">{item.name}</p>
                 </div>
               </div>
