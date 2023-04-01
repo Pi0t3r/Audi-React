@@ -55,7 +55,7 @@ const Card = ({ filter }: iModel) => {
               )}
             </div>
             <div>
-              <img src={item.imageCar} alt={item.alt} />
+              <img src={item.imageCar} alt={item.alt} className="h-26"/>
             </div>
             <div className="text-center mt-3">
               <button
@@ -78,7 +78,7 @@ const Model = ({ background, textImage, filter }: iModel) => {
     <>
       <div className="overflow-hidden w-full h-screen">
         <div className="absolute w-full h-1/3">
-          <div className="relative w-full h-[90%] overflow-x-hidden">
+          <div className="relative w-full h-full overflow-x-hidden">
             <img
               src={textImage}
               className="absolute top-0 scale-75 -left-[15%]"

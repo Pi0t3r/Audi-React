@@ -8,9 +8,7 @@ html {
   scroll-padding: 100px;
   font-family: "Sarabun", sans-serif;
 }
-ul.react-multi-carousel-track li.react-multi-carousel-item div img {
-  height: 100%;
-}
+
 .legend {
   text-align: center;
 }
