@@ -42,7 +42,7 @@ const Item = ({ filter, imageFront, imageSide, title }: iItemBody) => {
           src={expand ? imageFront : imageSide}
           className="h-26"
         />
-        <p className="legend font-medium text-lg">{title}</p>
+        <p className={`legend text-lg ${expand ? 'font-bold' : 'font-medium'}`}>{title}</p>
         {filterAudi.map((item) => (
           <>
             {expand && (
