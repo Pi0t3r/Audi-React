@@ -16,5 +16,6 @@ html {
 div.react-multi-carousel-list {
   height: 100%;
 }
-
-
+button.react-multiple-carousel__arrow {
+  z-index: 1;
+}
