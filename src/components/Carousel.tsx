@@ -38,14 +38,18 @@ const Item = ({ filter, imageFront, imageSide, title }: iItem) => {
   return (
     <>
       <div>
-        <img onClick={handleClick} src={expand ? imageFront : imageSide} />
+        <img
+          onClick={handleClick}
+          src={expand ? imageFront : imageSide}
+          className="h-26"
+        />
         <p className="legend font-medium text-lg">{title}</p>
         {filterAudi.map((item) => (
           <>
             {expand && (
               <div className="relative">
                 <div>
-                  <img src={item.imageCar} />
+                  <img src={item.imageCar} className="h-26" />
                   <p className="text-center">{item.name}</p>
                 </div>
               </div>
