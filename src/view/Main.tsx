@@ -46,7 +46,7 @@ function Main() {
     <div>
       <div className="bg-headerImageMain bg-cover bg-center w-full h-[100vh] text-white relative flex flex-col items-start px-4 mt-16">
         <div className="absolute inset-0 bg-gradient-to-t via-transparent from-black to-transparent" />
-        <div className="absolute bottom-1/2 node:pr-10 text-2xl pr-16 md:bottom-[30%]">
+        <div className="absolute bottom-1/2 small:text-xl node:pr-10 text-2xl pr-16 small:pr-4 small:bottom-[45%] md:bottom-[30%]">
           <h2 className="font-medium text-3xl">Doświadczaj postępu.</h2>
           <p className="mt-4 pr-20">
             Poznaj nową gamę w pełni elektrycznych modeli Audi Q8 e-tron, z

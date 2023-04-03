@@ -4,10 +4,12 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        headerImageMain: "url('/src/utilities/img/headerImage.jpg')",
-        backgroundEle: "url('/src/utilities/img/sphere.jpg')",
-        etron: "url('/src/utilities/img/e-tronDrive.jpg')",
-        card1: "url('./src/utilities/img/e-tron/etrongt.jpg')",
+        headerImageMain:
+          "url(https://www.audi.pl/content/dam/nemo/pl/glowna/02-2023/Q8_FAM_1440x1920_v2.jpg?imwidth=768)",
+        backgroundEle:
+          "url(https://www.audi.pl/content/dam/nemo/pl/glowna/02-2023/Activesphere_748x2500.jpg?imwidth=374)",
+        etron:
+          "url(https://www.audi.pl/content/dam/nemo/pl/glowna/02-2023/etronGT_748x2500.jpg?imwidth=374)",
       },
     },
     screens: {
