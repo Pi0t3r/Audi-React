@@ -79,7 +79,7 @@ const Body = ({ body, imageFront, imageBack, title }: iItemBody) => {
   return (
     <>
       <div>
-        <img
+        <img loading="lazy"
           onClick={handleClick}
           src={expand ? imageFront : imageBack}
           className="h-26"
@@ -92,7 +92,7 @@ const Body = ({ body, imageFront, imageBack, title }: iItemBody) => {
             {expand && (
               <div className="relative">
                 <div>
-                  <img src={item.imageCar} className="h-26" />
+                  <img loading="lazy" src={item.imageCar} className="h-26" />
                   <p className="text-center">{item.name}</p>
                 </div>
               </div>
@@ -120,8 +120,8 @@ export const CarouselOne = () => {
       >
         <Item
           filter="e-tron"
-          imageSide="/src/utilities/img/e-tron/e-tronGT/etrongt.png"
-          imageFront="/src/utilities/img/e-tron/e-tronGT/side.png"
+          imageSide="https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f83rj7/2022.png?imwidth=291"
+          imageFront="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/f83rj7/2022.png?imwidth=291"
           title="e-tron"
         />
         <Item
