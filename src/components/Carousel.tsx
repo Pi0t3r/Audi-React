@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "../index.css";
 import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
 import { Audi } from "../utilities/data/cars";
 export const responsive = {
   mobile: {
@@ -125,7 +124,8 @@ export const CarouselOne = () => {
       >
         <Item
           filter="e-tron"
-          imageSide="https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f83rj7/2022.png?imwidth=550"
+
+          imageSide="https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f83rj7/2022.png?imwidth=291"
           imageFront="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/f83rj7/2022.png?imwidth=291"
           title="e-tron"
         />
@@ -134,54 +134,69 @@ export const CarouselOne = () => {
           title="Q8 e-tron"
           imageFront="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/gegcvc/2024.png?imwidth=291"
           imageSide="https://mediaservice.audi.com/media/live/50900/fly1400x601n8/gegcvc/2024.png?imwidth=291"
+
         />
         <Item
           filter="A1"
           title="A1"
           imageFront="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/gbaasg/2023.png?imwidth=291"
           imageSide="https://mediaservice.audi.com/media/live/50900/fly1400x601n8/gbaasg/2023.png?imwidth=550"
+
         />
         <Item
           filter="A3"
           title="A3"
           imageFront="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/8yaar/2021.png?imwidth=291"
           imageSide="https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8yaar/2021.png?imwidth=550"
+
         />
         <Item
           filter="A4"
           title="A4"
+
           imageSide="https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8wc/2023.png?imwidth=550"
           imageFront="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/8wc/2023.png?imwidth=291"
+
         />
         <Item
           filter="A5"
           title="A5"
+
           imageFront="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/f5pbzg/2023.png?imwidth=291"
           imageSide="https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f5pbzg/2023.png?imwidth=550"
+
         />
         <Item
           filter="A6"
           title="A6"
+
           imageFront="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/4a2a/2023.png?imwidth=291"
           imageSide="https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4a2a/2023.png?imwidth=550"
+
         />
         <Item
           filter="A7"
           title="A7"
+
           imageSide="https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4ka02y/2023.png?imwidth=550"
           imageFront="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/4ka02y/2023.png?imwidth=291"
+
         />
         <Item
           filter="A8"
           title="A8"
+
           imageSide="https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4nc0da/2022.png?imwidth=550"
           imageFront="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/4nc0da/2022.png?imwidth=291"
+
         />
         <Item
           filter="Q2"
           title="Q2"
+
           imageFront="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/gagbzg/2023.png?imwidth=291"
           imageSide="https://mediaservice.audi.com/media/live/50900/fly1400x601n8/gagbzg/2023.png?imwidth=550"
+
         />
         <Item
           filter="Q3"
@@ -198,24 +213,31 @@ export const CarouselOne = () => {
         <Item
           filter="Q5"
           title="Q5"
+
           imageFront="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/f4b/2022.png?imwidth=291"
           imageSide="https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fygbuy/2023.png?imwidth=550"
+
         />
         <Item
           filter="Q7"
           title="Q7"
+
           imageFront="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/4mgcb2/2023.png?imwidth=291"
           imageSide="https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4mgcb2/2023.png?imwidth=550"
+
         />
         <Item
           filter="Q8"
           title="Q8"
+
           imageFront="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/4mn0b2/2023.png?imwidth=291"
           imageSide="https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4mn0b2/2023.png?imwidth=550"
+
         />
         <Item
           filter="TT"
           title="TT"
+
           imageFront="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/fvp08y/2023.png?imwidth=291"
           imageSide="https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fvp08y/2023.png?imwidth=550"
         />
@@ -224,6 +246,7 @@ export const CarouselOne = () => {
           title="R8"
           imageFront="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/4sprde/2022.png?imwidth=291"
           imageSide="https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4sprde/2022.png?imwidth=550"
+
         />
       </Carousel>
     </div>
@@ -247,15 +270,20 @@ export const CarouselTwo = () => {
       >
         <Body
           body="Sportback"
+
           imageBack="https://mediaservice.audi.com/media/live/50900/fly1400x601n6/gbaasg/2023.png?imwidth=291"
           imageFront="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/gbaasg/2023.png?imwidth=291"
+
           title="Sportback"
         />
         <Body
           body="Compact"
           title="Compact"
+
           imageBack="https://mediaservice.audi.com/media/live/50900/fly1400x601n6/8yaar/2021.png?imwidth=291"
           imageFront="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/8yaar/2021.png?imwidth=291"
+
+
         />
         <Body
           body="Limousine"
@@ -272,50 +300,60 @@ export const CarouselTwo = () => {
         <Body
           body="allroad"
           title="Allroad quattro"
+
           imageBack="https://mediaservice.audi.com/media/live/50900/fly1400x601n6/8wj/2023.png?imwidth=291"
           imageFront="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/8wj/2023.png?imwidth=291"
+
         />
         <Body
           body="Coupe"
           title="Coupe"
           imageFront="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/f5pbzg/2023.png?imwidth=291"
           imageBack="https://mediaservice.audi.com/media/live/50900/fly1400x601n6/f5pbzg/2023.png?imwidth=291"
+
         />
         <Body
           body="Suv"
           title="SUV"
+
           imageBack="https://mediaservice.audi.com/media/live/50900/fly1400x601n6/gagbzg/2023.png?imwidth=291"
           imageFront="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/gagbzg/2023.png?imwidth=291"
+
         />
         <Body
           body="Sport"
           title="Sport"
           imageBack="https://mediaservice.audi.com/media/live/50900/fly1400x601n6/8wdr/2023.png?imwidth=291"
           imageFront="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/8wdr/2023.png?imwidth=291"
+
         />
         <Body
           body="Electric"
           title="Electric drive"
           imageFront="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/f4b/2022.png?imwidth=291"
           imageBack="https://mediaservice.audi.com/media/live/50900/fly1400x601n6/f4b/2022.png?imwidth=291"
+
         />
         <Body
           body="plugin"
           title="Plug-in Hybrid"
           imageBack="https://mediaservice.audi.com/media/live/50900/fly1400x601n6/8yabpx/2021.png?imwidth=291"
           imageFront="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/8yaar/2021.png?imwidth=291"
+
         />
         <Body
           body="Alternative"
           title="Alternative drive"
           imageBack="https://mediaservice.audi.com/media/live/50900/fly1400x601n6/4a2bqy/2023.png?imwidth=291"
           imageFront="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/4a2bqy/2023.png?imwidth=291"
+
         />
         <Body
           body="Spyder"
           title="Spyder"
           imageBack="https://mediaservice.audi.com/media/live/50900/fly1400x601n6/4srrde/2022.png?imwidth=291"
           imageFront="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/4srrde/2022.png?imwidth=291"
+
         />
       </Carousel>
     </div>

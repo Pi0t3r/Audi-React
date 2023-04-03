@@ -30,3 +30,4 @@ const Filter = ({ title, setList }: iFilter) => {
 };
 
 export default Filter;
+
