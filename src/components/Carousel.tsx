@@ -79,14 +79,21 @@ const Body = ({ body, imageFront, imageBack, title }: iItemBody) => {
   return (
     <>
       <div>
-        <img
+        <picture onClick={handleClick}>
+          <source srcSet={expand ? imageFront : imageBack} className="h-26" />
+        </picture>
+        {/* <img
           onClick={handleClick}
           src={expand ? imageFront : imageBack}
           className="h-26"
-        />
-        <p className={`legend text-lg ${
+        /> */}
+        <p
+          className={`legend text-lg ${
             expand ? "font-bold border-b-[1px] border-black" : "font-medium"
-          }`}>{title}</p>
+          }`}
+        >
+          {title}
+        </p>
         {bodyFilter.map((item) => (
           <>
             {expand && (
