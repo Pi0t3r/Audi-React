@@ -37,12 +37,16 @@ const Item = ({ filter, imageFront, imageSide, title }: iItemBody) => {
   return (
     <>
       <div>
-        <img
-          onClick={handleClick}
-          src={expand ? imageFront : imageSide}
-          className="h-26"
-        />
-        <p className={`legend text-lg ${expand ? 'font-bold' : 'font-medium'}`}>{title}</p>
+        <picture>
+          <img
+            onClick={handleClick}
+            src={expand ? imageFront : imageSide}
+            className="h-26"
+          />
+        </picture>
+        <p className={`legend text-lg ${expand ? "font-bold" : "font-medium"}`}>
+          {title}
+        </p>
         {filterAudi.map((item) => (
           <>
             {expand && (

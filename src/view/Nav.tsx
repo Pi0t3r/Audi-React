@@ -41,13 +41,13 @@ function Nav() {
               <img
                 src="https://www.freepnglogos.com/uploads/audi-logo-2.png"
                 alt="logo Audi gray"
-                className="w-20"
+                className="w-20 h-12"
               />
             ) : (
               <img
                 src="https://logos-world.net/wp-content/uploads/2021/03/Audi-Logo.png"
                 alt="logo Audi black"
-                className="w-20"
+                className="w-20 h-12"
               />
             )}
           </a>
