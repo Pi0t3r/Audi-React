@@ -44,7 +44,11 @@ const Item = ({ filter, imageFront, imageSide, title }: iItemBody) => {
             className="h-26"
           />
         </picture>
-        <p className={`legend text-lg ${expand ? "font-bold" : "font-medium"}`}>
+        <p
+          className={`legend text-lg ${
+            expand ? "font-bold border-b-[1px] border-black" : "font-medium"
+          }`}
+        >
           {title}
         </p>
         {filterAudi.map((item) => (
@@ -80,7 +84,9 @@ const Body = ({ body, imageFront, imageBack, title }: iItemBody) => {
           src={expand ? imageFront : imageBack}
           className="h-26"
         />
-        <p className="legend font-medium text-lg">{title}</p>
+        <p className={`legend text-lg ${
+            expand ? "font-bold border-b-[1px] border-black" : "font-medium"
+          }`}>{title}</p>
         {bodyFilter.map((item) => (
           <>
             {expand && (
