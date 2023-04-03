@@ -41,7 +41,7 @@ function Nav() {
               <img
                 src="https://www.freepnglogos.com/uploads/audi-logo-2.png"
                 alt="logo Audi gray"
-                className="w-20 h-12"
+                className="w-20 h-16"
               />
             ) : (
               <img

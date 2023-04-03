@@ -38,6 +38,7 @@ const Item = ({ filter, imageFront, imageSide, title }: iItemBody) => {
     <>
       <div>
         <picture>
+          
           <img
             onClick={handleClick}
             src={expand ? imageFront : imageSide}
