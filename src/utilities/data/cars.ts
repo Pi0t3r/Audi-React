@@ -231,7 +231,8 @@ export const Audi = [
     amountUsed: 16,
     amountNew: 3,
     instalment: 1941,
-    imageCar: "/src/utilities/img/A5/A5Coupe/a5.png",
+    imageCar:
+      "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f5pbzg/2023.png?imwidth=550",
   },
   {
     body: ["Sportback"],
@@ -570,8 +571,7 @@ export const Audi = [
     amountUsed: undefined,
     amountNew: undefined,
     instalment: 3424,
-    imageCar:
-      "/src/utilities/img/Q4e-tron/Q4e-tron/q4e-tron.png",
+    imageCar: "/src/utilities/img/Q4e-tron/Q4e-tron/q4e-tron.png",
   },
   {
     body: ["Sportback", "Electric", "Alternative"],
@@ -581,8 +581,7 @@ export const Audi = [
     amountUsed: undefined,
     amountNew: undefined,
     instalment: 3583,
-    imageCar:
-      "/src/utilities/img/Q4e-tron/Q4Sportbacke-tron/q4e-tronside.png",
+    imageCar: "/src/utilities/img/Q4e-tron/Q4Sportbacke-tron/q4e-tronside.png",
   },
 
   //   Q5
@@ -595,8 +594,7 @@ export const Audi = [
     amountUsed: 215,
     amountNew: 39,
     instalment: 2180,
-    imageCar:
-      "/src/utilities/img/Q5/Q5/q5.png",
+    imageCar: "/src/utilities/img/Q5/Q5/q5.png",
   },
   {
     body: ["Suv", "plugin", "Alternative"],
@@ -606,8 +604,7 @@ export const Audi = [
     amountUsed: 2,
     amountNew: 3,
     instalment: 3052,
-    imageCar:
-      "/src/utilities/img/Q5/Q5TFSIe/q5eside.png",
+    imageCar: "/src/utilities/img/Q5/Q5TFSIe/q5eside.png",
   },
   {
     body: ["Sportback", "Suv"],
@@ -617,8 +614,7 @@ export const Audi = [
     amountUsed: 192,
     amountNew: 4,
     instalment: 2348,
-    imageCar:
-      "/src/utilities/img/Q5/Q5Sportback/q5side.png",
+    imageCar: "/src/utilities/img/Q5/Q5Sportback/q5side.png",
   },
   {
     body: ["Sportback", "Suv", "plugin", "Alternative"],
@@ -628,8 +624,7 @@ export const Audi = [
     amountUsed: 4,
     amountNew: 1,
     instalment: 3240,
-    imageCar:
-      "/src/utilities/img/Q5/Q5SportbackTFSIe/q5eside.png",
+    imageCar: "/src/utilities/img/Q5/Q5SportbackTFSIe/q5eside.png",
   },
   {
     body: ["Suv", "Sport"],
@@ -639,8 +634,7 @@ export const Audi = [
     amountUsed: 9,
     amountNew: 5,
     instalment: 3904,
-    imageCar:
-      "/src/utilities/img/Q5/SQ5TDI/sq5side.png",
+    imageCar: "/src/utilities/img/Q5/SQ5TDI/sq5side.png",
   },
   {
     body: ["Sportback", "Suv", "Sport"],
@@ -650,8 +644,7 @@ export const Audi = [
     amountUsed: 12,
     amountNew: 1,
     instalment: 4036,
-    imageCar:
-      "/src/utilities/img/Q5/SQ5Sportback/sq5side.png",
+    imageCar: "/src/utilities/img/Q5/SQ5Sportback/sq5side.png",
   },
 
   //   Q7
@@ -664,8 +657,7 @@ export const Audi = [
     amountUsed: 40,
     amountNew: 29,
     instalment: 3462,
-    imageCar:
-      "/src/utilities/img/Q7/Q7/q7.png",
+    imageCar: "/src/utilities/img/Q7/Q7/q7.png",
   },
   {
     body: ["Suv", "plugin", "Alternative"],
@@ -675,8 +667,7 @@ export const Audi = [
     amountUsed: 3,
     amountNew: 1,
     instalment: 4050,
-    imageCar:
-      "/src/utilities/img/Q7/Q7TFSIe/q7eside.png",
+    imageCar: "/src/utilities/img/Q7/Q7TFSIe/q7eside.png",
   },
   {
     body: ["Suv"],
@@ -686,8 +677,7 @@ export const Audi = [
     amountUsed: 26,
     amountNew: 7,
     instalment: 5166,
-    imageCar:
-      "/src/utilities/img/Q7/SQ7/sq7side.png",
+    imageCar: "/src/utilities/img/Q7/SQ7/sq7side.png",
   },
 
   //   Q8
@@ -700,8 +690,7 @@ export const Audi = [
     amountUsed: 57,
     amountNew: 12,
     instalment: 3858,
-    imageCar:
-      "/src/utilities/img/Q8/Q8/q8.png",
+    imageCar: "/src/utilities/img/Q8/Q8/q8.png",
   },
   {
     body: ["Suv", "plugin", "Alternative"],
@@ -711,8 +700,7 @@ export const Audi = [
     amountUsed: undefined,
     amountNew: undefined,
     instalment: 4911,
-    imageCar:
-      "/src/utilities/img/Q8/Q8TFSIe/q8eside.png",
+    imageCar: "/src/utilities/img/Q8/Q8TFSIe/q8eside.png",
   },
   {
     body: ["Suv", "Sport"],
@@ -722,8 +710,7 @@ export const Audi = [
     amountUsed: 15,
     amountNew: 1,
     instalment: 5424,
-    imageCar:
-      "/src/utilities/img/Q8/SQ8/sq8side.png",
+    imageCar: "/src/utilities/img/Q8/SQ8/sq8side.png",
   },
   {
     body: ["Suv", "Sport"],
@@ -733,8 +720,7 @@ export const Audi = [
     amountUsed: 7,
     amountNew: 0,
     instalment: 8748,
-    imageCar:
-      "/src/utilities/img/Q8/RSQ8/rsq8side.png",
+    imageCar: "/src/utilities/img/Q8/RSQ8/rsq8side.png",
   },
 
   //   TT
@@ -748,8 +734,7 @@ export const Audi = [
     amountUsed: 14,
     amountNew: 0,
     instalment: 2586,
-    imageCar:
-      "/src/utilities/img/TT/TTCoupe/tt.png",
+    imageCar: "/src/utilities/img/TT/TTCoupe/tt.png",
   },
   {
     body: ["Coupe", "Sport"],
@@ -759,8 +744,7 @@ export const Audi = [
     amountUsed: 11,
     amountNew: 0,
     instalment: 3172,
-    imageCar:
-      "/src/utilities/img/TT/TTSCoupe/ttsside.png",
+    imageCar: "/src/utilities/img/TT/TTSCoupe/ttsside.png",
   },
 
   //   R8
@@ -773,8 +757,7 @@ export const Audi = [
     amountUsed: 1,
     amountNew: 0,
     instalment: undefined,
-    imageCar:
-      "/src/utilities/img/R8/R8CoupeV10Quattro/r8.png",
+    imageCar: "/src/utilities/img/R8/R8CoupeV10Quattro/r8.png",
   },
   {
     body: ["Coupe", "Sport"],
@@ -784,8 +767,7 @@ export const Audi = [
     amountUsed: 0,
     amountNew: 0,
     instalment: undefined,
-    imageCar:
-      "/src/utilities/img/R8/R8CoupeV10RWD/r8side.png",
+    imageCar: "/src/utilities/img/R8/R8CoupeV10RWD/r8side.png",
   },
   {
     body: ["Coupe", "Sport", "Spyder"],
@@ -795,8 +777,7 @@ export const Audi = [
     amountUsed: 0,
     amountNew: 0,
     instalment: undefined,
-    imageCar:
-      "/src/utilities/img/R8/R8SpyderV10Quattro/r8spyderside.png",
+    imageCar: "/src/utilities/img/R8/R8SpyderV10Quattro/r8spyderside.png",
   },
   {
     body: ["Coupe", "Sport", "Spyder"],
@@ -806,8 +787,7 @@ export const Audi = [
     amountUsed: 1,
     amountNew: 0,
     instalment: undefined,
-    imageCar:
-      "/src/utilities/img/R8/R8SpyderRWD/r8spyderside.png",
+    imageCar: "/src/utilities/img/R8/R8SpyderRWD/r8spyderside.png",
   },
   {
     body: ["Coupe", "Sport"],
@@ -817,7 +797,6 @@ export const Audi = [
     amountUsed: undefined,
     amountNew: undefined,
     instalment: undefined,
-    imageCar:
-      "/src/utilities/img/R8/R8GT/r8gtside.png",
+    imageCar: "/src/utilities/img/R8/R8GT/r8gtside.png",
   },
 ];
