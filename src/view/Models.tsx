@@ -1,13 +1,11 @@
 import Nav from "./Nav";
 import React, { useContext, useState } from "react";
 import { ThemeContext } from "../utilities/style/ThemeContext";
-import { themeDark, themeLight } from "../utilities/style/theme";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import "../index.css";
 import ModelsComponent from "../components/ModelsComponent";
 import Footer from "./Footer";
-import { Audi } from "../utilities/data/cars";
 import Filter from "../components/FilterModelsBodies";
 
 function Models() {
