@@ -114,21 +114,23 @@ export const CarouselOne = () => {
       >
         <Item
           filter="e-tron"
-          imageSide="/src/utilities/img/e-tron/e-tronGT/etrongt.webp"
-          imageFront="/src/utilities/img/e-tron/e-tronGT/side.webp"
+          imageSide="/public/img/e-tron/e-tronGT/etrongt.webp"
+          imageFront="/public/img/e-tron/e-tronGT/side.webp"
           title="e-tron"
         />
         <Item
           filter="Q8 e-tron"
           title="Q8 e-tron"
-          imageFront="/src/utilities/img/Q8-etron/Q8e-tron/q8e-tronside.webp"
-          imageSide="/src/utilities/img/Q8-etron/Q8e-tron/q8e-tron.webp"
+          imageFront="/public/img/Q8-etron/Q8e-tron/q8e-tronside.webp"
+          imageSide="/public/img/Q8-etron/Q8e-tron/q8e-tron.webp"
         />
         <Item
           filter="A1"
           title="A1"
-          imageSide="/src/utilities/img/A1/A1.webp"
-          imageFront="/src/utilities/img/A1/A1side.webp"
+          imageSide="/public/img/A1/A1.webp"
+          imageFront="/public/img/A1/A1side.webp"
+          // imageSide="/src/utilities/img/A1/A1.webp"
+          // imageFront="/src/utilities/img/A1/A1side.webp"
         />
         <Item
           filter="A3"
