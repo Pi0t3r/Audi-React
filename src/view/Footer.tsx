@@ -18,7 +18,10 @@ const Item = ({ title, listItems }: iItem) => {
       {title}
       <div className="mt-6 tracking-normal">
         {listItems.map((item, index) => (
-          <li key={index} className="font-light cursor-pointer hover:text-neutral-400 transition-colors">
+          <li
+            key={index}
+            className="font-light cursor-pointer hover:text-neutral-400 transition-colors"
+          >
             {item}
           </li>
         ))}
@@ -168,16 +171,24 @@ function Footer() {
       <div className="mt-10 border-b-[1px] border-neutral-100/70 pb-5 mx-4">
         <ul className="flex flex-row justify-between px-14">
           <li>
-            <FacebookIcon />
+            <a href="https://www.facebook.com/audiofficial/" target="_blank">
+              <FacebookIcon />
+            </a>
           </li>
           <li>
-            <InstagramIcon />
+            <a target="_blank" href="https://www.instagram.com/audi/">
+              <InstagramIcon />
+            </a>
           </li>
           <li>
-            <YouTubeIcon />
+            <a href="https://www.youtube.com/@Audi">
+              <YouTubeIcon />
+            </a>
           </li>
           <li>
-            <Twitter />
+            <a href="https://twitter.com/AudiOfficial" target="_blank">
+              <Twitter />
+            </a>
           </li>
         </ul>
       </div>

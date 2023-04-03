@@ -55,7 +55,7 @@ const Card = ({ filter }: iModel) => {
               )}
             </div>
             <div>
-              <img src={item.imageCar} alt={item.alt} />
+              <img src={item.imageCar} alt={item.alt} className="h-26"/>
             </div>
             <div className="text-center mt-3">
               <button
@@ -85,7 +85,7 @@ const Model = ({ background, textImage, filter }: iModel) => {
             />
             <img
               src={background}
-              className="absolute top-10 -right-1/3 scale-125"
+              className="absolute -right-1/3 h-26"
             />
           </div>
           <div className="h-[30rem]">

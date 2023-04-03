@@ -21,15 +21,15 @@ export const responsive = {
     items: 4,
   },
 };
-
-interface iItem {
-  filter: string;
-  imageFront: string;
-  imageSide: string;
+interface iItemBody {
+  body?: string;
   title: string;
+  filter?: string;
+  imageFront: string;
+  imageBack?: string;
+  imageSide?: string;
 }
-
-const Item = ({ filter, imageFront, imageSide, title }: iItem) => {
+const Item = ({ filter, imageFront, imageSide, title }: iItemBody) => {
   const [expand, setExpand] = useState<boolean>(false);
   const handleClick = () => {
     setExpand(!expand);
@@ -38,14 +38,26 @@ const Item = ({ filter, imageFront, imageSide, title }: iItem) => {
   return (
     <>
       <div>
-        <img onClick={handleClick} src={expand ? imageFront : imageSide} />
-        <p className="legend font-medium text-lg">{title}</p>
+        <picture>
+          <img
+            onClick={handleClick}
+            src={expand ? imageFront : imageSide}
+            className="h-26"
+          />
+        </picture>
+        <p
+          className={`legend text-lg ${
+            expand ? "font-bold border-b-[1px] border-black" : "font-medium"
+          }`}
+        >
+          {title}
+        </p>
         {filterAudi.map((item) => (
           <>
             {expand && (
               <div className="relative">
                 <div>
-                  <img src={item.imageCar} />
+                  <img src={item.imageCar} className="h-26" />
                   <p className="text-center">{item.name}</p>
                 </div>
               </div>
@@ -56,29 +68,36 @@ const Item = ({ filter, imageFront, imageSide, title }: iItem) => {
     </>
   );
 };
-interface iBody {
-  body: string;
-  title: string;
-  imageFront: string;
-  imageBack: string;
-}
-const Body = ({ body, imageFront, imageBack, title }: iBody) => {
+
+const Body = ({ body, imageFront, imageBack, title }: iItemBody) => {
   const [expand, setExpand] = useState<boolean>(false);
   const handleClick = () => {
     setExpand(!expand);
   };
-  const bodyFilter = Audi.filter((item) => item.body.includes(body));
+  const bodyFilter = Audi.filter((item) =>
+    body ? item.body.includes(body) : true
+  );
   return (
     <>
       <div>
-        <img onClick={handleClick} src={expand ? imageFront : imageBack} />
-        <p className="legend font-medium text-lg">{title}</p>
+        <img
+          onClick={handleClick}
+          src={expand ? imageFront : imageBack}
+          className="h-26"
+        />
+        <p
+          className={`legend text-lg ${
+            expand ? "font-bold border-b-[1px] border-black" : "font-medium"
+          }`}
+        >
+          {title}
+        </p>
         {bodyFilter.map((item) => (
           <>
             {expand && (
               <div className="relative">
                 <div>
-                  <img src={item.imageCar} />
+                  <img loading="lazy" src={item.imageCar} className="h-26" />
                   <p className="text-center">{item.name}</p>
                 </div>
               </div>
@@ -103,7 +122,6 @@ export const CarouselOne = () => {
         autoPlaySpeed={5000}
         keyBoardControl={true}
         transitionDuration={500}
-        removeArrowOnDeviceType={["mobile"]}
       >
         <Item
           filter="e-tron"
@@ -226,7 +244,6 @@ export const CarouselTwo = () => {
         autoPlaySpeed={5000}
         keyBoardControl={true}
         transitionDuration={500}
-        removeArrowOnDeviceType={["mobile"]}
       >
         <Body
           body="Sportback"
