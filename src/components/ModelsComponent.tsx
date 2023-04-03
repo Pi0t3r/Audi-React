@@ -85,15 +85,15 @@ const Model = ({ background, textImage, filter }: iModel) => {
         <div className="absolute w-full h-1/3">
           <div className="relative w-full h-full overflow-x-hidden">
             <img
-              loading="lazy"
               src={textImage}
               className="absolute top-0 scale-75 -left-[15%]"
             />
-            <img
-              loading="lazy"
-              src={background}
-              className="absolute -right-1/3 h-26"
-            />
+            <picture>
+              <img
+                src={background}
+                className="absolute -right-1/3 h-26 scale-125"
+              />
+            </picture>
           </div>
           <div className="h-[30rem]">
             <Card filter={filter} />
@@ -108,87 +108,87 @@ const ModelsComponent = ({ setTheme }: { setTheme: boolean }) => {
   return (
     <div>
       <Model
-        background="/src/utilities/img/e-tron/e-tronGT/side.png"
+        background="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/f83rj7/2022.png?imwidth=850"
         textImage="https://www.audi.pl/bin/nemo.static.20230323062727/cms4i-nemo-mofi/assets/img/modelfinder-2/etrongt.svg"
         filter="e-tron"
       />
       <Model
-        background="/src/utilities/img/Q8-etron/Q8e-tron/q8e-tronside.png"
+        background="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/gegcvc/2024.png?imwidth=850"
         textImage="https://www.audi.pl/bin/nemo.static.20230323062727/cms4i-nemo-mofi/assets/img/modelfinder-2/q8etron.svg"
         filter="Q8 e-tron"
       />
       <Model
-        background="/src/utilities/img/A1/A1side.png"
+        background="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/gbaasg/2023.png?imwidth=850"
         textImage="https://www.audi.pl/bin/nemo.static.20230323062727/cms4i-nemo-mofi/assets/img/modelfinder-2/a1.svg"
         filter="A1"
       />
       <Model
-        background="/src/utilities/img/A3/A3sportback/a3side.png"
+        background="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/8yaar/2021.png?imwidth=850"
         textImage="https://www.audi.pl/bin/nemo.static.20230323062727/cms4i-nemo-mofi/assets/img/modelfinder-2/a3.svg"
         filter="A3"
       />
       <Model
-        background="/src/utilities/img/A4/A4Avant/avantFront.png"
+        background="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/8wc/2023.png?imwidth=850"
         textImage="https://www.audi.pl/bin/nemo.static.20230323062727/cms4i-nemo-mofi/assets/img/modelfinder-2/a4.svg"
         filter="A4"
       />
       <Model
-        background="/src/utilities/img/A5/A5Coupe/a5side.png"
+        background="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/f5pbzg/2023.png?imwidth=850"
         textImage="https://www.audi.pl/bin/nemo.static.20230323062727/cms4i-nemo-mofi/assets/img/modelfinder-2/a5.svg"
         filter="A5"
       />
       <Model
-        background="/src/utilities/img/A6/A6Limousine/a6side.png"
+        background="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/4a2a/2023.png?imwidth=850"
         textImage="https://www.audi.pl/bin/nemo.static.20230323062727/cms4i-nemo-mofi/assets/img/modelfinder-2/a6.svg"
         filter="A6"
       />
       <Model
-        background="/src/utilities/img/A7/A7Sportback/a7side.png"
+        background="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/4ka02y/2023.png?imwidth=850"
         textImage="https://www.audi.pl/bin/nemo.static.20230323062727/cms4i-nemo-mofi/assets/img/modelfinder-2/a7.svg"
         filter="A7"
       />
       <Model
-        background="/src/utilities/img/A8/A8/a8side.png"
+        background="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/4nc0da/2022.png?imwidth=850"
         textImage="https://www.audi.pl/bin/nemo.static.20230323062727/cms4i-nemo-mofi/assets/img/modelfinder-2/a8.svg"
         filter="A8"
       />
       <Model
-        background="/src/utilities/img/Q2/Q2/q2side.png"
+        background="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/gagbzg/2023.png?imwidth=850"
         textImage="https://www.audi.pl/bin/nemo.static.20230323062727/cms4i-nemo-mofi/assets/img/modelfinder-2/q2.svg"
         filter="Q2"
       />
       <Model
-        background="/src/utilities/img/Q3/Q3/q3side.png"
+        background="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/f3bbky/2023.png?imwidth=850"
         textImage="https://www.audi.pl/bin/nemo.static.20230323062727/cms4i-nemo-mofi/assets/img/modelfinder-2/q3.svg"
         filter="Q3"
       />
       <Model
-        background="/src/utilities/img/Q4e-tron/Q4e-tron/q4e-tronside.png"
+        background="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/f4b/2022.png?imwidth=850"
         textImage="https://www.audi.pl/bin/nemo.static.20230323062727/cms4i-nemo-mofi/assets/img/modelfinder-2/q4.svg"
         filter="Q4"
       />
       <Model
-        background="/src/utilities/img/Q5/Q5/q5side.png"
+        background="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/fygbuy/2023.png?imwidth=850"
         textImage="https://www.audi.pl/bin/nemo.static.20230323062727/cms4i-nemo-mofi/assets/img/modelfinder-2/q5.svg"
         filter="Q5"
       />
       <Model
-        background="/src/utilities/img/Q7/Q7/q7side.png"
+        background="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/4mgcb2/2023.png?imwidth=850"
         textImage="https://www.audi.pl/bin/nemo.static.20230323062727/cms4i-nemo-mofi/assets/img/modelfinder-2/q7.svg"
         filter="Q7"
       />
       <Model
-        background="/src/utilities/img/Q8/Q8/q8side.png"
+        background="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/4mn0b2/2023.png?imwidth=850"
         textImage="https://www.audi.pl/bin/nemo.static.20230323062727/cms4i-nemo-mofi/assets/img/modelfinder-2/q8.svg"
         filter="Q8"
       />
       <Model
-        background="/src/utilities/img/TT/TTCoupe/ttside.png"
+        background="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/fvp08y/2023.png?imwidth=850"
         textImage="https://www.audi.pl/bin/nemo.static.20230323062727/cms4i-nemo-mofi/assets/img/modelfinder-2/tt.svg"
         filter="TT"
       />
       <Model
-        background="/src/utilities/img/R8/R8CoupeV10Quattro/r8side.png"
+        background="https://mediaservice.audi.com/media/live/50900/fly1400x601n1/4sprde/2022.png?imwidth=850"
         textImage="https://www.audi.pl/bin/nemo.static.20230323062727/cms4i-nemo-mofi/assets/img/modelfinder-2/r8.svg"
         filter="R8"
       />

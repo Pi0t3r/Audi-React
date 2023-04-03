@@ -51,7 +51,7 @@ function Models() {
           </div>
         )}
         <div
-          className={`w-full ${isDarkMode ? "bg-[#1c1c1c]" : "bg-[#f2f2f2]"}`}
+          className={`w-full ${isDarkMode ? "bg-[#1c1c1c]" : "bg-[#f2f2f2]"} pb-10`}
         >
           <ModelsComponent setTheme={isDarkMode} />
         </div>
