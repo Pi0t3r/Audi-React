@@ -36,7 +36,7 @@ function Main() {
   }: iButton) => {
     return (
       <button
-        className={`${border} ${background} ${textColor} w-full ${height} ${margin} font-medium text-xl cursor-pointer md:w-[49%] md:h-16`}
+        className={`${border} ${background} ${textColor} w-full ${height} ${margin} font-medium text-xl cursor-pointer md:w-[49%] md:h-16 p-1`}
       >
         {text}
       </button>

@@ -6,18 +6,23 @@ import "../index.css";
 import { useContext } from "react";
 import { ThemeContext } from "../utilities/style/ThemeContext";
 import { themeDark, themeLight } from "../utilities/style/theme";
+import { Link } from "react-router-dom";
 
 interface iModel {
   background?: string;
   image?: string;
   filter?: string;
   textImage?: string;
+  text?: () => void;
 }
 
-const Card = ({ filter }: iModel) => {
+export const Card = ({ filter }: iModel) => {
   const filterAudi = Audi.filter((name) => name.model === filter);
   const { isDarkMode, setIsDarkMode } = useContext(ThemeContext);
-
+  
+  const showCar = (car: any) => {
+    console.log(`you clicked in ${car.name} it cost ${car.price} PLN`);
+  };
   return (
     <>
       <Carousel
@@ -34,6 +39,7 @@ const Card = ({ filter }: iModel) => {
       >
         {filterAudi.map((item) => (
           <div
+            key={item.name}
             style={{
               backgroundColor: isDarkMode
                 ? themeDark.colors.blackBackground
@@ -67,8 +73,13 @@ const Card = ({ filter }: iModel) => {
                 className={`border-[2px] w-11/12 text-lg p-3 ease-in duration-300 ${
                   isDarkMode ? "border-white" : "border-black"
                 }`}
+                onClick={() => {
+                  console.log("Clicked item:", item);
+                }}
               >
-                Poznaj model
+                {/* <Link to={`/Car`} onClick={() => showCar(item)}>
+                  Poznaj model
+                </Link> */}
               </button>
             </div>
           </div>

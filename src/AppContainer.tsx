@@ -4,6 +4,7 @@ import { ThemeContext } from "./utilities/style/ThemeContext";
 import { themeLight, themeDark } from "./utilities/style/theme";
 import App from "./App";
 import Models from "./view/Models";
+import Car from "./view/Car";
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
   {
     path: "/Models",
     element: <Models />,
+  },
+  {
+    path: "/Car",
+    element: <Car />,
   },
 ]);
 

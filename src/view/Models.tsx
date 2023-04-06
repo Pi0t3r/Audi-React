@@ -10,7 +10,7 @@ import Filter from "../components/FilterModelsBodies";
 
 function Models() {
   const { isDarkMode, setIsDarkMode } = useContext(ThemeContext);
-  const [expand, setExpand] = useState(false);
+  const [expand, setExpand] = useState<boolean>(false);
   const handleClick = () => {
     setExpand(!expand);
   };
@@ -51,7 +51,9 @@ function Models() {
           </div>
         )}
         <div
-          className={`w-full ${isDarkMode ? "bg-[#1c1c1c]" : "bg-[#f2f2f2]"} pb-10`}
+          className={`w-full ${
+            isDarkMode ? "bg-[#1c1c1c]" : "bg-[#f2f2f2]"
+          } pb-10`}
         >
           <ModelsComponent setTheme={isDarkMode} />
         </div>
@@ -62,4 +64,3 @@ function Models() {
 }
 
 export default Models;
-
