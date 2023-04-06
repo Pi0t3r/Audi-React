@@ -16,7 +16,7 @@ const router = createBrowserRouter([
     element: <Models />,
   },
   {
-    path: "/Car",
+    path: "/Car/:carID",
     element: <Car />,
   },
 ]);

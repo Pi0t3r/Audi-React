@@ -1,6 +1,7 @@
 export const Audi = [
   //   Q8 E-TRON
   {
+    id: 1,
     body: ["Suv", "Electric", "Alternative"],
     model: "Q8 e-tron",
     name: "Q8 e-tron",
@@ -10,9 +11,9 @@ export const Audi = [
     instalment: 4381,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/gegcvc/2024.png?imwidth=291",
-    alt: "view card Q8 e-tron side",
   },
   {
+    id: 2,
     body: ["Sportback", "Electric", "Suv", "Alternative"],
     model: "Q8 e-tron",
     name: "Q8 Sportback e-tron",
@@ -20,12 +21,12 @@ export const Audi = [
     amountUsed: 1,
     amountNew: 3,
     instalment: 4524,
-    alt: "view card Q8 Sportback e-tron side",
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/getcvc/2024.png?imwidth=291",
   },
 
   {
+    id: 3,
     body: ["Suv", "Electric", "Sport", "Alternative"],
     model: "Q8 e-tron",
     name: "SQ8 e-tron",
@@ -35,9 +36,9 @@ export const Audi = [
     instalment: undefined,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/gegswc/2024.png?imwidth=291",
-    alt: "view card SQ8 e-tron side",
   },
   {
+    id: 4,
     body: ["Sportback", "Sport", "Suv", "Alternative"],
     model: "Q8 e-tron",
     name: "SQ8 Sportback e-tron",
@@ -47,10 +48,10 @@ export const Audi = [
     instalment: undefined,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/getswc/2024.png?imwidth=291",
-    alt: "view card SQ8 Sportback e-tron side",
   },
   // E-TRON GT
   {
+    id: 5,
     body: ["Electric", "Alternative"],
     model: "e-tron",
     name: "e-tron GT quattro",
@@ -60,10 +61,9 @@ export const Audi = [
     instalment: 5943,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f83rj7/2022.png?imwidth=291",
-
-    alt: "view card e-tron GT quattro side",
   },
   {
+    id: 6,
     body: ["Sport", "Electric", "Alternative"],
     model: "e-tron",
     name: "RS e-tron GT",
@@ -73,11 +73,11 @@ export const Audi = [
     instalment: 8007,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f83rh7/2022.png?imwidth=291",
-    alt: "view card RS e-tron GT side",
   },
   //   A1
 
   {
+    id: 7,
     body: ["Sportback", "Compact"],
     model: "A1",
     name: "A1 Sportback",
@@ -87,12 +87,12 @@ export const Audi = [
     instalment: 1125,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/gbaasg/2023.png?imwidth=291",
-    alt: "view card A1 Sportback side",
   },
 
   //   A3
 
   {
+    id: 8,
     body: ["Compact", "Sportback"],
     model: "A3",
     name: "A3 Sportback",
@@ -100,11 +100,11 @@ export const Audi = [
     amountUsed: 16,
     amountNew: 16,
     instalment: 1183,
-    alt: "view card A3 Sportback side",
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8yaar/2021.png?imwidth=550",
   },
   {
+    id: 9,
     body: ["Sportback", "plugin", "Compact", "Alternative"],
     model: "A3",
     name: "A3 Sportback TFSI e",
@@ -116,6 +116,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8yabpx/2021.png?imwidth=550",
   },
   {
+    id: 10,
     body: ["Limousine"],
     model: "A3",
     name: "A3 Limousine",
@@ -127,6 +128,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8ysar/2021.png?imwidth=550",
   },
   {
+    id: 11,
     body: ["Sportback", "Sport", "Compact"],
     model: "A3",
     name: "S3 Sportback",
@@ -138,6 +140,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8yas3/2021.png?imwidth=550",
   },
   {
+    id: 12,
     body: ["Limousine", "Sport"],
     model: "A3",
     name: "S3 Limousine",
@@ -149,6 +152,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8yss3/2021.png?imwidth=550",
   },
   {
+    id: 13,
     body: ["Sportback", "Sport", "Compact"],
     model: "A3",
     name: "RS3 Sportback",
@@ -160,6 +164,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8yarwy/2022.png?imwidth=550",
   },
   {
+    id: 14,
     body: ["Limousine", "Sport"],
     model: "A3",
     name: "RS3 Limousine",
@@ -174,6 +179,7 @@ export const Audi = [
   //   A4
 
   {
+    id: 15,
     body: ["Limousine"],
     model: "A4",
     name: "A4 Limousine",
@@ -185,6 +191,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8wc/2023.png?imwidth=550",
   },
   {
+    id: 16,
     body: ["Avant"],
     model: "A4",
     name: "A4 Avant",
@@ -196,6 +203,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8wd/2023.png?imwidth=550",
   },
   {
+    id: 17,
     body: ["allroad"],
     model: "A4",
     name: "A4 allroad quattro",
@@ -207,6 +215,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8wj/2023.png?imwidth=550",
   },
   {
+    id: 18,
     body: ["Limousine", "Sport"],
     model: "A4",
     name: "S4 Limousine",
@@ -218,6 +227,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8wcs/2023.png?imwidth=550",
   },
   {
+    id: 19,
     body: ["Avant", "Sport"],
     model: "A4",
     name: "S4 Avant",
@@ -229,6 +239,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8wds/2023.png?imwidth=550",
   },
   {
+    id: 20,
     body: ["Avant", "Sport"],
     model: "A4",
     name: "RS4 Avant",
@@ -242,6 +253,7 @@ export const Audi = [
 
   //   A5
   {
+    id: 21,
     body: ["Coupe"],
     model: "A5",
     name: "A5 Coupe",
@@ -253,6 +265,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f5pbzg/2023.png?imwidth=550",
   },
   {
+    id: 22,
     body: ["Sportback"],
     model: "A5",
     name: "A5 Sportback",
@@ -264,6 +277,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f5fbzg/2023.png?imwidth=550",
   },
   {
+    id: 23,
     body: ["Coupe", "Sport"],
     model: "A5",
     name: "S5 Coupe",
@@ -275,6 +289,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f5ps5a/2023.png?imwidth=550",
   },
   {
+    id: 24,
     body: ["Sportback", "Sport"],
     model: "A5",
     name: "S5 Sportback",
@@ -286,6 +301,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f5fs5a/2023.png?imwidth=550",
   },
   {
+    id: 25,
     body: ["Coupe", "Sport"],
     model: "A5",
     name: "RS5 Coupe",
@@ -297,6 +313,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f5prxa/2023.png?imwidth=550",
   },
   {
+    id: 26,
     body: ["Sportback", "Sport"],
     model: "A5",
     name: "RS5 Sportback",
@@ -311,6 +328,7 @@ export const Audi = [
   // A6
 
   {
+    id: 27,
     body: ["Limousine"],
     model: "A6",
     name: "A6 Limousine",
@@ -322,6 +340,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4a2a/2023.png?imwidth=550",
   },
   {
+    id: 28,
     body: ["Limousine", "plugin", "Alternative"],
     model: "A6",
     name: "A6 Limousine TFSI e",
@@ -333,6 +352,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4a2bqy/2023.png?imwidth=550",
   },
   {
+    id: 29,
     body: ["Avant"],
     model: "A6",
     name: "A6 Avant",
@@ -344,6 +364,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4a5a2/2023.png?imwidth=550",
   },
   {
+    id: 30,
     body: ["Avant", "plugin", "Alternative"],
     model: "A6",
     name: "A6 Avant TFSI e",
@@ -355,6 +376,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4a5bqy/2023.png?imwidth=550",
   },
   {
+    id: 31,
     body: ["allroad"],
     model: "A6",
     name: "A6 allroad quattro",
@@ -366,6 +388,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4aha/2023.png?imwidth=550",
   },
   {
+    id: 32,
     body: ["Avant", "Sport"],
     model: "A6",
     name: "S6 Avant",
@@ -377,6 +400,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4a5sv/2023.png?imwidth=550",
   },
   {
+    id: 33,
     body: ["Limousine", "Sport"],
     model: "A6",
     name: "S6 Limousine",
@@ -388,6 +412,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4a2sv/2023.png?imwidth=550",
   },
   {
+    id: 34,
     body: ["Avant", "Sport"],
     model: "A6",
     name: "RS6 Avant",
@@ -399,6 +424,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4a5rca/2021.png?imwidth=550",
   },
   {
+    id: 35,
     body: ["Avant", "Sport"],
     model: "A6",
     name: "RS6 Avant performance",
@@ -413,6 +439,7 @@ export const Audi = [
   //   A7
 
   {
+    id: 36,
     body: ["Sportback"],
     model: "A7",
     name: "A7 Sportback",
@@ -424,6 +451,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4ka02y/2023.png?imwidth=550",
   },
   {
+    id: 37,
     body: ["plugin", "Sportback", "Alternative"],
     model: "A7",
     name: "A7 Sportback TFSI e",
@@ -435,6 +463,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4ka0qy/2023.png?imwidth=550",
   },
   {
+    id: 38,
     body: ["Sportback", "Sport"],
     model: "A7",
     name: "S7 Sportback",
@@ -446,6 +475,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4kaspa/2023.png?imwidth=550",
   },
   {
+    id: 39,
     body: ["Sportback", "Sport"],
     model: "A7",
     name: "RS7 Sportback",
@@ -457,6 +487,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4karca/2023.png?imwidth=550",
   },
   {
+    id: 40,
     body: ["Sportback", "Sport"],
     model: "A7",
     name: "RS7 Sportback performance",
@@ -471,6 +502,7 @@ export const Audi = [
   //   A8
 
   {
+    id: 41,
     body: ["Limousine"],
     model: "A8",
     name: "A8",
@@ -482,6 +514,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4nc0da/2022.png?imwidth=550",
   },
   {
+    id: 42,
     body: ["Limousine", "plugin", "Alternative"],
     model: "A8",
     name: "A8 TFSI e",
@@ -493,6 +526,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4nc0ha/2022.png?imwidth=550",
   },
   {
+    id: 43,
     body: ["Limousine"],
     model: "A8",
     name: "A8 L",
@@ -504,6 +538,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4nl0da/2022.png?imwidth=550",
   },
   {
+    id: 44,
     body: ["Limousine", "plugin", "Alternative"],
     model: "A8",
     name: "A8 L TFSI e",
@@ -515,6 +550,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4nl0ha/2022.png?imwidth=550",
   },
   {
+    id: 45,
     body: ["Limousine", "Sport"],
     model: "A8",
     name: "S8 TFSI",
@@ -529,6 +565,7 @@ export const Audi = [
   //   Q2
 
   {
+    id: 46,
     body: ["Suv"],
     model: "Q2",
     name: "Q2",
@@ -543,6 +580,7 @@ export const Audi = [
   //   Q3
 
   {
+    id: 47,
     body: ["Suv"],
     model: "Q3",
     name: "Q3",
@@ -554,6 +592,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f3bbky/2023.png?imwidth=550",
   },
   {
+    id: 48,
     body: ["Suv", "plugin", "Alternative"],
     model: "Q3",
     name: "Q3 TFSI e",
@@ -565,6 +604,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f3bapx/2023.png?imwidth=550",
   },
   {
+    id: 49,
     body: ["Sportback", "Suv"],
     model: "Q3",
     name: "Q3 Sportback",
@@ -576,6 +616,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f3ncky/2023.png?imwidth=550",
   },
   {
+    id: 50,
     body: ["Sportback", "plugin", "Suv"],
     model: "Q3",
     name: "Q3 Sportback TFSI e",
@@ -587,6 +628,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f3napx/2023.png?imwidth=550",
   },
   {
+    id: 51,
     body: ["Suv", "Sport"],
     model: "Q3",
     name: "RSQ3",
@@ -598,6 +640,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f3brwy/2023.png?imwidth=550",
   },
   {
+    id: 52,
     body: ["Sportback", "Sport", "Suv"],
     model: "Q3",
     name: "RSQ3 Sportback",
@@ -612,6 +655,7 @@ export const Audi = [
   //   Q4 e-tron
 
   {
+    id: 53,
     body: ["Suv", "Electric", "Alternative"],
     model: "Q4",
     name: "Q4 e-tron",
@@ -623,6 +667,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f4b/2022.png?imwidth=550",
   },
   {
+    id: 54,
     body: ["Sportback", "Electric", "Alternative"],
     model: "Q4",
     name: "Q4 Sportback e-tron",
@@ -637,6 +682,7 @@ export const Audi = [
   //   Q5
 
   {
+    id: 55,
     body: ["Suv"],
     model: "Q5",
     name: "Q5",
@@ -648,6 +694,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fygbuy/2023.png?imwidth=550",
   },
   {
+    id: 56,
     body: ["Suv", "plugin", "Alternative"],
     model: "Q5",
     name: "Q5 TFSI e",
@@ -659,6 +706,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fygb9y/2023.png?imwidth=550",
   },
   {
+    id: 57,
     body: ["Sportback", "Suv"],
     model: "Q5",
     name: "Q5 Sportback",
@@ -670,6 +718,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fytbuy/2023.png?imwidth=550",
   },
   {
+    id: 58,
     body: ["Sportback", "Suv", "plugin", "Alternative"],
     model: "Q5",
     name: "Q5 Sportback TFSI e",
@@ -681,6 +730,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fytb9y/2023.png?imwidth=550",
   },
   {
+    id: 59,
     body: ["Suv", "Sport"],
     model: "Q5",
     name: "SQ5 TDI",
@@ -692,6 +742,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fygs5a/2023.png?imwidth=550",
   },
   {
+    id: 60,
     body: ["Sportback", "Suv", "Sport"],
     model: "Q5",
     name: "SQ5 Sportback",
@@ -706,6 +757,7 @@ export const Audi = [
   //   Q7
 
   {
+    id: 61,
     body: ["Suv"],
     model: "Q7",
     name: "Q7",
@@ -717,6 +769,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4mgcb2/2023.png?imwidth=550",
   },
   {
+    id: 62,
     body: ["Suv", "plugin", "Alternative"],
     model: "Q7",
     name: "Q7 TFSI e",
@@ -728,6 +781,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4mgcy3/2023.png?imwidth=550",
   },
   {
+    id: 63,
     body: ["Suv"],
     model: "Q7",
     name: "SQ7",
@@ -742,6 +796,7 @@ export const Audi = [
   //   Q8
 
   {
+    id: 64,
     body: ["Suv"],
     model: "Q8",
     name: "Q8",
@@ -753,6 +808,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4mn0b2/2023.png?imwidth=550",
   },
   {
+    id: 65,
     body: ["Suv", "plugin", "Alternative"],
     model: "Q8",
     name: "Q8 TFSI e",
@@ -764,6 +820,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4mn0y3/2023.png?imwidth=550",
   },
   {
+    id: 66,
     body: ["Suv", "Sport"],
     model: "Q8",
     name: "SQ8",
@@ -775,6 +832,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4mnsw1/2023.png?imwidth=550",
   },
   {
+    id: 67,
     body: ["Suv", "Sport"],
     model: "Q8",
     name: "RSQ8",
@@ -789,6 +847,7 @@ export const Audi = [
   //   TT
 
   {
+    id: 68,
     body: ["Coupe"],
 
     model: "TT",
@@ -801,6 +860,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fvp08y/2023.png?imwidth=550",
   },
   {
+    id: 69,
     body: ["Coupe", "Sport"],
     model: "TT",
     name: "TTS Coupe",
@@ -815,6 +875,7 @@ export const Audi = [
   //   R8
 
   {
+    id: 70,
     body: ["Coupe", "Sport"],
     model: "R8",
     name: "R8 Coupe V10 performance quattro",
@@ -826,6 +887,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4sprde/2022.png?imwidth=550",
   },
   {
+    id: 71,
     body: ["Coupe", "Sport"],
     model: "R8",
     name: "R8 Coupe V10 performance RWD",
@@ -837,6 +899,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4spref/2022.png?imwidth=550",
   },
   {
+    id: 72,
     body: ["Coupe", "Sport", "Spyder"],
     model: "R8",
     name: "R8 Spyder V10 performance quattro",
@@ -848,6 +911,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4srrde/2022.png?imwidth=550",
   },
   {
+    id: 73,
     body: ["Coupe", "Sport", "Spyder"],
     model: "R8",
     name: "R8 Spyder V10 performance RWD",
@@ -859,6 +923,7 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4srref/2022.png?imwidth=550",
   },
   {
+    id: 74,
     body: ["Coupe", "Sport"],
     model: "R8",
     name: "R8 GT",

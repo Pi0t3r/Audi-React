@@ -19,10 +19,6 @@ interface iModel {
 export const Card = ({ filter }: iModel) => {
   const filterAudi = Audi.filter((name) => name.model === filter);
   const { isDarkMode, setIsDarkMode } = useContext(ThemeContext);
-  
-  const showCar = (car: any) => {
-    console.log(`you clicked in ${car.name} it cost ${car.price} PLN`);
-  };
   return (
     <>
       <Carousel
@@ -77,9 +73,7 @@ export const Card = ({ filter }: iModel) => {
                   console.log("Clicked item:", item);
                 }}
               >
-                {/* <Link to={`/Car`} onClick={() => showCar(item)}>
-                  Poznaj model
-                </Link> */}
+                <Link to={`/Car/${item.id}`}>Poznaj model</Link>
               </button>
             </div>
           </div>
