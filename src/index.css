@@ -19,3 +19,15 @@ div.react-multi-carousel-list {
 button.react-multiple-carousel__arrow {
   z-index: 1;
 }
+div.bg-black.text-white ul.react-multi-carousel-dot-list {
+  position: absolute;
+  top: 60%;
+}
+div.mt-16 ul.react-multi-carousel-dot-list {
+  position: absolute;
+  top: 50%;
+}
+div.bg-white ul.react-multi-carousel-dot-list {
+  position: absolute;
+  top: 60%;
+}
