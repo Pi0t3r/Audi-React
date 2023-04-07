@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../index.css";
 import Carousel from "react-multi-carousel";
 import { Audi } from "../utilities/data/cars";
@@ -54,12 +55,20 @@ const Item = ({ filter, imageFront, imageSide, title }: iItemBody) => {
         {filterAudi.map((item) => (
           <>
             {expand && (
-              <div className="relative">
-                <div>
-                  <img loading="lazy" src={item.imageCar} className="h-26" />
-                  <p className="text-center">{item.name}</p>
-                </div>
-              </div>
+              <>
+                <Link to={`/Car/${item.id}`}>
+                  <div className="relative">
+                    <div>
+                      <img
+                        loading="lazy"
+                        src={item.imageCar}
+                        className="h-26"
+                      />
+                      <p className="text-center">{item.name}</p>
+                    </div>
+                  </div>
+                </Link>
+              </>
             )}
           </>
         ))}
@@ -95,12 +104,20 @@ const Body = ({ body, imageFront, imageBack, title }: iItemBody) => {
         {bodyFilter.map((item) => (
           <>
             {expand && (
-              <div className="relative">
-                <div>
-                  <img loading="lazy" src={item.imageCar} className="h-26" />
-                  <p className="text-center">{item.name}</p>
-                </div>
-              </div>
+              <>
+                <Link to={`/Car/${item.id}`}>
+                  <div className="relative">
+                    <div>
+                      <img
+                        loading="lazy"
+                        src={item.imageCar}
+                        className="h-26"
+                      />
+                      <p className="text-center">{item.name}</p>
+                    </div>
+                  </div>
+                </Link>
+              </>
             )}
           </>
         ))}

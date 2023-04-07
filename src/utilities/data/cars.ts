@@ -311,6 +311,33 @@ export const Audi = [
     instalment: 5883,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f5prxa/2023.png?imwidth=550",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/a5/rs-5-coupe/my-2022/NeMo-Derivative-Startpage/stage/1080x1920-rs5_2020_1510.jpg?imwidth=768",
+    fixedBackground:
+      "https://www.audi.pl/content/dam/nemo/models/a5/rs-5-coupe/my-2022/NeMo-Derivative-Startpage/parallax-teaser/748x2500-rs5_2020_1515.jpg?imwidth=748",
+    carousel: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a5/rs-5-coupe/my-2022/NeMo-Derivative-Startpage/product-highlight/1920x1920-rs5_2020_1513.jpg?imwidth=768",
+      titleInfo1: "Wrażenia z jazdy",
+      titleInfo2: "Wnętrze",
+      textInfo1:
+        " Optymalnie dostrojone: zawieszenie sportowe RS zwiększa stabilność i dynamikę jazdy na zakrętach.",
+      textInfo2:
+        "Wysokiej jakości materiały, najwyższej klasy wykonanie i technika formatu RS",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a5/rs-5-coupe/my-2022/NeMo-Derivative-Startpage/product-highlight/1920x1920-rs5_2020_1517.jpg?imwidth=768",
+    },
+    emission: "223-213",
+    consumption: "9,8-9,4",
+    cardTitle: "Dynamika - od startu do celu",
+    cardText:
+      "Gdy dynamika nabiera kształtu Audi RS 5 Coupé staje się synonimem najwyższych osiągów. Performance is an attitude.",
+    power: {
+      kilowatt: 331,
+      hp: 450,
+      speed: 3.9,
+      Nm: 600,
+    },
   },
   {
     id: 26,

@@ -13,7 +13,6 @@ interface iModel {
   image?: string;
   filter?: string;
   textImage?: string;
-  text?: () => void;
 }
 
 export const Card = ({ filter }: iModel) => {
@@ -60,7 +59,7 @@ export const Card = ({ filter }: iModel) => {
               <img
                 loading="lazy"
                 src={item.imageCar}
-                alt={item.alt}
+                alt={item.name}
                 className="h-26"
               />
             </div>
@@ -69,9 +68,6 @@ export const Card = ({ filter }: iModel) => {
                 className={`border-[2px] w-11/12 text-lg p-3 ease-in duration-300 ${
                   isDarkMode ? "border-white" : "border-black"
                 }`}
-                onClick={() => {
-                  console.log("Clicked item:", item);
-                }}
               >
                 <Link to={`/Car/${item.id}`}>Poznaj model</Link>
               </button>
