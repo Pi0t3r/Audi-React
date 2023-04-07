@@ -259,19 +259,23 @@ export const Audi = [
       image1:
         "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-e-tron/my-2023/product-highlight-gallery/SQ8e_2022_4555-L.jpg?imwidth=768",
       title1: "Doświadczenie wysokiej klasy",
-      text1: "Konsekwentny, sportowy charakter jest widoczny we wnętrzu samochodu. Opcjonalne fotele sportowe plus z przodu pokryte są szarą skórą Valcona z przeszyciami w kształcie rombów z emblematem S i podkreślają charakter Audi SQ8 e-tron.",
+      text1:
+        "Konsekwentny, sportowy charakter jest widoczny we wnętrzu samochodu. Opcjonalne fotele sportowe plus z przodu pokryte są szarą skórą Valcona z przeszyciami w kształcie rombów z emblematem S i podkreślają charakter Audi SQ8 e-tron.",
       image2:
         "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-e-tron/my-2023/product-highlight-gallery/SQ8e_2022_4503-L.jpg?imwidth=768",
       title2: "Sportowy charakter S",
-      text2: "Wysokiej jakości listwy ozdobne z aluminiowymi wstawkami lub opcjonalna tkanina w kolorze antracytowym podkreślają wysoką jakość i sportowy charakter. Dopełniają go pedały ze stali nierdzewnej.",
+      text2:
+        "Wysokiej jakości listwy ozdobne z aluminiowymi wstawkami lub opcjonalna tkanina w kolorze antracytowym podkreślają wysoką jakość i sportowy charakter. Dopełniają go pedały ze stali nierdzewnej.",
       image3:
         "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-e-tron/my-2023/product-highlight-gallery/SQ8e_2022_4491-v2-L.jpg?imwidth=768",
       title3: "E-wolucja napędu",
-      text3: "Elektryczny Torque Vectoring wspiera Cię w niemal każdej podróży. Ciesz się sportowym prowadzeniem, większą dynamiką i dodatkową kontrolą.",
+      text3:
+        "Elektryczny Torque Vectoring wspiera Cię w niemal każdej podróży. Ciesz się sportowym prowadzeniem, większą dynamiką i dodatkową kontrolą.",
       image4:
         "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-e-tron/my-2023/product-highlight-gallery/SQ8e_2022_4493_v2-L.jpg?imwidth=768",
       title4: "Poznaj na nowo dynamikę jazdy",
-      text4: "Nowe Audi SQ8 e-tron wyróżnia się wyjątkową dynamiką jazdy. Różne tryby jazdy standardowego adaptacyjnego zawieszenia pneumatycznego sport, np. efficiency lub dynamic, można łatwo ustawić za pomocą Audi drive select.",
+      text4:
+        "Nowe Audi SQ8 e-tron wyróżnia się wyjątkową dynamiką jazdy. Różne tryby jazdy standardowego adaptacyjnego zawieszenia pneumatycznego sport, np. efficiency lub dynamic, można łatwo ustawić za pomocą Audi drive select.",
     },
   },
   {
@@ -285,6 +289,85 @@ export const Audi = [
     instalment: undefined,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/getswc/2024.png?imwidth=291",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-sportback-e-tron/my-2023/stage/SQ8e_2022_4513-S.jpg?imwidth=768",
+    fixedBackground:
+      "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-sportback-e-tron/my-2023/parallax-teaser/SQ8e_2022_4519_withoutCast-S.jpg?imwidth=767",
+    cardTitle: "Elektryczne. I pełne wspaniałych detali",
+    cardText:
+      "Audi e-tron spełniło swoją pionierską rolę jako pojazd w pełni elektryczny. Teraz nadszedł moment, by dodać go do rodziny modeli Audi jako Audi SQ8 Sportback e-tron.",
+    power: {
+      speed: 4.5,
+      kilowatt: 370,
+      acumulator: 106,
+    },
+    carousel: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-sportback-e-tron/my-2023/product-highlight-gallery/SQ8e_2022_4514-L.jpg?imwidth=768",
+      titleInfo1: "Potrójna przyjemność z jazdy",
+      textInfo1:
+        "Trzy silniki elektryczne zapewniają Audi SQ8 Sportback e-tron wyjątkową dynamikę jazdy i umożliwiają przyspieszenie od 0 do 100 km/h w 4,5 sekundy.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-sportback-e-tron/my-2023/product-highlight-gallery/SQ8e_2022_4515-L.jpg?imwidth=768",
+      titleInfo2: "Torque Vectoring",
+      textInfo2:
+        "Do elektrycznego napędu na cztery koła quattro dołącza elektryczny Torque Vectoring z aktywnym i w pełni zmiennym rozdziałem momentu obrotowego na tylnej osi.",
+    },
+    titleToNextCarousel: "Imponujący zasięg",
+    textToNextCarousel:
+      "Wysokonapięciowy akumulator ma pojemność do 106 kWh (netto) i zapewnia maksymalny zasięg ponad 500 kilometrów. Jeśli poziom naładowania jest niski, można na przykład aktywować tryb Range1 w MMI i wykorzystać dodatkowy potencjał zasięgu.",
+    carousel2: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-sportback-e-tron/my-2023/product-highlight-gallery/SQ8e_2022_4517_withoutCast-L.jpg?imwidth=768",
+      title1: "Szybsze ładowanie - efektywne wyznaczanie tras",
+      info1:
+        "Szybkie ładowanie jest teraz możliwe z mocą do 170 kW na stacjach ładowania o dużej mocy. Dzięki funkcji planowania trasy e-tron route planner2 przystanki na ładowanie są dopasowane do trasy w taki sposób, aby można było efektywnie wykorzystać wysoką moc ładowania.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-sportback-e-tron/my-2023/product-highlight-gallery/Q8e_2022_4415-L.jpg?imwidth=768",
+      title2: "Odzyskuje energię dzięki rekuperacji",
+      info2:
+        "Energię można odzyskać dzięki systemowi rekuperacji – zarówno podczas jazdy, jak i hamowania. Rekuperacja po przekroczeniu prędkości staje się aktywna po zdjęciu stopy z pedału przyspieszenia. Stopień rekuperacji jest automatyczny lub regulowany ręcznie na trzech poziomach za pomocą manetek przy kierownicy.",
+    },
+    titleToNextCarousel2: "Szlachetny sportowy charakter",
+    carousel3: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-sportback-e-tron/my-2023/product-highlight-gallery/SQ8e_2022_4525-L.jpg?imwidth=768",
+      titleInfo1: "Sportowe wnętrze",
+      textInfo1:
+        "Wysokiej jakości listwy ozdobne z aluminiowymi wstawkami lub opcjonalna tkanina w kolorze antracytowym podkreślają wysoką jakość i sportowy charakter. Dopełniają go pedały ze stali nierdzewnej oraz dywaniki z emblematem S.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-sportback-e-tron/my-2023/product-highlight-gallery/SQ8e_2022_4557-L.jpg?imwidth=768",
+      titleInfo2: "Doświadczenie wysokiej klasy",
+      textInfo2:
+        "Konsekwentny, sportowy charakter jest widoczny we wnętrzu samochodu. Opcjonalne fotele sportowe plus z przodu pokryte są czarną skórą Valcona z przeszyciami w kształcie rombów z emblematem S i podkreślają charakter Audi SQ8 Sportback e-tron.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-sportback-e-tron/my-2023/product-highlight-gallery/Q8e_2022_4420-L.jpg?imwidth=768",
+      titleInfo3: "Wyjątkowe materiały",
+      textInfo3:
+        "Opcjonalne wstawki z tkaniny w kolorze antracytowym dają przykład sportowego charakteru i zrównoważonego rozwoju. Nowoczesna tkanina poliestrowa jest częściowo wykonana z przetworzonych butelek PET.",
+    },
+    carousel4: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-sportback-e-tron/my-2023/feature-gallery/SQ8e_2022_4527-S.jpg?imwidth=768&imdensity=1",
+      title1: "Ładowanie w domu",
+      text1:
+        "Audi SQ8 Sportback e-tron zapewnia wybór różnych opcji ładowania zarówno w domu, jak i w podróży.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-sportback-e-tron/my-2023/feature-gallery/SQ8e_2022_4529-S.jpg?imwidth=768&imdensity=1",
+      title2: "Wydajne ładowanie w drodze",
+      text2:
+        "Ładowanie od 10 do 80% jest możliwe w ciągu około 31 minut. Audi SQ8 Sportback e-tron wyróżnia się na stacjach szybkiego ładowania nie tylko mocą ładowania do 170 kW, ale także stabilną krzywą ładowania. Wysoka moc ładowania wyznacza standardy w szerokim zakresie procesu ładowania i skraca postoje.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-sportback-e-tron/my-2023/feature-gallery/SQ8e_2022_4528-S.jpg?imwidth=768&imdensity=1",
+      title3: "Dwa razy łatwiejsze ładowanie",
+      text3:
+        "Opcjonalne drugie gniazdo ładowania AC po stronie pasażera zapewnia maksymalną elastyczność w każdej sytuacji podczas parkowania. Aby ładować jeszcze szybciej, skorzystaj z opcjonalnej ładowarki pokładowej AC o mocy do 22 kW.",
+      image4:
+        "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-sportback-e-tron/my-2023/feature-gallery/SQ8e_2022_4517_withoutCast-fg-S.jpg?imwidth=768&imdensity=1",
+      title4: "Podłącz, ładuj i jedź",
+      text4:
+        "Dzięki Plug & Charge możesz wygodnie ładować samochód na wszystkich kompatybilnych stacjach ładowania. Po prostu rozpocznij proces ładowania, podłączając kabel ładujący, i zakończ, odłączając go. Uwierzytelnianie i płatność odbywają się automatycznie - bez karty czy aplikacji.",
+    },
   },
   // E-TRON GT
   {

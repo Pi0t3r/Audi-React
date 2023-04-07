@@ -54,12 +54,6 @@ function Car() {
               <p>Zużycie w cyklu mieszanym: {car.consumption}</p>
             </div>
           )}
-          {/* <div className="bg-black text-white p-5 -mt-5">
-            <p>
-              Emicja CO<sub>2</sub> w cyklu mieszkanym: {car.emission} g/km
-            </p>
-            <p>Zużycie w cyklu mieszanym: {car.consumption}</p>
-          </div> */}
         </>
         <div className="relative flex items-center justify-center">
           <img
