@@ -454,6 +454,38 @@ export const Audi = [
     instalment: 2216,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8yas3/2021.png?imwidth=550",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-2022/NeMo-Derivate-Startpage/stage/1080x1920-s3_ed1_2020_1017_1.jpg?imwidth=768",
+    emission: "188-183",
+    consumption: "8,3-8,0 l/100km",
+    fixedBackground:
+      "https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-2022/NeMo-Derivate-Startpage/parallax-teaser/1534x2500-s3_ed1_2020_1012_1.jpg?imwidth=767",
+    cardTitle: "Prawdziwie sportowy charakter",
+    cardText:
+      "Zapewnia wyjątkowe emocje podczas jazdy i świetnie sprawdza się na co dzień: oto Audi S3 Sportback.",
+    power: {
+      speed: 4.8,
+      Nm: 400,
+      kilowatt: 228,
+      hp: 310,
+    },
+    carousel: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-2022/NeMo-Derivate-Startpage/product-highlight/1920x1920-s3_ed1_2020_1012_1.jpg?imwidth=768",
+      title1: "Eleganckie wykończenie",
+      text1:
+        "Tył Audi S3 Sportback1 nie tylko sprawia, że pojazd prezentuje się wyjątkowo sportowo, ale także oferuje mnóstwo miejsca w środku.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-2022/NeMo-Derivate-Startpage/product-highlight/1920x1920-s3_ed1_2020_1013_1_felge.jpg?imwidth=768",
+      title2: "Zachwycające detale",
+      text2:
+        "Elementy wyposażenia, takie jak opcjonalne 19-calowe obręcze kół i spojler dachowy typu S, stanowią dopełnienie sportowej stylistyki.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-2022/NeMo-Derivate-Startpage/product-highlight/1920x1920-S3_2020_0622.jpg?imwidth=768",
+      title3: "Innowacyjne oświetlenie",
+      text3:
+        "Reflektory przednie i tylne światła wykonane w technice LED, zachwycają zaawansowaną technologią i sygnaturą świetlną.",
+    },
   },
   {
     id: 12,
@@ -466,6 +498,38 @@ export const Audi = [
     instalment: 2250,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8yss3/2021.png?imwidth=550",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/a3/s3-limousine/my-2022/NeMo-Derivate-Startpage/stage/1080x1920-S3_2020_1034_RGB.jpg?imwidth=768",
+    emission: "183-177",
+    consumption: "8,0-7,8 l/100km",
+    fixedBackground:
+      "https://www.audi.pl/content/dam/nemo/models/a3/s3-limousine/my-2022/NeMo-Derivate-Startpage/parallax-teaser/1534x2500-S3_2020_1040_RGB.jpg?imwidth=767",
+    cardTitle: "Przyjemność z jazdy pisana literą S",
+    cardText:
+      "Mocniejsze. Bardziej sportowe. Fascynujące od pierwszego wejrzenia: Audi S3 Limousine1 w kolorze czerwonym Tango metalik.",
+    power: {
+      speed: 4.8,
+      kilowatt: 228,
+      Nm: 400,
+      hp: 310,
+    },
+    carousel: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a3/s3-limousine/my-2022/NeMo-Derivate-Startpage/product-highlight/1920x1920-S3_2020_1036_RGB.jpg?imwidth=768",
+      title1: "Dynamika jazdy",
+      text1:
+        "Audi S3 Limousine1 jest standardowo wyposażone w progresywny układ kierowniczy, a także inne funkcje, które przydadzą się podczas codziennej jazdy.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a3/s3-limousine/my-2022/NeMo-Derivate-Startpage/product-highlight/1920x1920-S3_2020_1035_RGB.jpg?imwidth=768",
+      title2: "Napęd",
+      text2:
+        "Audi S3 Limousine łączy dynamiczne osiągi z elegancką stylistyką przywodzącą na myśl coupé.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/a3/s3-limousine/my-2022/NeMo-Derivate-Startpage/product-highlight/1920x1920-S3_2020_1041_RGB.jpg?imwidth=768",
+      title3: "S jak sportowe emocje",
+      text3:
+        "Audi S3 Limousine1 wyróżnia się efektownymi elementami zewnętrznymi, wśród nich podwójne końcówki układu wydechowego po obu stronach, wyraziste, opcjonalne 19-calowe obręcze kół ze stopu metali lekkich, czy listwy progowe i dynamiczny tylny spojler",
+    },
   },
   {
     id: 13,
@@ -478,6 +542,37 @@ export const Audi = [
     instalment: 3876,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8yarwy/2022.png?imwidth=550",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/a3/rs-3-sportback/my-2022/NeMo-Derivate-Startpage/stage/1080x1920-RS3_2021_3107_LAYERS.jpg?imwidth=768",
+    emission: "216-205",
+    consumption: "9,5-9,0 l/100km",
+    fixedBackground:
+      "https://www.audi.pl/content/dam/nemo/models/a3/rs-3-sportback/my-2022/NeMo-Derivate-Startpage/parallax-teaser/1534x2500-RS3_2021_3123.jpg?imwidth=767",
+    cardTitle: "Wyznacza tempo",
+    cardText: "Performance is an attitude.",
+    power: {
+      Nm: 500,
+      speed: 3.8,
+      kilowatt: 294,
+      hp: 400,
+    },
+    carousel: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a3/rs-3-sportback/my-2022/NeMo-Derivate-Startpage/feature-gallery/810x1080-audi-rs-sportback-exterior-RS3_2021_3142.jpg?imwidth=768&imdensity=1",
+      title1: "Podkreśl styl swojego Audi",
+      text1:
+        "Pakiet Czerń zapewnia atrakcyjny kontrast między detalami a wybranym lakierem. Aby dodać nawet więcej ekspresywnych akcentów, wybierz jedną z opcji: listwy RS w czarnym lub aluminiowym wykończeniu.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a3/rs-3-sportback/my-2022/NeMo-Derivate-Startpage/feature-gallery/810x1080-audi-rs-sportback-front-RS3_2021_3111.jpg?imwidth=768&imdensity=1",
+      title2: "Poczuj charakter",
+      text2:
+        "Audi RS 3 Sportback prezentuje progresywny charakter z każdej strony. Z przodu dominuje szeroka osłona chłodnicy Singleframe z charakterystycznym dla RS wzorem plastra miodu i szerokimi wlotami powietrza z obu stron.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/a3/rs-3-sportback/my-2022/NeMo-Derivate-Startpage/feature-gallery/810x1080-audi-rs-sportback-rim-RS3_2021_3114.jpg?imwidth=768&imdensity=1",
+      title3: "Zainspirowane motorsportem",
+      text3:
+        "Z opcjonalnymi oponami P Zero Trofeo R sport firmy Pirelli, Audi RS 3 Sportback oferuje jeszcze większą prędkość i wykorzystuje w pełni swój potencjał na suchej nawierzchni. Wylot powietrza przy przednich drzwiach i 19-calowe felgi aluminiowe sprawiają, że samochód wygląda jeszcze dynamiczniej.",
+    },
   },
   {
     id: 14,
@@ -490,6 +585,37 @@ export const Audi = [
     instalment: 3998,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8ysrwy/2022.png?imwidth=550",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/a3/rs-3-limousine/my-2022/NeMo-Derivate-Startpage/stage/1080x1920-audi-rs-3-sedan-stage-mobile-RS3_2021_3182.jpg?imwidth=768",
+    emission: "214-202",
+    consumption: "9,4-8,9 l/100km",
+    fixedBackground:
+      "https://www.audi.pl/content/dam/nemo/models/a3/rs-3-limousine/my-2022/NeMo-Derivate-Startpage/parallax-teaser/1534x2500-audi-rs-3-sedan-driving-RS3_2021_3160.jpg?imwidth=767",
+    cardTitle: "Osiągi w limuzynie",
+    cardText: "Performance is an attitude.",
+    power: {
+      hp: 400,
+      kilowatt: 294,
+      speed: 3.8,
+      Nm: 500,
+    },
+    carousel: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a3/rs-3-limousine/my-2022/NeMo-Derivate-Startpage/feature-gallery/810x1080-audi-rs-3-sedan-design-RS3_2021_3160.jpg?imwidth=768&imdensity=1",
+      title1: "Pakiet RS dynamic plus",
+      text1:
+        "Opcjonalny pakiet RS dynamic plus i nowy system launch control, który pozwala w pełni wykorzystać przyspieszenie podczas ruszania, obiecują czystą dynamikę jazdy. Wirtualny kokpit Audi wyświetla odliczanie do startu.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a3/rs-3-limousine/my-2022/NeMo-Derivate-Startpage/feature-gallery/810x1080-audi-rs-3-sedan-rear-RS3_2021_3163.jpg?imwidth=768&imdensity=1",
+      title2: "Potężny tył",
+      text2:
+        "Tył samochodu jest wyraźnie sportowy dzięki zderzakowi RS z wyjątkowym dla modeli RS 3 dyfuzorem oraz błyszczącym czarnym owalnym końcówkom opcjonalnego układu wydechowego RS. ",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/a3/rs-3-limousine/my-2022/NeMo-Derivate-Startpage/feature-gallery/810x1080-audi-rs-3-sedan-mmi-RS3_2021_3190_DE.jpg?imwidth=768&imdensity=1",
+      title3: "Tryby RS",
+      text3:
+        "W Audi RS 3 Limousine system Audi drive select pozwala wykorzystać zdecydowanie sportowy charakter samochodu. Aktywowanie któregokolwiek z trybów - RS INDIVIDUAL, RS PERFORMANCE albo RS TORQUE REAR - zmienia charakterystykę prowadzenia i oferuje lepsze osiągi.",
+    },
   },
 
   //   A4

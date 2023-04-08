@@ -110,7 +110,7 @@ function Car() {
         {car.price && (
           <div className="bg-black text-white p-5">
             <h3>
-              Tylko w cenie {car.price} PLN lub od {car.instalment} PLN /mc
+              Tylko w cenie od {car.price} PLN lub od {car.instalment} PLN /mc
             </h3>
           </div>
         )}
