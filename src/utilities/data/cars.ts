@@ -1158,6 +1158,38 @@ export const Audi = [
     instalment: 2357,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4a2a/2023.png?imwidth=550",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/a6/a6-limousine/my-2022/derivative-startpage/stage/1080x1920-AA6_L_181012_2.jpg?imwidth=768",
+    emission: "200-131",
+    consumption: "8,8-5,0 l/100km",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/pl/modele/a6/a6-limousine/AA6_L_181007_2_570x857.jpg')]",
+    cardTitle: "Luksus z każdej perspektywy",
+    cardText:
+      "Od poszerzonej osłony chłodnicy Singleframe po boczne wloty powietrza ze sportowymi, chromowanymi elementami i płaskie reflektory – przód Audi A6 Limousine daje jasną deklarację swojego charakteru.",
+    power: {
+      speed: 9.2,
+      kilowatt: 120,
+      hp: 163,
+      Nm: 370,
+    },
+    carousel: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a6/a6-limousine/my-2022/derivative-startpage/product-highlight/1920x1920-AA6_D_181007_4.jpg?imwidth=768",
+      title1: "Większy komfort dla wszystkich pasażerów",
+      text1:
+        "Dłuższe wnętrze zapewnia więcej miejsca na nogi - zwłaszcza pasażerom podróżującym na tylnych siedzeniach. Zwiększono również przestrzeń nad głową - zarówno z przodu, jak i z tyłu pojazdu. Bagażnik oferuje większą szerokość przy niezmienionej pojemności 530 litrów.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a6/a6-limousine/my-2022/derivative-startpage/product-highlight/1920x1920-AA6_D_181002_4.jpg?imwidth=768",
+      title2: "Możliwość personalizacji prawie 400 funkcji",
+      text2:
+        "System MMI touch oferuje intuicyjną obsługę i personalizację. Preferowane ustawienia można zapisywać w indywidualnych profilach użytkowników. Przejrzyste menu daje szybki dostęp do funkcji pojazdu.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/a6/a6-limousine/my-2022/derivative-startpage/product-highlight/1920x1920-AA6_D_181009_4.jpg?imwidth=768",
+      title3: "Oświetlenie otoczenia",
+      text3:
+        "Opcjonalny pakiet oświetlenia Ambiente plus tworzy niepowtarzalną atmosferę. We wnętrzu Audi A6 Limousine panuje przyjemny nastrój. Precyzyjne oświetlenie konturowe w 30 różnych odcieniach uwydatnia deskę rozdzielczą, konsolę środkową i inne efektowne elementy stylistyczne.",
+    },
   },
   {
     id: 28,
@@ -1170,6 +1202,38 @@ export const Audi = [
     instalment: 3307,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4a2bqy/2023.png?imwidth=550",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/a6/a6-limousine-tfsi-e/my-2023/stage/AA6_TFSIe_191001_2-S.jpg?imwidth=768",
+    emission: "36-24",
+    consumption:
+      "Benzyna: 1,6-1,1 l/100km | Energia elektryczna: 21,1-18,6 kWh/100 km",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/a6/a6-limousine-tfsi-e/my-2023/parallax-teaser/AA6_TFSIe_D_191003_1-S.jpg?imwidth=767')]",
+    cardTitle: "Wyprzedza swoje czasy",
+    cardText:
+      "Audi A6 Limousine TFSI e oferuje wydajny napęd hybrydowy typu plug-in, koncepcję obsługi wyznaczającą trendy i sportowy design.",
+    power: {
+      kilowatt: 270,
+      speed: 5.6,
+      hp: 367,
+      Nm: 370,
+    },
+    carousel: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a6/a6-limousine-tfsi-e/my-2022/NeMo-Derivate-Startpage/feature-gallery/810x1080-AA6_TFSIe_D_191005_RGB.jpg?imwidth=768&imdensity=1",
+      title1: "Mocne osiągi",
+      text1: "Wariant 50 TFSI e quattro dysponuje mocą systemową 220 kW.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a6/a6-limousine-tfsi-e/my-2022/NeMo-Derivate-Startpage/feature-gallery/810x1080-AA6_TFSIe_191012_RGB.jpg?imwidth=768&imdensity=1",
+      title2: "Przykład efektywności",
+      text2:
+        "Cechą pojazdu jest pompa ciepła w układzie klimatyzacji, która wykorzystuje ciepło odpadowe z elektrycznego układu napędowego do różnych celów. Poza regulacją temperatury we wnętrzu zwiększa ona również efektywność energetyczną samochodu, a tym samym jego zasięg elektryczny.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/a6/a6-limousine-tfsi-e/my-2022/NeMo-Derivate-Startpage/feature-gallery/810x1080-mmi-drive-mode-phev.jpg?imwidth=768&imdensity=1",
+      title3: "Wybór rodzaju napędu",
+      text3:
+        "Możesz wybrać jeden z 4 trybów: jazda w trybie wyłącznie elektrycznym (EV), utrzymania energii elektrycznej w akumulatorze na potrzeby przyszłej jazdy elektrycznej (HOLD), ładowania akumulatora podczas jazdy (CHARGE) oraz współdziałania silnika spalinowego i elektrycznego (AUTO HYBRID). ",
+    },
   },
   {
     id: 29,
@@ -1182,6 +1246,38 @@ export const Audi = [
     instalment: 2489,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4a5a2/2023.png?imwidth=550",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/a6/a6-avant/my-2022/derivativ-startpage/stage/1080x1920-AA6_A_181001_2.jpg?imwidth=768",
+    emission: "206-138",
+    consumption: "9,0-5,3 l/100km",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/pl/modele/a6/a6-avant/my-2022/AA6_A_181021_570x857.jpg')]",
+    cardTitle: "Dynamika pod każdym kątem",
+    cardText:
+      "Wyraźnie poszerzone nadkola Audi A6 Avant, opadająca linia dachu i płaski słupek D podkreślają dynamiczne proporcje samochodu i nadają jego sylwetce wyjątkowy charakter.",
+    power: {
+      speed: 9.4,
+      kilowatt: 120,
+      hp: 163,
+      Nm: 370,
+    },
+    carousel: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a6/a6-avant/my-2022/derivativ-startpage/feature-gallery/810x1080-AA6_A_181003_2.jpg?imwidth=768&imdensity=1",
+      title1: "Panoramiczny szklany dach",
+      text1:
+        "Opcjonalny dwuczęściowy szklany dach panoramiczny rozjaśnia wnętrze nadając mu jasną i przyjazną atmosferę. W warunkach silnego nasłonecznienia elektrycznie regulowana osłona przeciwsłoneczna zapobiega nagrzewaniu i nadmiernemu nasłonecznieniu.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a6/a6-avant/my-2022/derivativ-startpage/feature-gallery/810x1080-AA6_A_181005_2.jpg?imwidth=768&imdensity=1",
+      title2: "Innowacyjne oświetlenie",
+      text2:
+        "Opcjonalne reflektory HD Matrix LED z dynamicznymi kierunkowskazami zachwycają pod wieloma względami - zapewniają optymalne oświetlenie jezdni, znacznie ograniczają ryzyko oślepienia innych kierowców, a zarazem zapewniają maksymalną widoczność.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/a6/a6-avant/my-2022/derivativ-startpage/feature-gallery/810x1080-AA6_D_181004_2.jpg?imwidth=768&imdensity=1",
+      title3: "Wybór należy do Ciebie",
+      text3:
+        "Oferta obręczy kół dla Audi A6 Avant, z których część dostępna jest na zamówienie, obejmuje eleganckie i sportowe wzory w rozmiarach od 17 do 21 cali.",
+    },
   },
   {
     id: 30,
@@ -1194,6 +1290,39 @@ export const Audi = [
     instalment: 3456,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4a5bqy/2023.png?imwidth=550",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/a6/a6-avant-tfsi-e/my-2022/derivative-startpage/stage/1080x1920-audi-a6-avant-tfsi-e-AA6_TFSIe_191004_2.jpg?imwidth=768",
+    emission: "38-31",
+    consumption:
+      "Benzyna: 1,7-1,4 l/100km | Energia elektryczna: 21,5-19,9 kWh/100 km",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/a6/a6-avant-tfsi-e/my-2022/derivative-startpage/highlighted-car-teaser/570x857-audi-a6-avant-tfsi-e-aa6_tfsie_191002_2.jpg')]",
+    cardTitle: "Zelektryfikowane i funkcjonalne",
+    cardText:
+      "Innowacyjny napęd hybrydowy plug-in i wysoka funkcjonalność na co dzień dla pięciu osób - Audi A6 Avant TFSI e.",
+    power: {
+      kilowatt: 220,
+      hp: 299,
+      speed: 6.3,
+      Nm: 370,
+    },
+    carousel: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a6/a6-avant-tfsi-e/my-2022/derivative-startpage/product-highlight/1920x1920-AA6_TFSIe_191010_1.jpg?imwidth=768",
+      title1: "Hybryda plug-in - sportowa i wydajna",
+      text1:
+        "Połączenie mocnego silnika spalinowego z wydajnym silnikiem elektrycznym tworzy napęd hybrydowy typu plug-in. W Audi A6 Avant 55 TFSI e quattro generują one 270 kW mocy.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a6/a6-avant-tfsi-e/my-2022/derivative-startpage/product-highlight/1920x1920-audi-a6-avant-tfsi-e-aa6_tfsie_d_191005_3.jpg?imwidth=768",
+      title2: "Zalety dwóch typów napędów",
+      text2:
+        "Dzięki silnikowi elektrycznemu możesz pokonywać krótkie, codzienne odcinki o długości około 60-66 kilometrów (WLTP)-1 w trybie całkowicie elektrycznym, wydajnie i bez lokalnej emisji spalin. Na dłuższych trasach możesz liczyć na silnik spalinowy, który niezawodnie dowiezie Cię do celu.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/a6/a6-avant-tfsi-e/my-2022/derivative-startpage/product-highlight/1920x1920-audi-a6-avant-tfsi-e-adiv_2021_2886.jpg?imwidth=768",
+      title3: "Wybór rodzaju napędu",
+      text3:
+        "Możesz wybrać jeden z 4 trybów: jazda w trybie wyłącznie elektrycznym (EV), utrzymania energii elektrycznej w akumulatorze na potrzeby przyszłej jazdy elektrycznej (HOLD), ładowania akumulatora podczas jazdy (CHARGE-1'5) oraz współdziałania silnika spalinowego i elektrycznego (AUTO HYBRID).",
+    },
   },
   {
     id: 31,
@@ -1206,6 +1335,38 @@ export const Audi = [
     instalment: 2946,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4aha/2023.png?imwidth=550",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/a6/a6-allroad-quattro/my-2023/stage/AA6_181018_3-s.jpg?imwidth=768",
+    emission: "208-152",
+    consumption: "9,1-5,8 l/100km",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/a6/a6-allroad-quattro/my-2023/parallax-teaser/AA6_D_181044_2-s.jpg?imwidth=767')]",
+    cardTitle: "Elastyczne, mocne, wyraziste",
+    cardText:
+      "A6 allroad quattro łączy zalety modelu Avant z cechami samochodu typu allroad, takimi jak napęd na cztery koła quattro i charakterystyczna terenowa stylistyka.",
+    power: {
+      speed: 7.8,
+      Nm: 400,
+      kilowatt: 150,
+      hp: 204,
+    },
+    carousel: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a6/a6-allroad-quattro/my-2023/product-highlight/AA6_D_181049_4-s-l.jpg?imwidth=768",
+      title1: "Charakter allroad quattro - także we wnętrzu",
+      text1:
+        "Wielofunkcyjną skórzaną kierownicę sportową z funkcją zmiany przełożeń w przypadku automatycznej skrzyni biegów mogą zdobić przeszycia w kolorze stalowoszarym. Pedały i podparcie stopy w pakiecie stylistycznym wnętrza allroad wykonano ze stali nierdzewnej.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a6/a6-allroad-quattro/my-2023/product-highlight/AA6_D_181043_4-s-l.jpg?imwidth=768",
+      title2: "Cyfryzacja wrażeń",
+      text2:
+        "W zasięgu ręki i wzroku kierowca ma zaawansowane technologie, które dają mu bezpośredni dostęp do ważnych informacji oraz pozwalają na sterowanie funkcjami Infotainment. Opcjonalny wirtualny kokpit Audi to w pełni cyfrowy ekran informacyjny o wysokiej rozdzielczości i przekątnej 12,3 cala.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/a6/a6-allroad-quattro/my-2022/derivative-startpage/product-highlight/1920x1920-AA6_D_181047_1.jpg?imwidth=768",
+      title3: "Trójwymiarowa scena dźwiękowa",
+      text3:
+        "Wrażenia muzyczne w koncertowej jakości zapewnia opcjonalny system dźwięku 3D Bang & Olufsen. W bardziej rozbudowanej wersji Advanced składa się z 19 głośników wykonanych na zamówienie i wzmacniacza o mocy 1820 W.",
+    },
   },
   {
     id: 32,
@@ -1218,6 +1379,38 @@ export const Audi = [
     instalment: 4543,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4a5sv/2023.png?imwidth=550",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/a6/s6-avant/my-2022/derivativ-startpage/stage/1080x1920-s6-AS6_A_181006_2.jpg?imwidth=768",
+    emission: "195-187",
+    consumption: "7,5-7,1 l/100km",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/a6/s6-avant/my-2022/derivativ-startpage/parallax-teaser/1536x2500-AS6_D_181022_1.jpg?imwidth=767')]",
+    cardTitle: "Wszechstronne, cyfrowe i sportowe",
+    cardText:
+      "Wyjazd służbowy czy rodzinne wakacje - Audi S6 Avant oferuje najwyższą funkcjonalność w każdej sytuacji.",
+    power: {
+      kilowatt: 253,
+      speed: 5.1,
+      Nm: 700,
+      hp: 344,
+    },
+    carousel: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a6/s6-avant/my-2022/derivativ-startpage/stage-large-image/1080x1920-as6_a_181005_1.jpg?imwidth=768",
+      title1: "Sportowy napęd",
+      text1:
+        "Audi S6 Avant przekonuje nie tylko swoją wszechstronnością, ale także mocnym silnikiem wysokoprężnym. Silnik V6 TDI o pojemności 3,0 litra osiąga moc 253 kW i generuje maksymalny moment obrotowy 700 Nm. W efekcie S6 Avant przyspiesza od 0 do 100 km/h w 5,1 sekundy.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a6/s6-avant/my-2022/derivativ-startpage/stage-large-image/1080x1920-AS6_181006_1.jpg?imwidth=768",
+      title2: "Wyrazisty i silny charakter - nadwozie",
+      text2:
+        "Poziome linie, pochylona tylna szyba i spoiler na krawędzi dachu - Audi S6 Avant to wszystko, co najlepsze w avant-gardowej stylistyce, a wyróżnia je szereg elementów charakterystycznych dla modeli S. Inne atrybuty Audi S6 Avant to umieszczony z tyłu emblemat S6, dyfuzor w kolorze matowej czerni Titan.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/a6/s6-avant/my-2022/derivativ-startpage/stage-large-image/1080x1920-rs6_2020_1538.jpg?imwidth=768",
+      title3: "Pojemna przestrzeń bagażowa",
+      text3:
+        "Audi S6 Avant jest niezwykle funkcjonalne dzięki wyjątkowej koncepcji przestrzeni bagażowej oferującej wiele schowków i opcji przewozu bagażu. Pojemność bagażnika wynosi 555 litrów, a po złożeniu oparć tylnej kanapy wzrasta nawet do 1660 litrów. Dzięki opcjonalnemu kluczykowi komfortowemu pokrywę bagażnika można otworzyć za pomocą ruchu stopą.",
+    },
   },
   {
     id: 33,
@@ -1230,6 +1423,37 @@ export const Audi = [
     instalment: 4419,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4a2sv/2023.png?imwidth=550",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/a6/s6-limousine/my-2023/stage/AS6_L_181006_2-s.jpg?imwidth=768",
+    emission: "191-182",
+    consumption: "7,3-6,9 l/100km",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/a6/s6-limousine/my-2022/derivativ-startpage/parallax-teaser/1534x2500-AS6_D_181018.jpg?imwidth=767')]",
+    cardTitle: "Połączone cyfrowo, dynamiczne, eleganckie",
+    cardText:
+      "S6 Limousine: sportowy, wszechstronny samochód z mocnym napędem.",
+    power: {
+      hp: 344,
+      Nm: 700,
+      speed: 5.0,
+      kilowatt: 253,
+    },
+    carousel: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a6/s6-limousine/my-2022/derivativ-startpage/feature-gallery/810x1080-AS6_D_181018.jpg?imwidth=768&imdensity=1",
+      title1: "Wyraziste",
+      text1:
+        "Przód pojazdu zachwyca sportowymi elementami: szeroką osłoną chłodnicy Singleframe z podwójnymi listwami, emblematem S6, efektownymi bocznymi wlotami powietrza i nowoczesnym kształtem świateł.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a6/s6-limousine/my-2022/derivativ-startpage/feature-gallery/810x1080-AS6_D_181020.jpg?imwidth=768&imdensity=1",
+      title2: "Imponujący widok",
+      text2:
+        "Sportowy charakter tyłu oraz tylny spojler w kolorze nadwozia. Standardowym wyposażeniem są 20-calowe obręcze aluminiowe. Opcjonalnie można również wybrać 21-calowe koła z hamulcami o czerwonych zaciskach.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/a6/s6-limousine/my-2022/derivativ-startpage/feature-gallery/810x1080-AS6_D_181019.jpg?imwidth=768&imdensity=1",
+      title3: "Wyraziste detale",
+      text3: "Boczne lusterka mają kolor ciemnego aluminium.",
+    },
   },
   {
     id: 34,
@@ -1242,6 +1466,37 @@ export const Audi = [
     instalment: 8434,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4a5rca/2021.png?imwidth=550",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/a6/rs-6-avant/my-2022/derivativ-startpage/stage/1080x1920-rs6_2020_1530.jpg?imwidth=768",
+    emission: "289-276",
+    consumption: "12,7-12,1 l/100km",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/a6/rs-6-avant/my-2022/derivativ-startpage/parallax-teaser/1536x2500-rs6_2020_1529_v1.jpg?imwidth=767')]",
+    cardTitle: "Pokonać wiatr",
+    cardText: "Na spotkanie biznesowe albo wyjazd z rodziną: Audi RS 6 Avant.",
+    power: {
+      hp: 600,
+      kilowatt: 441,
+      speed: 3.6,
+      Nm: 800,
+    },
+    carousel: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a6/rs-6-avant/my-2022/derivativ-startpage/stage-large-image/1080x1920-rs6_2020_1640.jpg?imwidth=768",
+      title1: "Charyzma",
+      text1:
+        "Wygląd zewnętrzny Audi RS 6 Avant wyróżnia się licznymi elementami charakterystycznymi dla modeli RS. Z tyłu wzrok przyciąga zderzak RS ze zintegrowanym dyfuzorem jak również dynamiczny, zespolony z dachem spojler RS. Poszerzone nadwozie z potężnymi nadkolami z przodu i z tyłu, bezramowa osłona chłodnicy Singleframe, zderzak RS i duże boczne wloty powietrza dominują w stylistyce przodu.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a6/rs-6-avant/my-2022/derivativ-startpage/stage-large-image/1080x1920-rs6_2020_2012_1.jpg?imwidth=768",
+      title2: "Charakter wyznaczający trendy: design wnętrza",
+      text2:
+        "Sportowe fotele przednie plus zdobione atrakcyjnym szwem w kształcie rombu lub opcjonalną perforacją o strukturze plastra miodu i funkcją wentylacji gwarantują stabilne podparcie podczas podróży. Wyświetlacze dotykowe MMI są w pełni zintegrowane z powierzchnią, a seryjne aplikacje w antracytowym Aluminium Race oraz dwa opcjonalne pakiety stylistyczne RS z akcentami w kolorze czerwonym lub szarym dopełniają sportowy charakter modelu.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/a6/rs-6-avant/my-2022/derivativ-startpage/stage-large-image/1080x1920-rs6_2020_1538.jpg?imwidth=768",
+      title3: "Przestrzeń dająca swobodę",
+      text3:
+        "Pojemność bagażnika po złożeniu tylnych siedzeń wzrasta do 1680 litrów. Dzięki temu w Audi RS 6 Avant zawsze znajdzie się miejsce na nieprzewidziane potrzeby. Opcjonalna funkcja otwarcia bagażnika ruchem stopy wydatnie ułatwi załadunek bagażu.",
+    },
   },
   {
     id: 35,
@@ -1254,6 +1509,38 @@ export const Audi = [
     instalment: 8874,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4a5rrae/2023.png?imwidth=550",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/a6/rs-6-avant-performance/my-2023/stage/RS_6_2022_4341-S.jpg?imwidth=768",
+    emission: "289-277",
+    consumption: "12,7-12,2 l/100km",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/a6/rs-6-avant-performance/my-2023/parallax-teaser/RS_6_2022_4355-S.jpg?imwidth=767')]",
+    cardTitle: "Jednym słowem wydajność",
+    cardText:
+      "Odkryj niepowtarzalne wrażenia z jazdy - z najmocniejszym jak dotąd silnikiem RS 6 w nowym Audi RS 6 Avant performance. Performance is an attitude.",
+    power: {
+      Nm: 850,
+      speed: 3.4,
+      hp: 630,
+      kilowatt: 463,
+    },
+    carousel: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a6/rs-6-avant-performance/my-2023/product-highlight/RS_6_2022_4343-L.jpg?imwidth=768",
+      title1: "Napędzany maksymalną wydajnością",
+      text1:
+        "RS 6 Avant performance zasługuje na swoją nazwę: pojazd rozpędza się od 0 do 100 km/h w 3,4 sekundy dzięki 4,0-litrowemu silnikowi V8 biturbo TFSI o mocy 463 kW.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a6/rs-6-avant-performance/my-2023/product-highlight/RS_6_2022_4348-L.jpg?imwidth=768",
+      title2: "Prawdziwie sportowy charakter",
+      text2:
+        "Z opcjonalnym pakietem RS Design plus ze sportowymi akcentami w czerwonym kolorze.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/a6/rs-6-avant-performance/my-2023/product-highlight/RS_6_2022_4346-L.jpg?imwidth=768",
+      title3: "Zauważalna precyzja",
+      text3:
+        "Wirtualny kokpit Audi plus z trzema widokami charakterystycznymi dla RS można dostosować do swoich preferencji. Innowacyjne i w pełni cyfrowe.",
+    },
   },
 
   //   A7
@@ -1269,6 +1556,24 @@ export const Audi = [
     instalment: 2892,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4ka02y/2023.png?imwidth=550",
+    headerImage: "",
+    emission: "",
+    consumption: "",
+    fixedBackground: "",
+    cardTitle: "",
+    cardText: "",
+    power: {},
+    carousel: {
+      image1: "",
+      title1: "",
+      text1: "",
+      image2: "",
+      title2: "",
+      text2: "",
+      image3: "",
+      title3: "",
+      text3: "",
+    },
   },
   {
     id: 37,
@@ -1281,6 +1586,24 @@ export const Audi = [
     instalment: 3614,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4ka0qy/2023.png?imwidth=550",
+    headerImage: "",
+    emission: "",
+    consumption: "",
+    fixedBackground: "",
+    cardTitle: "",
+    cardText: "",
+    power: {},
+    carousel: {
+      image1: "",
+      title1: "",
+      text1: "",
+      image2: "",
+      title2: "",
+      text2: "",
+      image3: "",
+      title3: "",
+      text3: "",
+    },
   },
   {
     id: 38,
@@ -1293,6 +1616,24 @@ export const Audi = [
     instalment: 4674,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4kaspa/2023.png?imwidth=550",
+    headerImage: "",
+    emission: "",
+    consumption: "",
+    fixedBackground: "",
+    cardTitle: "",
+    cardText: "",
+    power: {},
+    carousel: {
+      image1: "",
+      title1: "",
+      text1: "",
+      image2: "",
+      title2: "",
+      text2: "",
+      image3: "",
+      title3: "",
+      text3: "",
+    },
   },
   {
     id: 39,
@@ -1305,6 +1646,24 @@ export const Audi = [
     instalment: 8456,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4karca/2023.png?imwidth=550",
+    headerImage: "",
+    emission: "",
+    consumption: "",
+    fixedBackground: "",
+    cardTitle: "",
+    cardText: "",
+    power: {},
+    carousel: {
+      image1: "",
+      title1: "",
+      text1: "",
+      image2: "",
+      title2: "",
+      text2: "",
+      image3: "",
+      title3: "",
+      text3: "",
+    },
   },
   {
     id: 40,
@@ -1317,6 +1676,24 @@ export const Audi = [
     instalment: 8924,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4karra/2023.png?imwidth=550",
+    headerImage: "",
+    emission: "",
+    consumption: "",
+    fixedBackground: "",
+    cardTitle: "",
+    cardText: "",
+    power: {},
+    carousel: {
+      image1: "",
+      title1: "",
+      text1: "",
+      image2: "",
+      title2: "",
+      text2: "",
+      image3: "",
+      title3: "",
+      text3: "",
+    },
   },
 
   //   A8
