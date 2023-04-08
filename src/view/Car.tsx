@@ -55,12 +55,10 @@ function Car() {
             </div>
           )}
         </>
-        <div className="relative flex items-center justify-center">
-          <img
-            src={car.fixedBackground}
-            className="bg-fixed bg-cover bg-center"
-          />
-          <div className="absolute top-32  inset-x-3 bg-white text-left p-10">
+        <div
+          className={`${car.fixedBackground} bg-cover bg-center bg-fixed w-full h-[30rem] flex items-center justify-center`}
+        >
+          <div className="bg-white text-left p-10 mx-5">
             <h3 className="font-bold text-xl">{car.cardTitle}</h3>
             <p className="mt-6 text-neutral-700 font-medium">{car.cardText}</p>
           </div>

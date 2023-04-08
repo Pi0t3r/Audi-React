@@ -16,7 +16,7 @@ export const Audi = [
     emission: "0-0",
     consumption: "24,4-20,3 kWh/100km",
     fixedBackground:
-      "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/q8-e-tron/my-2023/parallax-teaser/Q8e_2022_4399_withoutCast-S.jpg?imwidth=767",
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/q8-e-tron/q8-e-tron/my-2023/parallax-teaser/Q8e_2022_4399_withoutCast-S.jpg?imwidth=767')]",
     cardTitle: "Elektryczne. I pełne wspaniałych detali",
     cardText:
       "Audi e-tron spełniło swoją pionierską rolę jako pojazd w pełni elektryczny. Teraz nadszedł moment, by dodać go do rodziny modeli Audi jako Audi Q8 e-tron",
@@ -64,7 +64,7 @@ export const Audi = [
       acumulator: 106,
     },
     fixedBackground:
-      "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/q8-sportback-e-tron/my-2023/parallax-teaser/Q8e_2022_4443-XS.jpg?imwidth=748",
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/q8-e-tron/q8-sportback-e-tron/my-2023/parallax-teaser/Q8e_2022_4443-XS.jpg?imwidth=748')]",
     cardTitle: "Elektryczne. I pełne wspaniałych detali",
     cardText:
       "Audi e-tron spełniło swoją pionierską rolę jako pojazd w pełni elektryczny. Teraz nadszedł moment, by dodać go do rodziny modeli Audi jako Audi Q8 Sportback e-tron.",
@@ -100,7 +100,7 @@ export const Audi = [
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-sportback-e-tron/my-2023/highlighted-car-teaser/SQ8e_2022_4491-hct-S.jpg",
     fixedBackground:
-      "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-e-tron/my-2023/parallax-teaser/SQ8e_2022_4498_withoutCast-XS.jpg?imwidth=748",
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-e-tron/my-2023/parallax-teaser/SQ8e_2022_4498_withoutCast-XS.jpg?imwidth=748')]",
     cardTitle: "Elektryczne. I pełne wspaniałych detali",
     cardText:
       "Audi e-tron spełniło swoją pionierską rolę jako pojazd w pełni elektryczny. Teraz nadszedł moment, by dodać go do rodziny modeli Audi jako Audi SQ8 e-tron.",
@@ -141,7 +141,7 @@ export const Audi = [
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-sportback-e-tron/my-2023/stage/SQ8e_2022_4513-S.jpg?imwidth=768",
     fixedBackground:
-      "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-sportback-e-tron/my-2023/parallax-teaser/SQ8e_2022_4519_withoutCast-S.jpg?imwidth=767",
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-sportback-e-tron/my-2023/parallax-teaser/SQ8e_2022_4519_withoutCast-S.jpg?imwidth=767')]",
     cardTitle: "Elektryczne. I pełne wspaniałych detali",
     cardText:
       "Audi e-tron spełniło swoją pionierską rolę jako pojazd w pełni elektryczny. Teraz nadszedł moment, by dodać go do rodziny modeli Audi jako Audi SQ8 Sportback e-tron.",
@@ -185,7 +185,7 @@ export const Audi = [
     emission: "0-0",
     consumption: "21,6-19,6 kWh/100km",
     fixedBackground:
-      "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/e-tron-gt/my-2023/parallax-teaser/A210232_large-XS.jpg?imwidth=748",
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/e-tron-gt/my-2023/parallax-teaser/A210232_large-XS.jpg?imwidth=748')]",
     cardTitle: "Charakterystyka procesu produkcji",
     cardText:
       "Przy powstawaniu Gran Turismo z napędem elektrycznym w Böllinger Höfe koło Neckarsulm dbałość o szczegóły spotyka się z precyzją i najwyższą jakością",
@@ -229,7 +229,7 @@ export const Audi = [
     emission: "0-0",
     consumption: "21,1-19,8 kWh/100km",
     fixedBackground:
-      "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/e-tron-gt/my-2023/parallax-teaser/A210232_large-XS.jpg?imwidth=748",
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/e-tron-gt/my-2023/parallax-teaser/A210232_large-XS.jpg?imwidth=748')]",
     cardTitle: "Najwyższa jakość wykonania",
     cardText:
       "Przy powstawaniu Gran Turismo z napędem elektrycznym w Böllinger Höfe koło Neckarsulm dbałość o szczegóły spotyka się z precyzją i najwyższą jakością",
@@ -276,11 +276,10 @@ export const Audi = [
     emission: "155-123",
     consumption: "6,8-5,4 l/100km",
     fixedBackground:
-      "https://www.audi.pl/content/dam/nemo/models/a1/a1-sportback/my-2022/derivate-startpage/parallax-teaser/1534x2500-audi-a1-sportback-aa1_181005_1.jpg?imwidth=767",
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/a1/a1-sportback/my-2022/derivate-startpage/parallax-teaser/1534x2500-audi-a1-sportback-aa1_181005_1.jpg?imwidth=767')]",
     cardTitle: "Emocje, dynamika i przestronność",
     cardText:
       "A1 Sportback - druga generacja tego kompaktowego modelu zachwyca sportową stylistyką i elastycznymi możliwościami dostosowania opcji wyposażenia.",
-
     power: {
       hp: 150,
       speed: 10.2,
@@ -325,7 +324,7 @@ export const Audi = [
     emission: "170-115",
     consumption: "7,5-4,4 l/100km",
     fixedBackground:
-      "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback/my-2022/NeMo-Derivate-Startpage/parallax-teaser/a3_ed1_2020_0996_1-s.jpg?imwidth=767",
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback/my-2022/NeMo-Derivate-Startpage/parallax-teaser/a3_ed1_2020_0996_1-s.jpg?imwidth=767')]",
     cardTitle: "Ucieleśnienie idei postępu",
     cardText:
       "Nowoczesny design i innowacyjne technologie - Audi A3 Sportback.",
@@ -372,7 +371,7 @@ export const Audi = [
     consumption:
       "Benzyna:1,4-1,3 l/100km | Energia elektryczna: 15,8-15,4 kWh/100km",
     fixedBackground:
-      "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback-tfsi-e/my-2022/NeMo-Derivate-Startpage/parallax-teaser/A3_2020_1060-s.jpg?imwidth=767",
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback-tfsi-e/my-2022/NeMo-Derivate-Startpage/parallax-teaser/A3_2020_1060-s.jpg?imwidth=767')]",
     cardTitle: "Przekonuje każdą formą napędu",
     cardText:
       "Czysto elektryczny, hybrydowy lub spalinowy: Audi A3 Sportback TFSI e oferuje napęd na każdą okazję.",
@@ -380,7 +379,6 @@ export const Audi = [
       speed: 6.8,
       kilowatt: 180,
     },
-
     carousel: {
       image1:
         "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback-tfsi-e/my-2022/NeMo-Derivate-Startpage/product-highlight/A3_2020_1042.jpg?imwidth=768",
@@ -415,7 +413,7 @@ export const Audi = [
     emission: "167-111",
     consumption: "7,4-4,3 l/100km",
     fixedBackground:
-      "https://www.audi.pl/content/dam/nemo/models/a3/a3-limousine/my-2022/NeMo-Derivate-Startpage/parallax-teaser/a3_r_2020_1085_1-s.jpg?imwidth=767",
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/a3/a3-limousine/my-2022/NeMo-Derivate-Startpage/parallax-teaser/a3_r_2020_1085_1-s.jpg?imwidth=767')]",
     cardTitle: "Ucieleśnienie idei postępu",
     cardText:
       "Audi A3 Limousine jest wyposażone w wiele cyfrowych rozwiązań, od systemów informacyjno-rozrywkowych po systemy wsparcia kierowcy.",
@@ -459,7 +457,7 @@ export const Audi = [
     emission: "188-183",
     consumption: "8,3-8,0 l/100km",
     fixedBackground:
-      "https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-2022/NeMo-Derivate-Startpage/parallax-teaser/1534x2500-s3_ed1_2020_1012_1.jpg?imwidth=767",
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-2022/NeMo-Derivate-Startpage/parallax-teaser/1534x2500-s3_ed1_2020_1012_1.jpg?imwidth=767')]",
     cardTitle: "Prawdziwie sportowy charakter",
     cardText:
       "Zapewnia wyjątkowe emocje podczas jazdy i świetnie sprawdza się na co dzień: oto Audi S3 Sportback.",
@@ -503,7 +501,7 @@ export const Audi = [
     emission: "183-177",
     consumption: "8,0-7,8 l/100km",
     fixedBackground:
-      "https://www.audi.pl/content/dam/nemo/models/a3/s3-limousine/my-2022/NeMo-Derivate-Startpage/parallax-teaser/1534x2500-S3_2020_1040_RGB.jpg?imwidth=767",
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/a3/s3-limousine/my-2022/NeMo-Derivate-Startpage/parallax-teaser/1534x2500-S3_2020_1040_RGB.jpg?imwidth=767')]",
     cardTitle: "Przyjemność z jazdy pisana literą S",
     cardText:
       "Mocniejsze. Bardziej sportowe. Fascynujące od pierwszego wejrzenia: Audi S3 Limousine1 w kolorze czerwonym Tango metalik.",
@@ -547,7 +545,7 @@ export const Audi = [
     emission: "216-205",
     consumption: "9,5-9,0 l/100km",
     fixedBackground:
-      "https://www.audi.pl/content/dam/nemo/models/a3/rs-3-sportback/my-2022/NeMo-Derivate-Startpage/parallax-teaser/1534x2500-RS3_2021_3123.jpg?imwidth=767",
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/a3/rs-3-sportback/my-2022/NeMo-Derivate-Startpage/parallax-teaser/1534x2500-RS3_2021_3123.jpg?imwidth=767')]",
     cardTitle: "Wyznacza tempo",
     cardText: "Performance is an attitude.",
     power: {
@@ -590,7 +588,7 @@ export const Audi = [
     emission: "214-202",
     consumption: "9,4-8,9 l/100km",
     fixedBackground:
-      "https://www.audi.pl/content/dam/nemo/models/a3/rs-3-limousine/my-2022/NeMo-Derivate-Startpage/parallax-teaser/1534x2500-audi-rs-3-sedan-driving-RS3_2021_3160.jpg?imwidth=767",
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/a3/rs-3-limousine/my-2022/NeMo-Derivate-Startpage/parallax-teaser/1534x2500-audi-rs-3-sedan-driving-RS3_2021_3160.jpg?imwidth=767')]",
     cardTitle: "Osiągi w limuzynie",
     cardText: "Performance is an attitude.",
     power: {
@@ -642,7 +640,7 @@ export const Audi = [
       Nm: 320,
     },
     fixedBackground:
-      "https://www.audi.pl/content/dam/nemo/models/a4/a4-limousine/my-2023/parallax-teaser/A4_2020_1971_1-S.jpg?imwidth=767",
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/a4/a4-limousine/my-2023/parallax-teaser/A4_2020_1971_1-S.jpg?imwidth=767')]",
     cardTitle: "Niezwykle sportowy charakter",
     cardText:
       "Dzięki progresywnej stylistyce z dynamicznie zaostrzonym przodem i wyrazistym tyłem Audi A4 Limousine zwraca uwagę bardziej niż kiedykolwiek wcześniej.",
@@ -680,7 +678,7 @@ export const Audi = [
     emission: "184-125",
     consumption: "8,1-4,8 l/100km",
     fixedBackground:
-      "https://www.audi.pl/content/dam/nemo/models/a4/a4-avant/my-2022/derivative-startpage/parallax-teaser/1534x2500-aa4_a_191002_2.jpg?imwidth=767",
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/a4/a4-avant/my-2022/derivative-startpage/parallax-teaser/1534x2500-aa4_a_191002_2.jpg?imwidth=767')]",
     cardTitle: "Sportowy design, wysoka funkcjonalność",
     cardText:
       "Audi A4 Avant to sportowy charakter, najwyższa jakość wykonania, cyfrowa obsługa oraz wszechstronność w każdej podróży.",
@@ -724,7 +722,7 @@ export const Audi = [
     emission: "183-150",
     consumption: "8,1-5,7 l/100km",
     fixedBackground:
-      "https://www.audi.pl/content/dam/nemo/models/a4/a4-allroad-quattro/my-2023/parallax-teaser/AA4_D_191018_1-S.jpg?imwidth=767",
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/a4/a4-allroad-quattro/my-2023/parallax-teaser/AA4_D_191018_1-S.jpg?imwidth=767')]",
     cardTitle: "Ekspresyjne i wszechstronne",
     cardText:
       "Dzięki połączeniu zalet napędu na cztery koła quattro, mocnego silnika i off-roadowego zawieszenia Audi A4 allroad quattro doskonale sprawdzi się w każdych warunkach.",
@@ -768,7 +766,7 @@ export const Audi = [
     emission: "190-184",
     consumption: "7,2-7,0 l/100km",
     fixedBackground:
-      "https://www.audi.pl/content/dam/nemo/models/a4/s4-limousine/my-2023/parallax-teaser/AS4_D_191002_2-S.jpg?imwidth=767",
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/a4/s4-limousine/my-2023/parallax-teaser/AS4_D_191002_2-S.jpg?imwidth=767')]",
     cardTitle: "Bardziej sportowe niż kiedykolwiek",
     cardText:
       "Audi S4 Limousine charakteryzuje się sportową stylistyką, którą podkreślają zarówno na zewnątrz, jak i we wnętrzu elementy charakterystyczne dla modeli S.",
@@ -818,7 +816,7 @@ export const Audi = [
       speed: 4.7,
     },
     fixedBackground:
-      "https://www.audi.pl/content/dam/nemo/pl/modele/a4/s4-avant/my-2022/AS4_A_191002_570x857.jpg",
+      "bg-[url('https://www.audi.pl/content/dam/nemo/pl/modele/a4/s4-avant/my-2022/AS4_A_191002_570x857.jpg')]",
     cardTitle: "Wszechstronne i sportowe",
     cardText:
       "Zarówno nadwozie, jak i wnętrze S4 Avant wyposażono w elementy typowe dla modeli S, które podkreślają jego sportowy charakter.",
@@ -861,7 +859,7 @@ export const Audi = [
       hp: 450,
     },
     fixedBackground:
-      "https://www.audi.pl/content/dam/nemo/models/a4/rs-4-avant/my-2022/derivative-startpage/parallax-teaser/1534x2500_rs4_2020_1501.jpg?imwidth=767",
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/a4/rs-4-avant/my-2022/derivative-startpage/parallax-teaser/1534x2500_rs4_2020_1501.jpg?imwidth=767')]",
     cardTitle: "Kształtujące doświadczenia",
     cardText:
       "Audi RS 4 Avant łączy spektakularne sportowe osiągi z wysoką funkcjonalnością samochodu rodzinnego.",
@@ -896,23 +894,36 @@ export const Audi = [
     instalment: 1941,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f5pbzg/2023.png?imwidth=550",
-    headerImage: "",
-    emission: "",
-    consumption: "",
-    power: {},
-    fixedBackground: "",
-    cardTitle: "",
-    cardText: "",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/a5/a5-coupe/my-2022/derivative-startpage/stage/1080x1920-a5_2021_2861_Stage_Mobile.jpg?imwidth=768",
+    emission: "175-123",
+    consumption: "7,7-4,7 l/100km",
+    power: {
+      speed: 8.9,
+      kilowatt: 110,
+      hp: 150,
+      Nm: 270,
+    },
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/a5/a5-coupe/my-2022/derivative-startpage/parallax-teaser/748x2500-AA5_191004_1.jpg?imwidth=748')]",
+    cardTitle: "Sportowa elegancja",
+    cardText: "Estetyczny wygląd i innowacyjne technologie Audi A5 Coupé.",
     carousel: {
-      image1: "",
-      title1: "",
-      text1: "",
-      image2: "",
-      title2: "",
-      text2: "",
-      image3: "",
-      title3: "",
-      text3: "",
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a5/a5-coupe/my-2022/derivative-startpage/product-highlight/1920x1920-191007_2.jpg?imwidth=768",
+      title1: "Różnorodne style jazdy",
+      text1:
+        "Opcjonalny dynamiczny układ kierowniczy Audi A5 Coupé dostosowuje przełożenie kierownicy i siłę skrętu do prędkości jazdy. Dzięki systemowi Audi drive select oraz trybom: dynamic, comfort, auto, individual i efficiency możesz w każdej chwili dopasować charakterystykę pojazdu do stylu jazdy.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a5/a5-coupe/my-2022/derivative-startpage/product-highlight/1920x1920-D_191003_3.jpg?imwidth=768",
+      title2: "Wsparcie w tle",
+      text2:
+        "Opcjonalne systemy wspomagające kierowcę zapewniają innowacyjne wsparcie podczas podróży Audi A5 Coupé. Na przykład w ruchu miejskim system ostrzegania4 informuje za pomocą sygnału LED o zbliżających się z tyłu pojazdach, zanim kierowca otworzy drzwi.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/a5/a5-coupe/my-2022/derivative-startpage/product-highlight/1920x1920-191008_1.jpg?imwidth=768",
+      title3: "Kompleksowo połączone",
+      text3:
+        "Innowacyjny kluczyk Audi connect pozwala na otwieranie i zamykanie drzwi bez użycia tradycyjnego kluczyka samochodowego - wystarczy smartfon.",
     },
   },
   {
@@ -926,23 +937,36 @@ export const Audi = [
     instalment: 2027,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f5fbzg/2023.png?imwidth=550",
-    headerImage: "",
-    emission: "",
-    consumption: "",
-    power: {},
-    fixedBackground: "",
-    cardTitle: "",
-    cardText: "",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/a5/a5-sportback/my-2023/stage/AOZ_A5_191006_2-s.jpg?imwidth=768",
+    emission: "178-124",
+    consumption: "7,9-4,7 l/100km",
+    power: {
+      hp: 150,
+      kilowatt: 110,
+      speed: 9.1,
+      Nm: 270,
+    },
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/a5/a5-sportback/my-2023/parallax-teaser/A5_2020_1984_1-xs.jpg?imwidth=748')]",
+    cardTitle: "Sportowe i rodzinne",
+    cardText: "Z Audi A5 Sportback wyróżnisz się z tłumu.",
     carousel: {
-      image1: "",
-      title1: "",
-      text1: "",
-      image2: "",
-      title2: "",
-      text2: "",
-      image3: "",
-      title3: "",
-      text3: "",
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a5/a5-sportback/my-2023/product-highlight/A5_2020_1982_1-s-l.jpg?imwidth=768",
+      title1: "Różnorodne style jazdy",
+      text1:
+        "Opcjonalny dynamiczny układ kierowniczy w Audi A5 Sportback dostosowuje przełożenie kierownicy i siłę skrętu do prędkości, przenosząc sportowy charakter i komfort na drogę. Dzięki systemowi Audi drive select oraz pięciu trybom: dynamic, comfort, auto, individual i efficiency możesz w każdej chwili dopasować charakterystykę pojazdu do stylu jazdy.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a5/a5-sportback/my-2023/product-highlight/A5_2020_1983_1-s-l.jpg?imwidth=768",
+      title2: "Nadwozie",
+      text2:
+        "Imponująca stylistyka sprawia, że ten rodzinny pięciodrzwiowy model zachwyca przestronnością i szerokością.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/a5/a5-sportback/my-2022/derivative-startpage/product-highlight/1920x1920-aa5_d_191003_3.jpg?imwidth=768",
+      title3: "Wsparcie w tle",
+      text3:
+        "Opcjonalne systemy wspomagające kierowcę zapewniają innowacyjne wsparcie podczas podróży Audi A5 Sportback. Na przykład w ruchu miejskim system ostrzegania informuje za pomocą sygnału LED o zbliżających się z tyłu pojazdach, zanim kierowca otworzy drzwi.",
     },
   },
   {
@@ -956,23 +980,37 @@ export const Audi = [
     instalment: 3763,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f5ps5a/2023.png?imwidth=550",
-    headerImage: "",
-    emission: "",
-    consumption: "",
-    power: {},
-    fixedBackground: "",
-    cardTitle: "",
-    cardText: "",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/a5/s5-coupe/my-2022/derivate-startpage/stage/AS5_191001_2-S.jpg?imwidth=768",
+    emission: "191-183",
+    consumption: "7,3-7,0 l/100km",
+    power: {
+      hp: 341,
+      kilowatt: 251,
+      Nm: 700,
+      speed: 4.6,
+    },
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/pl/modele/a5/s5-coupe/my-2022/as5_d_191001_2_570x857.jpg')]",
+    cardTitle: "Sportowa elegancja",
+    cardText:
+      "Niezwykła stylistyka i wiele elementów charakterystycznych dla modelu S podkreślają sportowego ducha S5 Coupé.",
     carousel: {
-      image1: "",
-      title1: "",
-      text1: "",
-      image2: "",
-      title2: "",
-      text2: "",
-      image3: "",
-      title3: "",
-      text3: "",
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a5/s5-coupe/my-2022/derivate-startpage/product-highlight/as5_191001_2-S-L.jpg?imwidth=768",
+      title1: "Wrażenia z jazdy",
+      text1:
+        "Pojazd wyposażony jest w mocny silnik TDI, zapewniający wrażenia z jazdy podobne do tych, których można doświadczyć, prowadząc samochód sportowy.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a5/s5-coupe/my-2023/product-highlight/AS5_SB_D_191003_3-s-l.jpg?imwidth=768",
+      title2: "Wnętrze",
+      text2:
+        "Sportowy charakter Audi S5 Coupé1 jest widoczny również we wnętrzu pojazdu - dzięki elementom charakterystycznym dla modeli S.",
+      image3:
+        "https://media.ed.edmunds-media.com/audi/s5/2022/oem/2022_audi_s5_4dr-hatchback_prestige_rq_oem_2_815.jpg",
+      title3: "Nadwozie",
+      text3:
+        "Elementy nadwozia charakterystyczne dla modelu S podkreślają sportowy charakter Audi S5 Coupé.",
     },
   },
   {
@@ -986,23 +1024,36 @@ export const Audi = [
     instalment: 3849,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f5fs5a/2023.png?imwidth=550",
-    headerImage: "",
-    emission: "",
-    consumption: "",
-    power: {},
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/a5/s5-sportback/my-2023/stage/AS5_SB_191003_2-S.jpg?imwidth=768",
+    emission: "194-186",
+    consumption: "7,4-7,1 l/100km",
+    power: {
+      kilowatt: 251,
+      speed: 4.6,
+      Nm: 700,
+      hp: 341,
+    },
     fixedBackground: "",
-    cardTitle: "",
-    cardText: "",
+    cardTitle: "Mocne i atrakcyjne",
+    cardText:
+      "S5 Sportback zachwyca niezwykłą przestronnością i mocą typową dla samochodu sportowego.",
     carousel: {
-      image1: "",
-      title1: "",
-      text1: "",
-      image2: "",
-      title2: "",
-      text2: "",
-      image3: "",
-      title3: "",
-      text3: "",
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a5/s5-sportback/my-2023/stage-large/AS5_SB_D_191002_3-S.jpg?imwidth=768",
+      title1: "Imponujące oświetlenie",
+      text1:
+        "Reflektory w technologii LED są standardowym wyposażeniem Audi S5 Sportback. Opcjonalnie dostępne są również reflektory Matrix LED ze światłami laserowymi Audi.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a5/s5-sportback/my-2023/stage-large/AS5_SB_191002_2-S.jpg?imwidth=768",
+      title2: "Detale, które robią wrażenie",
+      text2:
+        "Elementy nadwozia Audi S5 Sportback1 charakterystyczne dla modeli S podkreślają sportowy charakter pojazdu. Przód samochodu wyróżniają m.in. zderzak S, osłona chłodnicy o strukturze plastra miodu w kolorze matowej tytanowej czerni z elementami w odcieniu aluminium, szerokie wloty powietrza oraz listwa w kolorze aluminium o matowym wykończeniu.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/a5/s5-sportback/my-2023/stage-large/AS5_SB_191003_2-S.jpg?imwidth=768",
+      title3: "Intuicyjność? Wszystko w polu widzenia",
+      text3:
+        "Przejrzysty interface i technologia zorientowana na kierowcę sprawiają, że obsługa systemu Infotainment w Audi S5 Sportback jest prosta i intuicyjna. Dzięki opcjonalnej nawigacji MMI Navigation plus z MMI touch można korzystać z wielu cyfrowych usług - wszystko prezentowane jest na 10,1-calowym ekranie dotykowym.",
     },
   },
   {
@@ -1016,23 +1067,37 @@ export const Audi = [
     instalment: 5883,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f5prxa/2023.png?imwidth=550",
-    headerImage: "",
-    emission: "",
-    consumption: "",
-    power: {},
-    fixedBackground: "",
-    cardTitle: "",
-    cardText: "",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/a5/rs-5-coupe/my-2022/NeMo-Derivative-Startpage/stage/1080x1920-rs5_2020_1510.jpg?imwidth=768",
+    emission: "223-213",
+    consumption: "9,8-9,4 l/100km",
+    power: {
+      Nm: 600,
+      speed: 3.9,
+      kilowatt: 331,
+      hp: 450,
+    },
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/a5/rs-5-coupe/my-2022/NeMo-Derivative-Startpage/parallax-teaser/1534x2500-rs5_2020_1515.jpg?imwidth=767')]",
+    cardTitle: "Dynamika - od startu do celu",
+    cardText:
+      "Gdy dynamika nabiera kształtu Audi RS 5 Coupé staje się synonimem najwyższych osiągów. Performance is an attitude.",
     carousel: {
-      image1: "",
-      title1: "",
-      text1: "",
-      image2: "",
-      title2: "",
-      text2: "",
-      image3: "",
-      title3: "",
-      text3: "",
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a5/rs-5-coupe/my-2022/NeMo-Derivative-Startpage/product-highlight/1920x1920-rs5_2020_1512.jpg?imwidth=768",
+      title1: "Imponujący przód",
+      text1:
+        "Przód RS wyraża zdecydowanie i pewność siebie. Szeroki rozstaw kół podkreślają poszerzone nadkola i typowe dla modeli RS progi boczne.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a5/rs-5-coupe/my-2022/NeMo-Derivative-Startpage/product-highlight/1920x1920-rs5_2020_1514.jpg?imwidth=768",
+      title2: "Sportowy tył",
+      text2:
+        "O szybsze bicie serca przyprawia masywny tył z charakterystycznym dla RS dyfuzorem. Wyczynowy charakter wzmacniają opcjonalne 20-calowe obręcze ze stopu metali lekkich w czarnej kolorystyce.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/a5/rs-5-coupe/my-2022/NeMo-Derivative-Startpage/product-highlight/1920x1920-rs5_2020_1516.jpg?imwidth=768",
+      title3: "Indywidualizm w każdym detalu",
+      text3:
+        "Nadaj swojemu Audi RS 5 Coupé osobisty charakter - podkreśl sportowego ducha wybierając opcjonalny dach z karbonu, który dzięki zredukowanej masie pozytywnie wpływa na zwrotność i dynamikę jazdy. Nową jakość podróżowania wprowadzi opcjonalny szklany dach panoramiczny z elektrycznie regulowaną osłoną przeciwsłoneczną.",
     },
   },
   {
@@ -1046,23 +1111,37 @@ export const Audi = [
     instalment: 5991,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f5frxa/2023.png?imwidth=550",
-    headerImage: "",
-    emission: "",
-    consumption: "",
-    power: {},
-    fixedBackground: "",
-    cardTitle: "",
-    cardText: "",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/a5/rs-5-sportback/my-2022/derivate-startpage/stage/1080x1920-rs5_2020_1519.jpg?imwidth=768",
+    emission: "226-217",
+    consumption: "10,0-9,6 l/100km",
+    power: {
+      Nm: 600,
+      speed: 3.9,
+      kilowatt: 331,
+      hp: 450,
+    },
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/a5/rs-5-sportback/my-2022/derivate-startpage/parallax-teaser/1534x2500-rs5_2020_1524.jpg?imwidth=767')]",
+    cardTitle: "Przekonujące pod każdym względem",
+    cardText:
+      "Audi RS 5 Sportback to więcej niż samochód sportowy: najwyższa funkcjonalność, komfort i dynamika to połączenie gwarantujące niezapomniane emocje podczas jazdy.",
     carousel: {
-      image1: "",
-      title1: "",
-      text1: "",
-      image2: "",
-      title2: "",
-      text2: "",
-      image3: "",
-      title3: "",
-      text3: "",
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a5/rs-5-sportback/my-2023/feature-gallery/RS5_2022_3708-S.jpg?imwidth=768&imdensity=1",
+      title1: "Nadwozie - przód pojazdu",
+      text1:
+        "Przednia krawędź zderzaka, boczne otwory wentylacyjne, przedni spojler i obudowy lusterek z matowego karbonu podkreślają wyczynowy profil Audi RS 5 Sportback. Pierścienie Audi i sygnatura modelu w błyszczącej czerni dopełniają sportową całość.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a5/rs-5-sportback/my-2023/feature-gallery/RS5_2022_3710-S.jpg?imwidth=768&imdensity=1",
+      title2: "Nadwozie - profil boczny",
+      text2:
+        "Opcjonalne elementy pakietu RS competition plus, takie jak połyskujące czernią listwy szyb bocznych, podkreślają sportowy styl Audi RS 5 Sportback.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/a5/rs-5-sportback/my-2023/feature-gallery/RS5_2022_3709-S.jpg?imwidth=768&imdensity=1",
+      title3: "Dynamika jazdy",
+      text3:
+        "Elementy opcjonalnego pakietu RS competition plus w rodzaju stałego napędu na cztery koła quattro ze sportowym mechanizmem różnicowym, dynamicznego układu kierowniczego oraz sportowego zawieszenia RS pro dostarczają maksymalnej dynamiki, nie ograniczając cech przydatnych w codziennym użytkowaniu.",
     },
   },
 
