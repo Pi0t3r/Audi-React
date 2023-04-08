@@ -474,6 +474,87 @@ export const Audi = [
     instalment: 8007,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f83rh7/2022.png?imwidth=291",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/rs-e-tron-gt/my-2022/NeMo-Derivate-Startpage/market-introduction/stage/RSeGT_2021_2365-mobile.jpg?imwidth=768",
+    emission: "0-0",
+    consumption: "21,1-19,8 kWh/100km",
+    fixedBackground:
+      "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/e-tron-gt/my-2023/parallax-teaser/A210232_large-XS.jpg?imwidth=748",
+    cardTitle: "Najwyższa jakość wykonania",
+    cardText:
+      "Przy powstawaniu Gran Turismo z napędem elektrycznym w Böllinger Höfe koło Neckarsulm dbałość o szczegóły spotyka się z precyzją i najwyższą jakością",
+    carousel: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/rs-e-tron-gt/my-2022/NeMo-Derivate-Startpage/market-introduction/product-highlight/05_02_Ex_Highlight_Module.jpg?imwidth=768",
+      titleInfo1: "Nadwozie",
+      textInfo1:
+        "Mocne akcenty podkreślają kluczowe zalety modelu. Na przykład położony nisko środek ciężkości stał się widoczny dzięki zaakcentowanym progom i długiemu rozstawowi osi.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/rs-e-tron-gt/my-2022/NeMo-Derivate-Startpage/product-highlight/10_04_Highlight_form_02.jpg?imwidth=768",
+      titleInfo2: "Imponujący tył",
+      textInfo2:
+        "Śmiało zarysowana linia ramion i charakterystyczny tylny dyfuzor dają wrażenie niesamowitej siły. Delikatnie opadający do tyłu dach Audi RS e-tron GT wyraża jego gotowość, by ruszyć naprzód, nawet gdy jest zaparkowane.",
+    },
+    power: {
+      kilowatt: 440,
+      speed: 3.3,
+      acumulator: 83.7,
+    },
+    titleToNextCarousel: "Audi exclusive",
+    textToNextCarousel:
+      "Nadaj swojemu Audi e-tron GT quattro osobisty charakter i zaprojektuj je według własnego gustu.",
+    carousel2: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/rs-e-tron-gt/my-2023/feature-gallery/RSeGT_ae_2022_3855-S.jpg?imwidth=768&imdensity=1",
+      title1: "Lakiery specjalne Audi exclusive",
+      info1:
+        "Indywidualność ma wiele twarzy - jedną z nich jest Audi RS e-tron GT w specjalnym lakierze Audi exclusive w kolorze żółtym Vegas.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/rs-e-tron-gt/my-2023/feature-gallery/RSeGT_ae_2022_3854-S.jpg?imwidth=768&imdensity=1",
+      title2: "Wnętrze z Audi exclusive",
+      info2:
+        "Pakiet stylistyczny Audi exclusive Bicolor zachwyca czterema kolorami wnętrza do wyboru: żółtym Calendula, niebieskim Alaska, zielonym Iguana i czerwonym Karmesin.",
+    },
+    titleToNextCarousel2: "Ładowanie w domu i w trasie",
+    carousel3: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/rs-e-tron-gt/my-2022/NeMo-Derivate-Startpage/feature-gallery/16_01_fast_charging_mobile.jpg?imwidth=768&imdensity=1",
+      titleInfo1: "Szybkie ładowanie",
+      textInfo1:
+        "Wydajność Audi RS e-tron GT da się zauważyć także podczas ładowania: z mocą do 270 kW na 800-woltowych stacjach ładowania - w standardzie. Około 22,5 minut zajmie natomiast naładowanie od 5% do ok. 80%.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/rs-e-tron-gt/my-2022/NeMo-Derivate-Startpage/feature-gallery/16_02_home_charging_mobile.jpg?imwidth=768&imdensity=1",
+      titleInfo2: "Ładowanie w domu",
+      textInfo2:
+        "Audi RS e-tron GT może być ładowane prądem przemiennym o maksymalnej mocy 11 kW.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/rs-e-tron-gt/my-2023/feature-gallery/egt_2021_2319_v3-S.jpg?imwidth=768&imdensity=1",
+      titleInfo3: "Informacje w zasięgu ręki",
+      textInfo3:
+        "Stan naładowania akumulatora i pozostały zasięg można również sprawdzić w aplikacji myAudi.",
+    },
+    carousel4: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/rs-e-tron-gt/my-2022/NeMo-Derivate-Startpage/product-highlight/05_01_Int_Highlight_Module.jpg?imwidth=768",
+      title1: "Wnętrze",
+      text1:
+        "We wnętrzu Audi RS e-tron GT wszystko jest skupione wokół najważniejszego - fotela kierowcy.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/rs-e-tron-gt/my-2022/NeMo-Derivate-Startpage/product-highlight/05_02_Ex_Highlight_Module.jpg?imwidth=768",
+      title2: "Nadwozie",
+      text2:
+        "Design, który łączy dynamiczne proporcje gran turismo z charakterystycznymi cechami modeli Audi RS.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/rs-e-tron-gt/my-2022/NeMo-Derivate-Startpage/product-highlight/05_03_Roof_Highlight_Module.jpg?imwidth=768",
+      title3: "Karbonowy dach",
+      text3:
+        "Opcjonalny karbonowy dach tworzą wzmocnione włóknami karbonu polimery. Zaawansowany technologicznie materiał jest bardzo stabilny, a przy tym – ekstremalnie lekki.",
+      image4:
+        "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/rs-e-tron-gt/my-2022/NeMo-Derivate-Startpage/market-introduction/product-highlight/RSeGT_2021_2358.jpg?imwidth=768",
+      title4: "Przyśpieszenie",
+      text4:
+        "Dzięki inteligentnemu zarządzaniu temperaturą wydajność pozostaje na imponującym poziomie, nawet gdy przyśpiesza się kilka razy z rzędu.",
+    },
   },
   //   A1
 
