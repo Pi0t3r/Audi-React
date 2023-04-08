@@ -196,7 +196,7 @@ function Car() {
             ]}
           >
             <>
-              <img src={car.carousel3?.image1}/>
+              <img src={car.carousel3?.image1} />
               <div className="text-white bg-black p-7 h-42">
                 <p className="text-xl font-medium">
                   {car.carousel3?.titleInfo1}
@@ -214,7 +214,7 @@ function Car() {
               </div>
             </>
             <>
-              <img src={car.carousel3?.image3}/>
+              <img src={car.carousel3?.image3} />
               <div className="text-white bg-black p-7 h-42">
                 <p className="text-xl font-medium">
                   {car.carousel3?.titleInfo3}
@@ -255,7 +255,7 @@ function Car() {
             <>
               <img src={car.carousel4?.image2} />
               <div className="p-5">
-                <p className="font-light">
+                <p className="font-light text-sm">
                   <span className="font-bold mr-2">
                     {car.carousel4?.title2}:
                   </span>
@@ -266,7 +266,7 @@ function Car() {
             <>
               <img src={car.carousel4?.image3} />
               <div className="p-5">
-                <p className="font-light">
+                <p className="font-light text-sm">
                   <span className="font-bold mr-2">
                     {car.carousel4?.title3}:
                   </span>
@@ -277,7 +277,7 @@ function Car() {
             <>
               <img src={car.carousel4?.image4} />
               <div className="p-5">
-                <p className="font-light">
+                <p className="font-light text-sm">
                   <span className="font-bold mr-2">
                     {car.carousel4?.title4}:
                   </span>

@@ -569,6 +569,87 @@ export const Audi = [
     instalment: 1125,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/gbaasg/2023.png?imwidth=291",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/a1/a1-sportback/my-2022/derivate-startpage/stage/1080x1920-aa1_181004_2.jpg?imwidth=768",
+    emission: "155-123",
+    consumption: "6,8-5,4 l/100km",
+    fixedBackground:
+      "https://www.audi.pl/content/dam/nemo/models/a1/a1-sportback/my-2022/derivate-startpage/parallax-teaser/1534x2500-audi-a1-sportback-aa1_181005_1.jpg?imwidth=767",
+    cardTitle: "Emocje, dynamika i przestronność",
+    cardText:
+      "A1 Sportback - druga generacja tego kompaktowego modelu zachwyca sportową stylistyką i elastycznymi możliwościami dostosowania opcji wyposażenia.",
+    carousel: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a1/a1-sportback/my-2022/derivate-startpage/product-highlight/1920x1920-aa1_d_181001_3.jpg?imwidth=768",
+      titleInfo1: "Wnętrze",
+      textInfo1:
+        "Wnętrze Audi A1 Sportback charakteryzuje się funkcjonalnością i wysoką jakością wykonania.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a1/a1-sportback/my-2022/derivate-startpage/product-highlight/1920x1920-aa1_181006_3.jpg?imwidth=768",
+      titleInfo2: "Wrażenia z jazdy",
+      textInfo2:
+        "W Audi A1 Sportback jazda po mieście staje się prawdziwą przyjemnością.",
+    },
+    power: {
+      hp: 150,
+      speed: 10.2,
+      kilowatt: 110,
+      Nm: 250,
+    },
+    titleToNextCarousel: "Gwarancja przyjemności z jazdy",
+    textToNextCarousel:
+      "Dzięki szerokiej gamie silników Audi A1 Sportback jest dobrze przygotowane do pokonywania różnych tras. Najmocniejszy silnik, potężny 2,0-litrowy TFSI, pozwala uzyskać moc 152 kW (207 KM).",
+    carousel2: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a1/a1-sportback/my-2022/derivate-startpage/feature-gallery/810x1080-aa1_181008_1.jpg?imwidth=768&imdensity=1",
+      title1: "Sportowe wrażenia z jazdy",
+      info1:
+        "Audi A1 Sportback zachwyca elektromechanicznym wspomaganiem układu kierowniczego i dynamicznie zestrojonym układem jezdnym. Opcjonalnie można wybrać pakiety dynamiczne dostosowane indywidualnie do każdego silnika.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a1/a1-sportback/my-2022/derivate-startpage/feature-gallery/810x1080-aa1_181007_2.jpg?imwidth=768&imdensity=1",
+      title2: "Po prostu zaufaj",
+      info2:
+        "W Audi A1 Sportback kierowcę odciążają inteligentne systemy wspomagające - na przykład opcjonalny system ostrzegania przed niezamierzoną zmianą pasa ruchu. Dzięki dyskretnym interwencjom układu kierowniczego pomaga utrzymać się w pasie ruchu przy prędkości od 60 km/h.",
+    },
+    titleToNextCarousel2: "Bogate możliwości kształtowania wyglądu",
+    carousel3: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a1/a1-sportback/my-2022/derivate-startpage/feature-gallery/810x1080-aa1_181001_2.jpg?imwidth=768&imdensity=1",
+      titleInfo1: "Uderzające spojrzenie",
+      textInfo1:
+        "Szeroka, głęboko osadzona osłona chłodnicy Singleframe, zaakcentowane boczne wloty powietrza i opcjonalne reflektory LED dominują na przodzie samochodu.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a1/a1-sportback/my-2022/derivate-startpage/feature-gallery/810x1080-aa1_d_181008_2.jpg?imwidth=768&imdensity=1",
+      titleInfo2: "Wybór obręczy kół",
+      textInfo2:
+        "W zależności od modelu bazowego dla Audi A1 Sportback można wybrać pomiędzy 16-, 17- i 18-calowymi obręczami.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/a1/a1-sportback/my-2022/derivate-startpage/feature-gallery/810x1080-a1_2021_2877.jpg?imwidth=768&imdensity=1",
+      titleInfo3: "Perfekcyjny sportowy charakter",
+      textInfo3:
+        "Sportowe wyposażenie S line zwiększa atrakcyjność Audi A1 Sportback.",
+    },
+    carousel4: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a1/a1-sportback/my-2022/derivate-startpage/product-highlight/1920x1920-aa1_d_181014_3.jpg?imwidth=768",
+      title1: "Więcej niż nawigacja.",
+      text1:
+        "Opcjonalną nawigację MMI navigation plus obsługuje się za pomocą MMI touch, którego panel dotykowy rozpoznaje pismo odręczne. Dzięki Audi connect można korzystać z takich funkcji jak nowe, dokładne mapy 3D centrów wielu miast. Automatycznie pobierane są cztery bezpłatne aktualizacje map rocznie.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a1/a1-sportback/my-2022/derivate-startpage/product-highlight/1920x1920-a1_2021_2879.jpg?imwidth=768",
+      title2: "Wyraziste wnętrze",
+      text2:
+        "Czerwone przeszycia Audi Sport6 na podparciach w drzwiach dostępne w wyposażeniu opcjonalnym, a także przeszycia na obręczy kierownicy, dywanikach podłogowych, przednich fotelach sportowych i opcjonalnie na środkowym podparciu - wprowadzają sportowe akcenty.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/a1/a1-sportback/my-2022/derivate-startpage/product-highlight/1920x1920-aa1_d_181006_1.jpg?imwidth=768",
+      title3: "Wszystko w zasięgu wzroku",
+      text3:
+        "Opcjonalny wirtualny kokpit Audi umożliwia odczytanie najważniejszych danych na ekranie LCD o przekątnej 10,25 cala. Dostępne są dwa tryby wyświetlania. Klasyczny pokazuje wskaźniki takie jak prędkość i czas.",
+      image4:
+        "https://www.audi.pl/content/dam/nemo/models/a1/a1-sportback/my-2022/derivate-startpage/product-highlight/1920x1920-aa1_d_181004_1.jpg?imwidth=768",
+      title4: "Doskonałe brzmienie",
+      text4: "Wzmacniacz o mocy 560 W i 11 głośników w opcjonalnym systemie SONOS tworzą imponujące tło dźwiękowe - w szczególności odpowiada za to wirtualny efekt dźwięku 3D osiągany m.in. poprzez odbicie od przedniej szyby.",
+    },
   },
 
   //   A3

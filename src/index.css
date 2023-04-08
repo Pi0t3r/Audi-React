@@ -32,5 +32,8 @@ div.bg-white ul.react-multi-carousel-dot-list {
   top: 60%;
 }
 li.react-multi-carousel-dot--active button {
-  background: white;
+  background: #00b6ff7a;
+}
+li.react-multi-carousel-dot button {
+  border-color: #007bf1;
 }
