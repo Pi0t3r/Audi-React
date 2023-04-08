@@ -1556,23 +1556,37 @@ export const Audi = [
     instalment: 2892,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4ka02y/2023.png?imwidth=550",
-    headerImage: "",
-    emission: "",
-    consumption: "",
-    fixedBackground: "",
-    cardTitle: "",
-    cardText: "",
-    power: {},
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/a7/a7-sportback/my-2022/NeMo-Derivate-Startpage/Stage/AA7_171009_1-s.jpg?imwidth=768",
+    emission: "204-137",
+    consumption: "9,0-5,2 l/100km",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/a7/a7-sportback/my-2022/NeMo-Derivate-Startpage/parallax-teaser/AA7_171013_2-s.jpg?imwidth=767')]",
+    cardTitle: "Imponująco wszechstronne",
+    cardText:
+      "Sylwetka coupé, przestronność limuzyny i elastyczność Avanta. Audi A7 łączy sportowy charakter z elegancją. Pojedziesz nim zarówno na spotkanie biznesowe, jak i na rodzinne wakacje.",
+    power: {
+      speed: 5.6,
+      kilowatt: 210,
+      hp: 286,
+      Nm: 620,
+    },
     carousel: {
-      image1: "",
-      title1: "",
-      text1: "",
-      image2: "",
-      title2: "",
-      text2: "",
-      image3: "",
-      title3: "",
-      text3: "",
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a7/a7-sportback/my-2022/NeMo-Derivate-Startpage/product-highlight/AA7_D_171050_5.jpg?imwidth=768",
+      title1: "Wysokiej jakości materiały",
+      text1:
+        "Wnętrze A7 Sportback wyróżniają dwie kluczowe cechy: sportowy charakter i wysoka jakość wykonania. Wszystkie detale, materiały i aplikacje służą podkreśleniu stylistyki - od podstawowej wersji, przez opcjonalny pakiet Audi design selection, po opcjonalny pakiet sportowy S line.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a7/a7-sportback/my-2022/NeMo-Derivate-Startpage/product-highlight/QA7_171002_2.jpg?imwidth=768",
+      title2: "Audi exclusive - nadwozie",
+      text2:
+        "Spersonalizuj własne Audi A7 Sportback, korzystając z szerokiej gamy tapicerek skórzanych, aplikacji dekoracyjnych i lakierów specjalnych z oferty Audi exclusive. Spośród wielu kolorów lakierów możesz wybrać szary Suzuka metalik.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/a7/a7-sportback/my-2022/NeMo-Derivate-Startpage/product-highlight/AA7_D_171033_2.jpg?imwidth=768",
+      title3: "Wszechstronny dźwięk o najwyższej jakości",
+      text3:
+        "Opcjonalny system nagłośnienia Bang & Olufsen Advanced Sound System oferuje doświadczenie porównywalne z salą koncertową. Dyskretne głośniki w słupku A i automatycznie wysuwane soczewki akustyczne w desce rozdzielczej niezwykle szczegółowo odtwarzają dźwięk.",
     },
   },
   {
@@ -1586,23 +1600,38 @@ export const Audi = [
     instalment: 3614,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4ka0qy/2023.png?imwidth=550",
-    headerImage: "",
-    emission: "",
-    consumption: "",
-    fixedBackground: "",
-    cardTitle: "",
-    cardText: "",
-    power: {},
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/a7/a7-sportback-tfsi-e/my-2022/derivative-startpage/stage/1080x1920-audi-a7-sportback-tfsi-e-AA7_TFSIe_191005_1.jpg?imwidth=768",
+    emission: "36-29",
+    consumption:
+      "Benzyna: 1,6-1,3 l/100km | Energia elektryczna: 21,3-19,5 kWh/100 km",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/a7/a7-sportback-tfsi-e/my-2022/derivative-startpage/highlighted-car-teaser/570x857-audi-a7-sportback-tfsi-e-AA7_TFSIe_191005_1.jpg')]",
+    cardTitle: "Eleganckie i wydajne",
+    cardText:
+      "Połączenie sportowej elegancji i hybrydowego napędu typu plug-in - Audi A7 Sportback TFSI e przyciąga spojrzenia i zapewnia bezemisyjne podróżowanie na krótkich dystansach.",
+    power: {
+      speed: 6.3,
+      kilowatt: 230,
+      hp: 299,
+      Nm: 370,
+    },
     carousel: {
-      image1: "",
-      title1: "",
-      text1: "",
-      image2: "",
-      title2: "",
-      text2: "",
-      image3: "",
-      title3: "",
-      text3: "",
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a7/a7-sportback-tfsi-e/my-2022/derivative-startpage/product-highlight/1920x1920-audi-a7-sportback-tfsi-e-AA7_TFSIe_191001_2.jpg?imwidth=768",
+      title1: "Kierowane innowacją",
+      text1:
+        "Dzięki połączeniu silnika elektrycznego i mocnej jednostki 2-litrowej wariant 50 TFSI e quattro oferuje moc systemową 220 kW. Wariant 55 TFSI e quattro zapewnia natomiast moc systemową 270 kW.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a7/a7-sportback-tfsi-e/my-2022/derivative-startpage/product-highlight/1920x1920-audi-a7-sportback-tfsi-e-AA7_TFSIe_191003_1.jpg?imwidth=768",
+      title2: "Wydajna jazda",
+      text2:
+        "Dzięki elektrycznemu silnikowi umieszczonemu przy skrzyni biegów Audi A7 Sportback TFSI e pozwala na bezemisyjną jazdę w trybie czysto elektrycznym.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/a7/a7-sportback-tfsi-e/my-2022/derivative-startpage/product-highlight/1920x1920-A1912801_large.jpg?imwidth=768",
+      title3: "Wielofunkcyjny ekran informacyjny",
+      text3:
+        "Wirtualny kokpit Audi, będący częścią wyposażenia standardowego, prezentuje najważniejsze informacje o samochodzie, między innymi poziom naładowania baterii i pozostały zasięg elektryczny.",
     },
   },
   {
@@ -1616,23 +1645,37 @@ export const Audi = [
     instalment: 4674,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4kaspa/2023.png?imwidth=550",
-    headerImage: "",
-    emission: "",
-    consumption: "",
-    fixedBackground: "",
-    cardTitle: "",
-    cardText: "",
-    power: {},
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/a7/s7-sportback/my-2022/derivate-startpage/Stage/1080x1920-as7_181003_2.jpg?imwidth=768",
+    emission: "195-186",
+    consumption: "7,5-7,1 l/100km",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/a7/s7-sportback/my-2022/derivate-startpage/parallax-teaser/1534x2500-AS7_181004.jpg?imwidth=767')]",
+    cardTitle: "Piękne i dynamiczne",
+    cardText:
+      "Elegancki wygląd, dynamiczne przyśpieszenie i luksusowe wnętrze - Audi S7 Sportback zachwyca w każdym wymiarze.",
+    power: {
+      speed: 5.1,
+      kilowatt: 253,
+      hp: 344,
+      Nm: 700,
+    },
     carousel: {
-      image1: "",
-      title1: "",
-      text1: "",
-      image2: "",
-      title2: "",
-      text2: "",
-      image3: "",
-      title3: "",
-      text3: "",
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a7/s7-sportback/my-2022/derivate-startpage/feature-gallery/810x1080-AS7_181002_2.jpg?imwidth=768&imdensity=1",
+      title1: "Sylwetka przywodząca na myśl coupe",
+      text1:
+        "Elegancka i sportowa sylwetka coupé Audi S7 Sportback robi szczególne wrażenie",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a7/s7-sportback/my-2022/derivate-startpage/feature-gallery/810x1080-AS7_D_181001_2.jpg?imwidth=768&imdensity=1",
+      title2: "Eleganckie i pełne charakteru",
+      text2:
+        "Nadwozie Audi S7 Sportback zachwyca standardowymi elementami stylistycznymi, takimi jak np. 20-calowe obręcze. Zaciski hamulcowe w kolorze czerwonym dostępne są w wyposażeniu opcjonalnym. Obudowy lusterek zewnętrznych w standardzie są w optyce aluminium.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/a7/s7-sportback/my-2022/derivate-startpage/feature-gallery/810x1080-AS7_D_181001_2b.jpg?imwidth=768&imdensity=1",
+      title3: "Oświetlenie",
+      text3:
+        "Technologia dynamicznego oświetlenia o wysokiej rozdzielczości i innowacyjny design, który fascynuje. Sygnatura i rozmieszczenie opcjonalnych reflektorów HD Matrix LED stanowią integralne elementy progresywnego języka projektowania.",
     },
   },
   {
@@ -1646,23 +1689,37 @@ export const Audi = [
     instalment: 8456,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4karca/2023.png?imwidth=550",
-    headerImage: "",
-    emission: "",
-    consumption: "",
-    fixedBackground: "",
-    cardTitle: "",
-    cardText: "",
-    power: {},
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/a7/rs-7-sportback/my-2022/nemo-derivate-startpage/stage/1080x1920-rs7_2020_1539.jpg?imwidth=768",
+    emission: "285-272",
+    consumption: "12,6-12,0 l/100km",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/a7/rs-7-sportback/my-2022/nemo-derivate-startpage/parallax-teaser/1534x2500-rs7_2020_1542.jpg?imwidth=767')]",
+    cardTitle: "Podążać za wizją",
+    cardText:
+      "Żywiołowe i nieokiełznane, a przy tym eleganckie i pewne w prowadzeniu – za kierownicą Audi RS 7 Sportback1 nie musisz godzić się na kompromisy.",
+    power: {
+      speed: 3.6,
+      Nm: 800,
+      kilowatt: 441,
+      hp: 600,
+    },
     carousel: {
-      image1: "",
-      title1: "",
-      text1: "",
-      image2: "",
-      title2: "",
-      text2: "",
-      image3: "",
-      title3: "",
-      text3: "",
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a7/rs-7-sportback/my-2022/nemo-derivate-startpage/product-highlight/1920x1920-rs7_2020_1543.jpg?imwidth=768",
+      title1: "Przyspiesza puls",
+      text1:
+        "Wyrafinowane wzornictwo zachwyca efektownymi detalami. Potwierdzeniem spektakularnych osiągów są charakterystyczne dla RS muskularne nadwozie z poszerzonymi nadkolami, listwa świetlna LED jak również szeroka i pozbawiona ramy osłona chłodnicy Singleframe.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a7/rs-7-sportback/my-2022/nemo-derivate-startpage/product-highlight/1920x1920-rs7.jpg?imwidth=768",
+      title2: "Wizualna prezencja",
+      text2:
+        "Seryjny pakiet optyczny z elementami w połyskującej czerni takimi jak listwy progowe, przedni spojler i dyfuzor z tyłu zdecydowanie podkreśla dynamikę Audi RS 7 Sportback. Na życzenie samochód oferuje stylistycznie dopasowane pierścienie Audi oraz sygnaturę RS 7.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/a7/rs-7-sportback/my-2022/nemo-derivate-startpage/product-highlight/1920x1920-rs7_2020_1541.jpg?imwidth=768",
+      title3: "Zapiera dech",
+      text3:
+        "Niewiele widoków potrafi zapierać dech w piersiach. Jednym z nich są z pewnością opcjonalne 22-calowe, pięcioramienne obręcze kół w antracytowej czerni. Kolejnym imponującym widokiem są opcjonalne tarcze ceramiczne RS z przodu z zaciskami w kolorze niebieskim i sygnaturą „Audi ceramic”.",
     },
   },
   {
@@ -1676,23 +1733,37 @@ export const Audi = [
     instalment: 8924,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4karra/2023.png?imwidth=550",
-    headerImage: "",
-    emission: "",
-    consumption: "",
-    fixedBackground: "",
-    cardTitle: "",
-    cardText: "",
-    power: {},
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/a7/rs-7-sportback-performance/my-2023/stage/RS_7_2022_4371-S.jpg?imwidth=768",
+    emission: "284-273",
+    consumption: "12,5-12,0 l/100km",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/a7/rs-7-sportback-performance/my-2023/parallax-teaser/RS_7_2022_4360-S.jpg?imwidth=767')]",
+    cardTitle: "Inspirująca estetyka, zachwycająca akustyka",
+    cardText:
+      "Odkryj niepowtarzalne wrażenia z jazdy - z najmocniejszym jak dotąd silnikiem RS 7 w nowym Audi RS 7 Sportback performance. Performance is an attitude.",
+    power: {
+      hp: 630,
+      speed: 3.4,
+      kilowatt: 463,
+      Nm: 850,
+    },
     carousel: {
-      image1: "",
-      title1: "",
-      text1: "",
-      image2: "",
-      title2: "",
-      text2: "",
-      image3: "",
-      title3: "",
-      text3: "",
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a7/rs-7-sportback-performance/my-2023/product-highlight/RS_7_2022_4359-L.jpg?imwidth=768",
+      title1: "Doświadcz doskonałej wydajności",
+      text1:
+        "Liczby, które przykuwają uwagę: czterolitrowy silnik V8 biturbo TFSI o mocy 463 kW zapewnia przyspieszenie od 0 do 100 km/h w 3,4 sekundy.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a7/rs-7-sportback-performance/my-2023/product-highlight/RS_7_2022_4365-L.jpg?imwidth=768",
+      title2: "Prawdziwie sportowy charakter",
+      text2:
+        "Ekskluzywny opcjonalny pakiet RS Design plus o niebieskiej barwie zachwyca akcentami w kolorze niebieskim Mercato. Dostępne są także sportowe fotele plus z czarnej perforowanej skóry Valcona.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/a7/rs-7-sportback-performance/my-2023/product-highlight/RS_7_2022_4362-L.jpg?imwidth=768",
+      title3: "Wyraźna precyzja",
+      text3:
+        "Wirtualny kokpit Audi plus z trzema widokami charakterystycznymi dla RS można dostosować do swoich preferencji. Oto pełnia cyfrowej innowacyjności.",
     },
   },
 
