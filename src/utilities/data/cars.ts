@@ -1780,6 +1780,38 @@ export const Audi = [
     instalment: 4873,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4nc0da/2022.png?imwidth=550",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/a8/a8/my-2022-pa/nemo-derivate-startpage/stage/1080x1920-A8_2021_3211.jpg?imwidth=768",
+    emission: "274-183",
+    consumption: "12,1-7,0 l/100km",
+    power: {
+      speed: 5.9,
+      hp: 286,
+      kilowatt: 210,
+      Nm: 600,
+    },
+    cardTitle: "Emocje w każdej podróży",
+    cardText:
+      "Dzięki swojemu charakterystycznemu designowi oraz innowacyjnym technologiom. Nowe Audi A8 oferuje komfortowe i fascynujące wrażenia z jazdy.",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/a8/a8/my-2022-pa/nemo-derivate-startpage/parallax-teaser/1534x2500-A8_2021_3216_V1.jpg?imwidth=767')]",
+    carousel: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a8/a8/my-2022-pa/nemo-derivate-startpage/product-hightlight/A8_2021_3215.jpg?imwidth=768",
+      title1: "Wyjątkowy design",
+      text1:
+        "Wygląd zewnętrzny nowego Audi A8 zachwyca sportowym designem i eleganckimi akcentami w tonacji błyszczącego chromu z przodu, z tyłu oraz opcjonalnie na klamkach drzwi.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a8/a8/my-2022-pa/nemo-derivate-startpage/product-hightlight/1920x1920-A8_2021_3213.jpg?imwidth=768",
+      title2: "Przyciąga wszystkie spojrzenia",
+      text2:
+        "Technologia OLED tylnych świateł to realizacja zachwycającej koncepcji oświetlenia: całkowicie cyfrowej i wyjątkowo efektownej.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/a8/a8/my-2022-pa/nemo-derivate-startpage/product-hightlight/1920x1920-A8_2021_3220.jpg?imwidth=768",
+      title3: "Tworzy przyjemną atmosferę",
+      text3:
+        "Z łatwością możesz wyświetlić zawartość swojego urządzenia na opcjonalnych ekranach z tyłu, oraz sterować funkcjami komfortu i rozrywki. Intuicyjnie - wystarczy dotknięcie.",
+    },
   },
   {
     id: 42,
@@ -1792,6 +1824,39 @@ export const Audi = [
     instalment: 6246,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4nc0ha/2022.png?imwidth=550",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/a8/a8-tfsi-e/my-2022-pa/nemo-derivate-startpage/stage/A8_2021_3232_V1-s.jpg?imwidth=768",
+    emission: "49-40",
+    consumption:
+      "Benzyna: 2,1-1,8 l/100km | Energia elektryczna: 23,7-22,0 kWh/100 km",
+    power: {
+      speed: 4.7,
+      hp: 462,
+      kilowatt: 340,
+      Nm: 500,
+    },
+    cardTitle: "To, co najlepsze z obu światów",
+    cardText:
+      "Witamy w Audi A8 TFSI e. Oto biznesowa limuzyna, która łączy wyjątkowo komfortowe wnętrze z innowacyjnym napędem.",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/a8/a8-tfsi-e/my-2022-pa/nemo-derivate-startpage/parallax-teaser/A8_2021_3238-m.jpg?imwidth=767')]",
+    carousel: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a8/a8-tfsi-e/my-2022-pa/nemo-derivate-startpage/product-highlight-gallery/A8_2021_3234.jpg?imwidth=768",
+      title1: "Zawsze właściwy napęd",
+      text1:
+        "Doświadcz doskonałej wydajności systemu dzięki połączeniu dynamicznego silnika TFSI i wydajnego napędu elektrycznego.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a8/a8-tfsi-e/my-2022-pa/nemo-derivate-startpage/product-highlight-gallery/A8_2021_3250.jpg?imwidth=768",
+      title2: "Połączenie korzyści",
+      text2:
+        "W hybrydzie plug-in inteligentny system zarządzania napędem steruje współpracą pomiędzy silnikiem elektrycznym a silnikiem spalinowym.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/a8/a8-tfsi-e/my-2022-pa/nemo-derivate-startpage/product-highlight-gallery/A8_2021_3233_withoutCast.jpg?imwidth=768",
+      title3: "Krótkie i łatwe ładowanie",
+      text3:
+        "Szeroka gama opcji ładowania umożliwia wygodne ładowanie zarówno w domu, jak i w trasie.",
+    },
   },
   {
     id: 43,
@@ -1804,6 +1869,38 @@ export const Audi = [
     instalment: 5092,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4nl0da/2022.png?imwidth=550",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/a8/a8-l/my-2022-pa/nemo-derivate-startpage/stage/A8_2021_3275_V1_withoutCast-s.jpg?imwidth=768",
+    emission: "277-185",
+    consumption: "12,2-7,0 l/100km",
+    power: {
+      speed: 5.9,
+      kilowatt: 210,
+      hp: 286,
+      Nm: 600,
+    },
+    cardTitle: "Wyjątkowa przestronność",
+    cardText:
+      "Audi A8 L oferuje wygodne i wyjątkowo obszerne wnętrze ze strefą prawdziwego relaksu na tylnych siedzeniach.",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/a8/a8-l/my-2022-pa/nemo-derivate-startpage/parallax-teaser/A8_2021_3292-m.jpg?imwidth=767')]",
+    carousel: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a8/a8-l/my-2022-pa/nemo-derivate-startpage/product-highlight/A8_2021_3291-v2.jpg?imwidth=768",
+      title1: "Dynamiczne wzornictwo",
+      text1:
+        "Nowy kształt reflektorów, progresywny wzór osłony chłodnicy Singleframe i zmodyfikowane osłony wlotów powietrza w zderzaku to cechy charakterystyczne Audi A8 L.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a8/a8-l/my-2022-pa/nemo-derivate-startpage/product-highlight/A8_2021_3296-v2.jpg?imwidth=768",
+      title2: "Wyjątkowe akcenty",
+      text2:
+        "Tył Audi A8 L urzeka nową stylistyką tylnych świateł OLED oraz opcjonalnym pakietem stylistycznym Chrom z dodatkowymi chromowanymi listwami przedniego i tylnego zderzaka. Listwy progowe z boku podkreślają sportowy charakter.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/a8/a8-l/my-2022-pa/nemo-derivate-startpage/product-highlight/A8_2021_3297-v2.jpg?imwidth=768",
+      title3: "Koła, które przyciągają spojrzenia",
+      text3:
+        "Koła Audi sprostają najwyższym wymaganiom. Pod względem wzornictwa emanują progresywną elegancją. Zadbaj o doskonały wygląd.",
+    },
   },
   {
     id: 44,
@@ -1816,6 +1913,39 @@ export const Audi = [
     instalment: 6490,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4nl0ha/2022.png?imwidth=550",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/a8/a8-l-tfsi-e/my-2022-pa/nemo-derivate-startpage/stage/A8_2021_3311-s.jpg?imwidth=768",
+    emission: "49-40",
+    consumption:
+      "Benzyna: 2,2-1,8 l/100km | Energia elektryczna: 23,9-22,1 kWh/100 km",
+    power: {
+      Nm: 500,
+      speed: 4.7,
+      kilowatt: 340,
+      hp: 462,
+    },
+    cardTitle: "Pewność siebie i skuteczność",
+    cardText:
+      "Audi A8 L 60 TFSI e to połączenie wyjątkowo komfortowego wnętrza z innowacyjną koncepcją hybrydy plug-in.",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/a8/a8-l-tfsi-e/my-2022-pa/nemo-derivate-startpage/parallax-teaser/A8_2021_3319-s.jpg?imwidth=748')]",
+    carousel: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a8/a8-l-tfsi-e/my-2022-pa/nemo-derivate-startpage/product-highlight-gallery/A8_2021_3312.jpg?imwidth=768",
+      title1: "Doświadczenie różnorodności",
+      text1:
+        "Ciesz się zaletami silnika TFSI i silnika elektrycznego bez rezygnowania z charakterystycznej dla Audi dynamiki.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a8/a8-l-tfsi-e/my-2022-pa/nemo-derivate-startpage/product-highlight-gallery/A8_2021_3310_v2.jpg?imwidth=768",
+      title2: "Elektryzujące korzyści",
+      text2:
+        "Tryb całkowicie elektryczny pozwala na cichą i bezemisyjną jazdę, a dzięki silnikowi TFSI żaden cel nie jest zbyt odległy.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/a8/a8-l-tfsi-e/my-2022-pa/nemo-derivate-startpage/product-highlight-gallery/A8_2021_3310_V2_withoutCast.jpg?imwidth=768",
+      title3: "Dla fanów sportowego stylu",
+      text3:
+        "Na życzenie dostępny jest lakier Audi w szarym kolorze Vesuvius metalik z pakietem S line Exterieur, pakietem optycznym Czerń Plus i hakiem holowniczym.",
+    },
   },
   {
     id: 45,
@@ -1828,6 +1958,30 @@ export const Audi = [
     instalment: 6934,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4ncssa/2022.png?imwidth=550",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/a8/s8/my-2022-pa/nemo-derivate-startpage/stage/1080x1920-S8_2021_3261.jpg?imwidth=768",
+    emission: "",
+    consumption: "",
+    power: {
+      Nm: 800,
+      speed: 3.8,
+      hp: 571,
+      kilowatt: 420,
+    },
+    cardTitle: "S jak sportowe",
+    cardText: "W Audi S8, biznesowej limuzynie w jej najbardziej sportowej formie, skutecznie się zrelaksujesz i szybko dotrzesz do celu.",
+    fixedBackground: "bg-[url('https://www.audi.pl/content/dam/nemo/models/a8/s8/my-2022-pa/nemo-derivate-startpage/parallax-teaser/S8_2021_3269-m.jpg?imwidth=767')]",
+    carousel: {
+      image1: "https://www.audi.pl/content/dam/nemo/models/a8/s8/my-2022-pa/nemo-derivate-startpage/product-highlight/S8_2021_3263.jpg?imwidth=768",
+      title1: "Dynamiczne i pewne siebie",
+      text1: "Dzięki rozwiązaniom poprawiającym dynamikę jazdy, takim jak dynamiczny układ kierowniczy z tylną osią skrętną oraz napęd quattro ze sportowym mechanizmem różnicowym, poczujesz efektywność podczas każdej podróży.",
+      image2: "https://www.audi.pl/content/dam/nemo/models/a8/s8/my-2022-pa/nemo-derivate-startpage/product-highlight/1920x1920-S8_2021_3260_V2.jpg?imwidth=768",
+      title2: "Sportowe i stylowe",
+      text2: "Biznesowa limuzyna w najbardziej sportowej formie. Audi S81 w kolorze niebieskim Ultra z charakterystycznymi dla wersji S elementami wyposażenia zewnętrznego i wewnętrznego.",
+      image3: "https://www.audi.pl/content/dam/nemo/models/a8/s8/my-2022-pa/nemo-derivate-startpage/product-highlight/S8_2021_3269.jpg?imwidth=768",
+      title3: "Innowacyjne i fascynujące",
+      text3: "Technologia OLED tylnych świateł to realizacja zachwycającej koncepcji oświetlenia: w pełni cyfrowej i wyjątkowo efektownej.",
+    },
   },
 
   //   Q2
@@ -1843,6 +1997,24 @@ export const Audi = [
     instalment: 1311,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/gagbzg/2023.png?imwidth=550",
+    headerImage: "",
+    emission: "",
+    consumption: "",
+    power: {},
+    cardTitle: "",
+    cardText: "",
+    fixedBackground: "",
+    carousel: {
+      image1: "",
+      title1: "",
+      text1: "",
+      image2: "",
+      title2: "",
+      text2: "",
+      image3: "",
+      title3: "",
+      text3: "",
+    },
   },
 
   //   Q3
@@ -1858,6 +2030,24 @@ export const Audi = [
     instalment: 1595,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f3bbky/2023.png?imwidth=550",
+    headerImage: "",
+    emission: "",
+    consumption: "",
+    power: {},
+    cardTitle: "",
+    cardText: "",
+    fixedBackground: "",
+    carousel: {
+      image1: "",
+      title1: "",
+      text1: "",
+      image2: "",
+      title2: "",
+      text2: "",
+      image3: "",
+      title3: "",
+      text3: "",
+    },
   },
   {
     id: 48,
@@ -1870,6 +2060,24 @@ export const Audi = [
     instalment: 2511,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f3bapx/2023.png?imwidth=550",
+    headerImage: "",
+    emission: "",
+    consumption: "",
+    power: {},
+    cardTitle: "",
+    cardText: "",
+    fixedBackground: "",
+    carousel: {
+      image1: "",
+      title1: "",
+      text1: "",
+      image2: "",
+      title2: "",
+      text2: "",
+      image3: "",
+      title3: "",
+      text3: "",
+    },
   },
   {
     id: 49,
@@ -1882,6 +2090,24 @@ export const Audi = [
     instalment: 1682,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f3ncky/2023.png?imwidth=550",
+    headerImage: "",
+    emission: "",
+    consumption: "",
+    power: {},
+    cardTitle: "",
+    cardText: "",
+    fixedBackground: "",
+    carousel: {
+      image1: "",
+      title1: "",
+      text1: "",
+      image2: "",
+      title2: "",
+      text2: "",
+      image3: "",
+      title3: "",
+      text3: "",
+    },
   },
   {
     id: 50,
@@ -1894,6 +2120,24 @@ export const Audi = [
     instalment: 2608,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f3napx/2023.png?imwidth=550",
+    headerImage: "",
+    emission: "",
+    consumption: "",
+    power: {},
+    cardTitle: "",
+    cardText: "",
+    fixedBackground: "",
+    carousel: {
+      image1: "",
+      title1: "",
+      text1: "",
+      image2: "",
+      title2: "",
+      text2: "",
+      image3: "",
+      title3: "",
+      text3: "",
+    },
   },
   {
     id: 51,
@@ -1906,6 +2150,24 @@ export const Audi = [
     instalment: 3962,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f3brwy/2023.png?imwidth=550",
+    headerImage: "",
+    emission: "",
+    consumption: "",
+    power: {},
+    cardTitle: "",
+    cardText: "",
+    fixedBackground: "",
+    carousel: {
+      image1: "",
+      title1: "",
+      text1: "",
+      image2: "",
+      title2: "",
+      text2: "",
+      image3: "",
+      title3: "",
+      text3: "",
+    },
   },
   {
     id: 52,
@@ -1918,6 +2180,24 @@ export const Audi = [
     instalment: 4069,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f3nrwy/2023.png?imwidth=550",
+    headerImage: "",
+    emission: "",
+    consumption: "",
+    power: {},
+    cardTitle: "",
+    cardText: "",
+    fixedBackground: "",
+    carousel: {
+      image1: "",
+      title1: "",
+      text1: "",
+      image2: "",
+      title2: "",
+      text2: "",
+      image3: "",
+      title3: "",
+      text3: "",
+    },
   },
 
   //   Q4 e-tron
@@ -1933,6 +2213,24 @@ export const Audi = [
     instalment: 3424,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f4b/2022.png?imwidth=550",
+    headerImage: "",
+    emission: "",
+    consumption: "",
+    power: {},
+    cardTitle: "",
+    cardText: "",
+    fixedBackground: "",
+    carousel: {
+      image1: "",
+      title1: "",
+      text1: "",
+      image2: "",
+      title2: "",
+      text2: "",
+      image3: "",
+      title3: "",
+      text3: "",
+    },
   },
   {
     id: 54,
@@ -1945,6 +2243,24 @@ export const Audi = [
     instalment: 3583,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f4n/2022.png?imwidth=550",
+    headerImage: "",
+    emission: "",
+    consumption: "",
+    power: {},
+    cardTitle: "",
+    cardText: "",
+    fixedBackground: "",
+    carousel: {
+      image1: "",
+      title1: "",
+      text1: "",
+      image2: "",
+      title2: "",
+      text2: "",
+      image3: "",
+      title3: "",
+      text3: "",
+    },
   },
 
   //   Q5
@@ -1960,6 +2276,24 @@ export const Audi = [
     instalment: 2180,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fygbuy/2023.png?imwidth=550",
+    headerImage: "",
+    emission: "",
+    consumption: "",
+    power: {},
+    cardTitle: "",
+    cardText: "",
+    fixedBackground: "",
+    carousel: {
+      image1: "",
+      title1: "",
+      text1: "",
+      image2: "",
+      title2: "",
+      text2: "",
+      image3: "",
+      title3: "",
+      text3: "",
+    },
   },
   {
     id: 56,
@@ -1972,6 +2306,24 @@ export const Audi = [
     instalment: 3052,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fygb9y/2023.png?imwidth=550",
+    headerImage: "",
+    emission: "",
+    consumption: "",
+    power: {},
+    cardTitle: "",
+    cardText: "",
+    fixedBackground: "",
+    carousel: {
+      image1: "",
+      title1: "",
+      text1: "",
+      image2: "",
+      title2: "",
+      text2: "",
+      image3: "",
+      title3: "",
+      text3: "",
+    },
   },
   {
     id: 57,
@@ -1984,6 +2336,24 @@ export const Audi = [
     instalment: 2348,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fytbuy/2023.png?imwidth=550",
+    headerImage: "",
+    emission: "",
+    consumption: "",
+    power: {},
+    cardTitle: "",
+    cardText: "",
+    fixedBackground: "",
+    carousel: {
+      image1: "",
+      title1: "",
+      text1: "",
+      image2: "",
+      title2: "",
+      text2: "",
+      image3: "",
+      title3: "",
+      text3: "",
+    },
   },
   {
     id: 58,
@@ -1996,6 +2366,24 @@ export const Audi = [
     instalment: 3240,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fytb9y/2023.png?imwidth=550",
+    headerImage: "",
+    emission: "",
+    consumption: "",
+    power: {},
+    cardTitle: "",
+    cardText: "",
+    fixedBackground: "",
+    carousel: {
+      image1: "",
+      title1: "",
+      text1: "",
+      image2: "",
+      title2: "",
+      text2: "",
+      image3: "",
+      title3: "",
+      text3: "",
+    },
   },
   {
     id: 59,
@@ -2008,6 +2396,24 @@ export const Audi = [
     instalment: 3904,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fygs5a/2023.png?imwidth=550",
+    headerImage: "",
+    emission: "",
+    consumption: "",
+    power: {},
+    cardTitle: "",
+    cardText: "",
+    fixedBackground: "",
+    carousel: {
+      image1: "",
+      title1: "",
+      text1: "",
+      image2: "",
+      title2: "",
+      text2: "",
+      image3: "",
+      title3: "",
+      text3: "",
+    },
   },
   {
     id: 60,
@@ -2020,6 +2426,24 @@ export const Audi = [
     instalment: 4036,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fyts5a/2023.png?imwidth=550",
+    headerImage: "",
+    emission: "",
+    consumption: "",
+    power: {},
+    cardTitle: "",
+    cardText: "",
+    fixedBackground: "",
+    carousel: {
+      image1: "",
+      title1: "",
+      text1: "",
+      image2: "",
+      title2: "",
+      text2: "",
+      image3: "",
+      title3: "",
+      text3: "",
+    },
   },
 
   //   Q7
