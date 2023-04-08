@@ -631,6 +631,38 @@ export const Audi = [
     instalment: 1666,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8wc/2023.png?imwidth=550",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/a4/a4-limousine/my-2023/stage/A4_2020_1972_2-S.jpg?imwidth=768",
+    emission: "177-120",
+    consumption: "7,8-4,6 l/100km",
+    power: {
+      hp: 150,
+      kilowatt: 110,
+      speed: 8.9,
+      Nm: 320,
+    },
+    fixedBackground:
+      "https://www.audi.pl/content/dam/nemo/models/a4/a4-limousine/my-2023/parallax-teaser/A4_2020_1971_1-S.jpg?imwidth=767",
+    cardTitle: "Niezwykle sportowy charakter",
+    cardText:
+      "Dzięki progresywnej stylistyce z dynamicznie zaostrzonym przodem i wyrazistym tyłem Audi A4 Limousine zwraca uwagę bardziej niż kiedykolwiek wcześniej.",
+    carousel: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a4/a4-limousine/my-2023/feature-gallery/A4_2020_1973_1-S.jpg?imwidth=768&imdensity=1",
+      title1: "Imponujący widok",
+      text1:
+        "Z przodu imponującą całość tworzą osłona chłodnicy Singleframe i szerokie wloty powietrza.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a4/a4-limousine/my-2023/feature-gallery/AA4_D_191010_3-S.jpg?imwidth=768&imdensity=1",
+      title2: "Stylistyka podkreślająca moc",
+      text2:
+        "Na sportowe wykończenie tylnej części nadwozia składają się trapezoidalne wyloty końcówki rur wydechowych i optycznie przesunięta powierzchnia dyfuzora.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/a4/a4-limousine/my-2023/feature-gallery/A4_2020_1971_1-S.jpg?imwidth=768&imdensity=1",
+      title3: "Sportowy charakter",
+      text3:
+        "Całości dopełniają opcjonalne 5-ramienne obręcze kół Audi Sport ze stopów metali lekkich we wzorze Torsio.",
+    },
   },
   {
     id: 16,
@@ -643,6 +675,38 @@ export const Audi = [
     instalment: 1747,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8wd/2023.png?imwidth=550",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/a4/a4-avant/my-2022/derivative-startpage/stage/1080x1920-2020_1974_1.jpg?imwidth=768",
+    emission: "184-125",
+    consumption: "8,1-4,8 l/100km",
+    fixedBackground:
+      "https://www.audi.pl/content/dam/nemo/models/a4/a4-avant/my-2022/derivative-startpage/parallax-teaser/1534x2500-aa4_a_191002_2.jpg?imwidth=767",
+    cardTitle: "Sportowy design, wysoka funkcjonalność",
+    cardText:
+      "Audi A4 Avant to sportowy charakter, najwyższa jakość wykonania, cyfrowa obsługa oraz wszechstronność w każdej podróży.",
+    power: {
+      speed: 9.2,
+      kilowatt: 110,
+      hp: 150,
+      Nm: 240,
+    },
+    carousel: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a4/a4-avant/my-2022/derivative-startpage/product-highlight/1920x1920-A_191013_2.jpg?imwidth=768",
+      title1: "Audi exclusive",
+      text1:
+        "Wielu poszukuje tego, co niezwykłe - Ty samodzielnie o tym zdecydujesz. Możesz nadać swojemu Audi A4 Avant wyjątkowe cechy, na przykład wybierając lakier Audi exclusive6 w zielonym kolorze Java metalik.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a4/a4-avant/my-2022/derivative-startpage/product-highlight/1920x1920-D_191031_2.jpg?imwidth=768",
+      title2: "Dodatkowe akcenty",
+      text2:
+        "Wyrazistości wnętrzu nadaje czarna skóra Feinnappa z oferty Audi exclusive6 z kontrastowymi przeszyciami w zielonym kolorze Iguana, np. na konsoli środkowej, listwach ozdobnych i fotelach.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/a4/a4-avant/my-2023/product-highlight/AA4_D_191002_3_g-L.jpg?imwidth=768",
+      title3: "Cyfrowe doświadczenia",
+      text3:
+        "Opcjonalna nawigacja MMI plus z MMI touch oferuje innowacyjną technologię z szerokim zakresem funkcji, połączoną z łatwością obsługi i licznymi dodatkami. Pozwala na przykład uzyskać informacje o natężeniu ruchu, znaleźć interesujące miejsca w najbliższej okolicy lub sprawdzić aktualne ceny paliwa.",
+    },
   },
   {
     id: 17,
@@ -655,6 +719,38 @@ export const Audi = [
     instalment: 2257,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8wj/2023.png?imwidth=550",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/a4/a4-allroad-quattro/my-2023/stage/AA4_A_191003_2-S.jpg?imwidth=768",
+    emission: "183-150",
+    consumption: "8,1-5,7 l/100km",
+    fixedBackground:
+      "https://www.audi.pl/content/dam/nemo/models/a4/a4-allroad-quattro/my-2023/parallax-teaser/AA4_D_191018_1-S.jpg?imwidth=767",
+    cardTitle: "Ekspresyjne i wszechstronne",
+    cardText:
+      "Dzięki połączeniu zalet napędu na cztery koła quattro, mocnego silnika i off-roadowego zawieszenia Audi A4 allroad quattro doskonale sprawdzi się w każdych warunkach.",
+    power: {
+      speed: 7.3,
+      kilowatt: 150,
+      hp: 204,
+      Nm: 400,
+    },
+    carousel: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a4/a4-allroad-quattro/my-2023/feature-gallery/A4_2022_3673-S.jpg?imwidth=768&imdensity=1",
+      title1: "Nadwozie - przód pojazdu",
+      text1:
+        "Imponujący przód wyróżnia się charakterystyczną osłoną Singleframe, pionowym żebrowaniem i bocznymi wlotami powietrza w kolorze błyszczącej czerni. Czarne pierścienie Audi dodatkowo podkreślają sportowy charakter pojazdu.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a4/a4-allroad-quattro/my-2023/feature-gallery/A4_2022_3676-S.jpg?imwidth=768&imdensity=1",
+      title2: "Nadwozie - tył pojazdu",
+      text2:
+        "Efektowny tył zyskuje sportowego wyrazu dzięki wkładce dyfuzora, listwie dekoracyjnej na tylnej klapie i końcówkom układu wydechowego w błyszczącej czerni. Pierścienie Audi i oznaczenie modelu w kolorze czarnym stylowo dopełniają niepowtarzalny charakter samochodu.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/a4/a4-allroad-quattro/my-2023/feature-gallery/A4_2022_3675-S.jpg?imwidth=768&imdensity=1",
+      title3: "Detale nadwozia",
+      text3:
+        "Obudowa lusterek zewnętrznych i listwy wokół szyb w kolorze błyszczącej czerni, podobnie jak czarne relingi dachowe, sprawiają, że Audi A4 allroad quattro z opcjonalnym pakietem optycznym Czerń plus zachwyca sportowym wyglądem z każdej perspektywy.",
+    },
   },
   {
     id: 18,
@@ -667,6 +763,38 @@ export const Audi = [
     instalment: 3730,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8wcs/2023.png?imwidth=550",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/a4/s4-limousine/my-2023/stage/AS4_L_191001_2-S.jpg?imwidth=768",
+    emission: "190-184",
+    consumption: "7,2-7,0 l/100km",
+    fixedBackground:
+      "https://www.audi.pl/content/dam/nemo/models/a4/s4-limousine/my-2023/parallax-teaser/AS4_D_191002_2-S.jpg?imwidth=767",
+    cardTitle: "Bardziej sportowe niż kiedykolwiek",
+    cardText:
+      "Audi S4 Limousine charakteryzuje się sportową stylistyką, którą podkreślają zarówno na zewnątrz, jak i we wnętrzu elementy charakterystyczne dla modeli S.",
+    power: {
+      speed: 4.6,
+      Nm: 700,
+      hp: 341,
+      kilowatt: 251,
+    },
+    carousel: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a4/s4-limousine/my-2023/product-highlight/A4_2022_3678-L.jpg?imwidth=768",
+      title1: "Jeszcze bardziej niezwykłe",
+      text1:
+        "Dodaj swojemu Audi S4 Limousine jeszcze bardziej niepowtarzalnego charakteru dzięki wybranym elementom dekoracyjnym, kolorowej taicerce skórzanej i lakierom nadwozia z szerokiej palety oferty Audi exclusive. Wśród nich lakier w kolorze niebieskim Kumulus.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a4/s4-limousine/my-2023/product-highlight/AS4_D_191007_2-L.jpg?imwidth=768",
+      title2: "Innowacyjne technologie",
+      text2:
+        "Opcjonalny wirtualny kokpit Audi oferuje wyświetlanie spersonalizownych informacji istotnych dla kierowcy, takich jak: prędkość, podgląd mapy, usługi Audi connect, czy komunikaty z radia. Przycisk na kierownicy wielofunkcyjnej dodatkowo pozwala przełączać między rozmiarami wskaźników.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/a4/s4-limousine/my-2023/product-highlight/QS4_D_191001_3-L.jpg?imwidth=768",
+      title3: "Indywidualizm skrojony na miarę",
+      text3:
+        "Wnętrze Audi S4 Limousine może nabrać indywidualnego charakteru dzięki ofercie Audi exclusive - na przykład przez wykorzystanie skórzanej tapicerki Feinnappa w kolorze srebrnym Diamant z kontrastującymi przeszyciami w kolorze niebieskim Ocean.",
+    },
   },
   {
     id: 19,
@@ -679,6 +807,37 @@ export const Audi = [
     instalment: 3813,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8wds/2023.png?imwidth=550",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/a4/s4-avant/my-2023/stage/AS4_A_191003_2-S.jpg?imwidth=768",
+    emission: "197-188",
+    consumption: "7,5-7,2 l/100km",
+    power: {
+      Nm: 700,
+      kilowatt: 251,
+      hp: 341,
+      speed: 4.7,
+    },
+    fixedBackground:
+      "https://www.audi.pl/content/dam/nemo/pl/modele/a4/s4-avant/my-2022/AS4_A_191002_570x857.jpg",
+    cardTitle: "Wszechstronne i sportowe",
+    cardText:
+      "Zarówno nadwozie, jak i wnętrze S4 Avant wyposażono w elementy typowe dla modeli S, które podkreślają jego sportowy charakter.",
+    carousel: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a4/s4-avant/my-2023/product-highlight/qs4_d_191001_2-L.jpg?imwidth=768",
+      title1: "Wnętrze",
+      text1:
+        "Spersonalizuj wnętrze Audi S4 Avant za pomocą szerokiej gamy tapicerek skórzanych z oferty Audi exclusive.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a4/s4-avant/my-2023/product-highlight/AS4_A_191004_2-L.jpg?imwidth=768",
+      title2: "Wrażenia z jazdy",
+      text2: "3-litrowy silnik TDI generuje moment obrotowy 700 Nm.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/a4/s4-avant/my-2023/product-highlight/AA4_D_191002_3_s-L.jpg?imwidth=768",
+      title3: "Digitalizacja wrażeń",
+      text3:
+        "Dzięki opcjonalnej nawigacji MMI navigation plus z MMI touch możesz korzystać z oferty Audi connect. Uzyskasz w ten sposób dostęp do usług związanych z Infotainment, nawigacją, bezpieczeństwem i serwisem. W czasie rzeczywistym możesz sprawdzić także natężenie ruchu lub aktualne ceny paliwa.",
+    },
   },
   {
     id: 20,
@@ -691,6 +850,38 @@ export const Audi = [
     instalment: 5892,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8wdr/2023.png?imwidth=550",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/a4/rs-4-avant/my-2022/derivative-startpage/stage/1080x1920-rs4_2020_1499.jpg?imwidth=768",
+    emission: "229-220",
+    consumption: "10,1-9,7 l/100km",
+    power: {
+      Nm: 600,
+      speed: 4.1,
+      kilowatt: 331,
+      hp: 450,
+    },
+    fixedBackground:
+      "https://www.audi.pl/content/dam/nemo/models/a4/rs-4-avant/my-2022/derivative-startpage/parallax-teaser/1534x2500_rs4_2020_1501.jpg?imwidth=767",
+    cardTitle: "Kształtujące doświadczenia",
+    cardText:
+      "Audi RS 4 Avant łączy spektakularne sportowe osiągi z wysoką funkcjonalnością samochodu rodzinnego.",
+    carousel: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a4/rs-4-avant/my-2022/derivative-startpage/product-highlight/1920x1920-rs4_2020_1504.jpg?imwidth=768",
+      title1: "Wrażenia z jazdy",
+      text1:
+        "Silnik V6 TFSI biturbo o pojemności 2,9 litra osiąga moc 331 kW (450 KM) i maksymalny moment obrotowy 600 Nm.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a4/rs-4-avant/my-2022/derivative-startpage/product-highlight/1920x1920-rs4_2020_1508.jpg?imwidth=768",
+      title2: "Czeka na Twoje polecenie: MMI",
+      text2:
+        "Centrum obsługi systemu Infotainment stanowi 10,1-calowy ekran dotykowy MMI, który umożliwia sprawną obsługę funkcji samochodu oraz zapewnia dostęp do usług Audi connect i opcjonalnej nawigacji satelitarnej. Audi RS 4 Avant rozpoznaje również mowę, co ułatwia sterowanie funkcjami pokładowymi.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/a4/rs-4-avant/my-2022/derivative-startpage/product-highlight/1920x1920-rs4_2020_1507_1.jpg?imwidth=768",
+      title3: "Wnętrze",
+      text3:
+        "Audi RS 4 Avant zachwyca elegancją dzięki sportowym fotelom przednim plus z emblematem RS, które obszyte są czarną skórą Feinnappa z przeszyciami o strukturze plastra miodu w odcieniu czerwieni Crescendo.",
+    },
   },
 
   //   A5
@@ -705,6 +896,24 @@ export const Audi = [
     instalment: 1941,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f5pbzg/2023.png?imwidth=550",
+    headerImage: "",
+    emission: "",
+    consumption: "",
+    power: {},
+    fixedBackground: "",
+    cardTitle: "",
+    cardText: "",
+    carousel: {
+      image1: "",
+      title1: "",
+      text1: "",
+      image2: "",
+      title2: "",
+      text2: "",
+      image3: "",
+      title3: "",
+      text3: "",
+    },
   },
   {
     id: 22,
@@ -717,6 +926,24 @@ export const Audi = [
     instalment: 2027,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f5fbzg/2023.png?imwidth=550",
+    headerImage: "",
+    emission: "",
+    consumption: "",
+    power: {},
+    fixedBackground: "",
+    cardTitle: "",
+    cardText: "",
+    carousel: {
+      image1: "",
+      title1: "",
+      text1: "",
+      image2: "",
+      title2: "",
+      text2: "",
+      image3: "",
+      title3: "",
+      text3: "",
+    },
   },
   {
     id: 23,
@@ -729,6 +956,24 @@ export const Audi = [
     instalment: 3763,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f5ps5a/2023.png?imwidth=550",
+    headerImage: "",
+    emission: "",
+    consumption: "",
+    power: {},
+    fixedBackground: "",
+    cardTitle: "",
+    cardText: "",
+    carousel: {
+      image1: "",
+      title1: "",
+      text1: "",
+      image2: "",
+      title2: "",
+      text2: "",
+      image3: "",
+      title3: "",
+      text3: "",
+    },
   },
   {
     id: 24,
@@ -741,6 +986,24 @@ export const Audi = [
     instalment: 3849,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f5fs5a/2023.png?imwidth=550",
+    headerImage: "",
+    emission: "",
+    consumption: "",
+    power: {},
+    fixedBackground: "",
+    cardTitle: "",
+    cardText: "",
+    carousel: {
+      image1: "",
+      title1: "",
+      text1: "",
+      image2: "",
+      title2: "",
+      text2: "",
+      image3: "",
+      title3: "",
+      text3: "",
+    },
   },
   {
     id: 25,
@@ -753,77 +1016,23 @@ export const Audi = [
     instalment: 5883,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f5prxa/2023.png?imwidth=550",
-    headerImage:
-      "https://www.audi.pl/content/dam/nemo/models/a5/rs-5-coupe/my-2022/NeMo-Derivative-Startpage/stage/1080x1920-rs5_2020_1510.jpg?imwidth=768",
-    fixedBackground:
-      "https://www.audi.pl/content/dam/nemo/models/a5/rs-5-coupe/my-2022/NeMo-Derivative-Startpage/parallax-teaser/748x2500-rs5_2020_1515.jpg?imwidth=748",
+    headerImage: "",
+    emission: "",
+    consumption: "",
+    power: {},
+    fixedBackground: "",
+    cardTitle: "",
+    cardText: "",
     carousel: {
-      image1:
-        "https://www.audi.pl/content/dam/nemo/models/a5/rs-5-coupe/my-2022/NeMo-Derivative-Startpage/product-highlight/1920x1920-rs5_2020_1513.jpg?imwidth=768",
-      titleInfo1: "Wrażenia z jazdy",
-      titleInfo2: "Wnętrze",
-      textInfo1:
-        " Optymalnie dostrojone: zawieszenie sportowe RS zwiększa stabilność i dynamikę jazdy na zakrętach.",
-      textInfo2:
-        "Wysokiej jakości materiały, najwyższej klasy wykonanie i technika formatu RS.",
-      image2:
-        "https://www.audi.pl/content/dam/nemo/models/a5/rs-5-coupe/my-2022/NeMo-Derivative-Startpage/product-highlight/1920x1920-rs5_2020_1517.jpg?imwidth=768",
-    },
-    carousel2: {
-      image1:
-        "https://www.audi.pl/content/dam/nemo/models/a5/rs-5-coupe/my-2022/NeMo-Derivative-Startpage/feature-gallery/810x1080-rs5_2020_1515.jpg?imwidth=375&imdensity=1",
-      info1:
-        "Silnik V6 TFSI biturbo o pojemności 2,9 l, mocy 331 kW (450 KM) i maksymalnym momencie obrotowym 600 Nm to obietnica sportowych emocji podczas jazdy.",
-      image2:
-        "https://www.audi.pl/content/dam/nemo/models/a5/rs-5-coupe/my-2022/NeMo-Derivative-Startpage/feature-gallery/810x1080-rs5_2020_1509.jpg?imwidth=375&imdensity=1",
-      info2:
-        "Napęd na cztery koła quattro z opcjonalnym sportowym mechanizmem różnicowym gwarantuje niezawodną przyczepność, co przekłada się na imponującą dynamikę jazdy i komfort prowadzenia. Opcjonalne zawieszenie RS plus z Dynamic Ride Control (DRC) zwiększa dynamikę pokonywania zakrętów i stabilność jazdy.",
-    },
-    carousel3: {
-      image1:
-        "https://www.audi.pl/content/dam/nemo/models/a5/rs-5-coupe/my-2022/NeMo-Derivative-Startpage/product-highlight/1920x1920-rs5_2020_1512.jpg?imwidth=768",
-      titleInfo1: "Imponujący przód",
-      textInfo1:
-        "Przód RS wyraża zdecydowanie i pewność siebie. Szeroki rozstaw kół podkreślają poszerzone nadkola i typowe dla modeli RS progi boczne.",
-      image2:
-        "https://www.audi.pl/content/dam/nemo/models/a5/rs-5-coupe/my-2022/NeMo-Derivative-Startpage/product-highlight/1920x1920-rs5_2020_1514.jpg?imwidth=768",
-      titleInfo2: "Sportowy tył",
-      textInfo2:
-        "O szybsze bicie serca przyprawia masywny tył z charakterystycznym dla RS dyfuzorem. Wyczynowy charakter wzmacniają opcjonalne 20-calowe obręcze ze stopu metali lekkich w czarnej kolorystyce.",
-      image3:
-        "https://www.audi.pl/content/dam/nemo/models/a5/rs-5-coupe/my-2022/NeMo-Derivative-Startpage/product-highlight/1920x1920-rs5_2020_1516.jpg?imwidth=768",
-      titleInfo3: "Indywidualizm w każdym detalu",
-      textInfo3:
-        "Nadaj swojemu Audi RS 5 Coupé osobisty charakter - podkreśl sportowego ducha wybierając opcjonalny dach z karbonu, który dzięki zredukowanej masie pozytywnie wpływa na zwrotność i dynamikę jazdy. Nową jakość podróżowania wprowadzi opcjonalny szklany dach panoramiczny z elektrycznie regulowaną osłoną przeciwsłoneczną.",
-    },
-    carousel4: {
-      image1:
-        "https://www.audi.pl/content/dam/nemo/models/a5/rs-5-coupe/my-2023/feature-gallery/RS5_2022_3704-S.jpg?imwidth=768&imdensity=1",
-      text1:
-        "Wyrazisty przód pojazdu zachwyca przyciemnionymi reflektorami Matrix LED. Zarówno przednia krawędź zderzaka, boczne otwory wentylacyjne i przedni spojler z matowego karbonu, jak i pierścienie Audi oraz sygnatura RS 5 w błyszczącej czerni podkreślają sportowy charakter samochodu.",
-      image2:
-        "https://www.audi.pl/content/dam/nemo/models/a5/rs-5-coupe/my-2023/feature-gallery/RS5_2022_3705-S.jpg?imwidth=768&imdensity=1",
-      text2:
-        "Opcjonalny pakiet RS competition plus podkreśla sportowe oblicze Audi RS 5 Coupé. Dowodzą tego karbonowe obudowy lusterek, listwy wokół szyb bocznych i tylny spojler w połyskującej czerni jak również 20-calowe obręcze w atrakcyjnej, czarnej stylistyce.",
-      image3:
-        "https://www.audi.pl/content/dam/nemo/models/a5/rs-5-coupe/my-2023/feature-gallery/RS5_2022_3706-S.jpg?imwidth=768&imdensity=1",
-      text3:
-        "Opcjonalne elementy wyposażenia zawarte w pakiecie RS competition plus imponują nie tylko interesującą optyką. Audi RS 5 Coupé zachwyca w równym stopniu fenomenalną dynamiką jazdy m. in. za sprawą stałego napędu na cztery koła quattro oraz regulowanego zawieszenia sportowego RS pro.",
-      image4:
-        "https://www.audi.pl/content/dam/nemo/models/a5/rs-5-coupe/my-2023/feature-gallery/RS5_2022_3707-S.jpg?imwidth=768&imdensity=1",
-      text4:
-        "Przednie fotele sportowe plus, obszyte czarną mikrofibrą Dinamica  i skórą, urzekają kontrastową perforacją o strukturze plastra miodu i czarną sygnaturą RS. Kierownicę, dźwignię zmiany biegów i oparcia dla kolan obszyte czarną alcantarą",
-    },
-    emission: "223-213",
-    consumption: "9,8-9,4",
-    cardTitle: "Dynamika - od startu do celu",
-    cardText:
-      "Gdy dynamika nabiera kształtu Audi RS 5 Coupé staje się synonimem najwyższych osiągów. Performance is an attitude.",
-    power: {
-      kilowatt: 331,
-      hp: 450,
-      speed: 3.9,
-      Nm: 600,
+      image1: "",
+      title1: "",
+      text1: "",
+      image2: "",
+      title2: "",
+      text2: "",
+      image3: "",
+      title3: "",
+      text3: "",
     },
   },
   {
@@ -837,6 +1046,24 @@ export const Audi = [
     instalment: 5991,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f5frxa/2023.png?imwidth=550",
+    headerImage: "",
+    emission: "",
+    consumption: "",
+    power: {},
+    fixedBackground: "",
+    cardTitle: "",
+    cardText: "",
+    carousel: {
+      image1: "",
+      title1: "",
+      text1: "",
+      image2: "",
+      title2: "",
+      text2: "",
+      image3: "",
+      title3: "",
+      text3: "",
+    },
   },
 
   // A6
