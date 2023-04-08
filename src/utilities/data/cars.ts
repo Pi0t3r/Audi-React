@@ -381,6 +381,87 @@ export const Audi = [
     instalment: 5943,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f83rj7/2022.png?imwidth=291",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/e-tron-gt/my-2023/_range_campaign/stage/eGT_2021_2312_V1-S.jpg?imwidth=768",
+    emission: "0-0",
+    consumption: "21,6-19,6 kWh/100km",
+    fixedBackground:
+      "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/e-tron-gt/my-2023/parallax-teaser/A210232_large-XS.jpg?imwidth=748",
+    cardTitle: "Charakterystyka procesu produkcji",
+    cardText:
+      "Przy powstawaniu Gran Turismo z napędem elektrycznym w Böllinger Höfe koło Neckarsulm dbałość o szczegóły spotyka się z precyzją i najwyższą jakością",
+    carousel: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/e-tron-gt/my-2022/NeMo-Derivate-Startpage/product-highlight/10_01_Highlight_Module-2.jpg?imwidth=768",
+      titleInfo1: "Funkcjonalność też może być piękna",
+      textInfo1:
+        "Aerodynamiczne kształty Audi e-tron GT quattro podkreślają funkcjonalne detale - od inteligentnych wlotów powietrza z przodu po kurtyny powietrzne nadkoli i przykuwający wzrok tylny dyfuzor.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/e-tron-gt/my-2022/NeMo-Derivate-Startpage/product-highlight/10_04_Highlight_Module.jpg?imwidth=768",
+      titleInfo2: "Szklany dach panoramiczny",
+      textInfo2:
+        "Szklany dach panoramiczny zaprasza horyzont do środka pojazdu i zapewnia jasne, pełne światła wnętrze.",
+    },
+    power: {
+      kilowatt: 350,
+      speed: 4.1,
+      acumulator: 83.7,
+    },
+    titleToNextCarousel: "Audi exclusive",
+    textToNextCarousel:
+      "Nadaj swojemu Audi e-tron GT quattro osobisty charakter i zaprojektuj je według własnego gustu.",
+    carousel2: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/e-tron-gt/my-2023/product-highlight/eGT_ae_2022_3852-L.jpg?imwidth=768",
+      title1: "Ponad 50 lakierów specjalnych",
+      info1:
+        "Wybierz lakier spośród szerokiej palety lakierów specjalnych z oferty Audi exclusive - na przykład zielony Java metalik.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/e-tron-gt/my-2023/product-highlight/eGT_ae_2022_3851-L.jpg?imwidth=768",
+      title2: "Wnętrze bogate w kontrasty",
+      info2:
+        "Wnętrze Audi GT e-tron quattro nabierze osobistego charakteru dzięki ofercie Audi exclusive. Na przykład za sprawą tapicerki skórzanej Feinnappa w kolorze szaro-czarnym Jet z przeszyciami w kolorze zielonym Iguana, opcjonalnej kierownicy obszytej Alcantarą z oznaczeniem na godzinie 12 oraz pasów bezpieczeństwa o opcjonalnym kolorowym obramowaniu.",
+    },
+    titleToNextCarousel2: "Wnętrze",
+    carousel3: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/e-tron-gt/my-2022/NeMo-Derivate-Startpage/market-introduction/feature-gallery/13_03_mobile.jpg?imwidth=768&imdensity=1",
+      titleInfo1: "Fascynująca koncepcja obsługi",
+      textInfo1:
+        "Funkcjonalne centrum obsługi znajduje się z przodu (w polu widzenia kierowcy), a jego serce stanowią konsola środkowa i kokpit z wygodnym ekranem dotykowym.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/e-tron-gt/my-2022/NeMo-Derivate-Startpage/market-introduction/feature-gallery/13_01_mobile.jpg?imwidth=768&imdensity=1",
+      titleInfo2: "Cyfryzacja i system Infotainment",
+      textInfo2:
+        "Używaj nawigacji, komunikuj się z innymi, zdobywaj informacje lub ciesz się szeroką gamą opcji systemu infotainment.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/e-tron-gt/my-2022/NeMo-Derivate-Startpage/market-introduction/feature-gallery/13_04_mobile.jpg?imwidth=768&imdensity=1",
+      titleInfo3: "Tylny rząd siedzeń",
+      textInfo3:
+        "Charakterystyczne skrajne siedzenia z tyłu z dodatkowym siedzeniem pośrodku podkreślają sportowy charakter pojazdu.",
+    },
+    carousel4: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/e-tron-gt/my-2022/NeMo-Derivate-Startpage/product-highlight/05_01_Highlight_Module_2.jpg?imwidth=768",
+      title1: "Skoncentrowane na estetyce i dynamicznym prowadzeniu",
+      text1:
+        "Wnętrze samochodu elektrycznego Audi e-tron GT quattro zapewnia doskonałą funkcjonalność na co dzień w połączeniu z najwyższą jakością.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/e-tron-gt/my-2022/NeMo-Derivate-Startpage/product-highlight/05_02_Highlight_Module.jpg?imwidth=768",
+      title2: "Ikona pionierskiego designu",
+      text2:
+        "Stylistyka zewnętrzna Audi e-tron GT quattro to doskonałe ucieleśnienie elektromobilności oraz niepowtarzalnego DNA Audi.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/e-tron-gt/my-2022/NeMo-Derivate-Startpage/product-highlight/05_03_Driving_Dynamics.jpg?imwidth=768",
+      title3: "Jeszcze więcej przestrzeni",
+      text3:
+        "Szklany panoramiczny dach w kolorze błyszczącej czerni zapewnia poczucie niesamowitej przestrzeni wewnątrz auta.",
+      image4:
+        "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/e-tron-gt/my-2022/NeMo-Derivate-Startpage/market-introduction/product-highlight/eGT_2021_2307.jpg?imwidth=768",
+      title4: "Przyśpieszenie",
+      text4:
+        "Dzięki inteligentnemu zarządzaniu temperaturą wydajność pozostaje na imponującym poziomie, nawet gdy przyśpiesza się kilka razy z rzędu.",
+    },
   },
   {
     id: 6,

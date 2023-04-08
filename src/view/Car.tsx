@@ -106,7 +106,7 @@ function Car() {
               </span>
               kW
             </p>
-            {car.power.hp && <p>({car.power?.hp} KM)</p>}
+            {car.power?.hp && <p>({car.power?.hp} KM)</p>}
           </div>
           <div className="text-base mt-14 border-b-[1px] pb-5">
             <p className="font-bold text-lg">Przyśpieszenie (0-100km/h)</p>
@@ -117,7 +117,7 @@ function Car() {
               sek.
             </p>
           </div>
-          {car.power.Nm && (
+          {car.power?.Nm && (
             <div className="text-base mt-14 border-b-[1px] pb-5">
               <p className="font-bold text-lg">Maksymalny moment obrotowy</p>
               <p>
