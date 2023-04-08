@@ -65,37 +65,6 @@ function Car() {
             <p className="mt-6 text-neutral-700 font-medium">{car.cardText}</p>
           </div>
         </div>
-        <Carousel
-          responsive={responsive}
-          swipeable={true}
-          draggable={false}
-          showDots={true}
-          ssr={true}
-          infinite={false}
-          autoPlay={false}
-          keyBoardControl={true}
-          removeArrowOnDeviceType={[
-            "mobile",
-            "tablet",
-            "desktop",
-            "superLarge",
-          ]}
-        >
-          <>
-            <img src={car.carousel?.image1} />
-            <div className="text-white bg-black p-5 h-48">
-              <p className="text-xl font-medium">{car.carousel?.titleInfo1}</p>
-              <p className="mt-4 text-xs">{car.carousel?.textInfo1}</p>
-            </div>
-          </>
-          <>
-            <img src={car.carousel?.image2} />
-            <div className="text-white bg-black p-5 h-48">
-              <p className="text-xl font-medium">{car.carousel?.titleInfo2}</p>
-              <p className="mt-4 text-xs">{car.carousel?.textInfo2}</p>
-            </div>
-          </>
-        </Carousel>
         <div className="text-center mt-10 text-4xl font-medium px-5">
           <h3>Audi {car.name} w liczbach</h3>
           <div className="text-base mt-14 border-b-[1px] pb-5">
@@ -138,92 +107,13 @@ function Car() {
             </div>
           )}
         </div>
-        <div className="p-6 mt-10">
-          <h3 className="font-medium text-3xl">{car.titleToNextCarousel}</h3>
-          <p className="mt-5">{car.textToNextCarousel}</p>
-        </div>
-        <Carousel
-          responsive={responsive}
-          swipeable={true}
-          draggable={false}
-          showDots={true}
-          ssr={true}
-          infinite={false}
-          autoPlay={false}
-          keyBoardControl={true}
-          removeArrowOnDeviceType={[
-            "mobile",
-            "tablet",
-            "desktop",
-            "superLarge",
-          ]}
-        >
-          <div>
-            <img src={car.carousel2?.image1} />
-            <div className="bg-black text-white p-5 h-72">
-              <p>
-                <span className="font-bold">{car.carousel2?.title1}:</span>{" "}
-                {car.carousel2?.info1}
-              </p>
-            </div>
+        {car.price && (
+          <div className="bg-black text-white p-5">
+            <h3>
+              Tylko w cenie {car.price} PLN lub od {car.instalment} PLN /mc
+            </h3>
           </div>
-          <div>
-            <img src={car.carousel2?.image2} />
-            <div className="bg-black text-white p-5 h-72">
-              <p>
-                <span className="font-bold">{car.carousel2?.title2}:</span>{" "}
-                {car.carousel2?.info2}
-              </p>
-            </div>
-          </div>
-        </Carousel>
-        <div className="bg-black text-white h-[48rem]">
-          <h2 className="font-bold text-xl p-4">{car.titleToNextCarousel2}</h2>
-          <Carousel
-            responsive={responsive}
-            swipeable={true}
-            draggable={false}
-            showDots={true}
-            ssr={true}
-            infinite={false}
-            autoPlay={false}
-            keyBoardControl={true}
-            removeArrowOnDeviceType={[
-              "mobile",
-              "tablet",
-              "desktop",
-              "superLarge",
-            ]}
-          >
-            <>
-              <img src={car.carousel3?.image1} />
-              <div className="text-white bg-black p-7 h-42">
-                <p className="text-xl font-medium">
-                  {car.carousel3?.titleInfo1}
-                </p>
-                <p className="mt-4 text-xs">{car.carousel3?.textInfo1}</p>
-              </div>
-            </>
-            <>
-              <img src={car.carousel3?.image2} />
-              <div className="text-white bg-black p-7 h-42">
-                <p className="text-xl font-medium">
-                  {car.carousel3?.titleInfo2}
-                </p>
-                <p className="mt-4 text-xs">{car.carousel3?.textInfo2}</p>
-              </div>
-            </>
-            <>
-              <img src={car.carousel3?.image3} />
-              <div className="text-white bg-black p-7 h-42">
-                <p className="text-xl font-medium">
-                  {car.carousel3?.titleInfo3}
-                </p>
-                <p className="mt-4 text-xs">{car.carousel3?.textInfo3}</p>
-              </div>
-            </>
-          </Carousel>
-        </div>
+        )}
         <div className="bg-white">
           <Carousel
             responsive={responsive}
@@ -242,46 +132,35 @@ function Car() {
             ]}
           >
             <>
-              <img src={car.carousel4?.image1} />
+              <img src={car.carousel?.image1} />
               <div className="p-5">
                 <p className="font-light text-sm">
                   <span className="font-bold mr-2">
-                    {car.carousel4?.title1}:
+                    {car.carousel?.title1}:
                   </span>
-                  {car.carousel4?.text1}
+                  {car.carousel?.text1}
                 </p>
               </div>
             </>
             <>
-              <img src={car.carousel4?.image2} />
+              <img src={car.carousel?.image2} />
               <div className="p-5">
                 <p className="font-light text-sm">
                   <span className="font-bold mr-2">
-                    {car.carousel4?.title2}:
+                    {car.carousel?.title2}:
                   </span>
-                  {car.carousel4?.text2}
+                  {car.carousel?.text2}
                 </p>
               </div>
             </>
             <>
-              <img src={car.carousel4?.image3} />
+              <img src={car.carousel?.image3} />
               <div className="p-5">
                 <p className="font-light text-sm">
                   <span className="font-bold mr-2">
-                    {car.carousel4?.title3}:
+                    {car.carousel?.title3}:
                   </span>
-                  {car.carousel4?.text3}
-                </p>
-              </div>
-            </>
-            <>
-              <img src={car.carousel4?.image4} />
-              <div className="p-5">
-                <p className="font-light text-sm">
-                  <span className="font-bold mr-2">
-                    {car.carousel4?.title4}:
-                  </span>
-                  {car.carousel4?.text4}
+                  {car.carousel?.text3}
                 </p>
               </div>
             </>

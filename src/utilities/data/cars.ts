@@ -28,69 +28,19 @@ export const Audi = [
     carousel: {
       image1:
         "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/q8-e-tron/my-2023/product-highlight-gallery/Q8e_2022_4390-L.jpg?imwidth=768",
-      titleInfo1: "Postęp przyśpiesza",
-      textInfo1:
+      title1: "Postęp przyśpiesza",
+      text1:
         "Dzięki większej pojemności akumulatora i wyższej mocy ładowania Audi Q8 55 e-tron quattro pokonuje teraz ponad 500 km kilometrów na jednym ładowaniu akumulatora.",
       image2:
-        "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/q8-e-tron/my-2023/product-highlight-gallery/Q8e_2022_4388-L.jpg?imwidth=768",
-      titleInfo2: "W pełni elektryczne osiągi napędu quattro",
-      textInfo2:
-        "W pełni elektryczny napęd na cztery koła quattro w sposób ciągły steruje idealnym rozdziałem momentu obrotowego zmiennie między obie osie. Reaguje szybko i jest precyzyjny, zapewniając wysoką stabilność samochodu i doskonałą przyczepność.",
-    },
-    titleToNextCarousel: "Elektryzujące na pierwszy rzut oka",
-    titleToNextCarousel2: "Wyrafinowany design wnętrza",
-    textToNextCarousel:
-      "Progresywna technika Audi Q8 e-tron uzewnętrzniona jest także w nowym wyglądzie modelu oraz w oryginalnej sygnaturze świateł do jazdy dziennej. Architektura quattro z mocno wymodelowaną linią boczną i charakterystyczną sygnaturą świateł do jazdy dziennej doskonale komponuje się z lakierem szarym Chronos metalik.",
-    carousel2: {
-      image1:
-        "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/q8-e-tron/my-2023/product-highlight-gallery/Q8e_2022_4398-L.jpg?imwidth=768",
-      title1: "Design świateł",
-      info1:
-        "Audi Q8 e-tron to przykład elektromobilności przyszłości: z progresywnymi akcentami nowej identyfikacji wizualnej, takimi jak pierścienie Audi w optyce 2D, zmienioną stylistyką nadwozia z przodu i opcjonalną osłoną Singleframe z oświetleniem projekcyjnym.",
-      image2:
-        "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/q8-e-tron/my-2023/product-highlight-gallery/Q8e_2022_4536-L.jpg?imwidth=768",
-      title2: "Progresywna stylistyka kół",
-      info2:
-        "Czerwone zaciski hamulców nadają efektownego wyglądu 21-calowym obręczom Audi Sport12 o 5-ramiennej konstrukcji Aero w kolorze czarnym metalik. Dostępne są też inne obręcze w rozmiarze od 19 do 22 cali z oferty Audi i Audi Sport.",
-    },
-    carousel3: {
-      image1:
-        "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/q8-e-tron/my-2023/feature-gallery/Q8e_2022_4417-S.jpg?imwidth=768&imdensity=1",
-      titleInfo1: "Akcenty we wnętrzu",
-      textInfo1:
-        "Atrakcję dla oka stanowią szwy w kolorze czerwonym Audi Sport. Kontrastujące szwy w kolorze czerwonym Express dostępne są m.in. na siedzeniach, konsoli środkowej, obręczy kierownicy i podparciach w drzwiach. Elementem przyciągającym wzrok są też pasy w kolorze czarnym z czerwonymi akcentami.",
-      image2:
-        "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/q8-e-tron/my-2023/feature-gallery/Q8e_2022_4412-S.jpg?imwidth=768&imdensity=1",
-      titleInfo2: "Sportowa atmosfera w jakości premium",
-      textInfo2:
-        "Nadaj ekskluzywny i sportowy charakter Audi Q8 e-tron dzięki wysokiej jakości opcjonalnym elementom dekoracyjnym w połączeniu z dopasowanymi pedałami ze stali nierdzewnej.",
-      image3:
-        "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/q8-e-tron/my-2023/feature-gallery/Q8e_as_2022_4427-S.jpg?imwidth=375&imdensity=1",
-      titleInfo3: "Dodatkowa przestrzeń bagażowa",
-      textInfo3:
-        "Pod maską znajduje się drugi bagażnik o pojemności 62 litrów. Można go wykorzystać na przykład do schowania kabla ładującego. Dzięki temu kabel jest łatwo dostępny w pobliżu gniazda ładowania.",
-    },
-    carousel4: {
-      image1:
-        "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/q8-e-tron/my-2023/feature-gallery/Q8e_as_2022_4424-S.jpg?imwidth=768&imdensity=1",
-      title1: "Przechowuj bagaże stylowo i bezpiecznie",
-      text1:
-        "Miejsce na narty, deski snowboardowe lub bagaż zapewnia wysokiej jakości box dachowy. Folie dekoracyjne w kolorze szarym Daytona z wyciętymi pierścieniami Audi podkreślają sportowy wygląd. Kolejny element przyciągający wzrok to 21-calowe obręcze z 10-ramiennym wzorem. ",
-      image2:
-        "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/q8-e-tron/my-2023/feature-gallery/Q8e_as_2022_4425-S.jpg?imwidth=768&imdensity=1",
-      title2: "Bardziej dynamiczny wygląd",
+        "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/q8-e-tron/my-2023/product-highlight-gallery/Q8e_2022_4411-L.jpg?imwidth=768",
+      title2: "Wysokiej jakości i cyfrowe",
       text2:
-        "Jeszcze bardziej dynamiczny wygląd - z czarnymi obręczami ze stopu metali lekkich, 10-ramiennymi dla opon zimowych. Lakierowane na czarno obręcze są solidne i wytrzymałe.",
+        "Wnętrze wita wyselekcjonowanymi materiałami, szlachetnymi tkaninami i licznymi usługami Audi connect, jak na przykład streaming mediów online.",
       image3:
-        "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/q8-e-tron/my-2023/feature-gallery/Q8e_as_2022_4426-S.jpg?imwidth=768&imdensity=1",
-      title3: "Szybkie łądowanie urządzeń mobilnych",
+        "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/q8-e-tron/my-2023/product-highlight-gallery/Q8e_2022_4388-L.jpg?imwidth=768",
+      title3: "W pełni elektryczne osiągi napędu quattro",
       text3:
-        "Ładowarka USB umożliwia szybkie ładowanie urządzeń mobilnych o mocy ładowania do 100 W. Ładowarka USB Power ma gniazdo ładowania typu C. Obie ładowarki podłącza się w pojeździe za pośrednictwem gniazda 12 V.",
-      image4:
-        "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/q8-e-tron/my-2023/feature-gallery/Q8e_as_2022_4427-S.jpg?imwidth=768&imdensity=1",
-      title4: "Praktyczna ochrona bagażnika",
-      text4:
-        "Mata bagażnika z otaczającą wysoką krawędzią chroni przed zabrudzeniem i zamoczeniem podłogi. Dzięki gładkiej powierzchni z tworzywa sztucznego matę łatwo się myje, a szerokie rowki zapobiegają zsuwaniu się bagaży.",
+        "W pełni elektryczny napęd na cztery koła quattro w sposób ciągły steruje idealnym rozdziałem momentu obrotowego zmiennie między obie osie. Reaguje szybko i jest precyzyjny, zapewniając wysoką stabilność samochodu i doskonałą przyczepność.",
     },
   },
   {
@@ -120,73 +70,22 @@ export const Audi = [
       "Audi e-tron spełniło swoją pionierską rolę jako pojazd w pełni elektryczny. Teraz nadszedł moment, by dodać go do rodziny modeli Audi jako Audi Q8 Sportback e-tron.",
     carousel: {
       image1:
-        "https://www.audi.pl/content/dam/nemo/pl/modele/q8/Q8e_2022_4445_neu-L.jpg?imwidth=768",
-      titleInfo1: "Postęp przyśpiesza",
-      textInfo1:
-        "Dzięki większej pojemności akumulatora i wyższej mocy ładowania Audi Q8 Sportback 55 e-tron quattro pokonuje teraz niemal 600 kilometrów na jednym ładowaniu akumulatora.",
-      image2:
-        "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/q8-sportback-e-tron/my-2023/product-highlight-gallery/Q8e_2022_4449-L.jpg?imwidth=768",
-      titleInfo2: "W pełni elektryczne osiągi napędu quattro",
-      textInfo2:
-        "W pełni elektryczny napęd na cztery koła quattro w sposób ciągły steruje idealnym rozdziałem momentu obrotowego zmiennie między obie osie. Reaguje szybko i jest precyzyjny, zapewniając wysoką stabilność samochodu i doskonałą przyczepność.",
-    },
-    titleToNextCarousel: "Imponujący zasięg",
-    textToNextCarousel:
-      "Wysokonapięciowy akumulator ma pojemność do 106 kWh (netto) i zapewnia maksymalny zasięg do niemal 600 kilometrów. Jeśli poziom naładowania jest niski, można aktywować tryb Range w MMI i wykorzystać dodatkowy potencjał zasięgu.",
-    carousel2: {
-      image1:
-        "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/q8-sportback-e-tron/my-2023/feature-gallery/Q8e_2022_4479-S.jpg?imwidth=375&imdensity=1",
-      title1: "Efektywne wyznaczanie tras",
-      info1:
-        "Szybkie ładowanie jest teraz możliwe z mocą do 170 kW na stacjach ładowania o dużej mocy. Dzięki funkcji planowania trasy e-tron route planner przystanki na ładowanie są dopasowane do trasy w taki sposób, aby można było efektywnie wykorzystać wysoką moc ładowania.",
-      image2:
-        "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/q8-e-tron/my-2023/feature-gallery/Q8e_2022_4467-S.jpg?imwidth=375&imdensity=1",
-      title2: "Wszystko w zasięgu wzroku",
-      info2:
-        "Wyświetlacze w opcjonalnym wirtualnym kokpicie Audi plus pozwalają na bieżąco śledzić możliwą rekuperację i pozostały zasięg. Korzystanie z inteligentnej funkcji planowania trasy w MMI, np. z uwzględnieniem topografii i sytuacji na drodze-obliczanie pozostałego zasięgu staje się bardziej precyzyjne.",
-    },
-    titleToNextCarousel2: "Komfort w podróży",
-    carousel3: {
-      image1:
         "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/q8-sportback-e-tron/my-2023/feature-gallery/Q8e_2022_4448_without_Cast-S.jpg?imwidth=375&imdensity=1",
-      titleInfo1: "Ładowanie w domu",
-      textInfo1:
+      title1: "Ładowanie w domu",
+      text1:
         "Audi Q8 Sportback e-tron zapewnia wybór różnych opcji ładowania zarówno w domu, jak i w podróży.",
       image2:
         "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/q8-sportback-e-tron/my-2023/feature-gallery/Q8e_2022_4446_withoutCast-S.jpg?imwidth=768&imdensity=1",
-      titleInfo2: "Wydajne ładowanie w drodze",
-      textInfo2:
+      title2: "Wydajne ładowanie w drodze",
+      text2:
         "Ładowanie od 10 do 80% jest możliwe w ciągu około 31 minut. Audi Q8 Sportback e-tron wyróżnia się na stacjach szybkiego ładowania nie tylko mocą ładowania do 170 kW, ale także stabilną krzywą ładowania. Wysoka moc ładowania wyznacza standardy w szerokim zakresie procesu ładowania i skraca postoje.",
       image3:
         "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/q8-sportback-e-tron/my-2023/feature-gallery/Q8e_2022_4441_withoutCast-S.jpg?imwidth=768&imdensity=1",
-      titleInfo3: "Dwa razy łatwiejsze ładowanie",
-      textInfo3:
+      title3: "Dwa razy łatwiejsze ładowanie",
+      text3:
         "Opcjonalne drugie gniazdo ładowania AC po stronie pasażera zapewnia maksymalną elastyczność w każdej sytuacji podczas parkowania. Aby ładować jeszcze szybciej, skorzystaj z opcjonalnej ładowarki pokładowej AC o mocy do 22 kW.",
     },
-    carousel4: {
-      image1:
-        "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/q8-sportback-e-tron/my-2023/product-highlight-gallery/Q8e_2022_4450_withoutCast-L.jpg?imwidth=768",
-      title1: "Design świateł",
-      text1:
-        "Audi Q8 Sportback e-tron to przykład elektromobilności przyszłości: z akcentami nowej identyfikacji wizualnej, takimi jak pierścienie Audi w optyce 2D, zmienioną stylistyką nadwozia z przodu i opcjonalną osłoną Singleframe z oświetleniem projekcyjnym.",
-      image2:
-        "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/q8-sportback-e-tron/my-2023/product-highlight-gallery/Q8e_2022_4455-L.jpg?imwidth=768",
-      title2: "Design wyznaczający trendy",
-      text2:
-        "Detale, takie jak wygrawerowane laserowo oznaczenie modelu na słupkach B, pierścienie Audi o nowym wyglądzie i napis e-tron, wyrażają ciągły rozwój stylistyki Audi.",
-      image3:
-        "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/q8-sportback-e-tron/my-2023/product-highlight-gallery/Q8e_2022_4453_without_Cast-L.jpg?imwidth=768",
-      title3: "Sportowy charakter na każdym zakręcie",
-      text3:
-        "Czerwone zaciski hamulców nadają efektowny wygląd 22-calowym obręczom w kolorze czarnym metalik z połyskiem. Dostępne są też inne obręcze w rozmiarze od 19 do 22 cali.",
-      image4:
-        "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/q8-sportback-e-tron/my-2023/product-highlight-gallery/Q8e_2022_4462-L.jpg?imwidth=768",
-      title4: "Wysokiej jakości i cyfrowe",
-      text4:
-        "Wnętrze wita wyselekcjonowanymi materiałami, szlachetnymi tkaninami i licznymi usługami Audi connect2, jak na przykład streaming mediów online.",
-    },
   },
-
   {
     id: 3,
     body: ["Suv", "Electric", "Sport", "Alternative"],
@@ -212,70 +111,20 @@ export const Audi = [
     },
     carousel: {
       image1:
-        "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-e-tron/my-2023/product-highlight-gallery/SQ8e_2022_4493-L.jpg?imwidth=768",
-      titleInfo1: "Potrójna przyjemność z jazdy",
-      textInfo1:
-        "Trzy silniki elektryczne zapewniają Audi SQ8 e-tron wyjątkową dynamikę jazdy i umożliwiają przyspieszenie od 0 do 100 km/h w 4,5 sekundy.",
-      image2:
-        "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-e-tron/my-2023/product-highlight-gallery/SQ8e_2022_4494-L.jpg?imwidth=768",
-      titleInfo2: "Torque Vectoring",
-      textInfo2:
-        "Do elektrycznego napędu na cztery koła quattro dołącza elektryczny Torque Vectoring z aktywnym i w pełni zmiennym rozdziałem momentu obrotowego na tylnej osi.",
-    },
-    titleToNextCarousel: "Wizualizacja elektryfikacji",
-    textToNextCarousel:
-      "Audi SQ8 e-tron z nowym wyglądem, charakterystyczną sygnaturą świateł do jazdy dziennej i emblematami S odzwierciedla swój sportowy charakter także na zewnątrz. Podczas gdy lakier Mythos czarny metalik podkreśla sportowy charakter pojazdu, mocno wymodelowana linia boczna wyraża architekturę quattro.",
-    carousel2: {
-      image1:
-        "https://www.audi.pl/content/dam/nemo/pl/modele/SQ8-e-tron/SQ8-e-tron/SQ8e_2022_4490_withoutCast-S.jpg?imwidth=768&imdensity=1",
-      title1: "S-portowy w każdym detalu",
-      info1:
-        "Z charakterystycznym przednim zderzakiem, szerszymi nadkolami i dyfuzorem przebiegającym niemal przez całą szerokość tylnego zderzaka. Lakierowane na czarno zaciski hamulców z emblematem S oraz opcjonalny pakiet optyczny Czerń plus wzmacniają sportowe wrażenie.",
-      image2:
-        "https://www.audi.pl/content/dam/nemo/pl/modele/SQ8-e-tron/SQ8-e-tron/SQ8e_2022_4500-S.jpg?imwidth=768&imdensity=1",
-      title2: "Design wyznaczający trendy",
-      info2:
-        "Detale, takie jak wygrawerowane laserowo oznaczenie modelu na słupkach B, pierścienie Audi o nowym wyglądzie i napis e-tron, wyrażają ciągły rozwój stylistyki Audi.",
-    },
-    titleToNextCarousel2: "Imponujący zasięg",
-    carousel3: {
-      image1:
         "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-e-tron/my-2023/feature-gallery/SQ8e_2022_4495_withoutCast-S.jpg?imwidth=768&imdensity=1",
-      titleInfo1: "Ładowanie w domu",
-      textInfo1:
+      title1: "Ładowanie w domu",
+      text1:
         "Audi SQ8 e-tron zapewnia wybór różnych opcji ładowania zarówno w domu, jak i w podróży.",
       image2:
         "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-e-tron/my-2023/feature-gallery/SQ8e_2022_4507-S.jpg?imwidth=768&imdensity=1",
-      titleInfo2: "Wydajne ładowanie w drodze",
-      textInfo2:
+      title2: "Wydajne ładowanie w drodze",
+      text2:
         "Ładowanie od 10 do 80% jest możliwe w ciągu około 31 minut. Audi SQ8 e-tron wyróżnia się na stacjach szybkiego ładowania nie tylko mocą ładowania do 170 kW, ale także stabilną krzywą ładowania. Wysoka moc ładowania wyznacza standardy w szerokim zakresie procesu ładowania i skraca postoje.",
       image3:
         "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-e-tron/my-2023/feature-gallery/SQ8e_2022_4490_withoutCast-v2-S.jpg?imwidth=768&imdensity=1",
-      titleInfo3: "Dwa razy łatwiejsze łądowanie",
-      textInfo3:
-        "Opcjonalne drugie gniazdo ładowania AC po stronie pasażera zapewnia maksymalną elastyczność w każdej sytuacji podczas parkowania. Aby ładować jeszcze szybciej, skorzystaj z opcjonalnej ładowarki pokładowej AC o mocy do 22 kW",
-    },
-    carousel4: {
-      image1:
-        "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-e-tron/my-2023/product-highlight-gallery/SQ8e_2022_4555-L.jpg?imwidth=768",
-      title1: "Doświadczenie wysokiej klasy",
-      text1:
-        "Konsekwentny, sportowy charakter jest widoczny we wnętrzu samochodu. Opcjonalne fotele sportowe plus z przodu pokryte są szarą skórą Valcona z przeszyciami w kształcie rombów z emblematem S i podkreślają charakter Audi SQ8 e-tron.",
-      image2:
-        "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-e-tron/my-2023/product-highlight-gallery/SQ8e_2022_4503-L.jpg?imwidth=768",
-      title2: "Sportowy charakter S",
-      text2:
-        "Wysokiej jakości listwy ozdobne z aluminiowymi wstawkami lub opcjonalna tkanina w kolorze antracytowym podkreślają wysoką jakość i sportowy charakter. Dopełniają go pedały ze stali nierdzewnej.",
-      image3:
-        "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-e-tron/my-2023/product-highlight-gallery/SQ8e_2022_4491-v2-L.jpg?imwidth=768",
-      title3: "E-wolucja napędu",
+      title3: "Dwa razy łatwiejsze łądowanie",
       text3:
-        "Elektryczny Torque Vectoring wspiera Cię w niemal każdej podróży. Ciesz się sportowym prowadzeniem, większą dynamiką i dodatkową kontrolą.",
-      image4:
-        "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-e-tron/my-2023/product-highlight-gallery/SQ8e_2022_4493_v2-L.jpg?imwidth=768",
-      title4: "Poznaj na nowo dynamikę jazdy",
-      text4:
-        "Nowe Audi SQ8 e-tron wyróżnia się wyjątkową dynamiką jazdy. Różne tryby jazdy standardowego adaptacyjnego zawieszenia pneumatycznego sport, np. efficiency lub dynamic, można łatwo ustawić za pomocą Audi drive select.",
+        "Opcjonalne drugie gniazdo ładowania AC po stronie pasażera zapewnia maksymalną elastyczność w każdej sytuacji podczas parkowania. Aby ładować jeszcze szybciej, skorzystaj z opcjonalnej ładowarki pokładowej AC o mocy do 22 kW",
     },
   },
   {
@@ -303,70 +152,20 @@ export const Audi = [
     },
     carousel: {
       image1:
-        "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-sportback-e-tron/my-2023/product-highlight-gallery/SQ8e_2022_4514-L.jpg?imwidth=768",
-      titleInfo1: "Potrójna przyjemność z jazdy",
-      textInfo1:
-        "Trzy silniki elektryczne zapewniają Audi SQ8 Sportback e-tron wyjątkową dynamikę jazdy i umożliwiają przyspieszenie od 0 do 100 km/h w 4,5 sekundy.",
-      image2:
-        "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-sportback-e-tron/my-2023/product-highlight-gallery/SQ8e_2022_4515-L.jpg?imwidth=768",
-      titleInfo2: "Torque Vectoring",
-      textInfo2:
-        "Do elektrycznego napędu na cztery koła quattro dołącza elektryczny Torque Vectoring z aktywnym i w pełni zmiennym rozdziałem momentu obrotowego na tylnej osi.",
-    },
-    titleToNextCarousel: "Imponujący zasięg",
-    textToNextCarousel:
-      "Wysokonapięciowy akumulator ma pojemność do 106 kWh (netto) i zapewnia maksymalny zasięg ponad 500 kilometrów. Jeśli poziom naładowania jest niski, można na przykład aktywować tryb Range1 w MMI i wykorzystać dodatkowy potencjał zasięgu.",
-    carousel2: {
-      image1:
-        "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-sportback-e-tron/my-2023/product-highlight-gallery/SQ8e_2022_4517_withoutCast-L.jpg?imwidth=768",
-      title1: "Szybsze ładowanie - efektywne wyznaczanie tras",
-      info1:
-        "Szybkie ładowanie jest teraz możliwe z mocą do 170 kW na stacjach ładowania o dużej mocy. Dzięki funkcji planowania trasy e-tron route planner2 przystanki na ładowanie są dopasowane do trasy w taki sposób, aby można było efektywnie wykorzystać wysoką moc ładowania.",
-      image2:
-        "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-sportback-e-tron/my-2023/product-highlight-gallery/Q8e_2022_4415-L.jpg?imwidth=768",
-      title2: "Odzyskuje energię dzięki rekuperacji",
-      info2:
-        "Energię można odzyskać dzięki systemowi rekuperacji – zarówno podczas jazdy, jak i hamowania. Rekuperacja po przekroczeniu prędkości staje się aktywna po zdjęciu stopy z pedału przyspieszenia. Stopień rekuperacji jest automatyczny lub regulowany ręcznie na trzech poziomach za pomocą manetek przy kierownicy.",
-    },
-    titleToNextCarousel2: "Szlachetny sportowy charakter",
-    carousel3: {
-      image1:
         "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-sportback-e-tron/my-2023/product-highlight-gallery/SQ8e_2022_4525-L.jpg?imwidth=768",
-      titleInfo1: "Sportowe wnętrze",
-      textInfo1:
+      title1: "Sportowe wnętrze",
+      text1:
         "Wysokiej jakości listwy ozdobne z aluminiowymi wstawkami lub opcjonalna tkanina w kolorze antracytowym podkreślają wysoką jakość i sportowy charakter. Dopełniają go pedały ze stali nierdzewnej oraz dywaniki z emblematem S.",
       image2:
         "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-sportback-e-tron/my-2023/product-highlight-gallery/SQ8e_2022_4557-L.jpg?imwidth=768",
-      titleInfo2: "Doświadczenie wysokiej klasy",
-      textInfo2:
+      title2: "Doświadczenie wysokiej klasy",
+      text2:
         "Konsekwentny, sportowy charakter jest widoczny we wnętrzu samochodu. Opcjonalne fotele sportowe plus z przodu pokryte są czarną skórą Valcona z przeszyciami w kształcie rombów z emblematem S i podkreślają charakter Audi SQ8 Sportback e-tron.",
       image3:
         "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-sportback-e-tron/my-2023/product-highlight-gallery/Q8e_2022_4420-L.jpg?imwidth=768",
-      titleInfo3: "Wyjątkowe materiały",
-      textInfo3:
-        "Opcjonalne wstawki z tkaniny w kolorze antracytowym dają przykład sportowego charakteru i zrównoważonego rozwoju. Nowoczesna tkanina poliestrowa jest częściowo wykonana z przetworzonych butelek PET.",
-    },
-    carousel4: {
-      image1:
-        "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-sportback-e-tron/my-2023/feature-gallery/SQ8e_2022_4527-S.jpg?imwidth=768&imdensity=1",
-      title1: "Ładowanie w domu",
-      text1:
-        "Audi SQ8 Sportback e-tron zapewnia wybór różnych opcji ładowania zarówno w domu, jak i w podróży.",
-      image2:
-        "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-sportback-e-tron/my-2023/feature-gallery/SQ8e_2022_4529-S.jpg?imwidth=768&imdensity=1",
-      title2: "Wydajne ładowanie w drodze",
-      text2:
-        "Ładowanie od 10 do 80% jest możliwe w ciągu około 31 minut. Audi SQ8 Sportback e-tron wyróżnia się na stacjach szybkiego ładowania nie tylko mocą ładowania do 170 kW, ale także stabilną krzywą ładowania. Wysoka moc ładowania wyznacza standardy w szerokim zakresie procesu ładowania i skraca postoje.",
-      image3:
-        "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-sportback-e-tron/my-2023/feature-gallery/SQ8e_2022_4528-S.jpg?imwidth=768&imdensity=1",
-      title3: "Dwa razy łatwiejsze ładowanie",
+      title3: "Wyjątkowe materiały",
       text3:
-        "Opcjonalne drugie gniazdo ładowania AC po stronie pasażera zapewnia maksymalną elastyczność w każdej sytuacji podczas parkowania. Aby ładować jeszcze szybciej, skorzystaj z opcjonalnej ładowarki pokładowej AC o mocy do 22 kW.",
-      image4:
-        "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-sportback-e-tron/my-2023/feature-gallery/SQ8e_2022_4517_withoutCast-fg-S.jpg?imwidth=768&imdensity=1",
-      title4: "Podłącz, ładuj i jedź",
-      text4:
-        "Dzięki Plug & Charge możesz wygodnie ładować samochód na wszystkich kompatybilnych stacjach ładowania. Po prostu rozpocznij proces ładowania, podłączając kabel ładujący, i zakończ, odłączając go. Uwierzytelnianie i płatność odbywają się automatycznie - bez karty czy aplikacji.",
+        "Opcjonalne wstawki z tkaniny w kolorze antracytowym dają przykład sportowego charakteru i zrównoważonego rozwoju. Nowoczesna tkanina poliestrowa jest częściowo wykonana z przetworzonych butelek PET.",
     },
   },
   // E-TRON GT
@@ -390,76 +189,27 @@ export const Audi = [
     cardTitle: "Charakterystyka procesu produkcji",
     cardText:
       "Przy powstawaniu Gran Turismo z napędem elektrycznym w Böllinger Höfe koło Neckarsulm dbałość o szczegóły spotyka się z precyzją i najwyższą jakością",
-    carousel: {
-      image1:
-        "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/e-tron-gt/my-2022/NeMo-Derivate-Startpage/product-highlight/10_01_Highlight_Module-2.jpg?imwidth=768",
-      titleInfo1: "Funkcjonalność też może być piękna",
-      textInfo1:
-        "Aerodynamiczne kształty Audi e-tron GT quattro podkreślają funkcjonalne detale - od inteligentnych wlotów powietrza z przodu po kurtyny powietrzne nadkoli i przykuwający wzrok tylny dyfuzor.",
-      image2:
-        "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/e-tron-gt/my-2022/NeMo-Derivate-Startpage/product-highlight/10_04_Highlight_Module.jpg?imwidth=768",
-      titleInfo2: "Szklany dach panoramiczny",
-      textInfo2:
-        "Szklany dach panoramiczny zaprasza horyzont do środka pojazdu i zapewnia jasne, pełne światła wnętrze.",
-    },
     power: {
       kilowatt: 350,
       speed: 4.1,
       acumulator: 83.7,
     },
-    titleToNextCarousel: "Audi exclusive",
-    textToNextCarousel:
-      "Nadaj swojemu Audi e-tron GT quattro osobisty charakter i zaprojektuj je według własnego gustu.",
-    carousel2: {
+
+    carousel: {
       image1:
-        "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/e-tron-gt/my-2023/product-highlight/eGT_ae_2022_3852-L.jpg?imwidth=768",
-      title1: "Ponad 50 lakierów specjalnych",
-      info1:
-        "Wybierz lakier spośród szerokiej palety lakierów specjalnych z oferty Audi exclusive - na przykład zielony Java metalik.",
-      image2:
-        "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/e-tron-gt/my-2023/product-highlight/eGT_ae_2022_3851-L.jpg?imwidth=768",
-      title2: "Wnętrze bogate w kontrasty",
-      info2:
-        "Wnętrze Audi GT e-tron quattro nabierze osobistego charakteru dzięki ofercie Audi exclusive. Na przykład za sprawą tapicerki skórzanej Feinnappa w kolorze szaro-czarnym Jet z przeszyciami w kolorze zielonym Iguana, opcjonalnej kierownicy obszytej Alcantarą z oznaczeniem na godzinie 12 oraz pasów bezpieczeństwa o opcjonalnym kolorowym obramowaniu.",
-    },
-    titleToNextCarousel2: "Wnętrze",
-    carousel3: {
-      image1:
-        "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/e-tron-gt/my-2022/NeMo-Derivate-Startpage/market-introduction/feature-gallery/13_03_mobile.jpg?imwidth=768&imdensity=1",
-      titleInfo1: "Fascynująca koncepcja obsługi",
-      textInfo1:
-        "Funkcjonalne centrum obsługi znajduje się z przodu (w polu widzenia kierowcy), a jego serce stanowią konsola środkowa i kokpit z wygodnym ekranem dotykowym.",
-      image2:
-        "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/e-tron-gt/my-2022/NeMo-Derivate-Startpage/market-introduction/feature-gallery/13_01_mobile.jpg?imwidth=768&imdensity=1",
-      titleInfo2: "Cyfryzacja i system Infotainment",
-      textInfo2:
-        "Używaj nawigacji, komunikuj się z innymi, zdobywaj informacje lub ciesz się szeroką gamą opcji systemu infotainment.",
-      image3:
-        "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/e-tron-gt/my-2022/NeMo-Derivate-Startpage/market-introduction/feature-gallery/13_04_mobile.jpg?imwidth=768&imdensity=1",
-      titleInfo3: "Tylny rząd siedzeń",
-      textInfo3:
-        "Charakterystyczne skrajne siedzenia z tyłu z dodatkowym siedzeniem pośrodku podkreślają sportowy charakter pojazdu.",
-    },
-    carousel4: {
-      image1:
-        "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/e-tron-gt/my-2022/NeMo-Derivate-Startpage/product-highlight/05_01_Highlight_Module_2.jpg?imwidth=768",
-      title1: "Skoncentrowane na estetyce i dynamicznym prowadzeniu",
-      text1:
-        "Wnętrze samochodu elektrycznego Audi e-tron GT quattro zapewnia doskonałą funkcjonalność na co dzień w połączeniu z najwyższą jakością.",
-      image2:
         "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/e-tron-gt/my-2022/NeMo-Derivate-Startpage/product-highlight/05_02_Highlight_Module.jpg?imwidth=768",
-      title2: "Ikona pionierskiego designu",
-      text2:
+      title1: "Ikona pionierskiego designu",
+      text1:
         "Stylistyka zewnętrzna Audi e-tron GT quattro to doskonałe ucieleśnienie elektromobilności oraz niepowtarzalnego DNA Audi.",
-      image3:
+      image2:
         "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/e-tron-gt/my-2022/NeMo-Derivate-Startpage/product-highlight/05_03_Driving_Dynamics.jpg?imwidth=768",
-      title3: "Jeszcze więcej przestrzeni",
-      text3:
+      title2: "Jeszcze więcej przestrzeni",
+      text2:
         "Szklany panoramiczny dach w kolorze błyszczącej czerni zapewnia poczucie niesamowitej przestrzeni wewnątrz auta.",
-      image4:
+      image3:
         "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/e-tron-gt/my-2022/NeMo-Derivate-Startpage/market-introduction/product-highlight/eGT_2021_2307.jpg?imwidth=768",
-      title4: "Przyśpieszenie",
-      text4:
+      title3: "Przyśpieszenie",
+      text3:
         "Dzięki inteligentnemu zarządzaniu temperaturą wydajność pozostaje na imponującym poziomie, nawet gdy przyśpiesza się kilka razy z rzędu.",
     },
   },
@@ -483,77 +233,29 @@ export const Audi = [
     cardTitle: "Najwyższa jakość wykonania",
     cardText:
       "Przy powstawaniu Gran Turismo z napędem elektrycznym w Böllinger Höfe koło Neckarsulm dbałość o szczegóły spotyka się z precyzją i najwyższą jakością",
-    carousel: {
-      image1:
-        "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/rs-e-tron-gt/my-2022/NeMo-Derivate-Startpage/market-introduction/product-highlight/05_02_Ex_Highlight_Module.jpg?imwidth=768",
-      titleInfo1: "Nadwozie",
-      textInfo1:
-        "Mocne akcenty podkreślają kluczowe zalety modelu. Na przykład położony nisko środek ciężkości stał się widoczny dzięki zaakcentowanym progom i długiemu rozstawowi osi.",
-      image2:
-        "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/rs-e-tron-gt/my-2022/NeMo-Derivate-Startpage/product-highlight/10_04_Highlight_form_02.jpg?imwidth=768",
-      titleInfo2: "Imponujący tył",
-      textInfo2:
-        "Śmiało zarysowana linia ramion i charakterystyczny tylny dyfuzor dają wrażenie niesamowitej siły. Delikatnie opadający do tyłu dach Audi RS e-tron GT wyraża jego gotowość, by ruszyć naprzód, nawet gdy jest zaparkowane.",
-    },
+
     power: {
       kilowatt: 440,
       speed: 3.3,
       acumulator: 83.7,
     },
-    titleToNextCarousel: "Audi exclusive",
-    textToNextCarousel:
-      "Nadaj swojemu Audi e-tron GT quattro osobisty charakter i zaprojektuj je według własnego gustu.",
-    carousel2: {
-      image1:
-        "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/rs-e-tron-gt/my-2023/feature-gallery/RSeGT_ae_2022_3855-S.jpg?imwidth=768&imdensity=1",
-      title1: "Lakiery specjalne Audi exclusive",
-      info1:
-        "Indywidualność ma wiele twarzy - jedną z nich jest Audi RS e-tron GT w specjalnym lakierze Audi exclusive w kolorze żółtym Vegas.",
-      image2:
-        "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/rs-e-tron-gt/my-2023/feature-gallery/RSeGT_ae_2022_3854-S.jpg?imwidth=768&imdensity=1",
-      title2: "Wnętrze z Audi exclusive",
-      info2:
-        "Pakiet stylistyczny Audi exclusive Bicolor zachwyca czterema kolorami wnętrza do wyboru: żółtym Calendula, niebieskim Alaska, zielonym Iguana i czerwonym Karmesin.",
-    },
-    titleToNextCarousel2: "Ładowanie w domu i w trasie",
-    carousel3: {
+
+    carousel: {
       image1:
         "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/rs-e-tron-gt/my-2022/NeMo-Derivate-Startpage/feature-gallery/16_01_fast_charging_mobile.jpg?imwidth=768&imdensity=1",
-      titleInfo1: "Szybkie ładowanie",
-      textInfo1:
+      title1: "Szybkie ładowanie",
+      text1:
         "Wydajność Audi RS e-tron GT da się zauważyć także podczas ładowania: z mocą do 270 kW na 800-woltowych stacjach ładowania - w standardzie. Około 22,5 minut zajmie natomiast naładowanie od 5% do ok. 80%.",
       image2:
         "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/rs-e-tron-gt/my-2022/NeMo-Derivate-Startpage/feature-gallery/16_02_home_charging_mobile.jpg?imwidth=768&imdensity=1",
-      titleInfo2: "Ładowanie w domu",
-      textInfo2:
+      title2: "Ładowanie w domu",
+      text2:
         "Audi RS e-tron GT może być ładowane prądem przemiennym o maksymalnej mocy 11 kW.",
       image3:
         "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/rs-e-tron-gt/my-2023/feature-gallery/egt_2021_2319_v3-S.jpg?imwidth=768&imdensity=1",
-      titleInfo3: "Informacje w zasięgu ręki",
-      textInfo3:
-        "Stan naładowania akumulatora i pozostały zasięg można również sprawdzić w aplikacji myAudi.",
-    },
-    carousel4: {
-      image1:
-        "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/rs-e-tron-gt/my-2022/NeMo-Derivate-Startpage/product-highlight/05_01_Int_Highlight_Module.jpg?imwidth=768",
-      title1: "Wnętrze",
-      text1:
-        "We wnętrzu Audi RS e-tron GT wszystko jest skupione wokół najważniejszego - fotela kierowcy.",
-      image2:
-        "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/rs-e-tron-gt/my-2022/NeMo-Derivate-Startpage/product-highlight/05_02_Ex_Highlight_Module.jpg?imwidth=768",
-      title2: "Nadwozie",
-      text2:
-        "Design, który łączy dynamiczne proporcje gran turismo z charakterystycznymi cechami modeli Audi RS.",
-      image3:
-        "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/rs-e-tron-gt/my-2022/NeMo-Derivate-Startpage/product-highlight/05_03_Roof_Highlight_Module.jpg?imwidth=768",
-      title3: "Karbonowy dach",
+      title3: "Informacje w zasięgu ręki",
       text3:
-        "Opcjonalny karbonowy dach tworzą wzmocnione włóknami karbonu polimery. Zaawansowany technologicznie materiał jest bardzo stabilny, a przy tym – ekstremalnie lekki.",
-      image4:
-        "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/rs-e-tron-gt/my-2022/NeMo-Derivate-Startpage/market-introduction/product-highlight/RSeGT_2021_2358.jpg?imwidth=768",
-      title4: "Przyśpieszenie",
-      text4:
-        "Dzięki inteligentnemu zarządzaniu temperaturą wydajność pozostaje na imponującym poziomie, nawet gdy przyśpiesza się kilka razy z rzędu.",
+        "Stan naładowania akumulatora i pozostały zasięg można również sprawdzić w aplikacji myAudi.",
     },
   },
   //   A1
@@ -578,78 +280,30 @@ export const Audi = [
     cardTitle: "Emocje, dynamika i przestronność",
     cardText:
       "A1 Sportback - druga generacja tego kompaktowego modelu zachwyca sportową stylistyką i elastycznymi możliwościami dostosowania opcji wyposażenia.",
-    carousel: {
-      image1:
-        "https://www.audi.pl/content/dam/nemo/models/a1/a1-sportback/my-2022/derivate-startpage/product-highlight/1920x1920-aa1_d_181001_3.jpg?imwidth=768",
-      titleInfo1: "Wnętrze",
-      textInfo1:
-        "Wnętrze Audi A1 Sportback charakteryzuje się funkcjonalnością i wysoką jakością wykonania.",
-      image2:
-        "https://www.audi.pl/content/dam/nemo/models/a1/a1-sportback/my-2022/derivate-startpage/product-highlight/1920x1920-aa1_181006_3.jpg?imwidth=768",
-      titleInfo2: "Wrażenia z jazdy",
-      textInfo2:
-        "W Audi A1 Sportback jazda po mieście staje się prawdziwą przyjemnością.",
-    },
+
     power: {
       hp: 150,
       speed: 10.2,
       kilowatt: 110,
       Nm: 250,
     },
-    titleToNextCarousel: "Gwarancja przyjemności z jazdy",
-    textToNextCarousel:
-      "Dzięki szerokiej gamie silników Audi A1 Sportback jest dobrze przygotowane do pokonywania różnych tras. Najmocniejszy silnik, potężny 2,0-litrowy TFSI, pozwala uzyskać moc 152 kW (207 KM).",
-    carousel2: {
-      image1:
-        "https://www.audi.pl/content/dam/nemo/models/a1/a1-sportback/my-2022/derivate-startpage/feature-gallery/810x1080-aa1_181008_1.jpg?imwidth=768&imdensity=1",
-      title1: "Sportowe wrażenia z jazdy",
-      info1:
-        "Audi A1 Sportback zachwyca elektromechanicznym wspomaganiem układu kierowniczego i dynamicznie zestrojonym układem jezdnym. Opcjonalnie można wybrać pakiety dynamiczne dostosowane indywidualnie do każdego silnika.",
-      image2:
-        "https://www.audi.pl/content/dam/nemo/models/a1/a1-sportback/my-2022/derivate-startpage/feature-gallery/810x1080-aa1_181007_2.jpg?imwidth=768&imdensity=1",
-      title2: "Po prostu zaufaj",
-      info2:
-        "W Audi A1 Sportback kierowcę odciążają inteligentne systemy wspomagające - na przykład opcjonalny system ostrzegania przed niezamierzoną zmianą pasa ruchu. Dzięki dyskretnym interwencjom układu kierowniczego pomaga utrzymać się w pasie ruchu przy prędkości od 60 km/h.",
-    },
-    titleToNextCarousel2: "Bogate możliwości kształtowania wyglądu",
-    carousel3: {
+
+    carousel: {
       image1:
         "https://www.audi.pl/content/dam/nemo/models/a1/a1-sportback/my-2022/derivate-startpage/feature-gallery/810x1080-aa1_181001_2.jpg?imwidth=768&imdensity=1",
-      titleInfo1: "Uderzające spojrzenie",
-      textInfo1:
+      title1: "Uderzające spojrzenie",
+      text1:
         "Szeroka, głęboko osadzona osłona chłodnicy Singleframe, zaakcentowane boczne wloty powietrza i opcjonalne reflektory LED dominują na przodzie samochodu.",
       image2:
         "https://www.audi.pl/content/dam/nemo/models/a1/a1-sportback/my-2022/derivate-startpage/feature-gallery/810x1080-aa1_d_181008_2.jpg?imwidth=768&imdensity=1",
-      titleInfo2: "Wybór obręczy kół",
-      textInfo2:
+      title2: "Wybór obręczy kół",
+      text2:
         "W zależności od modelu bazowego dla Audi A1 Sportback można wybrać pomiędzy 16-, 17- i 18-calowymi obręczami.",
       image3:
         "https://www.audi.pl/content/dam/nemo/models/a1/a1-sportback/my-2022/derivate-startpage/feature-gallery/810x1080-a1_2021_2877.jpg?imwidth=768&imdensity=1",
-      titleInfo3: "Perfekcyjny sportowy charakter",
-      textInfo3:
-        "Sportowe wyposażenie S line zwiększa atrakcyjność Audi A1 Sportback.",
-    },
-    carousel4: {
-      image1:
-        "https://www.audi.pl/content/dam/nemo/models/a1/a1-sportback/my-2022/derivate-startpage/product-highlight/1920x1920-aa1_d_181014_3.jpg?imwidth=768",
-      title1: "Więcej niż nawigacja.",
-      text1:
-        "Opcjonalną nawigację MMI navigation plus obsługuje się za pomocą MMI touch, którego panel dotykowy rozpoznaje pismo odręczne. Dzięki Audi connect można korzystać z takich funkcji jak nowe, dokładne mapy 3D centrów wielu miast. Automatycznie pobierane są cztery bezpłatne aktualizacje map rocznie.",
-      image2:
-        "https://www.audi.pl/content/dam/nemo/models/a1/a1-sportback/my-2022/derivate-startpage/product-highlight/1920x1920-a1_2021_2879.jpg?imwidth=768",
-      title2: "Wyraziste wnętrze",
-      text2:
-        "Czerwone przeszycia Audi Sport6 na podparciach w drzwiach dostępne w wyposażeniu opcjonalnym, a także przeszycia na obręczy kierownicy, dywanikach podłogowych, przednich fotelach sportowych i opcjonalnie na środkowym podparciu - wprowadzają sportowe akcenty.",
-      image3:
-        "https://www.audi.pl/content/dam/nemo/models/a1/a1-sportback/my-2022/derivate-startpage/product-highlight/1920x1920-aa1_d_181006_1.jpg?imwidth=768",
-      title3: "Wszystko w zasięgu wzroku",
+      title3: "Perfekcyjny sportowy charakter",
       text3:
-        "Opcjonalny wirtualny kokpit Audi umożliwia odczytanie najważniejszych danych na ekranie LCD o przekątnej 10,25 cala. Dostępne są dwa tryby wyświetlania. Klasyczny pokazuje wskaźniki takie jak prędkość i czas.",
-      image4:
-        "https://www.audi.pl/content/dam/nemo/models/a1/a1-sportback/my-2022/derivate-startpage/product-highlight/1920x1920-aa1_d_181004_1.jpg?imwidth=768",
-      title4: "Doskonałe brzmienie",
-      text4:
-        "Wzmacniacz o mocy 560 W i 11 głośników w opcjonalnym systemie SONOS tworzą imponujące tło dźwiękowe - w szczególności odpowiada za to wirtualny efekt dźwięku 3D osiągany m.in. poprzez odbicie od przedniej szyby.",
+        "Sportowe wyposażenie S line zwiększa atrakcyjność Audi A1 Sportback.",
     },
   },
 
@@ -675,77 +329,30 @@ export const Audi = [
     cardTitle: "Ucieleśnienie idei postępu",
     cardText:
       "Nowoczesny design i innowacyjne technologie - Audi A3 Sportback.",
-    carousel: {
-      image1:
-        "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback/my-2022/NeMo-Derivate-Startpage/feature-gallery/a3_ae_2020_1004_1-s.jpg?imwidth=768&imdensity=1",
-      titleInfo1: "Jeszcze bardziej wyraziste",
-      textInfo1:
-        "Oferta Audi exclusive daje możliwość wyboru spośród szerokiej palety kolorów lakierów nadwozia. Wśród nich lakier perłowy czerwony Misano.",
-      image2:
-        "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback/my-2022/NeMo-Derivate-Startpage/feature-gallery/a3_ae_2020_0094_2-s.jpg?imwidth=768&imdensity=1",
-      titleInfo2: "Indywidualizm skrojony na miare",
-      textInfo2:
-        "Wnętrze Audi A3 Sportback zdobione czerwonym, kontrastowym przeszyciem z palety Audi Sport na siedzeniach, podparciach w drzwiach, desce rozdzielczej i kierownicy. Atrakcyjny szczegół stanowią czarne dywaniki z czerwonymi akcentami w postaci szwu i lamówki.",
-    },
+
     power: {
       hp: 150,
       kilowatt: 110,
       Nm: 250,
       speed: 6.8,
     },
-    titleToNextCarousel: "Emocjonujący design",
-    textToNextCarousel:
-      "Audi A3 Sportback zachwyca wyrazistymi nadkolami, szerszym rozstawem kół i ciągłą linią barkową. W połączeniu z szeroką osłoną Singleframe z kratownicą o strukturze plastra miodu Audi A3 Sportback wygląda bardziej sportowo niż kiedykolwiek wcześniej.",
-    carousel2: {
-      image1:
-        "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback/my-2023/feature-gallery/A3_as_2020_0334_2-S.jpg?imwidth=768&imdensity=1",
-      title1: "Design na miarę twoich potrzeb",
-      info1:
-        "Sportowy wygląd samochodu zapewniają 5-ramienne obręcze kół V-Design ze stopu metali lekkich z oferty oryginalnych Akcesoriów Audi. Ich czarny kolor o błyszczącym wykończeniu w połączeniu z szarymi oraz czerwonymi aplikacjami szczególnie podkreśla dynamiczny charakter pojazdu.",
-      image2:
-        "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback/my-2022/NeMo-Derivate-Startpage/feature-gallery/A3_as_2020_0153-s.jpg?imwidth=768&imdensity=1",
-      title2: "Pakiet stylistyczny Carbon",
-      info2:
-        "Pakiet stylistyczny Carbon podkreśla sportowy charakter samochodu dzięki wysokiej jakości elementom wykonanym z polimeru wzmocnionego włóknem węglowym. Obudowy lusterek zewnętrznych i spojler klapy bagażnika z włókna węglowego to dynamiczne akcenty, wyraźnie kontrastujące z lakierem samochodu.",
-    },
-    titleToNextCarousel2: "Innowacyjne technologie",
-    carousel3: {
+
+    carousel: {
       image1:
         "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback/my-2022/NeMo-Derivate-Startpage/feature-gallery/a3_ed1_2020_0989_1-s.jpg?imwidth=768&imdensity=1",
-      titleInfo1: "Audi drive select",
-      textInfo1:
+      title1: "Audi drive select",
+      text1:
         "Dzięki Audi drive select można dostosować charakter Audi A3 Sportback do swojego stylu jazdy, korzystając z trybu komfortowego, dynamicznego, efficiency, automatycznego lub całkowicie indywidualnego. Tryb efficiency może pomóc w zaoszczędzeniu paliwa.",
       image2:
         "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback/my-2022/NeMo-Derivate-Startpage/feature-gallery/A3_2020_0139_1-s.jpg?imwidth=768&imdensity=1",
-      titleInfo2: "Systemy wspomagające",
-      textInfo2:
+      title2: "Systemy wspomagające",
+      text2:
         "W ruchu ulicznym opcjonalny adaptacyjny tempomat ma za zadanie ostrzegać kierowcę, przykładowo jeśli jedzie zbyt blisko pojazdu z przodu. Z kolei opcjonalny asystent ruchu poprzecznego wspiera kierowcę podczas wyjeżdżania z miejsca parkingowego - ostrzega przed samochodami jadącymi z obu kierunków.",
       image3:
         "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback/my-2022/NeMo-Derivate-Startpage/feature-gallery/a3_ed1_2020_0996_1-s.jpg?imwidth=768&imdensity=1",
-      titleInfo3: "Reflektory Martix LED",
-      textInfo3:
-        "Oprócz standardowych reflektorów LED w Audi A3 Sportback dostępne są opcjonalne reflektory Matrix LED z cyfrowymi światłami do jazdy dziennej. Precyzyjnie oświetlają drogę, jednocześnie minimalizując oślepianie innych kierowców.",
-    },
-    carousel4: {
-      image1:
-        "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback/my-2022/NeMo-Derivate-Startpage/product-highlight/a3_ed1_2020_0994_1.jpg?imwidth=768",
-      title1: "Niezwykła stylistyka nadwozia",
-      text1:
-        "Audi A3 Sportback w kolorze niebieskim Atoll metalik pokazuje sportowy charakter.",
-      image2:
-        "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback/my-2022/NeMo-Derivate-Startpage/product-highlight/a3_ed1_2020_0997_1.jpg?imwidth=768",
-      title2: "Zróżnicowane wnętrze",
-      text2:
-        "Kolorowy wyświetlacz dotykowy MMI o przekątnej 10,1 cala idealnie komponuje się z czarną, błyszczącą powierzchnią deski rozdzielczej, której zorientowanie na kierowcę dodatkowo podkreśla sportowy charakter modelu.",
-      image3:
-        "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback/my-2022/NeMo-Derivate-Startpage/product-highlight/a3_ed1_2020_0993_1.jpg?imwidth=768",
-      title3: "Audi drive select",
+      title3: "Reflektory Martix LED",
       text3:
-        "Dzięki progresywnemu układowi kierowniczemu i opcjonalnemu systemowi Audi drive select Audi A3 Sportback sprawdza się doskonale na każdej drodze.",
-      image4:
-        "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback/my-2022/NeMo-Derivate-Startpage/product-highlight/a3_ed1_2020_0994_1.jpg?imwidth=768",
-      title4: "Widok panoramiczny",
-      text4: "Audi A3 Sportback robi wrażenie z każdej perspektywy",
+        "Oprócz standardowych reflektorów LED w Audi A3 Sportback dostępne są opcjonalne reflektory Matrix LED z cyfrowymi światłami do jazdy dziennej. Precyzyjnie oświetlają drogę, jednocześnie minimalizując oślepianie innych kierowców.",
     },
   },
   {
@@ -773,51 +380,8 @@ export const Audi = [
       speed: 6.8,
       kilowatt: 180,
     },
+
     carousel: {
-      image1:
-        "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback-tfsi-e/my-2022/NeMo-Derivate-Startpage/product-highlight/A3_2020-1045.jpg?imwidth=768",
-      titleInfo1: "Napęd",
-      textInfo1:
-        "Jako hybryda plug-in Audi A3 Sportback TFSI e łączy w sobie zalety silnika spalinowego i elektrycznego.",
-      image2:
-        "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback-tfsi-e/my-2022/NeMo-Derivate-Startpage/product-highlight/A3_2020_1070.jpg?imwidth=768",
-      titleInfo2: "Zalety",
-      textInfo2:
-        "Niezależnie od tego, czy jest to napęd spalinowy, w pełni elektryczny czy hybrydowy – wydajność jest dostosowana do potrzeb kierowcy.",
-    },
-    titleToNextCarousel: "Proste ładowanie",
-    textToNextCarousel:
-      "Dla Audi A3 Sportback TFSI e dostępne są różne opcje ładowania - zarówno w domu, jak i w podróży",
-    carousel2: {
-      image1:
-        "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback-tfsi-e/my-2022/NeMo-Derivate-Startpage/feature-gallery/A3_2020_1761-s.jpg?imwidth=768&imdensity=1",
-      title1: "Ładowanie w domu",
-      info1:
-        "Do ładowania w domu z mocą do 3,6 kW służy system ładowania e-tron compact dostępny w standardzie.",
-      image2:
-        "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback-tfsi-e/my-2022/NeMo-Derivate-Startpage/feature-gallery/A3_2020_1058-s.jpg?imwidth=768&imdensity=1",
-      title2: "Ładowanie w trasie",
-      info2:
-        "Z przewodem do ładowania Mode 3 i usługą e-tron Charging Service zyskujesz dostęp do punktów ładowania w 26 europejskich krajach, indywidualne taryfy, inteligentne prowadzenie po trasie oraz przegląd procesów ładowania i rachunków.",
-    },
-    carousel3: {
-      image1:
-        "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback/my-2022/NeMo-Derivate-Startpage/feature-gallery/a3_ed1_2020_0989_1-s.jpg?imwidth=768&imdensity=1",
-      titleInfo1: "Audi drive select",
-      textInfo1:
-        "Dzięki Audi drive select można dostosować charakter Audi A3 Sportback TFSI e do swojego stylu jazdy, korzystając z trybu komfortowego, dynamicznego, efficiency, automatycznego lub całkowicie indywidualnego. Tryb efficiency może pomóc w zaoszczędzeniu paliwa.",
-      image2:
-        "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback/my-2022/NeMo-Derivate-Startpage/feature-gallery/A3_2020_0139_1-s.jpg?imwidth=768&imdensity=1",
-      titleInfo2: "Systemy wspomagające",
-      textInfo2:
-        "W ruchu ulicznym opcjonalny adaptacyjny tempomat ma za zadanie ostrzegać kierowcę, przykładowo jeśli jedzie zbyt blisko pojazdu z przodu. Z kolei opcjonalny asystent ruchu poprzecznego wspiera kierowcę podczas wyjeżdżania z miejsca parkingowego - ostrzega przed samochodami jadącymi z obu kierunków.",
-      image3:
-        "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback/my-2022/NeMo-Derivate-Startpage/feature-gallery/a3_ed1_2020_0996_1-s.jpg?imwidth=768&imdensity=1",
-      titleInfo3: "Reflektory Martix LED",
-      textInfo3:
-        "Oprócz standardowych reflektorów LED w Audi A3 Sportback TFSI e dostępne są opcjonalne reflektory Matrix LED z cyfrowymi światłami do jazdy dziennej. Precyzyjnie oświetlają drogę, jednocześnie minimalizując oślepianie innych kierowców.",
-    },
-    carousel4: {
       image1:
         "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback-tfsi-e/my-2022/NeMo-Derivate-Startpage/product-highlight/A3_2020_1042.jpg?imwidth=768",
       title1: "Czysta przyjemność z jazdy",
@@ -833,11 +397,6 @@ export const Audi = [
       title3: "Wybór rodzaju napędu",
       text3:
         "Możesz wybrać jeden z 4 trybów: jazda w trybie wyłącznie elektrycznym (EV), utrzymania energii elektrycznej w akumulatorze na potrzeby przyszłej jazdy elektrycznej (HOLD), ładowania akumulatora podczas jazdy (CHARGE)4 oraz współdziałania silnika spalinowego i elektrycznego (AUTO HYBRID).",
-      image4:
-        "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback-tfsi-e/my-2022/NeMo-Derivate-Startpage/product-highlight/a3_2020_1064_1.jpg?imwidth=768",
-      title4: "Cyfrowy i intuicyjny wyświetlacz",
-      text4:
-        "Wirtualny kokpit Audi ma zintegrowany miernik mocy, który pokazuje moc systemową i wybrany tryb jazdy oraz stan naładowania baterii i pozostały zasięg.",
     },
   },
   {
@@ -851,6 +410,38 @@ export const Audi = [
     instalment: 1215,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8ysar/2021.png?imwidth=550",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/a3/a3-limousine/my-2022/NeMo-Derivate-Startpage/stage/A3_2020_1018-mobile.jpg?imwidth=768",
+    emission: "167-111",
+    consumption: "7,4-4,3 l/100km",
+    fixedBackground:
+      "https://www.audi.pl/content/dam/nemo/models/a3/a3-limousine/my-2022/NeMo-Derivate-Startpage/parallax-teaser/a3_r_2020_1085_1-s.jpg?imwidth=767",
+    cardTitle: "Ucieleśnienie idei postępu",
+    cardText:
+      "Audi A3 Limousine jest wyposażone w wiele cyfrowych rozwiązań, od systemów informacyjno-rozrywkowych po systemy wsparcia kierowcy.",
+    carousel: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a3/a3-limousine/my-2022/NeMo-Derivate-Startpage/product-highlight/A3_2020_1023.jpg?imwidth=768",
+      title1: "Niezwykła stylistyka nadwozia",
+      text1:
+        "Audi A3 Limousine w kolorze szarym Manhattan metalik zachwyca swoim sportowym i stylowym wyglądem z każdej perspektywy.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a3/a3-limousine/my-2022/NeMo-Derivate-Startpage/feature-gallery/a3_2020_1027_1.jpg?imwidth=768",
+      title2: "Nowoczesne oświetlenie wnętrza",
+      text2:
+        "Dzięki opcjonalnemu pakietowi oświetlenia Ambiente plus można stworzyć w środku niezwykłą atmosferę - 30 dostępnych kolorów pozwoli na wykreowanie wyjątkowych kompozycji.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/a3/a3-limousine/my-2022/NeMo-Derivate-Startpage/product-highlight/a3_2020_1022_1.jpg?imwidth=768",
+      title3: "Audi drive select",
+      text3:
+        "Opcjonalny system Audi drive select pozwala dostosować charakterystykę jazdy Audi A3 Limousine do swoich potrzeb i upodobań.",
+    },
+    power: {
+      hp: 150,
+      kilowatt: 110,
+      speed: 8.7,
+      Nm: 250,
+    },
   },
   {
     id: 11,
