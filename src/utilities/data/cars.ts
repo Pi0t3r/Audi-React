@@ -648,7 +648,8 @@ export const Audi = [
       image4:
         "https://www.audi.pl/content/dam/nemo/models/a1/a1-sportback/my-2022/derivate-startpage/product-highlight/1920x1920-aa1_d_181004_1.jpg?imwidth=768",
       title4: "Doskonałe brzmienie",
-      text4: "Wzmacniacz o mocy 560 W i 11 głośników w opcjonalnym systemie SONOS tworzą imponujące tło dźwiękowe - w szczególności odpowiada za to wirtualny efekt dźwięku 3D osiągany m.in. poprzez odbicie od przedniej szyby.",
+      text4:
+        "Wzmacniacz o mocy 560 W i 11 głośników w opcjonalnym systemie SONOS tworzą imponujące tło dźwiękowe - w szczególności odpowiada za to wirtualny efekt dźwięku 3D osiągany m.in. poprzez odbicie od przedniej szyby.",
     },
   },
 
@@ -665,6 +666,87 @@ export const Audi = [
     instalment: 1183,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8yaar/2021.png?imwidth=550",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback/my-2022/NeMo-Derivate-Startpage/stage/a3_ed1_2020_0995_1-s.jpg?imwidth=768",
+    emission: "170-115",
+    consumption: "7,5-4,4 l/100km",
+    fixedBackground:
+      "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback/my-2022/NeMo-Derivate-Startpage/parallax-teaser/a3_ed1_2020_0996_1-s.jpg?imwidth=767",
+    cardTitle: "Ucieleśnienie idei postępu",
+    cardText:
+      "Nowoczesny design i innowacyjne technologie - Audi A3 Sportback.",
+    carousel: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback/my-2022/NeMo-Derivate-Startpage/feature-gallery/a3_ae_2020_1004_1-s.jpg?imwidth=768&imdensity=1",
+      titleInfo1: "Jeszcze bardziej wyraziste",
+      textInfo1:
+        "Oferta Audi exclusive daje możliwość wyboru spośród szerokiej palety kolorów lakierów nadwozia. Wśród nich lakier perłowy czerwony Misano.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback/my-2022/NeMo-Derivate-Startpage/feature-gallery/a3_ae_2020_0094_2-s.jpg?imwidth=768&imdensity=1",
+      titleInfo2: "Indywidualizm skrojony na miare",
+      textInfo2:
+        "Wnętrze Audi A3 Sportback zdobione czerwonym, kontrastowym przeszyciem z palety Audi Sport na siedzeniach, podparciach w drzwiach, desce rozdzielczej i kierownicy. Atrakcyjny szczegół stanowią czarne dywaniki z czerwonymi akcentami w postaci szwu i lamówki.",
+    },
+    power: {
+      hp: 150,
+      kilowatt: 110,
+      Nm: 250,
+      speed: 6.8,
+    },
+    titleToNextCarousel: "Emocjonujący design",
+    textToNextCarousel:
+      "Audi A3 Sportback zachwyca wyrazistymi nadkolami, szerszym rozstawem kół i ciągłą linią barkową. W połączeniu z szeroką osłoną Singleframe z kratownicą o strukturze plastra miodu Audi A3 Sportback wygląda bardziej sportowo niż kiedykolwiek wcześniej.",
+    carousel2: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback/my-2023/feature-gallery/A3_as_2020_0334_2-S.jpg?imwidth=768&imdensity=1",
+      title1: "Design na miarę twoich potrzeb",
+      info1:
+        "Sportowy wygląd samochodu zapewniają 5-ramienne obręcze kół V-Design ze stopu metali lekkich z oferty oryginalnych Akcesoriów Audi. Ich czarny kolor o błyszczącym wykończeniu w połączeniu z szarymi oraz czerwonymi aplikacjami szczególnie podkreśla dynamiczny charakter pojazdu.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback/my-2022/NeMo-Derivate-Startpage/feature-gallery/A3_as_2020_0153-s.jpg?imwidth=768&imdensity=1",
+      title2: "Pakiet stylistyczny Carbon",
+      info2:
+        "Pakiet stylistyczny Carbon podkreśla sportowy charakter samochodu dzięki wysokiej jakości elementom wykonanym z polimeru wzmocnionego włóknem węglowym. Obudowy lusterek zewnętrznych i spojler klapy bagażnika z włókna węglowego to dynamiczne akcenty, wyraźnie kontrastujące z lakierem samochodu.",
+    },
+    titleToNextCarousel2: "Innowacyjne technologie",
+    carousel3: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback/my-2022/NeMo-Derivate-Startpage/feature-gallery/a3_ed1_2020_0989_1-s.jpg?imwidth=768&imdensity=1",
+      titleInfo1: "Audi drive select",
+      textInfo1:
+        "Dzięki Audi drive select można dostosować charakter Audi A3 Sportback do swojego stylu jazdy, korzystając z trybu komfortowego, dynamicznego, efficiency, automatycznego lub całkowicie indywidualnego. Tryb efficiency może pomóc w zaoszczędzeniu paliwa.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback/my-2022/NeMo-Derivate-Startpage/feature-gallery/A3_2020_0139_1-s.jpg?imwidth=768&imdensity=1",
+      titleInfo2: "Systemy wspomagające",
+      textInfo2:
+        "W ruchu ulicznym opcjonalny adaptacyjny tempomat ma za zadanie ostrzegać kierowcę, przykładowo jeśli jedzie zbyt blisko pojazdu z przodu. Z kolei opcjonalny asystent ruchu poprzecznego wspiera kierowcę podczas wyjeżdżania z miejsca parkingowego - ostrzega przed samochodami jadącymi z obu kierunków.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback/my-2022/NeMo-Derivate-Startpage/feature-gallery/a3_ed1_2020_0996_1-s.jpg?imwidth=768&imdensity=1",
+      titleInfo3: "Reflektory Martix LED",
+      textInfo3:
+        "Oprócz standardowych reflektorów LED w Audi A3 Sportback dostępne są opcjonalne reflektory Matrix LED z cyfrowymi światłami do jazdy dziennej. Precyzyjnie oświetlają drogę, jednocześnie minimalizując oślepianie innych kierowców.",
+    },
+    carousel4: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback/my-2022/NeMo-Derivate-Startpage/product-highlight/a3_ed1_2020_0994_1.jpg?imwidth=768",
+      title1: "Niezwykła stylistyka nadwozia",
+      text1:
+        "Audi A3 Sportback w kolorze niebieskim Atoll metalik pokazuje sportowy charakter.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback/my-2022/NeMo-Derivate-Startpage/product-highlight/a3_ed1_2020_0997_1.jpg?imwidth=768",
+      title2: "Zróżnicowane wnętrze",
+      text2:
+        "Kolorowy wyświetlacz dotykowy MMI o przekątnej 10,1 cala idealnie komponuje się z czarną, błyszczącą powierzchnią deski rozdzielczej, której zorientowanie na kierowcę dodatkowo podkreśla sportowy charakter modelu.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback/my-2022/NeMo-Derivate-Startpage/product-highlight/a3_ed1_2020_0993_1.jpg?imwidth=768",
+      title3: "Audi drive select",
+      text3:
+        "Dzięki progresywnemu układowi kierowniczemu i opcjonalnemu systemowi Audi drive select Audi A3 Sportback sprawdza się doskonale na każdej drodze.",
+      image4:
+        "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback/my-2022/NeMo-Derivate-Startpage/product-highlight/a3_ed1_2020_0994_1.jpg?imwidth=768",
+      title4: "Widok panoramiczny",
+      text4: "Audi A3 Sportback robi wrażenie z każdej perspektywy",
+    },
   },
   {
     id: 9,
