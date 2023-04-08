@@ -38,7 +38,7 @@ function Car() {
           <picture className="relative">
             <img src={car.headerImage} alt={car.name} />
             <div className="absolute inset-0 shadow-[inset_0px_-100px_35px_2px_black;] p-5">
-              <h2 className="text-4xl font-medium text-white mb-4 absolute bottom-36 left-5">
+              <h2 className="text-3xl font-medium text-white mb-4 absolute bottom-36 left-5">
                 {car.name}
               </h2>
               <button className="bg-white p-4 text-lg bottom-20 inset-x-5 absolute">

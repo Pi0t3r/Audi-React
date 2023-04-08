@@ -759,6 +759,86 @@ export const Audi = [
     instalment: 2215,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8yabpx/2021.png?imwidth=550",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback-tfsi-e/my-2022/NeMo-Derivate-Startpage/stage/A3_2020_1059-s.jpg?imwidth=768",
+    emission: "21-29",
+    consumption:
+      "Benzyna:1,4-1,3 l/100km | Energia elektryczna: 15,8-15,4 kWh/100km",
+    fixedBackground:
+      "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback-tfsi-e/my-2022/NeMo-Derivate-Startpage/parallax-teaser/A3_2020_1060-s.jpg?imwidth=767",
+    cardTitle: "Przekonuje każdą formą napędu",
+    cardText:
+      "Czysto elektryczny, hybrydowy lub spalinowy: Audi A3 Sportback TFSI e oferuje napęd na każdą okazję.",
+    power: {
+      speed: 6.8,
+      kilowatt: 180,
+    },
+    carousel: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback-tfsi-e/my-2022/NeMo-Derivate-Startpage/product-highlight/A3_2020-1045.jpg?imwidth=768",
+      titleInfo1: "Napęd",
+      textInfo1:
+        "Jako hybryda plug-in Audi A3 Sportback TFSI e łączy w sobie zalety silnika spalinowego i elektrycznego.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback-tfsi-e/my-2022/NeMo-Derivate-Startpage/product-highlight/A3_2020_1070.jpg?imwidth=768",
+      titleInfo2: "Zalety",
+      textInfo2:
+        "Niezależnie od tego, czy jest to napęd spalinowy, w pełni elektryczny czy hybrydowy – wydajność jest dostosowana do potrzeb kierowcy.",
+    },
+    titleToNextCarousel: "Proste ładowanie",
+    textToNextCarousel:
+      "Dla Audi A3 Sportback TFSI e dostępne są różne opcje ładowania - zarówno w domu, jak i w podróży",
+    carousel2: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback-tfsi-e/my-2022/NeMo-Derivate-Startpage/feature-gallery/A3_2020_1761-s.jpg?imwidth=768&imdensity=1",
+      title1: "Ładowanie w domu",
+      info1:
+        "Do ładowania w domu z mocą do 3,6 kW służy system ładowania e-tron compact dostępny w standardzie.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback-tfsi-e/my-2022/NeMo-Derivate-Startpage/feature-gallery/A3_2020_1058-s.jpg?imwidth=768&imdensity=1",
+      title2: "Ładowanie w trasie",
+      info2:
+        "Z przewodem do ładowania Mode 3 i usługą e-tron Charging Service zyskujesz dostęp do punktów ładowania w 26 europejskich krajach, indywidualne taryfy, inteligentne prowadzenie po trasie oraz przegląd procesów ładowania i rachunków.",
+    },
+    carousel3: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback/my-2022/NeMo-Derivate-Startpage/feature-gallery/a3_ed1_2020_0989_1-s.jpg?imwidth=768&imdensity=1",
+      titleInfo1: "Audi drive select",
+      textInfo1:
+        "Dzięki Audi drive select można dostosować charakter Audi A3 Sportback TFSI e do swojego stylu jazdy, korzystając z trybu komfortowego, dynamicznego, efficiency, automatycznego lub całkowicie indywidualnego. Tryb efficiency może pomóc w zaoszczędzeniu paliwa.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback/my-2022/NeMo-Derivate-Startpage/feature-gallery/A3_2020_0139_1-s.jpg?imwidth=768&imdensity=1",
+      titleInfo2: "Systemy wspomagające",
+      textInfo2:
+        "W ruchu ulicznym opcjonalny adaptacyjny tempomat ma za zadanie ostrzegać kierowcę, przykładowo jeśli jedzie zbyt blisko pojazdu z przodu. Z kolei opcjonalny asystent ruchu poprzecznego wspiera kierowcę podczas wyjeżdżania z miejsca parkingowego - ostrzega przed samochodami jadącymi z obu kierunków.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback/my-2022/NeMo-Derivate-Startpage/feature-gallery/a3_ed1_2020_0996_1-s.jpg?imwidth=768&imdensity=1",
+      titleInfo3: "Reflektory Martix LED",
+      textInfo3:
+        "Oprócz standardowych reflektorów LED w Audi A3 Sportback TFSI e dostępne są opcjonalne reflektory Matrix LED z cyfrowymi światłami do jazdy dziennej. Precyzyjnie oświetlają drogę, jednocześnie minimalizując oślepianie innych kierowców.",
+    },
+    carousel4: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback-tfsi-e/my-2022/NeMo-Derivate-Startpage/product-highlight/A3_2020_1042.jpg?imwidth=768",
+      title1: "Czysta przyjemność z jazdy",
+      text1:
+        "Wysokowydajny akumulator w połączeniu z silnikiem elektrycznym wspiera 1,4-litrowy silnik TFSI. Silnik spalinowy i silnik elektryczny mogą łącznie osiągnąć moc do 180 kW.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback-tfsi-e/my-2022/NeMo-Derivate-Startpage/product-highlight/A3_2020_1065.jpg?imwidth=768",
+      title2: "Zalety",
+      text2:
+        "Silnik elektryczny oferuje wysoki moment obrotowy w ułamku sekundy. Silnik spalinowy natomiast umożliwia sportową jazdę na długich trasach bez potrzeby zatrzymywania się na stacji ładowania.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback-tfsi-e/my-2022/NeMo-Derivate-Startpage/product-highlight/A3_2020_1766.jpg?imwidth=768",
+      title3: "Wybór rodzaju napędu",
+      text3:
+        "Możesz wybrać jeden z 4 trybów: jazda w trybie wyłącznie elektrycznym (EV), utrzymania energii elektrycznej w akumulatorze na potrzeby przyszłej jazdy elektrycznej (HOLD), ładowania akumulatora podczas jazdy (CHARGE)4 oraz współdziałania silnika spalinowego i elektrycznego (AUTO HYBRID).",
+      image4:
+        "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback-tfsi-e/my-2022/NeMo-Derivate-Startpage/product-highlight/a3_2020_1064_1.jpg?imwidth=768",
+      title4: "Cyfrowy i intuicyjny wyświetlacz",
+      text4:
+        "Wirtualny kokpit Audi ma zintegrowany miernik mocy, który pokazuje moc systemową i wybrany tryb jazdy oraz stan naładowania baterii i pozostały zasięg.",
+    },
   },
   {
     id: 10,
