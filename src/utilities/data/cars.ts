@@ -2021,15 +2021,21 @@ export const Audi = [
     fixedBackground:
       "bg-[url('https://www.audi.pl/content/dam/nemo/models/q2/q2/my-2022/NeMo-Derivate-Startpage/parallax-teaser/1534x2500-q2_2020_1255.jpg?imwidth=767')]",
     carousel: {
-      image1: "https://www.audi.pl/content/dam/nemo/models/q2/q2/my-2022/NeMo-Derivate-Startpage/feature-gallery/810x1080-q2_2020_1282.jpg?imwidth=768&imdensity=1",
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/q2/q2/my-2022/NeMo-Derivate-Startpage/feature-gallery/810x1080-q2_2020_1282.jpg?imwidth=768&imdensity=1",
       title1: "Sportowy charakter",
-      text1: "Sportowe fotele przednie z kontrastowymi przeszyciami w kolorze szarym oraz emblematem S na oparciach podkreślają sportowe oblicze pojazdu.",
-      image2: "https://www.audi.pl/content/dam/nemo/models/q2/q2/my-2022/NeMo-Derivate-Startpage/feature-gallery/810x1080-q2_2020_1278.jpg?imwidth=768&imdensity=1",
+      text1:
+        "Sportowe fotele przednie z kontrastowymi przeszyciami w kolorze szarym oraz emblematem S na oparciach podkreślają sportowe oblicze pojazdu.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/q2/q2/my-2022/NeMo-Derivate-Startpage/feature-gallery/810x1080-q2_2020_1278.jpg?imwidth=768&imdensity=1",
       title2: "Odkryj nowe połączenia",
-      text2: "Wirtualny kokpit Audi to innowacyjny, w pełni cyfrowy zestaw wskaźników, który wyświetla informacje w sposób elastyczny i odpowiadający potrzebom kierowcy. Wyświetlacz o przekątnej 12,3 cala odznacza się wysoką rozdzielczością.",
-      image3: "https://www.audi.pl/content/dam/nemo/models/q2/q2/my-2022/NeMo-Derivate-Startpage/feature-gallery/810x1080-q2_2020_1816_crop.jpg?imwidth=768&imdensity=1",
+      text2:
+        "Wirtualny kokpit Audi to innowacyjny, w pełni cyfrowy zestaw wskaźników, który wyświetla informacje w sposób elastyczny i odpowiadający potrzebom kierowcy. Wyświetlacz o przekątnej 12,3 cala odznacza się wysoką rozdzielczością.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/q2/q2/my-2022/NeMo-Derivate-Startpage/feature-gallery/810x1080-q2_2020_1816_crop.jpg?imwidth=768&imdensity=1",
       title3: "Panoramiczny szklany dach",
-      text3: "Panoramiczny dach wyposażono w duże przyciemniane panele szklane. Zapewniają one wyjątkową atmosferę we wnętrzu Twojego Audi Q2 i podkreślają jego nowatorski charakter przyjemnym światłem. ",
+      text3:
+        "Panoramiczny dach wyposażono w duże przyciemniane panele szklane. Zapewniają one wyjątkową atmosferę we wnętrzu Twojego Audi Q2 i podkreślają jego nowatorski charakter przyjemnym światłem. ",
     },
   },
 
@@ -2046,28 +2052,37 @@ export const Audi = [
     instalment: 1595,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f3bbky/2023.png?imwidth=550",
-    headerImage: "https://www.audi.pl/content/dam/nemo/models/q3/q3/my-2022/derivative-startpage/stage-large-image/1080x1920-eciRGBv2_2018_Audi_Q3_St_Johns_AL_14_No_Sign.jpg?imwidth=768",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/q3/q3/my-2022/derivative-startpage/stage-large-image/1080x1920-eciRGBv2_2018_Audi_Q3_St_Johns_AL_14_No_Sign.jpg?imwidth=768",
     emission: "201-131",
     consumption: "8,8-5,0 l/100km",
     power: {
-      speed:9.5,
-      kilowatt:110,
-      hp:150,
-      Nm:250,
+      speed: 9.5,
+      kilowatt: 110,
+      hp: 150,
+      Nm: 250,
     },
     cardTitle: "Wszechstronnie utalentowane",
-    cardText: "Rodzinny SUV o wielu talentach - druga generacja Audi Q3 zachwyca stylistyką i oferuje wiele praktycznych dodatków.",
-    fixedBackground: "bg-[url('https://www.audi.pl/content/dam/nemo/models/q3/q3/my-2022/derivative-startpage/parallax-teaser/1534x2500-audi-q3-AQ3_181002.jpg?imwidth=767')]",
+    cardText:
+      "Rodzinny SUV o wielu talentach - druga generacja Audi Q3 zachwyca stylistyką i oferuje wiele praktycznych dodatków.",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/q3/q3/my-2022/derivative-startpage/parallax-teaser/1534x2500-audi-q3-AQ3_181002.jpg?imwidth=767')]",
     carousel: {
-      image1: "https://www.audi.pl/content/dam/nemo/models/q3/q3/my-2022/derivative-startpage/product-highlight/1920x1920-audi-q3-QQ3_181004.jpg?imwidth=768",
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/q3/q3/my-2022/derivative-startpage/product-highlight/1920x1920-audi-q3-QQ3_181004.jpg?imwidth=768",
       title1: "Audi exclusive - nadwozie",
-      text1: "Ludzie poszukują tego, co niezwykłe. Pokaż swój styl - zmień swoje Audi Q3 w inspirujący unikat, np. dzięki indywidualnemu lakierowi Audi exclusive7 w kolorze szarym Nardo.",
-      image2: "https://www.audi.pl/content/dam/nemo/models/q3/q3/my-2023/product-highlight/QQ3_181004_2.jpg?imwidth=768",
+      text1:
+        "Ludzie poszukują tego, co niezwykłe. Pokaż swój styl - zmień swoje Audi Q3 w inspirujący unikat, np. dzięki indywidualnemu lakierowi Audi exclusive7 w kolorze szarym Nardo.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/q3/q3/my-2023/product-highlight/QQ3_181004_2.jpg?imwidth=768",
       title2: "Audi exclusive - lakier z efektem matowym",
-      text2: "Chociaż lakier srebrny Florett z efektem matowym w Audi Q3 nie jest grubszy niż ludzki włos, to składa się z aż sześciu warstw. Dzięki temu pojazd jest jeszcze lepiej chroniony przed wpływami środowiska i zużyciem. Dostępny jest również lakier w kolorze szarym Daytona z efektem matowym oraz srebrnym Tau z efektem matowym.",
-      image3: "https://www.audi.pl/content/dam/nemo/models/q3/q3/my-2022/derivative-startpage/product-highlight/1920x1920-audi-q3-q3_ae_2020_0676_1.jpg?imwidth=768",
+      text2:
+        "Chociaż lakier srebrny Florett z efektem matowym w Audi Q3 nie jest grubszy niż ludzki włos, to składa się z aż sześciu warstw. Dzięki temu pojazd jest jeszcze lepiej chroniony przed wpływami środowiska i zużyciem. Dostępny jest również lakier w kolorze szarym Daytona z efektem matowym oraz srebrnym Tau z efektem matowym.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/q3/q3/my-2022/derivative-startpage/product-highlight/1920x1920-audi-q3-q3_ae_2020_0676_1.jpg?imwidth=768",
       title3: "Audi exclusive - wnętrze",
-      text3: "Zaakcentuj elementy wnętrza za pomocą przeszyć kontrastowych Audi Sport w kolorze czerwonym na siedzeniach i podparciach w drzwiach, centralnym podkłokietniku, na kierownicy, osłonie dźwigni zmiany biegów oraz dywanikach.",
+      text3:
+        "Zaakcentuj elementy wnętrza za pomocą przeszyć kontrastowych Audi Sport w kolorze czerwonym na siedzeniach i podparciach w drzwiach, centralnym podkłokietniku, na kierownicy, osłonie dźwigni zmiany biegów oraz dywanikach.",
     },
   },
   {
@@ -2081,28 +2096,37 @@ export const Audi = [
     instalment: 2511,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f3bapx/2023.png?imwidth=550",
-    headerImage: "https://www.audi.pl/content/dam/nemo/models/q3/q3-tfsi-e/my-2022/derivative-startpage/stage/1080x1920-audi-q3-tfsi-e-mobile-q3_2020_1425_v3.jpg?imwidth=768",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/q3/q3-tfsi-e/my-2022/derivative-startpage/stage/1080x1920-audi-q3-tfsi-e-mobile-q3_2020_1425_v3.jpg?imwidth=768",
     emission: "47-37",
-    consumption: "Benzyna: 2,1-1,6 l/100km | Energia elektryczna: 17,2-15,9 kWh/100 km",
+    consumption:
+      "Benzyna: 2,1-1,6 l/100km | Energia elektryczna: 17,2-15,9 kWh/100 km",
     power: {
-      speed:7.3,
-      Nm:250,
-      hp:245,
-      kilowatt:180,
+      speed: 7.3,
+      Nm: 250,
+      hp: 245,
+      kilowatt: 180,
     },
     cardTitle: "Elektryzująco wszechstronne",
     cardText: "Wydajny napęd i przestronne wnętrze - Audi Q3 45 TFSI e.",
-    fixedBackground: "bg-[url('https://www.audi.pl/content/dam/nemo/models/q3/q3-tfsi-e/my-2022/derivative-startpage/parallax-teaser/1534x2500-q3_2020_0675_1.jpg?imwidth=767')]",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/q3/q3-tfsi-e/my-2022/derivative-startpage/parallax-teaser/1534x2500-q3_2020_0675_1.jpg?imwidth=767')]",
     carousel: {
-      image1: "https://www.audi.pl/content/dam/nemo/models/q3/q3-tfsi-e/my-2022/derivative-startpage/feature-gallery/810x1080-q3-tfdsi-e-rear-Q3_2020_1428_1.jpg?imwidth=768&imdensity=1",
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/q3/q3-tfsi-e/my-2022/derivative-startpage/feature-gallery/810x1080-q3-tfdsi-e-rear-Q3_2020_1428_1.jpg?imwidth=768&imdensity=1",
       title1: "Połączenie mocnych stron",
-      text1: "Audi Q3 45 TFSI e oferuje moc systemową 180 kW w cyklu mieszanym oraz maksymalny moment obrotowy 400 Nm.",
-      image2: "https://www.audi.pl/content/dam/nemo/models/q3/q3-tfsi-e/my-2022/derivative-startpage/feature-gallery/810x1080-audi-q3-tfsi-e-mmi-q3_2020_1413_v2_de.jpg?imwidth=768&imdensity=1",
+      text1:
+        "Audi Q3 45 TFSI e oferuje moc systemową 180 kW w cyklu mieszanym oraz maksymalny moment obrotowy 400 Nm.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/q3/q3-tfsi-e/my-2022/derivative-startpage/feature-gallery/810x1080-audi-q3-tfsi-e-mmi-q3_2020_1413_v2_de.jpg?imwidth=768&imdensity=1",
       title2: "Elektryzujące podróże",
-      text2: "Przy naładowanym w pełni akumulatorze Audi Q3 TFSI e może uzyskać moc elektryczną wynoszącą 85 kW oraz elektryczny moment obrotowy 330 Nm. Maksymalna prędkość napędu elektrycznego to 140 km/h.",
-      image3: "https://www.audi.pl/content/dam/nemo/models/q3/q3-tfsi-e/my-2022/derivative-startpage/feature-gallery/810x1080-audi-q3-tfsi-e-virtual-cockpit-q3_2020_1434_de.jpg?imwidth=768&imdensity=1",
+      text2:
+        "Przy naładowanym w pełni akumulatorze Audi Q3 TFSI e może uzyskać moc elektryczną wynoszącą 85 kW oraz elektryczny moment obrotowy 330 Nm. Maksymalna prędkość napędu elektrycznego to 140 km/h.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/q3/q3-tfsi-e/my-2022/derivative-startpage/feature-gallery/810x1080-audi-q3-tfsi-e-virtual-cockpit-q3_2020_1434_de.jpg?imwidth=768&imdensity=1",
       title3: "Wszystko w zasięgu wzroku",
-      text3: "Wysokiej rozdzielczości ekran MMI i wirtualny kokpit Audi wyświetlają informacje dotyczące jazdy hybrydowej: pozostały zasięg, przepływ energii, informacje o wydajności elektrycznej, stanie naładowania akumulatora oraz o rekuperacji.",
+      text3:
+        "Wysokiej rozdzielczości ekran MMI i wirtualny kokpit Audi wyświetlają informacje dotyczące jazdy hybrydowej: pozostały zasięg, przepływ energii, informacje o wydajności elektrycznej, stanie naładowania akumulatora oraz o rekuperacji.",
     },
   },
   {
@@ -2116,28 +2140,37 @@ export const Audi = [
     instalment: 1682,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f3ncky/2023.png?imwidth=550",
-    headerImage: "https://www.audi.pl/content/dam/nemo/models/q3/q3-sportback/my-2022/NeMo-Derivate-Startpage/stage/1080x1920-aq3_191008_v3.jpg?imwidth=768",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/q3/q3-sportback/my-2022/NeMo-Derivate-Startpage/stage/1080x1920-aq3_191008_v3.jpg?imwidth=768",
     emission: "199-132",
     consumption: "8,8-5,0 l/100km",
     power: {
-      kilowatt:110,
-      hp:150,
-      speed:9.5,
-      Nm:250,
+      kilowatt: 110,
+      hp: 150,
+      speed: 9.5,
+      Nm: 250,
     },
     cardTitle: "Ekspresywny SUV coupé",
-    cardText: "Audi Q3 Sportback łączy w sobie estetykę i dynamikę coupé z mocą i funkcjonalnością SUV-a.",
-    fixedBackground: "bg-[url('https://www.audi.pl/content/dam/nemo/models/q3/q3-sportback/my-2022/NeMo-Derivate-Startpage/parallax-teaser/1534x2500-AQ3_D_191012_RGB.jpg?imwidth=767')]",
+    cardText:
+      "Audi Q3 Sportback łączy w sobie estetykę i dynamikę coupé z mocą i funkcjonalnością SUV-a.",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/q3/q3-sportback/my-2022/NeMo-Derivate-Startpage/parallax-teaser/1534x2500-AQ3_D_191012_RGB.jpg?imwidth=767')]",
     carousel: {
-      image1: "https://www.audi.pl/content/dam/nemo/models/q3/q3-sportback/my-2022/NeMo-Derivate-Startpage/product-highlight/1920x1920-qq3_191002_2.jpg?imwidth=768",
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/q3/q3-sportback/my-2022/NeMo-Derivate-Startpage/product-highlight/1920x1920-qq3_191002_2.jpg?imwidth=768",
       title1: "Audi exclusive - nadwozie",
-      text1: "Ludzie poszukują tego, co niezwykłe. Pokaż swój styl - zmień swoje Audi Q3 w inspirujący unikat, np. dzięki lakierowi specjalnemu z oferty Audi exclusive w kolorze czerwonym Misano perłowym.",
-      image2: "https://www.audi.pl/content/dam/nemo/models/q3/q3-sportback/my-2023/product-highlight/AQ3_191011_3_tausilber.jpg?imwidth=768",
+      text1:
+        "Ludzie poszukują tego, co niezwykłe. Pokaż swój styl - zmień swoje Audi Q3 w inspirujący unikat, np. dzięki lakierowi specjalnemu z oferty Audi exclusive w kolorze czerwonym Misano perłowym.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/q3/q3-sportback/my-2023/product-highlight/AQ3_191011_3_tausilber.jpg?imwidth=768",
       title2: "Audi exclusive - lakier z efektem matowym",
-      text2: "Chociaż lakier srebrny Dew z efektem matowym w Audi Q3 Sportback nie jest grubszy niż ludzki włos, to składa się z aż sześciu warstw. Dzięki temu pojazd jest jeszcze lepiej chroniony przed wpływami środowiska i zużyciem. Dostępny jest również lakier w kolorze szarym Daytona z efektem matowym oraz srebrnym Florett z efektem matowym.",
-      image3: "https://www.audi.pl/content/dam/nemo/models/q3/q3-sportback/my-2022/NeMo-Derivate-Startpage/product-highlight/1920x1920-QQ3_D_191002.jpg?imwidth=768",
+      text2:
+        "Chociaż lakier srebrny Dew z efektem matowym w Audi Q3 Sportback nie jest grubszy niż ludzki włos, to składa się z aż sześciu warstw. Dzięki temu pojazd jest jeszcze lepiej chroniony przed wpływami środowiska i zużyciem. Dostępny jest również lakier w kolorze szarym Daytona z efektem matowym oraz srebrnym Florett z efektem matowym.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/q3/q3-sportback/my-2022/NeMo-Derivate-Startpage/product-highlight/1920x1920-QQ3_D_191002.jpg?imwidth=768",
       title3: "Audi exclusive - wnętrze",
-      text3: "Zaakcentuj elementy wnętrza za pomocą przeszyć kontrastowych Audi Sport w kolorze czerwonym na siedzeniach i podparciach w drzwiach, centralnym podkłokietniku, na kierownicy, osłonie dźwigni zmiany biegów oraz dywanikach.",
+      text3:
+        "Zaakcentuj elementy wnętrza za pomocą przeszyć kontrastowych Audi Sport w kolorze czerwonym na siedzeniach i podparciach w drzwiach, centralnym podkłokietniku, na kierownicy, osłonie dźwigni zmiany biegów oraz dywanikach.",
     },
   },
   {
@@ -2151,28 +2184,38 @@ export const Audi = [
     instalment: 2608,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f3napx/2023.png?imwidth=550",
-    headerImage: "https://www.audi.pl/content/dam/nemo/models/q3/q3-sportback-tfsi-e/my-2022/derivattive-startpage/stage/q3_2020_1405_v2-s.jpg?imwidth=768",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/q3/q3-sportback-tfsi-e/my-2022/derivattive-startpage/stage/q3_2020_1405_v2-s.jpg?imwidth=768",
     emission: "46-37",
-    consumption: "Benzyna: 2,0-1,6 l/100km | Energia elektryczna: 17,0-16,0 kWh/100 km",
+    consumption:
+      "Benzyna: 2,0-1,6 l/100km | Energia elektryczna: 17,0-16,0 kWh/100 km",
     power: {
-      Nm:250,
-      speed:7.3,
-      kilowatt:180,
-      hp:245
+      Nm: 250,
+      speed: 7.3,
+      kilowatt: 180,
+      hp: 245,
     },
     cardTitle: "Elektryzujący wygląd",
-    cardText: "Efektywna jazda i sportowy, dynamiczny wygląd - Audi Q3 Sportback 45 TFSI e.",
-    fixedBackground: "bg-[url('https://www.audi.pl/content/dam/nemo/models/q3/q3-sportback-tfsi-e/my-2022/derivattive-startpage/parallax-teaser/q3_2020_1408_1-s.jpg?imwidth=767')]",
+    cardText:
+      "Efektywna jazda i sportowy, dynamiczny wygląd - Audi Q3 Sportback 45 TFSI e.",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/q3/q3-sportback-tfsi-e/my-2022/derivattive-startpage/parallax-teaser/q3_2020_1408_1-s.jpg?imwidth=767')]",
     carousel: {
-      image1: "https://www.audi.pl/content/dam/nemo/models/q3/q3-sportback-tfsi-e/my-2022/derivattive-startpage/feature-gallery/810x1080-q3_2020_2292.jpg?imwidth=768&imdensity=1",
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/q3/q3-sportback-tfsi-e/my-2022/derivattive-startpage/feature-gallery/810x1080-q3_2020_2292.jpg?imwidth=768&imdensity=1",
       title1: "Progresywne przyspieszenie",
-      text1: "Audi Q3 Sportback 45 TFSI e oferuje moc systemową 180 kW w cyklu mieszanym oraz maksymalny moment obrotowy 400 Nm.",
-      image2: "https://www.audi.pl/content/dam/nemo/models/q3/q3-sportback-tfsi-e/my-2022/derivattive-startpage/feature-gallery/810x1080-q3_2020_1413_v2_de.jpg?imwidth=768&imdensity=1",
+      text1:
+        "Audi Q3 Sportback 45 TFSI e oferuje moc systemową 180 kW w cyklu mieszanym oraz maksymalny moment obrotowy 400 Nm.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/q3/q3-sportback-tfsi-e/my-2022/derivattive-startpage/feature-gallery/810x1080-q3_2020_1413_v2_de.jpg?imwidth=768&imdensity=1",
       title2: "Elektryzujące przejazdy",
-      text2: "Przy naładowanym w pełni akumulatorze Audi Q3 Sportback TFSI e może uzyskać moc elektryczną wynoszącą 85 kW oraz elektryczny moment obrotowy 330 Nm. Maksymalna prędkość napędu elektrycznego to 140 km/h.",
-      image3: "https://www.audi.pl/content/dam/nemo/models/q3/q3-sportback-tfsi-e/my-2022/derivattive-startpage/feature-gallery/810x1080-q3_2020_1413_v1_de.jpg?imwidth=768&imdensity=1",
+      text2:
+        "Przy naładowanym w pełni akumulatorze Audi Q3 Sportback TFSI e może uzyskać moc elektryczną wynoszącą 85 kW oraz elektryczny moment obrotowy 330 Nm. Maksymalna prędkość napędu elektrycznego to 140 km/h.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/q3/q3-sportback-tfsi-e/my-2022/derivattive-startpage/feature-gallery/810x1080-q3_2020_1413_v1_de.jpg?imwidth=768&imdensity=1",
       title3: "Wybór rodzaju napędu",
-      text3: "Możesz wybrać jeden z 4 trybów: jazda w trybie wyłącznie elektrycznym (EV), utrzymania energii elektrycznej w akumulatorze na potrzeby przyszłej jazdy elektrycznej (HOLD), ładowania akumulatora podczas jazdy (CHARGE) oraz współdziałania silnika spalinowego i elektrycznego (AUTO HYBRID).",
+      text3:
+        "Możesz wybrać jeden z 4 trybów: jazda w trybie wyłącznie elektrycznym (EV), utrzymania energii elektrycznej w akumulatorze na potrzeby przyszłej jazdy elektrycznej (HOLD), ładowania akumulatora podczas jazdy (CHARGE) oraz współdziałania silnika spalinowego i elektrycznego (AUTO HYBRID).",
     },
   },
   {
@@ -2186,23 +2229,36 @@ export const Audi = [
     instalment: 3962,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f3brwy/2023.png?imwidth=550",
-    headerImage: "",
-    emission: "",
-    consumption: "",
-    power: {},
-    cardTitle: "",
-    cardText: "",
-    fixedBackground: "",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/q3/rs-q3/my-2022/NeMo-Derivate-Startpage/stage/1080x1920-rsq3_2020_1479.jpg?imwidth=768",
+    emission: "228-217",
+    consumption: "10,0-9,5 l/100km",
+    power: {
+      Nm: 480,
+      hp: 400,
+      speed: 4.5,
+      kilowatt: 294,
+    },
+    cardTitle: "Od pierwszej sekundy skupione na celu",
+    cardText:
+      "Sportowy design i uniwersalny charakter - Audi RS Q3 to kompaktowy SUV o doskonałych osiągach.",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/q3/rs-q3/my-2022/NeMo-Derivate-Startpage/parallax-teaser/748x2500-rsq3_2020_1484.jpg?imwidth=748')]",
     carousel: {
-      image1: "",
-      title1: "",
-      text1: "",
-      image2: "",
-      title2: "",
-      text2: "",
-      image3: "",
-      title3: "",
-      text3: "",
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/q3/rs-q3/my-2022/NeMo-Derivate-Startpage/product-highlight/1920x1920-rsq3_2020_1483.jpg?imwidth=768",
+      title1: "Wrażenia z jazdy",
+      text1:
+        "Legendarny silnik TFSI o pojemności 2,5 litra w połączeniu ze stałym napędem na cztery koła quattro to gwarancja najprawdziwszych emocji.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/q3/rs-q3/my-2022/NeMo-Derivate-Startpage/product-highlight/rsq3_2020_1482-L.jpg?imwidth=768",
+      title2: "Nadwozie",
+      text2: "Masywna sylwetka w kolorze zielonym Kyalami - Audi RS Q3.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/q3/rs-q3/my-2022/NeMo-Derivate-Startpage/product-highlight/1920x1920-rsq3_2020_1485_1.jpg?imwidth=768",
+      title3: "Wnętrze",
+      text3:
+        "Zajmij miejsce w oferowanych opcjonalnie przednich fotelach sportowych plus obszytych czarną skórą Feinnappa z perforacją o strukturze plastra miodu.",
     },
   },
   {
@@ -2216,23 +2272,28 @@ export const Audi = [
     instalment: 4069,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f3nrwy/2023.png?imwidth=550",
-    headerImage: "",
-    emission: "",
-    consumption: "",
-    power: {},
-    cardTitle: "",
-    cardText: "",
-    fixedBackground: "",
+    headerImage: "https://www.audi.pl/content/dam/nemo/models/q3/rs-q3-sportback/my-2022/nemo-derivate-startpage/stage/rsq3_2020_1496-stage-mobile.jpg?imwidth=768",
+    emission: "228-218",
+    consumption: "10,0-9,6 l/100km",
+    power: {
+      Nm:480,
+      speed:4.5,
+      hp:400,
+      kilowatt:294,
+    },
+    cardTitle: "Sylwetka, która rozpala zmysły",
+    cardText: "Typowe dla modeli RS elementy składają się na muskularną sylwetkę kompaktowego SUV-a coupé.",
+    fixedBackground: "bg-[url('https://www.audi.pl/content/dam/nemo/models/q3/rs-q3-sportback/my-2022/nemo-derivate-startpage/parallax-teaser/1534x2500-rsq3_2020_1490.jpg?imwidth=767')]",
     carousel: {
-      image1: "",
-      title1: "",
-      text1: "",
-      image2: "",
-      title2: "",
-      text2: "",
-      image3: "",
-      title3: "",
-      text3: "",
+      image1: "https://www.audi.pl/content/dam/nemo/models/q3/rs-q3-sportback/my-2022/nemo-derivate-startpage/stage-large-image/1080x1920-rsq3_2020_1498_1.jpg?imwidth=768",
+      title1: "Bezkompromisowe - także we wnętrzu",
+      text1: "Podobnie jak nadwozie, wnętrze Audi RS Q3 Sportback zachwyca dynamicznym wyglądem, w którym dominuje dbałość o szczegóły. Począwszy od wielofunkcyjnej, trójramiennej, obszytej skórą kierownicy o sportowym obrysie i spłaszczonym wieńcu, po liczne akcenty stylistyczne.",
+      image2: "https://www.audi.pl/content/dam/nemo/models/q3/rs-q3-sportback/my-2022/nemo-derivate-startpage/stage-large-image/1080x1920-rsq3_2020_1496.jpg?imwidth=768",
+      title2: "Funkcjonalność w podróży",
+      text2: "Wnętrze RS Q3 Sportback oferuje maksymalnie pięciu pasażerom wysoki komfort podróżowania. Tylną kanapę można przesunąć o 150 milimetrów, jej oparcie posiada 7-stopniową regulację kąta pochylenia.",
+      image3: "https://www.audi.pl/content/dam/nemo/models/q3/rs-q3-sportback/my-2022/nemo-derivate-startpage/stage-large-image/1080x1920-rsq3_ae_2020_2417.jpg?imwidth=768",
+      title3: "Jeszcze bardziej osobiste",
+      text3: "Spersonalizuj własne RS Q3 Sportback korzystając z szerokiej gamy tapicerek skórzanych, aplikacji dekoracyjnych i lakierów z oferty Audi exclusive. Spośród wielu kolorów lakierów możesz wybrać odcień aksamitnego fioletu.",
     },
   },
 
