@@ -2605,14 +2605,18 @@ export const Audi = [
       image1:
         "https://www.audi.pl/content/dam/nemo/models/q5/sq5/my-2022/NeMo-Derivate-Startpage/product-highlight/SQ5_2020_2179.jpg?imwidth=768",
       title1: "Znakomite wrażenia z jazdy",
-      text1: "Audi SQ5 oferuje w standardzie mocną jednostkę napędową turbo diesel oraz stały napęd na cztery koła quattro.",
+      text1:
+        "Audi SQ5 oferuje w standardzie mocną jednostkę napędową turbo diesel oraz stały napęd na cztery koła quattro.",
       image2:
         "https://www.audi.pl/content/dam/nemo/models/q5/sq5/my-2022/NeMo-Derivate-Startpage/product-highlight/q5_2020_0394.jpg?imwidth=768",
       title2: "Komfort w sportowym stylu",
-      text2: "Sportowe fotele przednie można wybrać z całkowicie skórzanym obiciem ze skóry Feinnappa z przeszyciami w kształcie rombu oraz z funkcją masażu pneumatycznego. Pedały i podparcie lewej nogi pokryte są nakładkami ze stali nierdzewnej.",
-      image3: "https://www.audi.pl/content/dam/nemo/models/q5/sq5/my-2022/NeMo-Derivate-Startpage/product-highlight/sq5_2020_0393_1.jpg?imwidth=768",
+      text2:
+        "Sportowe fotele przednie można wybrać z całkowicie skórzanym obiciem ze skóry Feinnappa z przeszyciami w kształcie rombu oraz z funkcją masażu pneumatycznego. Pedały i podparcie lewej nogi pokryte są nakładkami ze stali nierdzewnej.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/q5/sq5/my-2022/NeMo-Derivate-Startpage/product-highlight/sq5_2020_0393_1.jpg?imwidth=768",
       title3: "Wnętrze",
-      text3: "Oto wnętrze, które zachwyca dużą ilością miejsca dla pięciu osób, w tym komfortową przestrzenią nad głową i na nogi.",
+      text3:
+        "Oto wnętrze, które zachwyca dużą ilością miejsca dla pięciu osób, w tym komfortową przestrzenią nad głową i na nogi.",
     },
   },
   {
@@ -2626,28 +2630,37 @@ export const Audi = [
     instalment: 4036,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fyts5a/2023.png?imwidth=550",
-    headerImage: "https://www.audi.pl/content/dam/nemo/models/q5/sq5-sportback/my-2022/derivate-startpage/stage/1080x1920-sq5_2020_1375.jpg?imwidth=768",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/q5/sq5-sportback/my-2022/derivate-startpage/stage/1080x1920-sq5_2020_1375.jpg?imwidth=768",
     emission: "223-212",
     consumption: "8,5-8,1 l/100km",
     power: {
-      hp:341,
-      kilowatt:251,
-      speed:5.1,
-      Nm:700,
+      hp: 341,
+      kilowatt: 251,
+      speed: 5.1,
+      Nm: 700,
     },
     cardTitle: "Sportowe. Mocne. Dynamiczne",
-    cardText: "Ten sportowy SUV o progresywnej stylistyce i linii nawiązującej do coupé to wszechstronny samochód o wielkich możliwościach.",
-    fixedBackground: "bg-[url('https://www.audi.pl/content/dam/nemo/models/q5/sq5-sportback/my-2022/derivate-startpage/parallax-teaser/1534x2500-sq5_2020_1373.jpg?imwidth=767')]",
+    cardText:
+      "Ten sportowy SUV o progresywnej stylistyce i linii nawiązującej do coupé to wszechstronny samochód o wielkich możliwościach.",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/q5/sq5-sportback/my-2022/derivate-startpage/parallax-teaser/1534x2500-sq5_2020_1373.jpg?imwidth=767')]",
     carousel: {
-      image1: "https://www.audi.pl/content/dam/nemo/models/q5/sq5-sportback/my-2022/derivate-startpage/stage-large-image/1080x1920-sq5_2020_1375_2.jpg?imwidth=768",
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/q5/sq5-sportback/my-2022/derivate-startpage/stage-large-image/1080x1920-sq5_2020_1375_2.jpg?imwidth=768",
       title1: "Porywająca moc",
-      text1: "3,0-litrowy silnik V6 TDI Audi SQ5 Sportback oraz szybka i komfortowa 8-stopniowa skrzynia tiptronic zapewniają płynne przenoszenie mocy. Standardowy stały napęd na cztery koła quattro w zmienny sposób rozdziela moc pomiędzy przednią a tylną oś. Efektem tego są niepowtarzalne i porywające wrażenia z jazdy.",
-      image2: "https://www.audi.pl/content/dam/nemo/models/q5/sq5-sportback/my-2022/derivate-startpage/stage-large-image/1080x1920-sq5_2020_1374.jpg?imwidth=768",
+      text1:
+        "3,0-litrowy silnik V6 TDI Audi SQ5 Sportback oraz szybka i komfortowa 8-stopniowa skrzynia tiptronic zapewniają płynne przenoszenie mocy. Standardowy stały napęd na cztery koła quattro w zmienny sposób rozdziela moc pomiędzy przednią a tylną oś. Efektem tego są niepowtarzalne i porywające wrażenia z jazdy.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/q5/sq5-sportback/my-2022/derivate-startpage/stage-large-image/1080x1920-sq5_2020_1374.jpg?imwidth=768",
       title2: "Niezwykła charyzma",
-      text2: "Dynamika jazdy i robiące wrażenie osiągi znajdują odzwierciedlenie w stylistyce samochodu - od sylwetki przywodzącej na myśl sportowe coupé po sportowe detale: spojler dachowy czy chromowane podwójne końcówki rur wydechowych. Przód Audi SQ5 Sportback również robi wrażenie dzięki dominującej osłonie chłodnicy Singleframe o wyglądzie plastra miodu, charakterystycznemu dla modeli S zderzakowi i mocno wyprofilowanym wlotom powietrza. To design, który łączy wizualną lekkość z doskonałą aerodynamiką.",
-      image3: "https://www.audi.pl/content/dam/nemo/models/q5/sq5-sportback/my-2022/derivate-startpage/stage-large-image/1080x1920-sq5_2020_1381.jpg?imwidth=768",
+      text2:
+        "Dynamika jazdy i robiące wrażenie osiągi znajdują odzwierciedlenie w stylistyce samochodu - od sylwetki przywodzącej na myśl sportowe coupé po sportowe detale: spojler dachowy czy chromowane podwójne końcówki rur wydechowych. Przód Audi SQ5 Sportback również robi wrażenie dzięki dominującej osłonie chłodnicy Singleframe o wyglądzie plastra miodu, charakterystycznemu dla modeli S zderzakowi i mocno wyprofilowanym wlotom powietrza. To design, który łączy wizualną lekkość z doskonałą aerodynamiką.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/q5/sq5-sportback/my-2022/derivate-startpage/stage-large-image/1080x1920-sq5_2020_1381.jpg?imwidth=768",
       title3: "Sportowe. Wygodne. Ekskluzywne",
-      text3: "Podświetlane listwy progowe z przodu z aluminiowymi wstawkami i sygnaturą S oraz dostępne w standardzie aplikacje dekoracyjne ze szczotkowanego, matowego aluminium nadają wnętrzu charakter typowy dla modeli S. Sportowe oblicze wnętrza pojazdu podkreślają ponadto przednie fotele sportowe obszyte opcjonalną skórzaną tapicerką Feinnappa z przeszyciami w kształcie rombów i wytłoczeniem S na przednich oparciach.",
+      text3:
+        "Podświetlane listwy progowe z przodu z aluminiowymi wstawkami i sygnaturą S oraz dostępne w standardzie aplikacje dekoracyjne ze szczotkowanego, matowego aluminium nadają wnętrzu charakter typowy dla modeli S. Sportowe oblicze wnętrza pojazdu podkreślają ponadto przednie fotele sportowe obszyte opcjonalną skórzaną tapicerką Feinnappa z przeszyciami w kształcie rombów i wytłoczeniem S na przednich oparciach.",
     },
   },
 
@@ -2664,6 +2677,37 @@ export const Audi = [
     instalment: 3462,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4mgcb2/2023.png?imwidth=550",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/q7/q7/my-2022/NeMo-Derivate-Startpage/stage/1080x1920-Q7_2020_1986.jpg?imwidth=768",
+    emission: "255-204",
+    consumption: "11,2-7,8 l/100km",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/q7/q7/my-2022/NeMo-Derivate-Startpage/parallax-teaser/1534x2500-q7_2021_3060.jpg?imwidth=767')]",
+    cardTitle: "Wszechstronny i luksusowy SUV",
+    cardText:
+      "Inteligentne technologie, doskonałe wrażenia z jazdy, dynamiczna stylistyka i przestrzeń nawet dla siedmiu osób - to właśnie Audi Q7.",
+    power: {
+      speed: 7.1,
+      kilowatt: 170,
+      hp: 231,
+      Nm: 500,
+    },
+    carousel: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/q7/q7/my-2022/NeMo-Derivate-Startpage/product-highlight/1920x1920-q7_2021_3061.jpg?imwidth=768",
+      title1: "W pełni cyfrowe",
+      text1:
+        "Seryjne wyposażenie Audi Q7 zawiera najwyższej klasy system Infotainment MMI navigation plus z funkcją MMI touch.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/q7/q7/my-2022/NeMo-Derivate-Startpage/product-highlight/1920x1920-Q7_2020_1988.jpg?imwidth=768",
+      title2: "Wrażenia z jazdy",
+      text2:
+        "Dostępny w standardowym wyposażeniu napęd na cztery koła quattro zapewnia sportowe właściwości jezdne.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/q7/q7/my-2022/NeMo-Derivate-Startpage/product-highlight/1920x1920-q7_2021_3059.jpg?imwidth=768",
+      title3: "Funkcjonalność",
+      text3: "We wnętrzu Audi Q7 technologie cyfrowe łączą się z komfortem.",
+    },
   },
   {
     id: 62,
@@ -2676,6 +2720,37 @@ export const Audi = [
     instalment: 4050,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4mgcy3/2023.png?imwidth=550",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/q7/q7-tfsi-e/my-2022/NeMo-Derivate-Startpage/Stage/1080x1920-audi-AQ7-front-191005.jpg?imwidth=768",
+    emission: "52-46",
+    consumption:
+      "Benzyna: 2,3-2,0 l/100km | Energia elektryczna: 24,1-23,2 kWh/100 km",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/q7/q7-tfsi-e/my-2022/NeMo-Derivate-Startpage/Parallax-Teaser/AQ7_TFSIe_191007_RGB-s.jpg?imwidth=767')]",
+    cardTitle: "Innowacyjny rodzinny SUV",
+    cardText:
+      "Innowacyjna technologia hybrydowa plug-in, wyjątkowa koncepcja przestrzeni i sportowy wygląd - Audi Q7 TFSI e.",
+    power: {
+      kilowatt: 250,
+      speed: 5.8,
+    },
+    carousel: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/q7/q7-tfsi-e/my-2022/NeMo-Derivate-Startpage/product-highlight/1920x1920-audi-AQ7-design-191004.jpg?imwidth=768",
+      title1: "Napęd",
+      text1:
+        "Audi Q7 TFSI e zapewnia efektywną jazdę zarówno w mieście - przez co najmniej 40 kilometrów (wg WLTP) wyłącznie na napędzie elektrycznym - jak i na długich trasach, dzięki silnikowi spalinowemu.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/q7/q7-tfsi-e/my-2022/NeMo-Derivate-Startpage/product-highlight/1920x1920-audi-AQ7-front-191005.jpg?imwidth=768",
+      title2: "Zalety",
+      text2:
+        "Pokonuj krótkie odległości w trybie czysto elektrycznym. Przyjemnie, cicho i bez emisji spalin.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/q7/q7-tfsi-e/my-2022/NeMo-Derivate-Startpage/product-highlight/AQ7_TFSIe_D_191009.jpg?imwidth=768",
+      title3: "Bagażnik",
+      text3:
+        "Audi Q7 TFSI e, jak przystało na SUV-a, oferuje wysoki poziom komfortu, dużo przestrzeni i elastyczność podczas pakowania i wypakowywania bagaży.",
+    },
   },
   {
     id: 63,
@@ -2688,6 +2763,38 @@ export const Audi = [
     instalment: 5166,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4mgsw1/2023.png?imwidth=550",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/q7/sq7-tdi/my-2023/stage/ASQ7_191003_2-S.jpg?imwidth=768",
+    emission: "290-273",
+    consumption: "12,8-12,0 l/100km",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/q7/sq7-tdi/my-2022/derivate-startpage/parallax-teaser/1534x2500-asq7_d_191001_2_v2.jpg?imwidth=767')]",
+    cardTitle: "Silne i elastyczne",
+    cardText:
+      "Czysta przyjemność z jazdy, dynamiczny wygląd i dużo miejsca we wnętrzu - oto Audi SQ7.",
+    power: {
+      hp: 507,
+      speed: 4.1,
+      kilowatt: 373,
+      Nm: 770,
+    },
+    carousel: {
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/q7/sq7-tdi/my-2022/derivate-startpage/product-highlight/1920x1920-ASQ7_191001_1.jpg?imwidth=768",
+      title1: "Wrażenia z jazdy",
+      text1:
+        "Ośmiostopniowa skrzynia tiptronic i stały napęd na cztery koła quattro znakomicie przenoszą moc silnika na drogę.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/q7/sq7-tdi/my-2023/product-highlight/q7_2021_3059-L.jpg?imwidth=768",
+      title2: "Funkcjonalność",
+      text2:
+        "Dzięki opcjonalnemu trzeciemu rzędowi siedzeń SUV może pomieścić aż siedem osób.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/q7/sq7-tdi/my-2022/derivate-startpage/product-highlight/1920x1920-asq7_d_191001_2_v2.jpg?imwidth=768",
+      title3: "Cyfryzacja",
+      text3:
+        "Wnętrze tego rodzinnego SUV-a oferuje wysoki poziom komfortu i nowe funkcje Infotainment.",
+    },
   },
 
   //   Q8
@@ -2703,6 +2810,30 @@ export const Audi = [
     instalment: 3858,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4mn0b2/2023.png?imwidth=550",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/q8/q8/my-2022/nemo-derivate-startpage/stage/AQ8_181028-mobile.jpg?imwidth=768",
+    emission: "256-210",
+    consumption: "11,2-8,0 l/100km",
+    fixedBackground: "bg-[url('https://www.audi.pl/content/dam/nemo/models/q8/q8/my-2022/nemo-derivate-startpage/parallax-teaser/1534x2500-AQ8_D_181026-v2.jpg?imwidth=767')]",
+    cardTitle: "Czołowy model z rodziny Q",
+    cardText: "Audi Q8 w imponujący sposób łączy wyraziste linie sportowego coupé z przestronnością SUV-a.",
+    power: {
+      speed: 6.1,
+      kilowatt: 210,
+      hp: 286,
+      Nm: 600,
+    },
+    carousel: {
+      image1: "https://www.audi.pl/content/dam/nemo/models/q8/q8/my-2022/nemo-derivate-startpage/product-highlight/q8_2021_2891.jpg?imwidth=768",
+      title1: "Sportowy charakter to znak rozpoznawczy",
+      text1: "Dynamiczny charakter Audi Q8 widać na pierwszy rzut oka dzięki wyposażeniu dodatkowemu i pakietom. Na przykład dzięki pakietowi optycznemu Czerń z czarnymi akcentami na wybranych elementach oraz 21-calowym obręczom kół ze stopu metali lekkich z zaciskami hamulcowymi lakierowanymi na czerwono.",
+      image2: "https://www.audi.pl/content/dam/nemo/models/q8/q8/my-2022/nemo-derivate-startpage/product-highlight/aq8_181003_1.jpg?imwidth=768",
+      title2: "Funkcjonalność",
+      text2: "Pojemność bagażnika po złożeniu tylnej kanapy wynosi do 1755 litrów.",
+      image3: "https://www.audi.pl/content/dam/nemo/models/q8/q8/my-2023/product-highlight/AQ8_D_181037_4-L.jpg?imwidth=768",
+      title3: "Wnętrze",
+      text3: "Zrelaksuj się we wnętrzu, korzystając z funkcji masażu i wentylacji przednich foteli obszytych skórą Valcona.",
+    },
   },
   {
     id: 65,
@@ -2715,6 +2846,28 @@ export const Audi = [
     instalment: 4911,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4mn0y3/2023.png?imwidth=550",
+    headerImage: "https://www.audi.pl/content/dam/nemo/models/q8/q8-tfsi-e/my-2022/NeMo-Derivate-Startpage/Stage/Q8_2020_1446-s.jpg?imwidth=768",
+    emission: "60-48",
+    consumption: "Benzyna: 2,6-2,1 l/100km | Energia elektryczna: 25,2-23,5 kWh/100 km",
+    fixedBackground: "bg-[url('https://www.audi.pl/content/dam/nemo/models/q8/q8-tfsi-e/my-2022/NeMo-Derivate-Startpage/parallax-teaser/Q8_2020_1447-s.jpg?imwidth=767')]",
+    cardTitle: "Awangarda postępu",
+    cardText: "Mocny napęd hybrydowy typu plug-in oraz fascynujący język stylistyczny sprawiają, że Audi Q8 TFSI e jest najbardziej progresywnym SUV-em marki.",
+    power: {
+      Nm:700,
+      speed:5.4,
+      kilowatt:340
+    },
+    carousel: {
+      image1: "https://www.audi.pl/content/dam/nemo/models/q8/q8-tfsi-e/my-2022/NeMo-Derivate-Startpage/product-highlight/A206991_large.jpg?imwidth=768",
+      title1: "Moc dwóch napędów",
+      text1: "Audi Q8 TFSI e jest dostępne w dwóch wersjach silnikowych: Audi Q8 60 TFSI e oraz 55 TFSI e. Silnik 60 TFSI e oferuje aż 340 kW mocy systemowej z zasięgiem elektrycznym do 52 km i może przyspieszać od 0 do 100 km/h w 5,4 sekundy.",
+      image2: "https://www.audi.pl/content/dam/nemo/models/q8/q8-tfsi-e/my-2022/NeMo-Derivate-Startpage/product-highlight/q8_2020_1453_v3_de.jpg?imwidth=768",
+      title2: "Mocne, postępowe, efektowne",
+      text2: "Napęd hybrydowy typu plug-in zapewnia wyjątkowe doznania za kierownicą Audi Q8 TFSi e. Dzięki rekuperacji podczas podróży system odzyskuje energię elektryczną.",
+      image3: "https://www.audi.pl/content/dam/nemo/models/q8/q8-tfsi-e/my-2022/NeMo-Derivate-Startpage/product-highlight/q8_2020_1454_de.jpg?imwidth=768",
+      title3: "Doświadczenie cyfryzacji",
+      text3: "Wirtualny kokpit Audi, będący częścią wyposażenia standardowego, prezentuje najważniejsze informacje o samochodzie, między innymi całkowitą moc i wybrany tryb jazdy.",
+    },
   },
   {
     id: 66,
@@ -2727,6 +2880,29 @@ export const Audi = [
     instalment: 5424,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4mnsw1/2023.png?imwidth=550",
+    headerImage: "https://www.audi.pl/content/dam/nemo/models/q8/sq8/my-2023/stage/ASQ8_191006_3-S.jpg?imwidth=768",
+    emission: "294-277",
+    consumption: "12,9-12,2 l/100km",
+    fixedBackground: "bg-[url('https://www.audi.pl/content/dam/nemo/models/q8/sq8/my-2023/parallax-teaser/ASQ8_191002_2-S.jpg?imwidth=767')]",
+    cardTitle: "Sportowy, Coupe i SUV",
+    cardText: "Progresywna stylistyka, mocny silnik, stały napęd na cztery koła quattro i duży komfort dla wszystkich pasażerów - oto Audi SQ8.",
+    power: {
+      Nm:770,
+      hp:507,
+      kilowatt:373,
+      speed:4.1
+    },
+    carousel: {
+      image1: "https://www.audi.pl/content/dam/nemo/models/q8/sq8/my-2022/NeMo-Derivative-Startpage/product-highlighted/1920x1920-ASQ8_D_191001_1.jpg?imwidth=768",
+      title1: "Wrażenia z jazdy",
+      text1: "Audi SQ8 łączy najlepsze cechy dynamicznego coupé, emocjonującego samochodu sportowego i potężnego SUV-a.",
+      image2: "https://www.audi.pl/content/dam/nemo/models/q8/sq8/my-2023/product-highlight/ASQ8_191001_2-L.jpg?imwidth=768",
+      title2: "Intuicyjna obsługa",
+      text2: "Audi SQ8 standardowo wyposażono w nawigację MMI plus z funkcją MMI touch . Podczas jazdy można wygodnie obsługiwać MMI przy pomocy poleceń głosowych. Dodatkowo MMI Navigation plus oferuje usługi Audi connect, takie jak wyświetlanie map Google czy informacje o ruchu drogowym.",
+      image3: "https://www.audi.pl/content/dam/nemo/models/q8/sq8/my-2022/NeMo-Derivative-Startpage/product-highlighted/1920x1920-ASQ8_D_191002_2.jpg?imwidth=768",
+      title3: "Wnętrze",
+      text3: "Oprócz dużej ilości miejsca dla wszystkich pasażerów Audi SQ8 oferuje także eleganckie wnętrze ze sportowymi akcentami.",
+    },
   },
   {
     id: 67,
@@ -2739,6 +2915,29 @@ export const Audi = [
     instalment: 8748,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4mnrv2/2023.png?imwidth=550",
+    headerImage: "https://www.audi.pl/content/dam/nemo/models/q8/rs-q8/my-2022/nemo-derivate-startpage/stage/1080x1920-rsq8_2020_1550.jpg?imwidth=768",
+    emission: "307-300",
+    consumption: "13,5-13,2 l/100km",
+    fixedBackground: "bg-[url('https://www.audi.pl/content/dam/nemo/models/q8/rs-q8/my-2022/nemo-derivate-startpage/parallax-teaser/1534x2500-rsq8_2020_1551.jpg?imwidth=767')]",
+    cardTitle: "Czyste emocje",
+    cardText: "Najmocniejszy SUV z rodziny Audi Sport: Audi RS Q81. Performance is an attitude.",
+    power: {
+      speed:3.8,
+      hp:600,
+      kilowatt:441,
+      Nm:800
+    },
+    carousel: {
+      image1: "https://www.audi.pl/content/dam/nemo/models/q8/rs-q8/my-2022/nemo-derivate-startpage/product-highlight/1920x1920-rsq8_2020_1549.jpg?imwidth=768",
+      title1: "Wrażenia z jazdy",
+      text1: "Daj upust emocjom: za kierownicą Audi RS Q8 przyjdzie Ci to z niespotykaną dotąd łatwością. Na życzenie RS Q8 oferuje zwiększenie prędkości maksymalnej do 280 km/h lub 305 km/h (ograniczenie elektroniczne).",
+      image2: "https://www.audi.pl/content/dam/nemo/models/q8/rs-q8/my-2022/nemo-derivate-startpage/product-highlight/1920x1920-rsq8_2020_1558_1.jpg?imwidth=768",
+      title2: "Wnętrze",
+      text2: "Wnętrze Audi RS Q8 jest w całości wyposażone w elementy charakterystyczne dla modeli RS. Opcjonalny pakiet stylistyczny RS z czerwonymi akcentami podkreśla sportowy charakter samochodu.",
+      image3: "https://www.audi.pl/content/dam/nemo/models/q8/rs-q8/my-2022/nemo-derivate-startpage/product-highlight/1920x1920-rsq8_2020_1554.jpg?imwidth=768",
+      title3: "Tak wygląda prawdziwa wielkość",
+      text3: "Oferowane opcjonalnie 23-calowe, 5-ramienne obręcze kół ze stopu metali lekkich w zróżnicowanej stylistyce są w Audi RS Q8 idealnie dopasowane do pakietów optycznych charakterystycznych dla modeli RS.",
+    },
   },
 
   //   TT
@@ -2755,6 +2954,24 @@ export const Audi = [
     instalment: 2586,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fvp08y/2023.png?imwidth=550",
+    headerImage: "",
+    emission: "",
+    consumption: "",
+    fixedBackground: "",
+    cardTitle: "",
+    cardText: "",
+    power: {},
+    carousel: {
+      image1: "",
+      title1: "",
+      text1: "",
+      image2: "",
+      title2: "",
+      text2: "",
+      image3: "",
+      title3: "",
+      text3: "",
+    },
   },
   {
     id: 69,
@@ -2767,6 +2984,24 @@ export const Audi = [
     instalment: 3172,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fvpsky/2023.png?imwidth=550",
+    headerImage: "",
+    emission: "",
+    consumption: "",
+    fixedBackground: "",
+    cardTitle: "",
+    cardText: "",
+    power: {},
+    carousel: {
+      image1: "",
+      title1: "",
+      text1: "",
+      image2: "",
+      title2: "",
+      text2: "",
+      image3: "",
+      title3: "",
+      text3: "",
+    },
   },
 
   //   R8
@@ -2782,6 +3017,24 @@ export const Audi = [
     instalment: undefined,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4sprde/2022.png?imwidth=550",
+    headerImage: "",
+    emission: "",
+    consumption: "",
+    fixedBackground: "",
+    cardTitle: "",
+    cardText: "",
+    power: {},
+    carousel: {
+      image1: "",
+      title1: "",
+      text1: "",
+      image2: "",
+      title2: "",
+      text2: "",
+      image3: "",
+      title3: "",
+      text3: "",
+    },
   },
   {
     id: 71,
@@ -2794,6 +3047,24 @@ export const Audi = [
     instalment: undefined,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4spref/2022.png?imwidth=550",
+    headerImage: "",
+    emission: "",
+    consumption: "",
+    fixedBackground: "",
+    cardTitle: "",
+    cardText: "",
+    power: {},
+    carousel: {
+      image1: "",
+      title1: "",
+      text1: "",
+      image2: "",
+      title2: "",
+      text2: "",
+      image3: "",
+      title3: "",
+      text3: "",
+    },
   },
   {
     id: 72,
@@ -2806,6 +3077,24 @@ export const Audi = [
     instalment: undefined,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4srrde/2022.png?imwidth=550",
+    headerImage: "",
+    emission: "",
+    consumption: "",
+    fixedBackground: "",
+    cardTitle: "",
+    cardText: "",
+    power: {},
+    carousel: {
+      image1: "",
+      title1: "",
+      text1: "",
+      image2: "",
+      title2: "",
+      text2: "",
+      image3: "",
+      title3: "",
+      text3: "",
+    },
   },
   {
     id: 73,
@@ -2818,6 +3107,24 @@ export const Audi = [
     instalment: undefined,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4srref/2022.png?imwidth=550",
+    headerImage: "",
+    emission: "",
+    consumption: "",
+    fixedBackground: "",
+    cardTitle: "",
+    cardText: "",
+    power: {},
+    carousel: {
+      image1: "",
+      title1: "",
+      text1: "",
+      image2: "",
+      title2: "",
+      text2: "",
+      image3: "",
+      title3: "",
+      text3: "",
+    },
   },
   {
     id: 74,
@@ -2830,5 +3137,23 @@ export const Audi = [
     instalment: undefined,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4sprdf/2023.png?imwidth=550",
+    headerImage: "",
+    emission: "",
+    consumption: "",
+    fixedBackground: "",
+    cardTitle: "",
+    cardText: "",
+    power: {},
+    carousel: {
+      image1: "",
+      title1: "",
+      text1: "",
+      image2: "",
+      title2: "",
+      text2: "",
+      image3: "",
+      title3: "",
+      text3: "",
+    },
   },
 ];
