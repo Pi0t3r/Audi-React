@@ -2272,28 +2272,37 @@ export const Audi = [
     instalment: 4069,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f3nrwy/2023.png?imwidth=550",
-    headerImage: "https://www.audi.pl/content/dam/nemo/models/q3/rs-q3-sportback/my-2022/nemo-derivate-startpage/stage/rsq3_2020_1496-stage-mobile.jpg?imwidth=768",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/q3/rs-q3-sportback/my-2022/nemo-derivate-startpage/stage/rsq3_2020_1496-stage-mobile.jpg?imwidth=768",
     emission: "228-218",
     consumption: "10,0-9,6 l/100km",
     power: {
-      Nm:480,
-      speed:4.5,
-      hp:400,
-      kilowatt:294,
+      Nm: 480,
+      speed: 4.5,
+      hp: 400,
+      kilowatt: 294,
     },
     cardTitle: "Sylwetka, która rozpala zmysły",
-    cardText: "Typowe dla modeli RS elementy składają się na muskularną sylwetkę kompaktowego SUV-a coupé.",
-    fixedBackground: "bg-[url('https://www.audi.pl/content/dam/nemo/models/q3/rs-q3-sportback/my-2022/nemo-derivate-startpage/parallax-teaser/1534x2500-rsq3_2020_1490.jpg?imwidth=767')]",
+    cardText:
+      "Typowe dla modeli RS elementy składają się na muskularną sylwetkę kompaktowego SUV-a coupé.",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/q3/rs-q3-sportback/my-2022/nemo-derivate-startpage/parallax-teaser/1534x2500-rsq3_2020_1490.jpg?imwidth=767')]",
     carousel: {
-      image1: "https://www.audi.pl/content/dam/nemo/models/q3/rs-q3-sportback/my-2022/nemo-derivate-startpage/stage-large-image/1080x1920-rsq3_2020_1498_1.jpg?imwidth=768",
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/q3/rs-q3-sportback/my-2022/nemo-derivate-startpage/stage-large-image/1080x1920-rsq3_2020_1498_1.jpg?imwidth=768",
       title1: "Bezkompromisowe - także we wnętrzu",
-      text1: "Podobnie jak nadwozie, wnętrze Audi RS Q3 Sportback zachwyca dynamicznym wyglądem, w którym dominuje dbałość o szczegóły. Począwszy od wielofunkcyjnej, trójramiennej, obszytej skórą kierownicy o sportowym obrysie i spłaszczonym wieńcu, po liczne akcenty stylistyczne.",
-      image2: "https://www.audi.pl/content/dam/nemo/models/q3/rs-q3-sportback/my-2022/nemo-derivate-startpage/stage-large-image/1080x1920-rsq3_2020_1496.jpg?imwidth=768",
+      text1:
+        "Podobnie jak nadwozie, wnętrze Audi RS Q3 Sportback zachwyca dynamicznym wyglądem, w którym dominuje dbałość o szczegóły. Począwszy od wielofunkcyjnej, trójramiennej, obszytej skórą kierownicy o sportowym obrysie i spłaszczonym wieńcu, po liczne akcenty stylistyczne.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/q3/rs-q3-sportback/my-2022/nemo-derivate-startpage/stage-large-image/1080x1920-rsq3_2020_1496.jpg?imwidth=768",
       title2: "Funkcjonalność w podróży",
-      text2: "Wnętrze RS Q3 Sportback oferuje maksymalnie pięciu pasażerom wysoki komfort podróżowania. Tylną kanapę można przesunąć o 150 milimetrów, jej oparcie posiada 7-stopniową regulację kąta pochylenia.",
-      image3: "https://www.audi.pl/content/dam/nemo/models/q3/rs-q3-sportback/my-2022/nemo-derivate-startpage/stage-large-image/1080x1920-rsq3_ae_2020_2417.jpg?imwidth=768",
+      text2:
+        "Wnętrze RS Q3 Sportback oferuje maksymalnie pięciu pasażerom wysoki komfort podróżowania. Tylną kanapę można przesunąć o 150 milimetrów, jej oparcie posiada 7-stopniową regulację kąta pochylenia.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/q3/rs-q3-sportback/my-2022/nemo-derivate-startpage/stage-large-image/1080x1920-rsq3_ae_2020_2417.jpg?imwidth=768",
       title3: "Jeszcze bardziej osobiste",
-      text3: "Spersonalizuj własne RS Q3 Sportback korzystając z szerokiej gamy tapicerek skórzanych, aplikacji dekoracyjnych i lakierów z oferty Audi exclusive. Spośród wielu kolorów lakierów możesz wybrać odcień aksamitnego fioletu.",
+      text3:
+        "Spersonalizuj własne RS Q3 Sportback korzystając z szerokiej gamy tapicerek skórzanych, aplikacji dekoracyjnych i lakierów z oferty Audi exclusive. Spośród wielu kolorów lakierów możesz wybrać odcień aksamitnego fioletu.",
     },
   },
 
@@ -2310,23 +2319,36 @@ export const Audi = [
     instalment: 3424,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f4b/2022.png?imwidth=550",
-    headerImage: "",
-    emission: "",
-    consumption: "",
-    power: {},
-    cardTitle: "",
-    cardText: "",
-    fixedBackground: "",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/q4-e-tron/q4-e-tron/my-2022/NeMo-Derivate-Startpage/stage/Q4_2021_2506-mobile.jpg?imwidth=768",
+    emission: "0-0",
+    consumption: "20,2-16,6 kWh/100km",
+    power: {
+      speed: 6.2,
+      kilowatt: 220,
+      acumulator:76.6
+    },
+    cardTitle: "Fascynująco futurystyczne",
+    cardText:
+      "Przejrzysta stylistyka Audi Q4 e-tron nadaje przyszłości elektrycznej mobilności charakterystyczną formę.",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/pl/modele/q4-e-tron/q4-e-tron/my-2022/q4_2021_2471_570x857.jpg')]",
     carousel: {
-      image1: "",
-      title1: "",
-      text1: "",
-      image2: "",
-      title2: "",
-      text2: "",
-      image3: "",
-      title3: "",
-      text3: "",
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/q4-e-tron/q4-e-tron/my-2022/NeMo-Derivate-Startpage/product-highlight/audi-q4-e-tron-infotainment-01.jpg?imwidth=768",
+      title1: "Sportowa funkcjonalność",
+      text1:
+        "Progresywne wnętrze Audi Q4 e-tron charakteryzują innowacje techniczne, sportowy duch i funkcjonalność.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/q4-e-tron/q4-e-tron/my-2022/NeMo-Derivate-Startpage/product-highlight/1920x1920-M05_Q4_etron_RJP_Charging_05_CORR01_RGB.jpg?imwidth=768",
+      title2: "Ładowanie w domu i na trasie",
+      text2:
+        "Dzięki szerokiej ofercie ładowanie w domu i w drodze jest proste - pozwala na podróż z użyciem napędu elektrycznego bez żadnych kompromisów.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/q4-e-tron/q4-e-tron/my-2022/NeMo-Derivate-Startpage/product-highlight/audi-q4-e-tron-driving-04.jpg?imwidth=768",
+      title3: "Bardziej sportowe prowadzenie",
+      text3:
+        "Opcjonalne sportowe zawieszenie z dynamiczniejszym ustawieniem amortyzatorów i nadwoziem obniżonym o 15 mm oferuje bardziej bezpośrednie i sportowe prowadzenie.",
     },
   },
   {
@@ -2340,23 +2362,27 @@ export const Audi = [
     instalment: 3583,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f4n/2022.png?imwidth=550",
-    headerImage: "",
-    emission: "",
-    consumption: "",
-    power: {},
-    cardTitle: "",
-    cardText: "",
-    fixedBackground: "",
+    headerImage: "https://www.audi.pl/content/dam/nemo/models/q4-e-tron/q4-e-tron-sportback/my-2022/NeMo-Derivate-Startpage/stage/Q4_2021_2549-mobile.jpg?imwidth=768",
+    emission: "0-0",
+    consumption: "19,7-16,2 kWh/100km",
+    power: {
+      kilowatt:220,
+      speed:6.2,
+      acumulator:76.6
+    },
+    cardTitle: "Dopasowane do potrzeb kierowcy",
+    cardText: "Dzięki opcjonalnemu układowi Audi drive select można dopasować charakterystykę pojazdu do potrzeb kierowcy, wybierając między pięcioma trybami.",
+    fixedBackground: "bg-[url('https://www.audi.pl/content/dam/nemo/models/q4-e-tron/q4-e-tron-sportback/my-2022/NeMo-Derivate-Startpage/stage-large-image/Q4_2021_2520_02.jpg?imwidth=768')]",
     carousel: {
-      image1: "",
-      title1: "",
-      text1: "",
-      image2: "",
-      title2: "",
-      text2: "",
-      image3: "",
-      title3: "",
-      text3: "",
+      image1: "https://www.audi.pl/content/dam/nemo/models/q4-e-tron/q4-e-tron-sportback/my-2022/NeMo-Derivate-Startpage/product-highlight/01_Q4_2021_2518_without_cast.jpg?imwidth=768",
+      title1: "Nowa perspektywa",
+      text1: "Czysty design Audi Q4 Sportback e-tron nadaje mobilności jutra charakterystyczną formę - z przykuwającym uwagę przodem oraz mocno nakreślonym tyłem.",
+      image2: "https://www.audi.pl/content/dam/nemo/models/q4-e-tron/q4-e-tron-sportback/my-2022/NeMo-Derivate-Startpage/product-highlight/audi-q4-e-tron-infotainment-01.jpg?imwidth=768",
+      title2: "Gotowe do startu na Twój znak",
+      text2: "Progresywne wnętrze Audi Q4 Sportback e-tron charakteryzują innowacje techniczne, sportowy duch i funkcjonalność.",
+      image3: "https://www.audi.pl/content/dam/nemo/models/q4-e-tron/q4-e-tron-sportback/my-2022/NeMo-Derivate-Startpage/product-highlight/04_Q4_2021_2520.jpg?imwidth=768",
+      title3: "Bardziej sportowe prowadzenie",
+      text3: "Opcjonalne sportowe zawieszenie z dynamiczniejszym ustawieniem amortyzatorów i nadwoziem obniżonym o 15 mm oferuje bardziej bezpośrednie i sportowe prowadzenie.",
     },
   },
 

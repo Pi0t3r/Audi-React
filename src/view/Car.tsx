@@ -56,7 +56,7 @@ function Car() {
           )}
         </>
         <div
-          className={`${car.fixedBackground} bg-cover bg-center bg-fixed w-full h-[30rem] flex items-center justify-center`}
+          className={`${car.fixedBackground} bg-cover bg-center bg-fixed w-full h-[35rem] flex items-center justify-center`}
         >
           <div className="bg-white text-left p-10 mx-5">
             <h3 className="font-bold text-xl">{car.cardTitle}</h3>
