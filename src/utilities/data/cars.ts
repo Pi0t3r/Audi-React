@@ -2326,7 +2326,7 @@ export const Audi = [
     power: {
       speed: 6.2,
       kilowatt: 220,
-      acumulator:76.6
+      acumulator: 76.6,
     },
     cardTitle: "Fascynująco futurystyczne",
     cardText:
@@ -2362,27 +2362,36 @@ export const Audi = [
     instalment: 3583,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f4n/2022.png?imwidth=550",
-    headerImage: "https://www.audi.pl/content/dam/nemo/models/q4-e-tron/q4-e-tron-sportback/my-2022/NeMo-Derivate-Startpage/stage/Q4_2021_2549-mobile.jpg?imwidth=768",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/q4-e-tron/q4-e-tron-sportback/my-2022/NeMo-Derivate-Startpage/stage/Q4_2021_2549-mobile.jpg?imwidth=768",
     emission: "0-0",
     consumption: "19,7-16,2 kWh/100km",
     power: {
-      kilowatt:220,
-      speed:6.2,
-      acumulator:76.6
+      kilowatt: 220,
+      speed: 6.2,
+      acumulator: 76.6,
     },
     cardTitle: "Dopasowane do potrzeb kierowcy",
-    cardText: "Dzięki opcjonalnemu układowi Audi drive select można dopasować charakterystykę pojazdu do potrzeb kierowcy, wybierając między pięcioma trybami.",
-    fixedBackground: "bg-[url('https://www.audi.pl/content/dam/nemo/models/q4-e-tron/q4-e-tron-sportback/my-2022/NeMo-Derivate-Startpage/stage-large-image/Q4_2021_2520_02.jpg?imwidth=768')]",
+    cardText:
+      "Dzięki opcjonalnemu układowi Audi drive select można dopasować charakterystykę pojazdu do potrzeb kierowcy, wybierając między pięcioma trybami.",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/q4-e-tron/q4-e-tron-sportback/my-2022/NeMo-Derivate-Startpage/stage-large-image/Q4_2021_2520_02.jpg?imwidth=768')]",
     carousel: {
-      image1: "https://www.audi.pl/content/dam/nemo/models/q4-e-tron/q4-e-tron-sportback/my-2022/NeMo-Derivate-Startpage/product-highlight/01_Q4_2021_2518_without_cast.jpg?imwidth=768",
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/q4-e-tron/q4-e-tron-sportback/my-2022/NeMo-Derivate-Startpage/product-highlight/01_Q4_2021_2518_without_cast.jpg?imwidth=768",
       title1: "Nowa perspektywa",
-      text1: "Czysty design Audi Q4 Sportback e-tron nadaje mobilności jutra charakterystyczną formę - z przykuwającym uwagę przodem oraz mocno nakreślonym tyłem.",
-      image2: "https://www.audi.pl/content/dam/nemo/models/q4-e-tron/q4-e-tron-sportback/my-2022/NeMo-Derivate-Startpage/product-highlight/audi-q4-e-tron-infotainment-01.jpg?imwidth=768",
+      text1:
+        "Czysty design Audi Q4 Sportback e-tron nadaje mobilności jutra charakterystyczną formę - z przykuwającym uwagę przodem oraz mocno nakreślonym tyłem.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/q4-e-tron/q4-e-tron-sportback/my-2022/NeMo-Derivate-Startpage/product-highlight/audi-q4-e-tron-infotainment-01.jpg?imwidth=768",
       title2: "Gotowe do startu na Twój znak",
-      text2: "Progresywne wnętrze Audi Q4 Sportback e-tron charakteryzują innowacje techniczne, sportowy duch i funkcjonalność.",
-      image3: "https://www.audi.pl/content/dam/nemo/models/q4-e-tron/q4-e-tron-sportback/my-2022/NeMo-Derivate-Startpage/product-highlight/04_Q4_2021_2520.jpg?imwidth=768",
+      text2:
+        "Progresywne wnętrze Audi Q4 Sportback e-tron charakteryzują innowacje techniczne, sportowy duch i funkcjonalność.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/q4-e-tron/q4-e-tron-sportback/my-2022/NeMo-Derivate-Startpage/product-highlight/04_Q4_2021_2520.jpg?imwidth=768",
       title3: "Bardziej sportowe prowadzenie",
-      text3: "Opcjonalne sportowe zawieszenie z dynamiczniejszym ustawieniem amortyzatorów i nadwoziem obniżonym o 15 mm oferuje bardziej bezpośrednie i sportowe prowadzenie.",
+      text3:
+        "Opcjonalne sportowe zawieszenie z dynamiczniejszym ustawieniem amortyzatorów i nadwoziem obniżonym o 15 mm oferuje bardziej bezpośrednie i sportowe prowadzenie.",
     },
   },
 
@@ -2399,23 +2408,37 @@ export const Audi = [
     instalment: 2180,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fygbuy/2023.png?imwidth=550",
-    headerImage: "",
-    emission: "",
-    consumption: "",
-    power: {},
-    cardTitle: "",
-    cardText: "",
-    fixedBackground: "",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/q5/q5/my-2022/derivative-startpage/stage/Q5_2020_2160-s.jpg?imwidth=768",
+    emission: "208-146",
+    consumption: "9,2-5,6 l/100km",
+    power: {
+      speed: 7.3,
+      hp: 204,
+      kilowatt: 150,
+      Nm: 320,
+    },
+    cardTitle: "Więcej niż SUV",
+    cardText:
+      "Audi Q5 łączy dynamikę z najwyższą funkcjonalnością na co dzień.",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/q5/q5/my-2022/derivative-startpage/parallax-teaser/Q5_2020_2147-s.jpg?imwidth=767')]",
     carousel: {
-      image1: "",
-      title1: "",
-      text1: "",
-      image2: "",
-      title2: "",
-      text2: "",
-      image3: "",
-      title3: "",
-      text3: "",
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/q5/q5/my-2022/derivative-startpage/feature-gallery/810x1920-Q5_ae_2020_0369.jpg?imwidth=768&imdensity=1",
+      title1: "Bardziej wyraziste. Audi exclusive",
+      text1:
+        "Lakiery specjalne Audi exclusive dają możliwość wyboru spośród szerokiej palety kolorów, wśród nich lakier niebieski Ascari metalik.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/q5/q5/my-2022/derivative-startpage/feature-gallery/810x1080-q5_2020_0365_1.jpg?imwidth=768&imdensity=1",
+      title2: "Praktyczne i eleganckie",
+      text2:
+        "Wysoka pozycja za kierownicą zapewnia dobre rozeznanie w sytuacji na drodze. Profilowana listwa ozdobna biegnie przez całą szerokość deski rozdzielczej, stylowo dopełniając eleganckie wnętrze.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/q5/q5/my-2022/derivative-startpage/feature-gallery/810x1080-Q5_ae_2020_0370.jpg?imwidth=768&imdensity=1",
+      title3: "Indywidualizm skrojony na miare",
+      text3:
+        "Wnętrze Audi Q5 z fotelami obszytymi tapicerką skórzaną Feinnappa Audi exclusive w kolorze alabastrowej bieli z niebieskimi przeszyciami w stylistyce rombu.",
     },
   },
   {
@@ -2429,23 +2452,38 @@ export const Audi = [
     instalment: 3052,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fygb9y/2023.png?imwidth=550",
-    headerImage: "",
-    emission: "",
-    consumption: "",
-    power: {},
-    cardTitle: "",
-    cardText: "",
-    fixedBackground: "",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/q5/q5-tfsi-e/my-2022/NeMo-Derivate-Startpage/Stage/1080x1920-q5_2020_2167.jpg?imwidth=768",
+    emission: "42-35",
+    consumption:
+      "Benzyna: 1,8-1,5 l/100km | Energia elektryczna: 23,3-22,0 kWh/100 km",
+    power: {
+      speed: 6.1,
+      hp: 299,
+      kilowatt: 220,
+      Nm: 370,
+    },
+    cardTitle: "Siła wydajności",
+    cardText:
+      "Dzięki innowacyjnemu napędowi hybrydowemu typu plug-in możesz przejechać od 56 do 62 kilometrów (WLTP) wyłącznie na napędzie elektrycznym.",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/q5/q5-tfsi-e/my-2022/NeMo-Derivate-Startpage/parallax-teaser/748x2500-q5_2020_2172.jpg?imwidth=374')]",
     carousel: {
-      image1: "",
-      title1: "",
-      text1: "",
-      image2: "",
-      title2: "",
-      text2: "",
-      image3: "",
-      title3: "",
-      text3: "",
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/q5/q5-tfsi-e/my-2022/NeMo-Derivate-Startpage/feature-gallery/810x1080-Q5_2020_2153.jpg?imwidth=768&imdensity=1",
+      title1: "Zawsze właściwy napęd",
+      text1:
+        "Odpowiedni napęd wybierany jest w zależności od sytuacji na drodze: elektryczny, hybrydowy lub spalinowy. Siedmiostopniowa dwusprzęgłowa skrzynia biegów S tronic i napęd na cztery koła quattro zachwycają połączeniem sportowych osiągów z wydajnością.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/q5/q5-tfsi-e/my-2022/NeMo-Derivate-Startpage/feature-gallery/810x1080-q5_2020_0385_1.jpg?imwidth=768&imdensity=1",
+      title2: "Wybór typu jazdy spośród 4 trybów",
+      text2:
+        "Możesz wybrać jeden z 4 trybów: jazda w trybie wyłącznie elektrycznym (EV), utrzymania energii elektrycznej w akumulatorze na potrzeby przyszłej jazdy elektrycznej (HOLD), ładowania akumulatora podczas jazdy (CHARGE) oraz współdziałania silnika spalinowego i elektrycznego (AUTO HYBRID). ",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/q5/q5-tfsi-e/my-2022/NeMo-Derivate-Startpage/feature-gallery/810x1080-q5_2020_0386_1.jpg?imwidth=768&imdensity=1",
+      title3: "Wszystko w zasięgu wzroku",
+      text3:
+        "Wskaźnik po lewej stronie wirtualnego kokpitu Audi pokazuje ogólną wydajność systemu i poziom naładowania akumulatora. Na środku widoczny jest pozostały zasięg elektryczny i spalinowy. Te wskaźniki można sprawdzać na bieżąco również w aplikacji myAudi.",
     },
   },
   {
@@ -2459,23 +2497,37 @@ export const Audi = [
     instalment: 2348,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fytbuy/2023.png?imwidth=550",
-    headerImage: "",
-    emission: "",
-    consumption: "",
-    power: {},
-    cardTitle: "",
-    cardText: "",
-    fixedBackground: "",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/q5/q5-sportback/my-2022/NeMo-Derivate-Startpage/Stage/q5_2020_1349-s.jpg?imwidth=768",
+    emission: "207-147",
+    consumption: "9,1-5,6 l/100km",
+    power: {
+      speed: 7.3,
+      hp: 204,
+      kilowatt: 150,
+      Nm: 320,
+    },
+    cardTitle: "Nowa definicja SUV-a",
+    cardText:
+      "Audi Q5 Sportback łączy zalety dynamicznego SUV-a z codzienną funkcjonalnością.",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/q5/q5-sportback/my-2022/NeMo-Derivate-Startpage/parallax-teaser/q5_2020_2208-s.jpg?imwidth=767')]",
     carousel: {
-      image1: "",
-      title1: "",
-      text1: "",
-      image2: "",
-      title2: "",
-      text2: "",
-      image3: "",
-      title3: "",
-      text3: "",
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/q5/q5-sportback/my-2022/NeMo-Derivate-Startpage/product-highlight/q5_2020_1355_1.jpg?imwidth=768",
+      title1: "Dużo miejsca na Twoją osobowość",
+      text1:
+        "Nawet z delikatnie pochylonym tyłem Audi Q5 Sportback oferuje dużo miejsca dla pięciu osób, w tym przestrzeń na głowę i nogi.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/q5/q5-sportback/my-2023/product-highlight/q5_ae_2020_1360_1-L.jpg?imwidth=768",
+      title2: "Jeszcze bardziej niezwykłe. Z Audi exclusive",
+      text2:
+        "Spersonalizuj własne Q5 Sportback, korzystając z szerokiej gamy tapicerek skórzanych, aplikacji dekoracyjnych i lakierów specjalnych z oferty Audi exclusive. Spośród wielu kolorów lakierów możesz wybrać zielony Java metalik.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/q5/q5-sportback/my-2022/NeMo-Derivate-Startpage/product-highlight/q5_2020_2193.jpg?imwidth=768",
+      title3: "Niezwykła stylistyka",
+      text3:
+        "Linia dachu nawiązująca do coupé to wyraz sportowych aspiracji, a opcjonalny napęd na cztery koła quattro gwarantuje pewność i emocje w każdej podróży.",
     },
   },
   {
@@ -2489,23 +2541,38 @@ export const Audi = [
     instalment: 3240,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fytb9y/2023.png?imwidth=550",
-    headerImage: "",
-    emission: "",
-    consumption: "",
-    power: {},
-    cardTitle: "",
-    cardText: "",
-    fixedBackground: "",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/q5/q5-sportback-tfsi-e/my-2022/NeMo-Derivate-Startpage/Stage/q5_2020_2213-s.jpg?imwidth=768",
+    emission: "42-35",
+    consumption:
+      "Benzyna: 1,9-1,6 l/100km | Energia elektryczna: 23,4-22,1 kWh/100 km",
+    power: {
+      speed: 6.1,
+      hp: 299,
+      kilowatt: 220,
+      Nm: 370,
+    },
+    cardTitle: "Wszechstronne, mocne, wydajne",
+    cardText:
+      "Elegancki SUV z linią dachu nawiązującą do coupé z innowacyjnym napędem - Audi Q5 Sportback TFSI e.",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/q5/q5-sportback-tfsi-e/my-2022/NeMo-Derivate-Startpage/parallax-teaser/q5_2020_2216-s.jpg?imwidth=767')]",
     carousel: {
-      image1: "",
-      title1: "",
-      text1: "",
-      image2: "",
-      title2: "",
-      text2: "",
-      image3: "",
-      title3: "",
-      text3: "",
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/q5/q5-sportback-tfsi-e/my-2022/NeMo-Derivate-Startpage/product-highlight/q5_2020_2223.jpg?imwidth=768",
+      title1: "Napędzane wszechstronnością",
+      text1:
+        "Napęd hybrydowy plug in w Audi Q5 Sportback TFSI e łączy zalety silnika elektrycznego z zaletami silnika spalinowego. W modelu 55 TFSI e1 generują moc 270 kW i 500 Nm momentu obrotowego.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/q5/q5-sportback-tfsi-e/my-2022/NeMo-Derivate-Startpage/product-highlight/q5_r_2020_2244.jpg?imwidth=768",
+      title2: "Połączenie zalet",
+      text2:
+        "Dzięki silnikowi elektrycznemu można pokonywać codzienne krótkie trasy o długości około 56-61 kilometrów (WLTP) w trybie całkowicie elektrycznym. W przypadku dłuższych podróży możesz liczyć na sprawdzony zasięg zapewniany przez silnik spalinowy, który dowiezie Cię pewnie do celu",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/q5/q5-sportback-tfsi-e/my-2022/NeMo-Derivate-Startpage/product-highlight/q5_2020_0385_1.jpg?imwidth=768",
+      title3: "Wybór typu jazdy spośród 4 trybów",
+      text3:
+        "Możesz wybrać jeden z 4 trybów: jazda w trybie wyłącznie elektrycznym (EV), utrzymania energii elektrycznej w akumulatorze na potrzeby przyszłej jazdy elektrycznej (HOLD), ładowania akumulatora podczas jazdy (CHARGE) oraz współdziałania silnika spalinowego i elektrycznego (AUTO HYBRID).",
     },
   },
   {
@@ -2519,23 +2586,33 @@ export const Audi = [
     instalment: 3904,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fygs5a/2023.png?imwidth=550",
-    headerImage: "",
-    emission: "",
-    consumption: "",
-    power: {},
-    cardTitle: "",
-    cardText: "",
-    fixedBackground: "",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/q5/sq5/my-2022/NeMo-Derivate-Startpage/stage/sq5_2020_2180-s.jpg?imwidth=768",
+    emission: "223-212",
+    consumption: "8,5-8,1 l/100km",
+    power: {
+      kilowatt: 251,
+      speed: 5.1,
+      Nm: 700,
+      hp: 341,
+    },
+    cardTitle: "SUV przez duże S",
+    cardText:
+      "Szybko docieraj do celu, odważnie podejmuj wyzwania i rób wrażenie na drodze. Za kierownicą Audi SQ51 to proste.",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/q5/sq5/my-2022/NeMo-Derivate-Startpage/parallax-teaser/SQ5_2020_2183-s.jpg?imwidth=767')]",
     carousel: {
-      image1: "",
-      title1: "",
-      text1: "",
-      image2: "",
-      title2: "",
-      text2: "",
-      image3: "",
-      title3: "",
-      text3: "",
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/q5/sq5/my-2022/NeMo-Derivate-Startpage/product-highlight/SQ5_2020_2179.jpg?imwidth=768",
+      title1: "Znakomite wrażenia z jazdy",
+      text1: "Audi SQ5 oferuje w standardzie mocną jednostkę napędową turbo diesel oraz stały napęd na cztery koła quattro.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/q5/sq5/my-2022/NeMo-Derivate-Startpage/product-highlight/q5_2020_0394.jpg?imwidth=768",
+      title2: "Komfort w sportowym stylu",
+      text2: "Sportowe fotele przednie można wybrać z całkowicie skórzanym obiciem ze skóry Feinnappa z przeszyciami w kształcie rombu oraz z funkcją masażu pneumatycznego. Pedały i podparcie lewej nogi pokryte są nakładkami ze stali nierdzewnej.",
+      image3: "https://www.audi.pl/content/dam/nemo/models/q5/sq5/my-2022/NeMo-Derivate-Startpage/product-highlight/sq5_2020_0393_1.jpg?imwidth=768",
+      title3: "Wnętrze",
+      text3: "Oto wnętrze, które zachwyca dużą ilością miejsca dla pięciu osób, w tym komfortową przestrzenią nad głową i na nogi.",
     },
   },
   {
@@ -2549,23 +2626,28 @@ export const Audi = [
     instalment: 4036,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fyts5a/2023.png?imwidth=550",
-    headerImage: "",
-    emission: "",
-    consumption: "",
-    power: {},
-    cardTitle: "",
-    cardText: "",
-    fixedBackground: "",
+    headerImage: "https://www.audi.pl/content/dam/nemo/models/q5/sq5-sportback/my-2022/derivate-startpage/stage/1080x1920-sq5_2020_1375.jpg?imwidth=768",
+    emission: "223-212",
+    consumption: "8,5-8,1 l/100km",
+    power: {
+      hp:341,
+      kilowatt:251,
+      speed:5.1,
+      Nm:700,
+    },
+    cardTitle: "Sportowe. Mocne. Dynamiczne",
+    cardText: "Ten sportowy SUV o progresywnej stylistyce i linii nawiązującej do coupé to wszechstronny samochód o wielkich możliwościach.",
+    fixedBackground: "bg-[url('https://www.audi.pl/content/dam/nemo/models/q5/sq5-sportback/my-2022/derivate-startpage/parallax-teaser/1534x2500-sq5_2020_1373.jpg?imwidth=767')]",
     carousel: {
-      image1: "",
-      title1: "",
-      text1: "",
-      image2: "",
-      title2: "",
-      text2: "",
-      image3: "",
-      title3: "",
-      text3: "",
+      image1: "https://www.audi.pl/content/dam/nemo/models/q5/sq5-sportback/my-2022/derivate-startpage/stage-large-image/1080x1920-sq5_2020_1375_2.jpg?imwidth=768",
+      title1: "Porywająca moc",
+      text1: "3,0-litrowy silnik V6 TDI Audi SQ5 Sportback oraz szybka i komfortowa 8-stopniowa skrzynia tiptronic zapewniają płynne przenoszenie mocy. Standardowy stały napęd na cztery koła quattro w zmienny sposób rozdziela moc pomiędzy przednią a tylną oś. Efektem tego są niepowtarzalne i porywające wrażenia z jazdy.",
+      image2: "https://www.audi.pl/content/dam/nemo/models/q5/sq5-sportback/my-2022/derivate-startpage/stage-large-image/1080x1920-sq5_2020_1374.jpg?imwidth=768",
+      title2: "Niezwykła charyzma",
+      text2: "Dynamika jazdy i robiące wrażenie osiągi znajdują odzwierciedlenie w stylistyce samochodu - od sylwetki przywodzącej na myśl sportowe coupé po sportowe detale: spojler dachowy czy chromowane podwójne końcówki rur wydechowych. Przód Audi SQ5 Sportback również robi wrażenie dzięki dominującej osłonie chłodnicy Singleframe o wyglądzie plastra miodu, charakterystycznemu dla modeli S zderzakowi i mocno wyprofilowanym wlotom powietrza. To design, który łączy wizualną lekkość z doskonałą aerodynamiką.",
+      image3: "https://www.audi.pl/content/dam/nemo/models/q5/sq5-sportback/my-2022/derivate-startpage/stage-large-image/1080x1920-sq5_2020_1381.jpg?imwidth=768",
+      title3: "Sportowe. Wygodne. Ekskluzywne",
+      text3: "Podświetlane listwy progowe z przodu z aluminiowymi wstawkami i sygnaturą S oraz dostępne w standardzie aplikacje dekoracyjne ze szczotkowanego, matowego aluminium nadają wnętrzu charakter typowy dla modeli S. Sportowe oblicze wnętrza pojazdu podkreślają ponadto przednie fotele sportowe obszyte opcjonalną skórzaną tapicerką Feinnappa z przeszyciami w kształcie rombów i wytłoczeniem S na przednich oparciach.",
     },
   },
 

@@ -49,9 +49,10 @@ function Car() {
           {car.emission && (
             <div className="bg-black text-white p-5 -mt-5">
               <p>
-                Emicja CO<sub>2</sub> w cyklu mieszkanym: {car.emission} g/km
+                Emicja CO<sub>2</sub> w cyklu mieszkanym:{" "}
+                <span className="font-bold italic">{car.emission} g/km</span> 
               </p>
-              <p>Zużycie w cyklu mieszanym: {car.consumption}</p>
+              <p>Zużycie w cyklu mieszanym: <span className="font-bold italic">{car.consumption}</span></p>
             </div>
           )}
         </>
