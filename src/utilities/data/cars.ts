@@ -2814,9 +2814,11 @@ export const Audi = [
       "https://www.audi.pl/content/dam/nemo/models/q8/q8/my-2022/nemo-derivate-startpage/stage/AQ8_181028-mobile.jpg?imwidth=768",
     emission: "256-210",
     consumption: "11,2-8,0 l/100km",
-    fixedBackground: "bg-[url('https://www.audi.pl/content/dam/nemo/models/q8/q8/my-2022/nemo-derivate-startpage/parallax-teaser/1534x2500-AQ8_D_181026-v2.jpg?imwidth=767')]",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/q8/q8/my-2022/nemo-derivate-startpage/parallax-teaser/1534x2500-AQ8_D_181026-v2.jpg?imwidth=767')]",
     cardTitle: "Czołowy model z rodziny Q",
-    cardText: "Audi Q8 w imponujący sposób łączy wyraziste linie sportowego coupé z przestronnością SUV-a.",
+    cardText:
+      "Audi Q8 w imponujący sposób łączy wyraziste linie sportowego coupé z przestronnością SUV-a.",
     power: {
       speed: 6.1,
       kilowatt: 210,
@@ -2824,15 +2826,21 @@ export const Audi = [
       Nm: 600,
     },
     carousel: {
-      image1: "https://www.audi.pl/content/dam/nemo/models/q8/q8/my-2022/nemo-derivate-startpage/product-highlight/q8_2021_2891.jpg?imwidth=768",
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/q8/q8/my-2022/nemo-derivate-startpage/product-highlight/q8_2021_2891.jpg?imwidth=768",
       title1: "Sportowy charakter to znak rozpoznawczy",
-      text1: "Dynamiczny charakter Audi Q8 widać na pierwszy rzut oka dzięki wyposażeniu dodatkowemu i pakietom. Na przykład dzięki pakietowi optycznemu Czerń z czarnymi akcentami na wybranych elementach oraz 21-calowym obręczom kół ze stopu metali lekkich z zaciskami hamulcowymi lakierowanymi na czerwono.",
-      image2: "https://www.audi.pl/content/dam/nemo/models/q8/q8/my-2022/nemo-derivate-startpage/product-highlight/aq8_181003_1.jpg?imwidth=768",
+      text1:
+        "Dynamiczny charakter Audi Q8 widać na pierwszy rzut oka dzięki wyposażeniu dodatkowemu i pakietom. Na przykład dzięki pakietowi optycznemu Czerń z czarnymi akcentami na wybranych elementach oraz 21-calowym obręczom kół ze stopu metali lekkich z zaciskami hamulcowymi lakierowanymi na czerwono.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/q8/q8/my-2022/nemo-derivate-startpage/product-highlight/aq8_181003_1.jpg?imwidth=768",
       title2: "Funkcjonalność",
-      text2: "Pojemność bagażnika po złożeniu tylnej kanapy wynosi do 1755 litrów.",
-      image3: "https://www.audi.pl/content/dam/nemo/models/q8/q8/my-2023/product-highlight/AQ8_D_181037_4-L.jpg?imwidth=768",
+      text2:
+        "Pojemność bagażnika po złożeniu tylnej kanapy wynosi do 1755 litrów.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/q8/q8/my-2023/product-highlight/AQ8_D_181037_4-L.jpg?imwidth=768",
       title3: "Wnętrze",
-      text3: "Zrelaksuj się we wnętrzu, korzystając z funkcji masażu i wentylacji przednich foteli obszytych skórą Valcona.",
+      text3:
+        "Zrelaksuj się we wnętrzu, korzystając z funkcji masażu i wentylacji przednich foteli obszytych skórą Valcona.",
     },
   },
   {
@@ -2846,27 +2854,37 @@ export const Audi = [
     instalment: 4911,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4mn0y3/2023.png?imwidth=550",
-    headerImage: "https://www.audi.pl/content/dam/nemo/models/q8/q8-tfsi-e/my-2022/NeMo-Derivate-Startpage/Stage/Q8_2020_1446-s.jpg?imwidth=768",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/q8/q8-tfsi-e/my-2022/NeMo-Derivate-Startpage/Stage/Q8_2020_1446-s.jpg?imwidth=768",
     emission: "60-48",
-    consumption: "Benzyna: 2,6-2,1 l/100km | Energia elektryczna: 25,2-23,5 kWh/100 km",
-    fixedBackground: "bg-[url('https://www.audi.pl/content/dam/nemo/models/q8/q8-tfsi-e/my-2022/NeMo-Derivate-Startpage/parallax-teaser/Q8_2020_1447-s.jpg?imwidth=767')]",
+    consumption:
+      "Benzyna: 2,6-2,1 l/100km | Energia elektryczna: 25,2-23,5 kWh/100 km",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/q8/q8-tfsi-e/my-2022/NeMo-Derivate-Startpage/parallax-teaser/Q8_2020_1447-s.jpg?imwidth=767')]",
     cardTitle: "Awangarda postępu",
-    cardText: "Mocny napęd hybrydowy typu plug-in oraz fascynujący język stylistyczny sprawiają, że Audi Q8 TFSI e jest najbardziej progresywnym SUV-em marki.",
+    cardText:
+      "Mocny napęd hybrydowy typu plug-in oraz fascynujący język stylistyczny sprawiają, że Audi Q8 TFSI e jest najbardziej progresywnym SUV-em marki.",
     power: {
-      Nm:700,
-      speed:5.4,
-      kilowatt:340
+      Nm: 700,
+      speed: 5.4,
+      kilowatt: 340,
     },
     carousel: {
-      image1: "https://www.audi.pl/content/dam/nemo/models/q8/q8-tfsi-e/my-2022/NeMo-Derivate-Startpage/product-highlight/A206991_large.jpg?imwidth=768",
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/q8/q8-tfsi-e/my-2022/NeMo-Derivate-Startpage/product-highlight/A206991_large.jpg?imwidth=768",
       title1: "Moc dwóch napędów",
-      text1: "Audi Q8 TFSI e jest dostępne w dwóch wersjach silnikowych: Audi Q8 60 TFSI e oraz 55 TFSI e. Silnik 60 TFSI e oferuje aż 340 kW mocy systemowej z zasięgiem elektrycznym do 52 km i może przyspieszać od 0 do 100 km/h w 5,4 sekundy.",
-      image2: "https://www.audi.pl/content/dam/nemo/models/q8/q8-tfsi-e/my-2022/NeMo-Derivate-Startpage/product-highlight/q8_2020_1453_v3_de.jpg?imwidth=768",
+      text1:
+        "Audi Q8 TFSI e jest dostępne w dwóch wersjach silnikowych: Audi Q8 60 TFSI e oraz 55 TFSI e. Silnik 60 TFSI e oferuje aż 340 kW mocy systemowej z zasięgiem elektrycznym do 52 km i może przyspieszać od 0 do 100 km/h w 5,4 sekundy.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/q8/q8-tfsi-e/my-2022/NeMo-Derivate-Startpage/product-highlight/q8_2020_1453_v3_de.jpg?imwidth=768",
       title2: "Mocne, postępowe, efektowne",
-      text2: "Napęd hybrydowy typu plug-in zapewnia wyjątkowe doznania za kierownicą Audi Q8 TFSi e. Dzięki rekuperacji podczas podróży system odzyskuje energię elektryczną.",
-      image3: "https://www.audi.pl/content/dam/nemo/models/q8/q8-tfsi-e/my-2022/NeMo-Derivate-Startpage/product-highlight/q8_2020_1454_de.jpg?imwidth=768",
+      text2:
+        "Napęd hybrydowy typu plug-in zapewnia wyjątkowe doznania za kierownicą Audi Q8 TFSi e. Dzięki rekuperacji podczas podróży system odzyskuje energię elektryczną.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/q8/q8-tfsi-e/my-2022/NeMo-Derivate-Startpage/product-highlight/q8_2020_1454_de.jpg?imwidth=768",
       title3: "Doświadczenie cyfryzacji",
-      text3: "Wirtualny kokpit Audi, będący częścią wyposażenia standardowego, prezentuje najważniejsze informacje o samochodzie, między innymi całkowitą moc i wybrany tryb jazdy.",
+      text3:
+        "Wirtualny kokpit Audi, będący częścią wyposażenia standardowego, prezentuje najważniejsze informacje o samochodzie, między innymi całkowitą moc i wybrany tryb jazdy.",
     },
   },
   {
@@ -2880,28 +2898,37 @@ export const Audi = [
     instalment: 5424,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4mnsw1/2023.png?imwidth=550",
-    headerImage: "https://www.audi.pl/content/dam/nemo/models/q8/sq8/my-2023/stage/ASQ8_191006_3-S.jpg?imwidth=768",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/q8/sq8/my-2023/stage/ASQ8_191006_3-S.jpg?imwidth=768",
     emission: "294-277",
     consumption: "12,9-12,2 l/100km",
-    fixedBackground: "bg-[url('https://www.audi.pl/content/dam/nemo/models/q8/sq8/my-2023/parallax-teaser/ASQ8_191002_2-S.jpg?imwidth=767')]",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/q8/sq8/my-2023/parallax-teaser/ASQ8_191002_2-S.jpg?imwidth=767')]",
     cardTitle: "Sportowy, Coupe i SUV",
-    cardText: "Progresywna stylistyka, mocny silnik, stały napęd na cztery koła quattro i duży komfort dla wszystkich pasażerów - oto Audi SQ8.",
+    cardText:
+      "Progresywna stylistyka, mocny silnik, stały napęd na cztery koła quattro i duży komfort dla wszystkich pasażerów - oto Audi SQ8.",
     power: {
-      Nm:770,
-      hp:507,
-      kilowatt:373,
-      speed:4.1
+      Nm: 770,
+      hp: 507,
+      kilowatt: 373,
+      speed: 4.1,
     },
     carousel: {
-      image1: "https://www.audi.pl/content/dam/nemo/models/q8/sq8/my-2022/NeMo-Derivative-Startpage/product-highlighted/1920x1920-ASQ8_D_191001_1.jpg?imwidth=768",
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/q8/sq8/my-2022/NeMo-Derivative-Startpage/product-highlighted/1920x1920-ASQ8_D_191001_1.jpg?imwidth=768",
       title1: "Wrażenia z jazdy",
-      text1: "Audi SQ8 łączy najlepsze cechy dynamicznego coupé, emocjonującego samochodu sportowego i potężnego SUV-a.",
-      image2: "https://www.audi.pl/content/dam/nemo/models/q8/sq8/my-2023/product-highlight/ASQ8_191001_2-L.jpg?imwidth=768",
+      text1:
+        "Audi SQ8 łączy najlepsze cechy dynamicznego coupé, emocjonującego samochodu sportowego i potężnego SUV-a.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/q8/sq8/my-2023/product-highlight/ASQ8_191001_2-L.jpg?imwidth=768",
       title2: "Intuicyjna obsługa",
-      text2: "Audi SQ8 standardowo wyposażono w nawigację MMI plus z funkcją MMI touch . Podczas jazdy można wygodnie obsługiwać MMI przy pomocy poleceń głosowych. Dodatkowo MMI Navigation plus oferuje usługi Audi connect, takie jak wyświetlanie map Google czy informacje o ruchu drogowym.",
-      image3: "https://www.audi.pl/content/dam/nemo/models/q8/sq8/my-2022/NeMo-Derivative-Startpage/product-highlighted/1920x1920-ASQ8_D_191002_2.jpg?imwidth=768",
+      text2:
+        "Audi SQ8 standardowo wyposażono w nawigację MMI plus z funkcją MMI touch . Podczas jazdy można wygodnie obsługiwać MMI przy pomocy poleceń głosowych. Dodatkowo MMI Navigation plus oferuje usługi Audi connect, takie jak wyświetlanie map Google czy informacje o ruchu drogowym.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/q8/sq8/my-2022/NeMo-Derivative-Startpage/product-highlighted/1920x1920-ASQ8_D_191002_2.jpg?imwidth=768",
       title3: "Wnętrze",
-      text3: "Oprócz dużej ilości miejsca dla wszystkich pasażerów Audi SQ8 oferuje także eleganckie wnętrze ze sportowymi akcentami.",
+      text3:
+        "Oprócz dużej ilości miejsca dla wszystkich pasażerów Audi SQ8 oferuje także eleganckie wnętrze ze sportowymi akcentami.",
     },
   },
   {
@@ -2915,28 +2942,37 @@ export const Audi = [
     instalment: 8748,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4mnrv2/2023.png?imwidth=550",
-    headerImage: "https://www.audi.pl/content/dam/nemo/models/q8/rs-q8/my-2022/nemo-derivate-startpage/stage/1080x1920-rsq8_2020_1550.jpg?imwidth=768",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/q8/rs-q8/my-2022/nemo-derivate-startpage/stage/1080x1920-rsq8_2020_1550.jpg?imwidth=768",
     emission: "307-300",
     consumption: "13,5-13,2 l/100km",
-    fixedBackground: "bg-[url('https://www.audi.pl/content/dam/nemo/models/q8/rs-q8/my-2022/nemo-derivate-startpage/parallax-teaser/1534x2500-rsq8_2020_1551.jpg?imwidth=767')]",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/q8/rs-q8/my-2022/nemo-derivate-startpage/parallax-teaser/1534x2500-rsq8_2020_1551.jpg?imwidth=767')]",
     cardTitle: "Czyste emocje",
-    cardText: "Najmocniejszy SUV z rodziny Audi Sport: Audi RS Q81. Performance is an attitude.",
+    cardText:
+      "Najmocniejszy SUV z rodziny Audi Sport: Audi RS Q81. Performance is an attitude.",
     power: {
-      speed:3.8,
-      hp:600,
-      kilowatt:441,
-      Nm:800
+      speed: 3.8,
+      hp: 600,
+      kilowatt: 441,
+      Nm: 800,
     },
     carousel: {
-      image1: "https://www.audi.pl/content/dam/nemo/models/q8/rs-q8/my-2022/nemo-derivate-startpage/product-highlight/1920x1920-rsq8_2020_1549.jpg?imwidth=768",
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/q8/rs-q8/my-2022/nemo-derivate-startpage/product-highlight/1920x1920-rsq8_2020_1549.jpg?imwidth=768",
       title1: "Wrażenia z jazdy",
-      text1: "Daj upust emocjom: za kierownicą Audi RS Q8 przyjdzie Ci to z niespotykaną dotąd łatwością. Na życzenie RS Q8 oferuje zwiększenie prędkości maksymalnej do 280 km/h lub 305 km/h (ograniczenie elektroniczne).",
-      image2: "https://www.audi.pl/content/dam/nemo/models/q8/rs-q8/my-2022/nemo-derivate-startpage/product-highlight/1920x1920-rsq8_2020_1558_1.jpg?imwidth=768",
+      text1:
+        "Daj upust emocjom: za kierownicą Audi RS Q8 przyjdzie Ci to z niespotykaną dotąd łatwością. Na życzenie RS Q8 oferuje zwiększenie prędkości maksymalnej do 280 km/h lub 305 km/h (ograniczenie elektroniczne).",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/q8/rs-q8/my-2022/nemo-derivate-startpage/product-highlight/1920x1920-rsq8_2020_1558_1.jpg?imwidth=768",
       title2: "Wnętrze",
-      text2: "Wnętrze Audi RS Q8 jest w całości wyposażone w elementy charakterystyczne dla modeli RS. Opcjonalny pakiet stylistyczny RS z czerwonymi akcentami podkreśla sportowy charakter samochodu.",
-      image3: "https://www.audi.pl/content/dam/nemo/models/q8/rs-q8/my-2022/nemo-derivate-startpage/product-highlight/1920x1920-rsq8_2020_1554.jpg?imwidth=768",
+      text2:
+        "Wnętrze Audi RS Q8 jest w całości wyposażone w elementy charakterystyczne dla modeli RS. Opcjonalny pakiet stylistyczny RS z czerwonymi akcentami podkreśla sportowy charakter samochodu.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/q8/rs-q8/my-2022/nemo-derivate-startpage/product-highlight/1920x1920-rsq8_2020_1554.jpg?imwidth=768",
       title3: "Tak wygląda prawdziwa wielkość",
-      text3: "Oferowane opcjonalnie 23-calowe, 5-ramienne obręcze kół ze stopu metali lekkich w zróżnicowanej stylistyce są w Audi RS Q8 idealnie dopasowane do pakietów optycznych charakterystycznych dla modeli RS.",
+      text3:
+        "Oferowane opcjonalnie 23-calowe, 5-ramienne obręcze kół ze stopu metali lekkich w zróżnicowanej stylistyce są w Audi RS Q8 idealnie dopasowane do pakietów optycznych charakterystycznych dla modeli RS.",
     },
   },
 
@@ -2954,23 +2990,37 @@ export const Audi = [
     instalment: 2586,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fvp08y/2023.png?imwidth=550",
-    headerImage: "",
-    emission: "",
-    consumption: "",
-    fixedBackground: "",
-    cardTitle: "",
-    cardText: "",
-    power: {},
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/tt/tt-coupe/my-2023/stage/ATT_181004_2-S.jpg?imwidth=768",
+    emission: "185-179",
+    consumption: "8,2-7,9 l/100km",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/pl/modele/tt/tt-coupe/2022/aoz_tt_181001_2_570x857.jpg')]",
+    cardTitle: "Ponadczasowa klasyka",
+    cardText:
+      "Po dwóch dekadach od debiutu Audi TT Coupé nadal zachwyca swoją oryginalną stylistyką, przyjemnością z jazdy i bogatym wyposażeniem standardowym.",
+    power: {
+      Nm: 370,
+      speed: 5.1,
+      kilowatt: 180,
+      hp: 245,
+    },
     carousel: {
-      image1: "",
-      title1: "",
-      text1: "",
-      image2: "",
-      title2: "",
-      text2: "",
-      image3: "",
-      title3: "",
-      text3: "",
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/tt/tt-coupe/my-2023/feature-gallery/QTT_191001_2-S.jpg?imwidth=768&imdensity=1",
+      title1: "Jeszcze bardziej niezwykłe",
+      text1:
+        "Spersonalizuj własne Audi TT Coupé, korzystając z szerokiej gamy tapicerek skórzanych, aplikacji dekoracyjnych i lakierów specjalnych z oferty Audi exclusive. Spośród wielu kolorów lakierów możesz wybrać niebieski Utopia metalik.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/tt/tt-coupe/my-2023/feature-gallery/TT_2022_3659-S.jpg?imwidth=768&imdensity=1",
+      title2: "Efektowny wygląd",
+      text2:
+        "Wyjątkowo elegancki wygląd matowego lakieru Audi exclusive w imponujący sposób podkreśla design Audi TT Coupé. Oprócz prezentowanego matowego lakieru szarego Daytona do wyboru jest również lakier matowy srebrny Floret.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/tt/tt-coupe/my-2022/derivate-startpage/feature-gallery/ATT_D_141115_7-s.png?imwidth=768&imdensity=1",
+      title3: "Indywidualność w Twoim guście",
+      text3:
+        "Także wnętrze Audi TT Coupé może zyskać indywidualny charakter dzięki ofercie Audi exclusive: na przykład przez fotele sportowe plus z przodu pokryte czarną tapicerką skórzaną Feinnappa z kontrastującymi przeszyciami w kolorze żółtym.",
     },
   },
   {
@@ -2984,23 +3034,37 @@ export const Audi = [
     instalment: 3172,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fvpsky/2023.png?imwidth=550",
-    headerImage: "",
-    emission: "",
-    consumption: "",
-    fixedBackground: "",
-    cardTitle: "",
-    cardText: "",
-    power: {},
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/tt/tts-coupe/my-2023/stage/ATTS_181002_3-S.jpg?imwidth=768",
+    emission: "190-187",
+    consumption: "8,4-8,2 l/100km",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/pl/modele/tt/tts-coupe/my-2022/ATTS_191003_570x857.jpg')]",
+    cardTitle: "Prawdziwie sportowy charakter",
+    cardText:
+      "Ciesz się sportowym wyglądem nadwozia i wnętrza. Poczuj wyjątkową moc i poznaj dynamiczne właściwości jezdne Audi TTS Coupé.",
+    power: {
+      hp: 320,
+      Nm: 400,
+      kilowatt: 235,
+      speed: 4.5,
+    },
     carousel: {
-      image1: "",
-      title1: "",
-      text1: "",
-      image2: "",
-      title2: "",
-      text2: "",
-      image3: "",
-      title3: "",
-      text3: "",
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/tt/tts-coupe/my-2023/feature-gallery/ATTS_181005_2-S.jpg?imwidth=768&imdensity=1",
+      title1: "Geny samochodu sportowego",
+      text1:
+        "Audi TTS Coupé przyciąga wzrok dzięki swojej unikalnej stylistyce i jest pionierem w dziedzinie technologii. Już od trzech generacji.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/tt/tts-coupe/my-2022/derivative-startpage/feature-gallery/tt_2020_1748-S.jpg?imwidth=768&imdensity=1",
+      title2: "Ulepszony design",
+      text2:
+        "W Audi TTS Coupé z pakietem Bronze selection akcenty są wyjątkowe - wyróżnia się między innymi efektowna osłona chłodnicy Singleframe w kolorze matowym Dark Chrome.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/tt/tts-coupe/my-2023/feature-gallery/ATTS_181001_2-S.jpg?imwidth=768&imdensity=1",
+      title3: "Widzieć i być widzianym",
+      text3:
+        "Dzięki dostępnym opcjonalnie reflektorom Matrix LED z dynamicznymi kierunkowskazami ciągła regulacja świateł drogowych nie jest już konieczna. Reflektory reagują automatycznie na aktualną sytuację na drodze i włączają lub wyłączają poszczególne diody LED.",
     },
   },
 
@@ -3017,23 +3081,37 @@ export const Audi = [
     instalment: undefined,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4sprde/2022.png?imwidth=550",
-    headerImage: "",
-    emission: "",
-    consumption: "",
-    fixedBackground: "",
-    cardTitle: "",
-    cardText: "",
-    power: {},
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/r8/r8-coupe-v10-performance/my-2021/derivative-startpage/stage/1080x1920-audi-r8-coupe-performance-r8_2020_1591.jpg?imwidth=768",
+    emission: "297-293",
+    consumption: "13,1-12,9 l/100km",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/r8/r8-coupe-v10-performance/my-2021/derivative-startpage/parallax-teaser/1534x2500-audi-r8-coupe-performance-r8_2020_1594.jpg?imwidth=767')]",
+    cardTitle: "Nielimitowana porcja energii",
+    cardText:
+      "Performance is an attitude - Audi R8 Coupé V10 performance quattro.",
+    power: {
+      kilowatt: 456,
+      speed: 3.1,
+      hp: 620,
+      Nm: 580,
+    },
     carousel: {
-      image1: "",
-      title1: "",
-      text1: "",
-      image2: "",
-      title2: "",
-      text2: "",
-      image3: "",
-      title3: "",
-      text3: "",
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/r8/r8-coupe-v10-performance/my-2021/derivative-startpage/product-highlight/1920x1920-audi-r8-coupe-performance-r8_2020_1593.jpg?imwidth=768",
+      title1: "Gwarancja maksymalnej wydajności",
+      text1:
+        "Sercem R8 Coupé V10 performance quattro jest potężny silnik wolnossący V10.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/r8/r8-coupe-v10-performance/my-2023/product-highlight/R8_2020_1592_1-L.jpg?imwidth=768",
+      title2: "Koncentracja na dynamice",
+      text2:
+        "Dynamika jazdy z szerokim wachlarzem możliwości: od sportowego zawieszenia ze stabilizatorem CFK poprzez dynamiczny układ kierowniczy aż po ceramiczne tarcze hamulcowe.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/r8/r8-coupe-v10-performance/my-2021/derivative-startpage/product-highlight/1920x1920-audi-r8-coupe-performance-r8_2020_1595.jpg?imwidth=768",
+      title3: "Kontrolowany wulkan mocy",
+      text3:
+        "Silnik wolnossący V10 Audi R8 Coupé V10 performance quattro osiąga maksymalną moc 456 kW. Pozwala to na przyspieszenie od 0 do 100 km/h w 3,1 sekundy i osiągnięcie prędkości maksymalnej 331 km/h.",
     },
   },
   {
@@ -3047,23 +3125,37 @@ export const Audi = [
     instalment: undefined,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4spref/2022.png?imwidth=550",
-    headerImage: "",
-    emission: "",
-    consumption: "",
-    fixedBackground: "",
-    cardTitle: "",
-    cardText: "",
-    power: {},
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/r8/r8-coupe-v10-performance-rwd/my-2022/stage/R8_2021_3003-mobile.jpg?imwidth=768",
+    emission: "293-285",
+    consumption: "12,9-12,6 l/100km",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/r8/r8-spyder-v10-performance-rwd/my-2022/highlighted-car-teaser/570x857-audi-r8-spyder-v10-performance-rwd-car-teaser_2021_3010.jpg')]",
+    cardTitle: "Czysta adrenalina",
+    cardText:
+      "Moc i temperament z napędem na tylne koła - Performance is an attitude",
+    power: {
+      hp: 570,
+      kilowatt: 419,
+      speed: 3.7,
+      Nm: 550,
+    },
     carousel: {
-      image1: "",
-      title1: "",
-      text1: "",
-      image2: "",
-      title2: "",
-      text2: "",
-      image3: "",
-      title3: "",
-      text3: "",
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/r8/r8-coupe-v10-performance-rwd/my-2022/feature-gallery/810x1080-audi-r8-coupe-v10-performance-rwd-driving-R8_2021_3004.jpg?imwidth=768&imdensity=1",
+      title1: "Moc pewnie przeniesiona na drogę",
+      text1:
+        "Opcjonalny dynamiczny układ kierowniczy pozwala w całym zakresie prędkości na niezwykle precyzyjne reakcje kierownicy, ułatwiając zarówno wykonywanie manewrów na krętych drogach jak i parkowanie.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/r8/r8-coupe-v10-performance-rwd/my-2022/feature-gallery/810x1080-audi-r8-coupe-v10-performance-rwd-front-R8_2021_3002.jpg?imwidth=768&imdensity=1",
+      title2: "Postępowy design",
+      text2:
+        "Charakterystyczna osłona chłodnicy z logo R8 nawet w bezruchu zachęca do sportowej jazdy. Efekt ten wzmacniają boczne kanały powietrzne oraz trzy wloty powietrza umieszczone powyżej osłony chłodnicy, stanowiące hołd dla ikony marki - Audi Sport quattro.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/r8/r8-coupe-v10-performance-rwd/my-2022/feature-gallery/810x1080-audi-r8-coupe-v10-performance-rwd-rear-R8_2021_3005.jpg?imwidth=768&imdensity=1",
+      title3: "Nie sposób przejść obojętnie",
+      text3:
+        "Tył, który z miejsca zachwyca. Z wylotami powietrza obejmującymi całą szerokość samochodu, owalnymi końcówkami rur wydechowych w błyszczącej czerni i uniesionym wyżej dyfuzorem. To kolejne dowody na to, że samochód wyprzedza swój czas.",
     },
   },
   {
@@ -3077,23 +3169,31 @@ export const Audi = [
     instalment: undefined,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4srrde/2022.png?imwidth=550",
-    headerImage: "",
-    emission: "",
-    consumption: "",
-    fixedBackground: "",
-    cardTitle: "",
-    cardText: "",
-    power: {},
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/r8/r8-spyder-v10-performance-quattro/my-2021/derivative-startpage/stage/1080x1920-audi-r8-performance-spyder-r8_2020_1630.jpg?imwidth=768",
+    emission: "316-313",
+    consumption: "13,9-13,8 l/100km",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/r8/r8-spyder-v10-performance-quattro/my-2021/derivative-startpage/parallax-teaser/1534x2500-audi-r8-performance-spyder-r8_2020_1631.jpg?imwidth=767')]",
+    cardTitle: "Bez ograniczeń",
+    cardText:
+      "Performance is an attitude - Audi R8 Spyder V10 performance quattro.",
+    power: {
+      Nm: 580,
+      hp: 620,
+      speed: 3.2,
+      kilowatt: 456,
+    },
     carousel: {
-      image1: "",
-      title1: "",
-      text1: "",
-      image2: "",
-      title2: "",
-      text2: "",
-      image3: "",
-      title3: "",
-      text3: "",
+      image1: "https://www.audi.pl/content/dam/nemo/models/r8/r8-spyder-v10-performance-quattro/my-2021/derivative-startpage/product-highlight/1920x1920-r8_2020_1633.jpg?imwidth=768",
+      title1: "Przyjemność z jazdy zdefiniowana na nowo",
+      text1: "Sportowy charakter, unikatowy design i doskonałe osiągi - poczujesz je intensywnie, sprawią Ci ogromną przyjemność podczas jazdy.",
+      image2: "https://www.audi.pl/content/dam/nemo/models/r8/r8-spyder-v10-performance-quattro/my-2021/derivative-startpage/product-highlight/1920x1920-audi-r8-performance-spyder-r8_2020_1634.jpg?imwidth=768",
+      title2: "Dynamika która zachwyca",
+      text2: "W przypadku opcjonalnego zawieszenia sportowego ze stabilizatorem CFK podwójne aluminiowe wahacze trójkątne umożliwiają niezależną pracę każdego z kół. Optymalnie zestrojone wspomaganie układu kierowniczego przenosi w sposób bezpośredni impulsy z kierownicy, zapewniając niezwykle precyzyjną informację zwrotną z podłoża.",
+      image3: "https://www.audi.pl/content/dam/nemo/models/r8/r8-spyder-v10-performance-quattro/my-2021/derivative-startpage/product-highlight/1920x1920-audi-r8-performance-spyder-r8_2020_1636.jpg?imwidth=768",
+      title3: "Koncentracja na dynamice",
+      text3: "Dynamika jazdy z szerokim wachlarzem możliwości: od sportowego zawieszenia ze stabilizatorem CFK poprzez dynamiczny układ kierowniczy aż po ceramiczne tarcze hamulcowe.",
     },
   },
   {
@@ -3107,23 +3207,28 @@ export const Audi = [
     instalment: undefined,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4srref/2022.png?imwidth=550",
-    headerImage: "",
-    emission: "",
-    consumption: "",
-    fixedBackground: "",
-    cardTitle: "",
-    cardText: "",
-    power: {},
+    headerImage: "https://www.audi.pl/content/dam/nemo/models/r8/r8-spyder-v10-performance-rwd/my-2022/stage/1080x1920-audi-r8-spyder-v10-performance-rwd-stage-desktop_2021_3012.jpg?imwidth=768",
+    emission: "313-305",
+    consumption: "13,8-13,4 l/100km",
+    fixedBackground: "bg-[url('https://www.audi.pl/content/dam/nemo/models/r8/r8-spyder-v10-performance-rwd/my-2022/stage-large-image/1080x1920audi-r8-spyder-v10-performance-rwd-textmodule_2021_3013.jpg?imwidth=768')]",
+    cardTitle: "Napęd na tylne koła to nowa perspektywa jazdy",
+    cardText: "Performance is an attitude",
+    power: {
+      Nm:550,
+      hp:570,
+      speed:3.8,
+      kilowatt:419
+    },
     carousel: {
-      image1: "",
-      title1: "",
-      text1: "",
-      image2: "",
-      title2: "",
-      text2: "",
-      image3: "",
-      title3: "",
-      text3: "",
+      image1: "https://www.audi.pl/content/dam/nemo/models/r8/r8-spyder-v10-performance-rwd/my-2022/feature-gallery/810x1080-R8-2021-3105.jpg?imwidth=768&imdensity=1",
+      title1: "Jeszcze bardziej niezwykłe",
+      text1: "Dodaj swojemu Audi R8 Spyder V10 performance RWD jeszcze więcej niepowtarzalnego charakteru dzięki specjalnym lakierom Audi exclusive. Wśród nich jest kolor fioletowy Velvet perłowy.",
+      image2: "https://www.audi.pl/content/dam/nemo/models/r8/r8-spyder-v10-performance-rwd/my-2022/stage-large-image/1080x1920-audi-r8-spyder-v10-performance-rwd-stage-large_seats_2021_3015.jpg?imwidth=768",
+      title2: "Audi exclusive: tak indywidualne jak Ty",
+      text2: "Twoje Audi R8 stanie się jeszcze bardziej ekskluzywne2 dzięki szerokiej palecie matowych lakierów, pakietom stylistycznym i optycznym, jak również bogatej gamie dowolnie konfigurowalnych skórzanych tapicerek.",
+      image3: "https://www.audi.pl/content/dam/nemo/models/r8/r8-spyder-v10-performance-rwd/my-2022/feature-gallery/810x1080-audi-r8-spyder-v10-performance-rwd-front_2021_3010.jpg?imwidth=768&imdensity=1",
+      title3: "Dynamiczna sylwetka",
+      text3: "Charakterystyczna osłona chłodnicy z logo R8 nawet w bezruchu zachęca do sportowej jazdy. Efekt ten potęgują boczne kanały wentylacyjne i trzy wloty powietrza umieszczone powyżej osłony chłodnicy, stanowiące hołd dla ikony marki - Audi Sport quattro.",
     },
   },
   {
@@ -3137,23 +3242,26 @@ export const Audi = [
     instalment: undefined,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4sprdf/2023.png?imwidth=550",
-    headerImage: "",
-    emission: "",
-    consumption: "",
-    fixedBackground: "",
-    cardTitle: "",
-    cardText: "",
-    power: {},
+    headerImage: "https://www.audi.pl/content/dam/nemo/models/r8/r8-gt/my-2023/stage/R8_GT_2022_4290-S.jpg?imwidth=768",
+    emission: "339-341",
+    consumption: "14,9-15,0 l/100km",
+    fixedBackground: "bg-[url('https://www.audi.pl/content/dam/nemo/models/r8/r8-gt/my-2023/parallax-teaser/R8_GT_2022_4295-S.jpg?imwidth=767')]",
+    cardTitle: "Piękna bestia - Audi R8 GT",
+    cardText: "Najwyższa moc silnika, kultowy design: Audi R8 GT2. Limitowane do 333 egzemplarzy.",
+    power: {
+      kilowatt:456,
+      speed:3.4,
+    },
     carousel: {
-      image1: "",
-      title1: "",
-      text1: "",
-      image2: "",
-      title2: "",
-      text2: "",
-      image3: "",
-      title3: "",
-      text3: "",
+      image1: "https://www.audi.pl/content/dam/nemo/models/r8/r8-gt/my-2023/product-highlight/R8_GT_2022_4291-L.jpg?imwidth=768",
+      title1: "Fenomenalna przyczepność",
+      text1: "Zawieszenie sportowe ze stabilizatorem CFK w połączeniu z hamulcami ceramicznymi wraz z ich spektakularnymi właściwościami sprawiają, że pokonywanie krętych odcinków to jedyna w swoim rodzaju przyjemność.",
+      image2: "https://www.audi.pl/content/dam/nemo/models/r8/r8-gt/my-2023/product-highlight/R8_GT_2022_4288-L.jpg?imwidth=768",
+      title2: "Wymarzony napęd na tylne koła",
+      text2: "Najmocniejsze Audi R8 z napędem na tylne koła: od 0 do 100 km/h w 3,4 sekundy.",
+      image3: "https://www.audi.pl/content/dam/nemo/models/r8/r8-gt/my-2023/product-highlight/R8_GT_2022_4287-L.jpg?imwidth=768",
+      title3: "Aerodynamika, która wprawia w zachwyt",
+      text3: "Pakiet Carbon Aerokit imponuje rozwiązaniami optymalizującymi aerodynamikę R8 - od przedniego splittera przez elementy boku po tylny spoiler. Z tyłu wzrok przyciąga sygnatura modelu: R8 GT.",
     },
   },
 ];
