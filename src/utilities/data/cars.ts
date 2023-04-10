@@ -351,7 +351,8 @@ export const Audi = [
       "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback/my-2022/NeMo-Derivate-Startpage/stage/a3_ed1_2020_0995_1-s.jpg?imwidth=768",
     headerImage2:
       "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback/my-2022/NeMo-Derivate-Startpage/stage/a3_ed1_2020_0991_1-xl.jpg?imwidth=768",
-    headerImage3:"https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback/my-2022/NeMo-Derivate-Startpage/stage/a3_ed1_2020_0991_1-xl.jpg?imwidth=1920",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback/my-2022/NeMo-Derivate-Startpage/stage/a3_ed1_2020_0991_1-xl.jpg?imwidth=1920",
     emission: "170-115",
     consumption: "7,5-4,4 l/100km",
     fixedBackground:
@@ -397,8 +398,10 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8yabpx/2021.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback-tfsi-e/my-2022/NeMo-Derivate-Startpage/stage/A3_2020_1059-s.jpg?imwidth=768",
-    headerImage3:"https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback-tfsi-e/my-2022/NeMo-Derivate-Startpage/stage/A3_2020_1059-xl-v2.jpg?imwidth=1920",
-    headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback-tfsi-e/my-2022/NeMo-Derivate-Startpage/stage/A3_2020_1059-xl-v2.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback-tfsi-e/my-2022/NeMo-Derivate-Startpage/stage/A3_2020_1059-xl-v2.jpg?imwidth=1920",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback-tfsi-e/my-2022/NeMo-Derivate-Startpage/stage/A3_2020_1059-xl-v2.jpg?imwidth=768",
     emission: "21-29",
     consumption:
       "Benzyna:1,4-1,3 l/100km | Energia elektryczna: 15,8-15,4 kWh/100km",
@@ -442,8 +445,10 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8ysar/2021.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/a3/a3-limousine/my-2022/NeMo-Derivate-Startpage/stage/A3_2020_1018-mobile.jpg?imwidth=768",
-    headerImage3:"https://www.audi.pl/content/dam/nemo/models/a3/a3-limousine/my-2022/NeMo-Derivate-Startpage/stage/A3_2020_1018.jpg?imwidth=1440",
-    headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/a3-limousine/my-2022/NeMo-Derivate-Startpage/stage/A3_2020_1018.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/a3/a3-limousine/my-2022/NeMo-Derivate-Startpage/stage/A3_2020_1018.jpg?imwidth=1440",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/a3/a3-limousine/my-2022/NeMo-Derivate-Startpage/stage/A3_2020_1018.jpg?imwidth=768",
     emission: "167-111",
     consumption: "7,4-4,3 l/100km",
     fixedBackground:
@@ -488,8 +493,10 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8yas3/2021.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-2022/NeMo-Derivate-Startpage/stage/1080x1920-s3_ed1_2020_1017_1.jpg?imwidth=768",
-headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-2022/NeMo-Derivate-Startpage/stage/1920x1080-s3_ed1_2020_1017_1.jpg?imwidth=768",
-    headerImage3:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-2022/NeMo-Derivate-Startpage/stage/1920x1080-s3_ed1_2020_1017_1.jpg?imwidth=1920",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-2022/NeMo-Derivate-Startpage/stage/1920x1080-s3_ed1_2020_1017_1.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-2022/NeMo-Derivate-Startpage/stage/1920x1080-s3_ed1_2020_1017_1.jpg?imwidth=1920",
     emission: "188-183",
     consumption: "8,3-8,0 l/100km",
     fixedBackground:
@@ -534,8 +541,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8yss3/2021.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/a3/s3-limousine/my-2022/NeMo-Derivate-Startpage/stage/1080x1920-S3_2020_1034_RGB.jpg?imwidth=768",
-    headerImage3:"https://www.audi.pl/content/dam/nemo/models/a3/s3-limousine/my-2022/NeMo-Derivate-Startpage/stage/1920x1080-S3_2020_1034_RGB.jpg?imwidth=1920",
-    headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-limousine/my-2022/NeMo-Derivate-Startpage/stage/1920x1080-S3_2020_1034_RGB.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/a3/s3-limousine/my-2022/NeMo-Derivate-Startpage/stage/1920x1080-S3_2020_1034_RGB.jpg?imwidth=1920",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/a3/s3-limousine/my-2022/NeMo-Derivate-Startpage/stage/1920x1080-S3_2020_1034_RGB.jpg?imwidth=768",
     emission: "183-177",
     consumption: "8,0-7,8 l/100km",
     fixedBackground:
@@ -580,8 +589,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8yarwy/2022.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/a3/rs-3-sportback/my-2022/NeMo-Derivate-Startpage/stage/1080x1920-RS3_2021_3107_LAYERS.jpg?imwidth=768",
-    headerImage3:"https://www.audi.pl/content/dam/nemo/models/a3/rs-3-sportback/my-2022/NeMo-Derivate-Startpage/stage/1920x1080-audi-rs-3-sportback-stage-desktop-RS3_2021_3107.jpg?imwidth=1920",
-    headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/rs-3-sportback/my-2022/NeMo-Derivate-Startpage/stage/1920x1080-audi-rs-3-sportback-stage-desktop-RS3_2021_3107.jpg?imwidth=1024",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/a3/rs-3-sportback/my-2022/NeMo-Derivate-Startpage/stage/1920x1080-audi-rs-3-sportback-stage-desktop-RS3_2021_3107.jpg?imwidth=1920",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/a3/rs-3-sportback/my-2022/NeMo-Derivate-Startpage/stage/1920x1080-audi-rs-3-sportback-stage-desktop-RS3_2021_3107.jpg?imwidth=1024",
     emission: "216-205",
     consumption: "9,5-9,0 l/100km",
     fixedBackground:
@@ -625,6 +636,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8ysrwy/2022.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/a3/rs-3-limousine/my-2022/NeMo-Derivate-Startpage/stage/1080x1920-audi-rs-3-sedan-stage-mobile-RS3_2021_3182.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/a3/rs-3-limousine/my-2022/NeMo-Derivate-Startpage/stage/1920x1080-audi-rs-3-sedan-stage-desktop-RS3_2021_3181.jpg?imwidth=1920",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/a3/rs-3-limousine/my-2022/NeMo-Derivate-Startpage/stage/1920x1080-audi-rs-3-sedan-stage-desktop-RS3_2021_3181.jpg?imwidth=1024",
     emission: "214-202",
     consumption: "9,4-8,9 l/100km",
     fixedBackground:
@@ -671,6 +686,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8wc/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/a4/a4-limousine/my-2023/stage/A4_2020_1972_2-S.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/a4/a4-limousine/my-2023/stage/A4_2020_1972_2-L.jpg?imwidth=1920",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/a4/a4-limousine/my-2023/stage/A4_2020_1972_2-L.jpg?imwidth=768",
     emission: "177-120",
     consumption: "7,8-4,6 l/100km",
     power: {
@@ -715,6 +734,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8wd/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/a4/a4-avant/my-2022/derivative-startpage/stage/1080x1920-2020_1974_1.jpg?imwidth=768",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/a4/a4-avant/my-2022/derivative-startpage/stage/1920x1080-2020_1974_1.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/a4/a4-avant/my-2022/derivative-startpage/stage/1920x1080-2020_1974_1.jpg?imwidth=1920",
     emission: "184-125",
     consumption: "8,1-4,8 l/100km",
     fixedBackground:
@@ -759,6 +782,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8wj/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/a4/a4-allroad-quattro/my-2023/stage/AA4_A_191003_2-S.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/a4/a4-allroad-quattro/my-2023/stage/AA4_A_191003_2-L.jpg?imwidth=1920",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/a4/a4-allroad-quattro/my-2023/stage/AA4_A_191003_2-L.jpg?imwidth=768",
     emission: "183-150",
     consumption: "8,1-5,7 l/100km",
     fixedBackground:
@@ -803,6 +830,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8wcs/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/a4/s4-limousine/my-2023/stage/AS4_L_191001_2-S.jpg?imwidth=768",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/a4/s4-limousine/my-2023/stage/AS4_L_191001_2-L.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/a4/s4-limousine/my-2023/stage/AS4_L_191001_2-L.jpg?imwidth=1920",
     emission: "190-184",
     consumption: "7,2-7,0 l/100km",
     fixedBackground:
@@ -847,6 +878,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8wds/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/a4/s4-avant/my-2023/stage/AS4_A_191003_2-S.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/a4/s4-avant/my-2023/stage/AS4_A_191003_2-L.jpg?imwidth=1920",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/a4/s4-avant/my-2023/stage/AS4_A_191003_2-L.jpg?imwidth=1024",
     emission: "197-188",
     consumption: "7,5-7,2 l/100km",
     power: {
@@ -890,6 +925,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8wdr/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/a4/rs-4-avant/my-2022/derivative-startpage/stage/1080x1920-rs4_2020_1499.jpg?imwidth=768",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/a4/rs-4-avant/my-2022/derivative-startpage/stage/1920x1080-rs4_2020_1499.jpg?imwidth=1024",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/a4/rs-4-avant/my-2022/derivative-startpage/stage/1920x1080-rs4_2020_1499.jpg?imwidth=1920",
     emission: "229-220",
     consumption: "10,1-9,7 l/100km",
     power: {
@@ -936,6 +975,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f5pbzg/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/a5/a5-coupe/my-2022/derivative-startpage/stage/1080x1920-a5_2021_2861_Stage_Mobile.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/a5/a5-coupe/my-2022/derivative-startpage/stage/1920x1080-AA5_191009_2.jpg?imwidth=1920",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/a5/a5-coupe/my-2022/derivative-startpage/stage/1920x1080-AA5_191009_2.jpg?imwidth=768",
     emission: "175-123",
     consumption: "7,7-4,7 l/100km",
     power: {
@@ -979,6 +1022,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f5fbzg/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/a5/a5-sportback/my-2023/stage/AOZ_A5_191006_2-s.jpg?imwidth=768",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/a5/a5-sportback/my-2023/stage/A5_2020_1985_1-l.jpg?imwidth=1024",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/a5/a5-sportback/my-2023/stage/A5_2020_1985_1-l.jpg?imwidth=1920",
     emission: "178-124",
     consumption: "7,9-4,7 l/100km",
     power: {
@@ -1022,6 +1069,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f5ps5a/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/a5/s5-coupe/my-2022/derivate-startpage/stage/AS5_191001_2-S.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/a5/s5-coupe/my-2022/derivate-startpage/stage/AS5_191001_2-L.jpg?imwidth=1920",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/a5/s5-coupe/my-2022/derivate-startpage/stage/AS5_191001_2-L.jpg?imwidth=1024",
     emission: "191-183",
     consumption: "7,3-7,0 l/100km",
     power: {
@@ -1066,6 +1117,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f5fs5a/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/a5/s5-sportback/my-2023/stage/AS5_SB_191003_2-S.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/a5/s5-sportback/my-2023/stage/AS5_SB_191003_2-L.jpg?imwidth=1920",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/a5/s5-sportback/my-2023/stage/AS5_SB_191003_2-L.jpg?imwidth=1440",
     emission: "194-186",
     consumption: "7,4-7,1 l/100km",
     power: {
@@ -1157,6 +1212,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f5frxa/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/a5/rs-5-sportback/my-2022/derivate-startpage/stage/1080x1920-rs5_2020_1519.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/a5/rs-5-sportback/my-2022/derivate-startpage/stage/1920x1080-rs5_2020_1519.jpg?imwidth=1920",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/a5/rs-5-sportback/my-2022/derivate-startpage/stage/1920x1080-rs5_2020_1519.jpg?imwidth=1024",
     emission: "226-217",
     consumption: "10,0-9,6 l/100km",
     power: {
@@ -1204,6 +1263,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4a2a/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/a6/a6-limousine/my-2022/derivative-startpage/stage/1080x1920-AA6_L_181012_2.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/a6/a6-limousine/my-2022/derivative-startpage/stage/1920x1080-AA6_L_181012_2.jpg?imwidth=1920",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/a6/a6-limousine/my-2022/derivative-startpage/stage/1920x1080-AA6_L_181012_2.jpg?imwidth=1024",
     emission: "200-131",
     consumption: "8,8-5,0 l/100km",
     fixedBackground:
@@ -1248,6 +1311,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4a2bqy/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/a6/a6-limousine-tfsi-e/my-2023/stage/AA6_TFSIe_191001_2-S.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/a6/a6-limousine-tfsi-e/my-2023/stage/AA6_TFSIe_191001_2-L.jpg?imwidth=1920",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/a6/a6-limousine-tfsi-e/my-2023/stage/AA6_TFSIe_191001_2-L.jpg?imwidth=768",
     emission: "36-24",
     consumption:
       "Benzyna: 1,6-1,1 l/100km | Energia elektryczna: 21,1-18,6 kWh/100 km",
@@ -1292,6 +1359,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4a5a2/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/a6/a6-avant/my-2022/derivativ-startpage/stage/1080x1920-AA6_A_181001_2.jpg?imwidth=768",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/a6/a6-avant/my-2022/derivativ-startpage/stage/AA6_A_181001_2-L.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/a6/a6-avant/my-2022/derivativ-startpage/stage/AA6_A_181001_2-L.jpg?imwidth=1920",
     emission: "206-138",
     consumption: "9,0-5,3 l/100km",
     fixedBackground:
@@ -1336,6 +1407,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4a5bqy/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/a6/a6-avant-tfsi-e/my-2022/derivative-startpage/stage/1080x1920-audi-a6-avant-tfsi-e-AA6_TFSIe_191004_2.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/a6/a6-avant-tfsi-e/my-2022/derivative-startpage/stage/1920x1080-audi-a6-avant-tfsi-e-AA6_TFSIe_191003_1.jpg?imwidth=1920",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/a6/a6-avant-tfsi-e/my-2022/derivative-startpage/stage/1920x1080-audi-a6-avant-tfsi-e-AA6_TFSIe_191003_1.jpg?imwidth=1024",
     emission: "38-31",
     consumption:
       "Benzyna: 1,7-1,4 l/100km | Energia elektryczna: 21,5-19,9 kWh/100 km",
@@ -1381,6 +1456,11 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4aha/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/a6/a6-allroad-quattro/my-2023/stage/AA6_181018_3-s.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/a6/a6-allroad-quattro/my-2023/stage/AA6_181018_3-l.jpg?imwidth=1920",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/a6/a6-allroad-quattro/my-2023/stage/AA6_181018_3-l.jpg?imwidth=1024",
+
     emission: "208-152",
     consumption: "9,1-5,8 l/100km",
     fixedBackground:
@@ -1425,6 +1505,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4a5sv/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/a6/s6-avant/my-2022/derivativ-startpage/stage/1080x1920-s6-AS6_A_181006_2.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/a6/s6-avant/my-2022/derivativ-startpage/stage/1920x1080-AS6_A_181006_2.jpg?imwidth=1920",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/a6/s6-avant/my-2022/derivativ-startpage/stage/1920x1080-AS6_A_181006_2.jpg?imwidth=1024",
     emission: "195-187",
     consumption: "7,5-7,1 l/100km",
     fixedBackground:
@@ -1469,6 +1553,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4a2sv/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/a6/s6-limousine/my-2023/stage/AS6_L_181006_2-s.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/a6/s6-limousine/my-2023/stage/AS6_L_181006_2-l.jpg?imwidth=1920",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/a6/s6-limousine/my-2023/stage/AS6_L_181006_2-l.jpg?imwidth=1024",
     emission: "191-182",
     consumption: "7,3-6,9 l/100km",
     fixedBackground:
@@ -1512,6 +1600,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4a5rca/2021.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/a6/rs-6-avant/my-2022/derivativ-startpage/stage/1080x1920-rs6_2020_1530.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/a6/rs-6-avant/my-2022/derivativ-startpage/stage/1920x1080-rs6_2020_1530.jpg?imwidth=1920",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/a6/rs-6-avant/my-2022/derivativ-startpage/stage/1920x1080-rs6_2020_1530.jpg?imwidth=1024",
     emission: "289-276",
     consumption: "12,7-12,1 l/100km",
     fixedBackground:
@@ -1555,6 +1647,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4a5rrae/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/a6/rs-6-avant-performance/my-2023/stage/RS_6_2022_4341-S.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/a6/rs-6-avant-performance/my-2023/stage/RS_6_2022_4341-L_v2.jpg?imwidth=1440",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/a6/rs-6-avant-performance/my-2023/stage/RS_6_2022_4341-L_v2.jpg?imwidth=1024",
     emission: "289-277",
     consumption: "12,7-12,2 l/100km",
     fixedBackground:
@@ -1602,6 +1698,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4ka02y/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/a7/a7-sportback/my-2022/NeMo-Derivate-Startpage/Stage/AA7_171009_1-s.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/a7/a7-sportback/my-2022/NeMo-Derivate-Startpage/Stage/AA7_171009_1-xl.jpg?imwidth=1920",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/a7/a7-sportback/my-2022/NeMo-Derivate-Startpage/Stage/AA7_171009_1-xl.jpg?imwidth=768",
     emission: "204-137",
     consumption: "9,0-5,2 l/100km",
     fixedBackground:
@@ -1646,6 +1746,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4ka0qy/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/a7/a7-sportback-tfsi-e/my-2022/derivative-startpage/stage/1080x1920-audi-a7-sportback-tfsi-e-AA7_TFSIe_191005_1.jpg?imwidth=768",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/a7/a7-sportback-tfsi-e/my-2022/derivative-startpage/stage/1920x1080-audi-a7-sportback-tfsi-e-AA7_TFSIe_191005_1.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/a7/a7-sportback-tfsi-e/my-2022/derivative-startpage/stage/1920x1080-audi-a7-sportback-tfsi-e-AA7_TFSIe_191005_1.jpg?imwidth=1920",
     emission: "36-29",
     consumption:
       "Benzyna: 1,6-1,3 l/100km | Energia elektryczna: 21,3-19,5 kWh/100 km",
@@ -1691,6 +1795,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4kaspa/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/a7/s7-sportback/my-2022/derivate-startpage/Stage/1080x1920-as7_181003_2.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/a7/s7-sportback/my-2022/derivate-startpage/Stage/1920x1080-as7_181003_2.jpg?imwidth=1920",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/a7/s7-sportback/my-2022/derivate-startpage/Stage/1920x1080-as7_181003_2.jpg?imwidth=1024",
     emission: "195-186",
     consumption: "7,5-7,1 l/100km",
     fixedBackground:
@@ -1735,13 +1843,17 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4karca/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/a7/rs-7-sportback/my-2022/nemo-derivate-startpage/stage/1080x1920-rs7_2020_1539.jpg?imwidth=768",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/a7/rs-7-sportback/my-2022/nemo-derivate-startpage/stage/1920x1080-rs7_2020_1539.jpg?imwidth=1024",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/a7/rs-7-sportback/my-2022/nemo-derivate-startpage/stage/1920x1080-rs7_2020_1539.jpg?imwidth=1920",
     emission: "285-272",
     consumption: "12,6-12,0 l/100km",
     fixedBackground:
       "bg-[url('https://www.audi.pl/content/dam/nemo/models/a7/rs-7-sportback/my-2022/nemo-derivate-startpage/parallax-teaser/1534x2500-rs7_2020_1542.jpg?imwidth=767')]",
     cardTitle: "Podążać za wizją",
     cardText:
-      "Żywiołowe i nieokiełznane, a przy tym eleganckie i pewne w prowadzeniu – za kierownicą Audi RS 7 Sportback1 nie musisz godzić się na kompromisy.",
+      "Żywiołowe i nieokiełznane, a przy tym eleganckie i pewne w prowadzeniu - za kierownicą Audi RS 7 Sportback1 nie musisz godzić się na kompromisy.",
     power: {
       speed: 3.6,
       Nm: 800,
@@ -1779,6 +1891,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4karra/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/a7/rs-7-sportback-performance/my-2023/stage/RS_7_2022_4371-S.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/a7/rs-7-sportback-performance/my-2023/stage/RS_7_2022_4371-L_v2.jpg?imwidth=1920",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/a7/rs-7-sportback-performance/my-2023/stage/RS_7_2022_4371-L_v2.jpg?imwidth=1024",
     emission: "284-273",
     consumption: "12,5-12,0 l/100km",
     fixedBackground:
@@ -1826,6 +1942,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4nc0da/2022.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/a8/a8/my-2022-pa/nemo-derivate-startpage/stage/1080x1920-A8_2021_3211.jpg?imwidth=768",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/a8/a8/my-2022-pa/nemo-derivate-startpage/stage/A8_2021_3211_withoutCast-xl.jpg?imwidth=1024",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/a8/a8/my-2022-pa/nemo-derivate-startpage/stage/A8_2021_3211_withoutCast-xl.jpg?imwidth=1920",
     emission: "274-183",
     consumption: "12,1-7,0 l/100km",
     power: {
@@ -1870,6 +1990,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4nc0ha/2022.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/a8/a8-tfsi-e/my-2022-pa/nemo-derivate-startpage/stage/A8_2021_3232_V1-s.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/a8/a8-tfsi-e/my-2022-pa/nemo-derivate-startpage/stage/A8_2021_3232_V1xl.jpg?imwidth=1920",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/a8/a8-tfsi-e/my-2022-pa/nemo-derivate-startpage/stage/A8_2021_3232_V1xl.jpg?imwidth=1024",
     emission: "49-40",
     consumption:
       "Benzyna: 2,1-1,8 l/100km | Energia elektryczna: 23,7-22,0 kWh/100 km",
@@ -1915,6 +2039,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4nl0da/2022.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/a8/a8-l/my-2022-pa/nemo-derivate-startpage/stage/A8_2021_3275_V1_withoutCast-s.jpg?imwidth=768",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/a8/a8-l/my-2022-pa/nemo-derivate-startpage/stage/A8_2021_3275_V1_withoutCast-xl.jpg?imwidth=1024",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/a8/a8-l/my-2022-pa/nemo-derivate-startpage/stage/A8_2021_3275_V1_withoutCast-xl.jpg?imwidth=1920",
     emission: "277-185",
     consumption: "12,2-7,0 l/100km",
     power: {
@@ -1959,6 +2087,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4nl0ha/2022.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/a8/a8-l-tfsi-e/my-2022-pa/nemo-derivate-startpage/stage/A8_2021_3311-s.jpg?imwidth=768",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/a8/a8-l-tfsi-e/my-2022-pa/nemo-derivate-startpage/stage/A8_2021_3311-xl.jpg?imwidth=1024",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/a8/a8-l-tfsi-e/my-2022-pa/nemo-derivate-startpage/stage/A8_2021_3311-xl.jpg?imwidth=1920",
     emission: "49-40",
     consumption:
       "Benzyna: 2,2-1,8 l/100km | Energia elektryczna: 23,9-22,1 kWh/100 km",
@@ -2004,6 +2136,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4ncssa/2022.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/a8/s8/my-2022-pa/nemo-derivate-startpage/stage/1080x1920-S8_2021_3261.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/a8/s8/my-2022-pa/nemo-derivate-startpage/stage/S8_2021_3261-xl.jpg?imwidth=1920",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/a8/s8/my-2022-pa/nemo-derivate-startpage/stage/S8_2021_3261-xl.jpg?imwidth=768",
     emission: "",
     consumption: "",
     power: {
@@ -2051,6 +2187,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/gagbzg/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/q2/q2/my-2022/NeMo-Derivate-Startpage/stage/1080x1920-q2_2020_1253_female.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/q2/q2/my-2022/NeMo-Derivate-Startpage/stage/1920x1080-q2_2020_1253_female.jpg?imwidth=1920",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/q2/q2/my-2022/NeMo-Derivate-Startpage/stage/1920x1080-q2_2020_1253_female.jpg?imwidth=768",
     emission: "178-130",
     consumption: "7,9-5,7 l/100km",
     power: {
@@ -2098,6 +2238,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f3bbky/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/q3/q3/my-2022/derivative-startpage/stage-large-image/1080x1920-eciRGBv2_2018_Audi_Q3_St_Johns_AL_14_No_Sign.jpg?imwidth=768",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/q3/q3/my-2022/derivative-startpage/stage/1920x1080-audi-q3-eciRGBv2_2018_Audi_Q3_St_Johns_AL_14_No_Sign.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/q3/q3/my-2022/derivative-startpage/stage/1920x1080-audi-q3-eciRGBv2_2018_Audi_Q3_St_Johns_AL_14_No_Sign.jpg?imwidth=768",
     emission: "201-131",
     consumption: "8,8-5,0 l/100km",
     power: {
@@ -2142,6 +2286,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f3bapx/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/q3/q3-tfsi-e/my-2022/derivative-startpage/stage/1080x1920-audi-q3-tfsi-e-mobile-q3_2020_1425_v3.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/q3/q3-tfsi-e/my-2022/derivative-startpage/stage/1920x1080-audi-q3-tfsi-e-stage-q3_2020_1425_v3.jpg?imwidth=1920",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/q3/q3-tfsi-e/my-2022/derivative-startpage/stage/1920x1080-audi-q3-tfsi-e-stage-q3_2020_1425_v3.jpg?imwidth=1024",
     emission: "47-37",
     consumption:
       "Benzyna: 2,1-1,6 l/100km | Energia elektryczna: 17,2-15,9 kWh/100 km",
@@ -2186,6 +2334,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f3ncky/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/q3/q3-sportback/my-2022/NeMo-Derivate-Startpage/stage/1080x1920-aq3_191008_v3.jpg?imwidth=768",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/q3/q3-sportback/my-2022/NeMo-Derivate-Startpage/stage/1920x1080-aq3_191008_v3.jpg?imwidth=1024",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/q3/q3-sportback/my-2022/NeMo-Derivate-Startpage/stage/1920x1080-aq3_191008_v3.jpg?imwidth=1920",
     emission: "199-132",
     consumption: "8,8-5,0 l/100km",
     power: {
@@ -2230,6 +2382,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f3napx/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/q3/q3-sportback-tfsi-e/my-2022/derivattive-startpage/stage/q3_2020_1405_v2-s.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/q3/q3-sportback-tfsi-e/my-2022/derivattive-startpage/stage/1920x1080-q3_2020_1405_v2_1.jpg?imwidth=1920",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/q3/q3-sportback-tfsi-e/my-2022/derivattive-startpage/stage/1920x1080-q3_2020_1405_v2_1.jpg?imwidth=1024",
     emission: "46-37",
     consumption:
       "Benzyna: 2,0-1,6 l/100km | Energia elektryczna: 17,0-16,0 kWh/100 km",
@@ -2275,6 +2431,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f3brwy/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/q3/rs-q3/my-2022/NeMo-Derivate-Startpage/stage/1080x1920-rsq3_2020_1479.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/q3/rs-q3/my-2022/NeMo-Derivate-Startpage/stage/1920x1080-rsq3_2020_1479.jpg?imwidth=1920",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/q3/rs-q3/my-2022/NeMo-Derivate-Startpage/stage/1920x1080-rsq3_2020_1479.jpg?imwidth=1024",
     emission: "228-217",
     consumption: "10,0-9,5 l/100km",
     power: {
@@ -2318,6 +2478,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f3nrwy/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/q3/rs-q3-sportback/my-2022/nemo-derivate-startpage/stage/rsq3_2020_1496-stage-mobile.jpg?imwidth=768",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/q3/rs-q3-sportback/my-2022/nemo-derivate-startpage/stage/1920x1080-rsq3_2020_1489_mann_crop.jpg?imwidth=1024",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/q3/rs-q3-sportback/my-2022/nemo-derivate-startpage/stage/1920x1080-rsq3_2020_1489_mann_crop.jpg?imwidth=1920",
     emission: "228-218",
     consumption: "10,0-9,6 l/100km",
     power: {
@@ -2365,6 +2529,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f4b/2022.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/q4-e-tron/q4-e-tron/my-2022/NeMo-Derivate-Startpage/stage/Q4_2021_2506-mobile.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/q4-e-tron/q4-e-tron/my-2022/NeMo-Derivate-Startpage/stage/audi-q4-e-tron-stage-desktop.jpg?imwidth=1920",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/q4-e-tron/q4-e-tron/my-2022/NeMo-Derivate-Startpage/stage/audi-q4-e-tron-stage-desktop.jpg?imwidth=768",
     emission: "0-0",
     consumption: "20,2-16,6 kWh/100km",
     power: {
@@ -2408,6 +2576,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f4n/2022.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/q4-e-tron/q4-e-tron-sportback/my-2022/NeMo-Derivate-Startpage/stage/Q4_2021_2549-mobile.jpg?imwidth=768",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/pl/modele/q4-e-tron/q4-e-tron-sportback/my-2022/01_Stage_Desktop-UPDATE.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/pl/modele/q4-e-tron/q4-e-tron-sportback/my-2022/01_Stage_Desktop-UPDATE.jpg?imwidth=1920",
     emission: "0-0",
     consumption: "19,7-16,2 kWh/100km",
     power: {
@@ -2454,6 +2626,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fygbuy/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/q5/q5/my-2022/derivative-startpage/stage/Q5_2020_2160-s.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/q5/q5/my-2022/derivative-startpage/stage/Q5_2020_2160-xl.jpg?imwidth=1920",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/q5/q5/my-2022/derivative-startpage/stage/Q5_2020_2160-xl.jpg?imwidth=1024",
     emission: "208-146",
     consumption: "9,2-5,6 l/100km",
     power: {
@@ -2498,6 +2674,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fygb9y/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/q5/q5-tfsi-e/my-2022/NeMo-Derivate-Startpage/Stage/1080x1920-q5_2020_2167.jpg?imwidth=768",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/q5/q5-tfsi-e/my-2022/NeMo-Derivate-Startpage/Stage/1920x1080-q5_2020_2167.jpg?imwidth=1024",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/q5/q5-tfsi-e/my-2022/NeMo-Derivate-Startpage/Stage/1920x1080-q5_2020_2167.jpg?imwidth=1920",
     emission: "42-35",
     consumption:
       "Benzyna: 1,8-1,5 l/100km | Energia elektryczna: 23,3-22,0 kWh/100 km",
@@ -2543,6 +2723,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fytbuy/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/q5/q5-sportback/my-2022/NeMo-Derivate-Startpage/Stage/q5_2020_1349-s.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/q5/q5-sportback/my-2022/NeMo-Derivate-Startpage/Stage/q5_2020_2190-xl.jpg?imwidth=1920",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/q5/q5-sportback/my-2022/NeMo-Derivate-Startpage/Stage/q5_2020_2190-xl.jpg?imwidth=1024",
     emission: "207-147",
     consumption: "9,1-5,6 l/100km",
     power: {
@@ -2587,6 +2771,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fytb9y/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/q5/q5-sportback-tfsi-e/my-2022/NeMo-Derivate-Startpage/Stage/q5_2020_2213-s.jpg?imwidth=768",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/q5/q5-sportback-tfsi-e/my-2022/NeMo-Derivate-Startpage/Stage/q5_2020_2213-xl.jpg?imwidth=1024",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/q5/q5-sportback-tfsi-e/my-2022/NeMo-Derivate-Startpage/Stage/q5_2020_2213-xl.jpg?imwidth=1920",
     emission: "42-35",
     consumption:
       "Benzyna: 1,9-1,6 l/100km | Energia elektryczna: 23,4-22,1 kWh/100 km",
@@ -2632,6 +2820,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fygs5a/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/q5/sq5/my-2022/NeMo-Derivate-Startpage/stage/sq5_2020_2180-s.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/q5/sq5/my-2022/NeMo-Derivate-Startpage/stage/sq5_2020_2180-xl.jpg?imwidth=1920",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/q5/sq5/my-2022/NeMo-Derivate-Startpage/stage/sq5_2020_2180-xl.jpg?imwidth=1024",
     emission: "223-212",
     consumption: "8,5-8,1 l/100km",
     power: {
@@ -2676,6 +2868,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fyts5a/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/q5/sq5-sportback/my-2022/derivate-startpage/stage/1080x1920-sq5_2020_1375.jpg?imwidth=768",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/q5/sq5-sportback/my-2022/derivate-startpage/stage/1920x1080-sq5_2020_1375.jpg?imwidth=1024",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/q5/sq5-sportback/my-2022/derivate-startpage/stage/1920x1080-sq5_2020_1375.jpg?imwidth=1920",
     emission: "223-212",
     consumption: "8,5-8,1 l/100km",
     power: {
@@ -2723,6 +2919,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4mgcb2/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/q7/q7/my-2022/NeMo-Derivate-Startpage/stage/1080x1920-Q7_2020_1986.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/q7/q7/my-2022/NeMo-Derivate-Startpage/stage/1920x1080-Q7_2020_1986.jpg?imwidth=1920",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/q7/q7/my-2022/NeMo-Derivate-Startpage/stage/1920x1080-Q7_2020_1986.jpg?imwidth=1024",
     emission: "255-204",
     consumption: "11,2-7,8 l/100km",
     fixedBackground:
@@ -2766,6 +2966,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4mgcy3/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/q7/q7-tfsi-e/my-2022/NeMo-Derivate-Startpage/Stage/1080x1920-audi-AQ7-front-191005.jpg?imwidth=768",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/q7/q7-tfsi-e/my-2022/NeMo-Derivate-Startpage/Stage/1920x1080-audi-AQ7-front-191005.jpg?imwidth=1024",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/q7/q7-tfsi-e/my-2022/NeMo-Derivate-Startpage/Stage/1920x1080-audi-AQ7-front-191005.jpg?imwidth=1920",
     emission: "52-46",
     consumption:
       "Benzyna: 2,3-2,0 l/100km | Energia elektryczna: 24,1-23,2 kWh/100 km",
@@ -2809,6 +3013,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4mgsw1/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/q7/sq7-tdi/my-2023/stage/ASQ7_191003_2-S.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/q7/sq7-tdi/my-2023/stage/ASQ7_191003_2-L.jpg?imwidth=1920",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/q7/sq7-tdi/my-2023/stage/ASQ7_191003_2-L.jpg?imwidth=1024",
     emission: "290-273",
     consumption: "12,8-12,0 l/100km",
     fixedBackground:
@@ -2856,6 +3064,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4mn0b2/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/q8/q8/my-2022/nemo-derivate-startpage/stage/AQ8_181028-mobile.jpg?imwidth=768",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/q8/q8/my-2022/nemo-derivate-startpage/stage/aq8_181010_2-xl.jpg?imwidth=1024",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/q8/q8/my-2022/nemo-derivate-startpage/stage/aq8_181010_2-xl.jpg?imwidth=1920",
     emission: "256-210",
     consumption: "11,2-8,0 l/100km",
     fixedBackground:
@@ -2900,6 +3112,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4mn0y3/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/q8/q8-tfsi-e/my-2022/NeMo-Derivate-Startpage/Stage/Q8_2020_1446-s.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/q8/q8-tfsi-e/my-2022/NeMo-Derivate-Startpage/Stage/q8_2020_1445_v1-xl.jpg?imwidth=1920",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/q8/q8-tfsi-e/my-2022/NeMo-Derivate-Startpage/Stage/q8_2020_1445_v1-xl.jpg?imwidth=768",
     emission: "60-48",
     consumption:
       "Benzyna: 2,6-2,1 l/100km | Energia elektryczna: 25,2-23,5 kWh/100 km",
@@ -2944,6 +3160,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4mnsw1/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/q8/sq8/my-2023/stage/ASQ8_191006_3-S.jpg?imwidth=768",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/q8/sq8/my-2023/stage/ASQ8_191006_3-L.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/q8/sq8/my-2023/stage/ASQ8_191006_3-L.jpg?imwidth=768",
     emission: "294-277",
     consumption: "12,9-12,2 l/100km",
     fixedBackground:
@@ -2988,6 +3208,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4mnrv2/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/q8/rs-q8/my-2022/nemo-derivate-startpage/stage/1080x1920-rsq8_2020_1550.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/q8/rs-q8/my-2022/nemo-derivate-startpage/stage/1920x1080-rsq8_2020_1550.jpg?imwidth=1920",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/q8/rs-q8/my-2022/nemo-derivate-startpage/stage/1920x1080-rsq8_2020_1550.jpg?imwidth=768",
     emission: "307-300",
     consumption: "13,5-13,2 l/100km",
     fixedBackground:
@@ -3036,6 +3260,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fvp08y/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/tt/tt-coupe/my-2023/stage/ATT_181004_2-S.jpg?imwidth=768",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/tt/tt-coupe/my-2023/stage/ATT_181004_2-L.jpg?imwidth=1440",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/tt/tt-coupe/my-2023/stage/ATT_181004_2-L.jpg?imwidth=1920",
     emission: "185-179",
     consumption: "8,2-7,9 l/100km",
     fixedBackground:
@@ -3080,6 +3308,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/fvpsky/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/tt/tts-coupe/my-2023/stage/ATTS_181002_3-S.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/tt/tts-coupe/my-2023/stage/ATTS_181002_3-L.jpg?imwidth=1920",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/tt/tts-coupe/my-2023/stage/ATTS_181002_3-L.jpg?imwidth=768",
     emission: "190-187",
     consumption: "8,4-8,2 l/100km",
     fixedBackground:
@@ -3127,6 +3359,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4sprde/2022.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/r8/r8-coupe-v10-performance/my-2021/derivative-startpage/stage/1080x1920-audi-r8-coupe-performance-r8_2020_1591.jpg?imwidth=768",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/r8/r8-coupe-v10-performance/my-2021/derivative-startpage/stage/1920x1080-audi-r8-coupe-performance-r8_2020_1591.jpg?imwidth=1024",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/r8/r8-coupe-v10-performance/my-2021/derivative-startpage/stage/1920x1080-audi-r8-coupe-performance-r8_2020_1591.jpg?imwidth=1920",
     emission: "297-293",
     consumption: "13,1-12,9 l/100km",
     fixedBackground:
@@ -3171,6 +3407,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4spref/2022.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/r8/r8-coupe-v10-performance-rwd/my-2022/stage/R8_2021_3003-mobile.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/r8/r8-coupe-v10-performance-rwd/my-2022/stage/1920x1080-r8-coupe-v10-performance-rwd-rear-R8_2021_3003.jpg?imwidth=1920",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/r8/r8-coupe-v10-performance-rwd/my-2022/stage/1920x1080-r8-coupe-v10-performance-rwd-rear-R8_2021_3003.jpg?imwidth=768",
     emission: "293-285",
     consumption: "12,9-12,6 l/100km",
     fixedBackground:
@@ -3215,6 +3455,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4srrde/2022.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/r8/r8-spyder-v10-performance-quattro/my-2021/derivative-startpage/stage/1080x1920-audi-r8-performance-spyder-r8_2020_1630.jpg?imwidth=768",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/r8/r8-spyder-v10-performance-quattro/my-2021/derivative-startpage/stage/1920x1080-audi-r8-performance-spyder-r8_2020_1630.jpg?imwidth=1024",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/r8/r8-spyder-v10-performance-quattro/my-2021/derivative-startpage/stage/1920x1080-audi-r8-performance-spyder-r8_2020_1630.jpg?imwidth=1920",
     emission: "316-313",
     consumption: "13,9-13,8 l/100km",
     fixedBackground:
@@ -3259,6 +3503,11 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4srref/2022.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/r8/r8-spyder-v10-performance-rwd/my-2022/stage/1080x1920-audi-r8-spyder-v10-performance-rwd-stage-desktop_2021_3012.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/r8/r8-spyder-v10-performance-rwd/my-2022/stage/1920x1080-audi-r8-spyder-v10-performance-rwdr-stage-desktop_2021_3012.jpg?imwidth=1920",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/r8/r8-spyder-v10-performance-rwd/my-2022/stage/1920x1080-audi-r8-spyder-v10-performance-rwdr-stage-desktop_2021_3012.jpg?imwidth=1024",
+
     emission: "313-305",
     consumption: "13,8-13,4 l/100km",
     fixedBackground:
@@ -3302,6 +3551,10 @@ headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-202
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4sprdf/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/r8/r8-gt/my-2023/stage/R8_GT_2022_4290-S.jpg?imwidth=768",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/r8/r8-gt/my-2023/stage/R8_GT_2022_4290-L.jpg?imwidth=1024",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/r8/r8-gt/my-2023/stage/R8_GT_2022_4290-L.jpg?imwidth=1920",
     emission: "339-341",
     consumption: "14,9-15,0 l/100km",
     fixedBackground:
