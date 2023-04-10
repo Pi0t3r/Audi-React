@@ -16,8 +16,8 @@ function Models() {
   };
 
   return (
-    <div>
-      <Nav />
+    <div className="max-w-7xl">
+        <Nav />
       <div className="mt-16">
         <div
           className={`text-4xl py-10 pl-5 ease-in duration-300 ${
@@ -53,7 +53,7 @@ function Models() {
         <div
           className={`w-full ${
             isDarkMode ? "bg-[#1c1c1c]" : "bg-[#f2f2f2]"
-          } pb-10`}
+          } pb-10 pl-10`}
         >
           <ModelsComponent setTheme={isDarkMode} />
         </div>

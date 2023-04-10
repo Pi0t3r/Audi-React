@@ -5,6 +5,20 @@ import DarkModeIcon from "@mui/icons-material/DarkMode";
 import { themeLight, themeDark } from "../utilities/style/theme";
 import Sidebar from "../components/Sidebar";
 import { ThemeContext } from "../utilities/style/ThemeContext";
+
+interface iItem {
+  name: string;
+  href?: string;
+}
+
+const Item = ({ name, href }: iItem) => {
+  return (
+    <li className="font-medium hover:text-neutral-400 cursor-pointer ease-in duration-300">
+      <a href={href}>{name}</a>
+    </li>
+  );
+};
+
 function Nav() {
   const { isDarkMode, setIsDarkMode } = useContext(ThemeContext);
   const [move, setMove] = useState<boolean>(false);
@@ -12,7 +26,7 @@ function Nav() {
     setMove(!move);
   };
   return (
-    <div className="h-16 fixed left-0 right-0 z-10 top-0 shadow-[0_14px_20px_5px_#959595] max-w-7xl mx-auto">
+    <div className="h-16 fixed left-0 right-0 z-10 top-0 shadow-[0_14px_20px_5px_#959595] max-w-7xl mx-auto smd:pr-5 ">
       <ul
         style={{
           backgroundColor: isDarkMode
@@ -30,12 +44,14 @@ function Nav() {
               ? themeDark.colors.whiteText
               : themeLight.colors.blackText,
           }}
+          className="nethub:hidden"
         >
           <button onClick={handleClick}>
             <MenuIcon />
           </button>
         </li>
-        <li className="tracking-[-0.3em] text-4xl w-1/3 h-full flex items-center justify-center z-20 relative">
+        
+        <li className="tracking-[-0.3em] text-4xl w-1/3 nethub:w-20 h-full flex items-center justify-center z-20 relative">
           <a href="/" className="cursor-auto">
             {isDarkMode ? (
               <img
@@ -52,6 +68,13 @@ function Nav() {
             )}
           </a>
         </li>
+        <ul className="hidden nethub:block nethub:flex nethub:flex-row nethub:justify-between w-3/4">
+        <Item name="Modele" href="/Models" />
+          <Item name="Oferty i porady" />
+          <Item name="Elektromobilność" />
+          <Item name="Świat Audi"  />
+          <Item name="Serwis i akcesoria"  />
+        </ul>
         <li>
           <button
             className="z-20 relative"

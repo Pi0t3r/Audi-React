@@ -52,7 +52,7 @@ function Car() {
     return <div>Car not found</div>;
   }
   return (
-    <div className="max-w-7xl mx-auto">
+    <div className="">
       <Nav />
       <div className="mt-16">
         <>

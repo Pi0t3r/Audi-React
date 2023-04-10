@@ -32,7 +32,7 @@ const Item = ({ title, listItems }: iItem) => {
 };
 const SecondItem = ({ listItems }: iItem) => {
   return (
-    <ul className="mt-3 node:leading-9 xl:flex xl:justify-between xl:items-center">
+    <ul className="mt-3 node:leading-9">
       {listItems.map((item, index) => (
         <li key={index}>
           <a href="" className="hover:text-neutral-400 ease-in duration-300">

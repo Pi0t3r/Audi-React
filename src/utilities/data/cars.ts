@@ -13,6 +13,10 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/gegcvc/2024.png?imwidth=291",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-sportback-e-tron/my-2023/highlighted-car-teaser/SQ8e_2022_4491-hct-S.jpg",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/q8-e-tron/my-2023/parallax-teaser/Q8e_2022_4399_withoutCast-M.jpg?imwidth=2878",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/q8-e-tron/my-2023/stage/Q8e_2022_4387_withoutCast-v2-L.jpg?imwidth=1920",
     emission: "0-0",
     consumption: "24,4-20,3 kWh/100km",
     fixedBackground:
@@ -56,6 +60,10 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/getcvc/2024.png?imwidth=291",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/q8-sportback-e-tron/my-2023/stage/Q8e_2022_4444_withoutCast-S.jpg?imwidth=768",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/q8-sportback-e-tron/my-2023/stage/Q8e_2022_4444_withoutCast-v2-L.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/q8-sportback-e-tron/my-2023/stage/Q8e_2022_4444_withoutCast-v2-L.jpg?imwidth=1920",
     emission: "0-0",
     consumption: "24,1-19,7 kWh/100km",
     power: {
@@ -64,7 +72,7 @@ export const Audi = [
       acumulator: 106,
     },
     fixedBackground:
-      "bg-[url('https://www.audi.pl/content/dam/nemo/models/q8-e-tron/q8-sportback-e-tron/my-2023/parallax-teaser/Q8e_2022_4443-XS.jpg?imwidth=748')]",
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/q8-e-tron/q8-sportback-e-tron/my-2023/parallax-teaser/Q8e_2022_4443-M.jpg?imwidth=2878')]",
     cardTitle: "Elektryczne. I pełne wspaniałych detali",
     cardText:
       "Audi e-tron spełniło swoją pionierską rolę jako pojazd w pełni elektryczny. Teraz nadszedł moment, by dodać go do rodziny modeli Audi jako Audi Q8 Sportback e-tron.",
@@ -99,8 +107,12 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/gegswc/2024.png?imwidth=291",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-sportback-e-tron/my-2023/highlighted-car-teaser/SQ8e_2022_4491-hct-S.jpg",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-e-tron/my-2023/stage/SQ8e_2022_4491-L.jpg?imwidth=1024",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-e-tron/my-2023/stage/SQ8e_2022_4491-L.jpg?imwidth=1920",
     fixedBackground:
-      "bg-[url('https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-e-tron/my-2023/parallax-teaser/SQ8e_2022_4498_withoutCast-XS.jpg?imwidth=748')]",
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-e-tron/my-2023/parallax-teaser/SQ8e_2022_4498_withoutCast-M.jpg?imwidth=2878')]",
     cardTitle: "Elektryczne. I pełne wspaniałych detali",
     cardText:
       "Audi e-tron spełniło swoją pionierską rolę jako pojazd w pełni elektryczny. Teraz nadszedł moment, by dodać go do rodziny modeli Audi jako Audi SQ8 e-tron.",
@@ -140,6 +152,10 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/getswc/2024.png?imwidth=291",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-sportback-e-tron/my-2023/stage/SQ8e_2022_4513-S.jpg?imwidth=768",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-sportback-e-tron/my-2023/stage/SQ8e_2022_4513-L.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-sportback-e-tron/my-2023/stage/SQ8e_2022_4513-L.jpg?imwidth=1920",
     fixedBackground:
       "bg-[url('https://www.audi.pl/content/dam/nemo/models/q8-e-tron/sq8-sportback-e-tron/my-2023/parallax-teaser/SQ8e_2022_4519_withoutCast-S.jpg?imwidth=767')]",
     cardTitle: "Elektryczne. I pełne wspaniałych detali",
@@ -182,10 +198,14 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f83rj7/2022.png?imwidth=291",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/e-tron-gt/my-2023/_range_campaign/stage/eGT_2021_2312_V1-S.jpg?imwidth=768",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/e-tron-gt/my-2023/_range_campaign/stage/eGT_2021_2312_V1-L.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/e-tron-gt/my-2023/_range_campaign/stage/eGT_2021_2312_V1-L.jpg?imwidth=1920",
     emission: "0-0",
     consumption: "21,6-19,6 kWh/100km",
     fixedBackground:
-      "bg-[url('https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/e-tron-gt/my-2023/parallax-teaser/A210232_large-XS.jpg?imwidth=748')]",
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/e-tron-gt/my-2023/parallax-teaser/A210232_large-XL.jpg?imwidth=3840')]",
     cardTitle: "Charakterystyka procesu produkcji",
     cardText:
       "Przy powstawaniu Gran Turismo z napędem elektrycznym w Böllinger Höfe koło Neckarsulm dbałość o szczegóły spotyka się z precyzją i najwyższą jakością",
@@ -226,10 +246,14 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f83rh7/2022.png?imwidth=291",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/rs-e-tron-gt/my-2022/NeMo-Derivate-Startpage/market-introduction/stage/RSeGT_2021_2365-mobile.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/rs-e-tron-gt/my-2022/NeMo-Derivate-Startpage/market-introduction/stage/RSeGT_2021_2351_V1-desktop.jpg?imwidth=1920",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/rs-e-tron-gt/my-2022/NeMo-Derivate-Startpage/market-introduction/stage/RSeGT_2021_2351_V1-desktop.jpg?imwidth=768",
     emission: "0-0",
     consumption: "21,1-19,8 kWh/100km",
     fixedBackground:
-      "bg-[url('https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/e-tron-gt/my-2023/parallax-teaser/A210232_large-XS.jpg?imwidth=748')]",
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/audi-e-tron-gt/e-tron-gt/my-2023/parallax-teaser/A210232_large-XL.jpg?imwidth=3840')]",
     cardTitle: "Najwyższa jakość wykonania",
     cardText:
       "Przy powstawaniu Gran Turismo z napędem elektrycznym w Böllinger Höfe koło Neckarsulm dbałość o szczegóły spotyka się z precyzją i najwyższą jakością",
@@ -273,10 +297,14 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/gbaasg/2023.png?imwidth=291",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/a1/a1-sportback/my-2022/derivate-startpage/stage/1080x1920-aa1_181004_2.jpg?imwidth=768",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/a1/a1-sportback/my-2022/derivate-startpage/stage/1920x1080-aa1_181004_2.jpg?imwidth=1920",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/a1/a1-sportback/my-2022/derivate-startpage/stage/1920x1080-aa1_181004_2.jpg?imwidth=768",
     emission: "155-123",
     consumption: "6,8-5,4 l/100km",
     fixedBackground:
-      "bg-[url('https://www.audi.pl/content/dam/nemo/models/a1/a1-sportback/my-2022/derivate-startpage/parallax-teaser/1534x2500-audi-a1-sportback-aa1_181005_1.jpg?imwidth=767')]",
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/a1/a1-sportback/my-2022/derivate-startpage/parallax-teaser/2878x3500-audi-a1-sportback-aa1_181005_1.jpg?imwidth=2878')]",
     cardTitle: "Emocje, dynamika i przestronność",
     cardText:
       "A1 Sportback - druga generacja tego kompaktowego modelu zachwyca sportową stylistyką i elastycznymi możliwościami dostosowania opcji wyposażenia.",
@@ -321,6 +349,9 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8yaar/2021.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback/my-2022/NeMo-Derivate-Startpage/stage/a3_ed1_2020_0995_1-s.jpg?imwidth=768",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback/my-2022/NeMo-Derivate-Startpage/stage/a3_ed1_2020_0991_1-xl.jpg?imwidth=768",
+    headerImage3:"https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback/my-2022/NeMo-Derivate-Startpage/stage/a3_ed1_2020_0991_1-xl.jpg?imwidth=1920",
     emission: "170-115",
     consumption: "7,5-4,4 l/100km",
     fixedBackground:
@@ -328,7 +359,6 @@ export const Audi = [
     cardTitle: "Ucieleśnienie idei postępu",
     cardText:
       "Nowoczesny design i innowacyjne technologie - Audi A3 Sportback.",
-
     power: {
       hp: 150,
       kilowatt: 110,
@@ -367,6 +397,8 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8yabpx/2021.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback-tfsi-e/my-2022/NeMo-Derivate-Startpage/stage/A3_2020_1059-s.jpg?imwidth=768",
+    headerImage3:"https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback-tfsi-e/my-2022/NeMo-Derivate-Startpage/stage/A3_2020_1059-xl-v2.jpg?imwidth=1920",
+    headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/a3-sportback-tfsi-e/my-2022/NeMo-Derivate-Startpage/stage/A3_2020_1059-xl-v2.jpg?imwidth=768",
     emission: "21-29",
     consumption:
       "Benzyna:1,4-1,3 l/100km | Energia elektryczna: 15,8-15,4 kWh/100km",
@@ -410,6 +442,8 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8ysar/2021.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/a3/a3-limousine/my-2022/NeMo-Derivate-Startpage/stage/A3_2020_1018-mobile.jpg?imwidth=768",
+    headerImage3:"https://www.audi.pl/content/dam/nemo/models/a3/a3-limousine/my-2022/NeMo-Derivate-Startpage/stage/A3_2020_1018.jpg?imwidth=1440",
+    headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/a3-limousine/my-2022/NeMo-Derivate-Startpage/stage/A3_2020_1018.jpg?imwidth=768",
     emission: "167-111",
     consumption: "7,4-4,3 l/100km",
     fixedBackground:
@@ -454,10 +488,12 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8yas3/2021.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-2022/NeMo-Derivate-Startpage/stage/1080x1920-s3_ed1_2020_1017_1.jpg?imwidth=768",
+headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-2022/NeMo-Derivate-Startpage/stage/1920x1080-s3_ed1_2020_1017_1.jpg?imwidth=768",
+    headerImage3:"https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-2022/NeMo-Derivate-Startpage/stage/1920x1080-s3_ed1_2020_1017_1.jpg?imwidth=1920",
     emission: "188-183",
     consumption: "8,3-8,0 l/100km",
     fixedBackground:
-      "bg-[url('https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-2022/NeMo-Derivate-Startpage/parallax-teaser/1534x2500-s3_ed1_2020_1012_1.jpg?imwidth=767')]",
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/a3/s3-sportback/my-2022/NeMo-Derivate-Startpage/parallax-teaser/3840x4000-s3_ed1_2020_1012_1.jpg?imwidth=3840')]",
     cardTitle: "Prawdziwie sportowy charakter",
     cardText:
       "Zapewnia wyjątkowe emocje podczas jazdy i świetnie sprawdza się na co dzień: oto Audi S3 Sportback.",
@@ -498,6 +534,8 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8yss3/2021.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/a3/s3-limousine/my-2022/NeMo-Derivate-Startpage/stage/1080x1920-S3_2020_1034_RGB.jpg?imwidth=768",
+    headerImage3:"https://www.audi.pl/content/dam/nemo/models/a3/s3-limousine/my-2022/NeMo-Derivate-Startpage/stage/1920x1080-S3_2020_1034_RGB.jpg?imwidth=1920",
+    headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/s3-limousine/my-2022/NeMo-Derivate-Startpage/stage/1920x1080-S3_2020_1034_RGB.jpg?imwidth=768",
     emission: "183-177",
     consumption: "8,0-7,8 l/100km",
     fixedBackground:
@@ -542,6 +580,8 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8yarwy/2022.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/a3/rs-3-sportback/my-2022/NeMo-Derivate-Startpage/stage/1080x1920-RS3_2021_3107_LAYERS.jpg?imwidth=768",
+    headerImage3:"https://www.audi.pl/content/dam/nemo/models/a3/rs-3-sportback/my-2022/NeMo-Derivate-Startpage/stage/1920x1080-audi-rs-3-sportback-stage-desktop-RS3_2021_3107.jpg?imwidth=1920",
+    headerImage2:"https://www.audi.pl/content/dam/nemo/models/a3/rs-3-sportback/my-2022/NeMo-Derivate-Startpage/stage/1920x1080-audi-rs-3-sportback-stage-desktop-RS3_2021_3107.jpg?imwidth=1024",
     emission: "216-205",
     consumption: "9,5-9,0 l/100km",
     fixedBackground:
@@ -1071,7 +1111,8 @@ export const Audi = [
       "https://www.audi.pl/content/dam/nemo/models/a5/rs-5-coupe/my-2022/NeMo-Derivative-Startpage/stage/1080x1920-rs5_2020_1510.jpg?imwidth=768",
     headerImage2:
       "https://www.audi.pl/content/dam/nemo/models/a5/rs-5-coupe/my-2022/NeMo-Derivative-Startpage/stage/1920x1080-rs5_2020_1510.jpg?imwidth=768",
-    headerImage3:"https://www.audi.pl/content/dam/nemo/models/a5/rs-5-coupe/my-2022/NeMo-Derivative-Startpage/stage/1920x1080-rs5_2020_1510.jpg?imwidth=1920",
+    headerImage3:
+      "https://www.audi.pl/content/dam/nemo/models/a5/rs-5-coupe/my-2022/NeMo-Derivative-Startpage/stage/1920x1080-rs5_2020_1510.jpg?imwidth=1920",
     emission: "223-213",
     consumption: "9,8-9,4 l/100km",
     power: {

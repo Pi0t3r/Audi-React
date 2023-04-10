@@ -6,7 +6,7 @@ import { ThemeContext } from "../utilities/style/ThemeContext";
 
 interface iItem {
   title: string;
-  href: string;
+  href?: string;
 }
 
 const Item = ({ title, href }: iItem) => {
@@ -52,10 +52,10 @@ function Sidebar({ move, handleClick }: iSidebar) {
       <div className="absolute top-20 w-full">
         <ul className="flex flex-col leading-10 justify-center items-center">
           <Item title="Modele" href="/Models" />
-          <Item title="Oferty i porady" href="#Offers" />
-          <Item title="Elektromobilność" href="#Electro" />
-          <Item title="Świat Audi" href="#AudiWorld" />
-          <Item title="Serwis i akcesoria" href="#services" />
+          <Item title="Oferty i porady" />
+          <Item title="Elektromobilność" />
+          <Item title="Świat Audi"  />
+          <Item title="Serwis i akcesoria"  />
         </ul>
       </div>
       

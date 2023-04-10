@@ -1,6 +1,5 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { responsive } from "../components/Carousel";
 import { Audi } from "../utilities/data/cars";
 import "../index.css";
 import { useContext } from "react";
@@ -14,77 +13,86 @@ interface iModel {
   filter?: string;
   textImage?: string;
 }
+const responsiveModel = {
+  mobile: {
+    breakpoint: { max: 730, min: 0 },
+    items: 1,
+  },
+  tablet: {
+    breakpoint: { max: 3000, min: 731 },
+    items: 2,
+  },
+
+};
 
 export const Card = ({ filter }: iModel) => {
   const filterAudi = Audi.filter((name) => name.model === filter);
   const { isDarkMode, setIsDarkMode } = useContext(ThemeContext);
   return (
-    <>
-      <Carousel
-        responsive={responsive}
-        swipeable={true}
-        draggable={false}
-        showDots={false}
-        ssr={true}
-        infinite={false}
-        autoPlay={false}
-        keyBoardControl={true}
-        transitionDuration={500}
-        removeArrowOnDeviceType={["mobile"]}
-      >
-        {filterAudi.map((item) => (
-          <div
-            key={item.name}
-            style={{
-              backgroundColor: isDarkMode
-                ? themeDark.colors.blackBackground
-                : themeLight.colors.whiteBackground,
-              color: isDarkMode
-                ? themeDark.colors.whiteText
-                : themeLight.colors.blackText,
-            }}
-            className="absolute -top-60 inset-x-5 h-96 ease-in duration-300"
-          >
-            <div className="h-[45%] p-5">
-              <h4 className="font-bold mb-3">{item.name}</h4>
-              {item.price && <p>Cena od {item.price} PLN</p>}
-              {item.instalment && (
-                <p className="text-neutral-500">
-                  rata od {item.instalment} PLN (w Audi Perfect Lease dla
-                  przedsiębiorców - rata netto)
-                </p>
-              )}
-            </div>
-            <div>
-              <img
-                loading="lazy"
-                src={item.imageCar}
-                alt={item.name}
-                className="h-26"
-              />
-            </div>
-            <div className="text-center mt-3">
-              <button
-                className={`border-[2px] w-11/12 text-lg p-3 ease-in duration-300 ${
-                  isDarkMode ? "border-white" : "border-black"
-                }`}
-              >
-                <Link to={`/Car/${item.id}`}>Poznaj model</Link>
-              </button>
-            </div>
+    <Carousel
+      responsive={responsiveModel}
+      swipeable={true}
+      draggable={false}
+      showDots={false}
+      ssr={true}
+      infinite={false}
+      autoPlay={false}
+      keyBoardControl={true}
+      transitionDuration={500}
+      className="relative w-full xl:w-[90%] xl:max-w-3xl"
+    >
+      {filterAudi.map((item) => (
+        <div
+          key={item.name}
+          style={{
+            backgroundColor: isDarkMode
+              ? themeDark.colors.blackBackground
+              : themeLight.colors.whiteBackground,
+            color: isDarkMode
+              ? themeDark.colors.whiteText
+              : themeLight.colors.blackText,
+          }}
+          className="absolute w-[90%] max-w-sm -top-60 left-1/2 -translate-x-[45%] xl:left-40 h-96 ease-in duration-300 tablet:-top-48 overflow-x-hidden"
+        >
+          <div className="p-5 absolute top-0">
+            <h4 className="font-bold mb-3">{item.name}</h4>
+            {item.price && <p>Cena od {item.price} PLN</p>}
+            {item.instalment && (
+              <p className="text-neutral-500">
+                rata od {item.instalment} PLN (w Audi Perfect Lease dla
+                przedsiębiorców - rata netto)
+              </p>
+            )}
           </div>
-        ))}
-      </Carousel>
-    </>
+          <div className="absolute top-1/3 mdmd:top-1/2 nethub:top-1/3 w-full left-1/2 -translate-x-1/2">
+            <img
+              loading="lazy"
+              src={item.imageCar}
+              alt={item.name}
+              className="max-h-40 absolute left-1/2 -translate-x-1/2"
+            />
+          </div>
+          <div className="text-center mt-3 absolute bottom-5 inset-x-0">
+            <button
+              className={`border-[2px] w-11/12 text-lg p-3 ease-in duration-300 ${
+                isDarkMode ? "border-white" : "border-black"
+              }`}
+            >
+              <Link to={`/Car/${item.id}`}>Poznaj model</Link>
+            </button>
+          </div>
+        </div>
+      ))}
+    </Carousel>
   );
 };
 
 const Model = ({ background, textImage, filter }: iModel) => {
   return (
     <>
-      <div className="overflow-hidden w-full h-screen">
-        <div className="absolute w-full h-1/3">
-          <div className="relative w-full h-full overflow-x-hidden">
+      <div className="overflow-hidden w-full h-screen tablet:h-[50vh]">
+        <div className="absolute w-[90%] h-1/3 tablet:flex">
+          <div className="relative w-full h-full nethub:h-[150%] overflow-hidden tablet:w-1/3">
             <img
               src={textImage}
               className="absolute top-0 scale-75 -left-[15%]"
@@ -92,11 +100,11 @@ const Model = ({ background, textImage, filter }: iModel) => {
             <picture>
               <img
                 src={background}
-                className="absolute -right-1/3 h-26 scale-125"
+                className="absolute -right-1/3 h-26 scale-125 tablet:top-1/2 tablet:left-0"
               />
             </picture>
           </div>
-          <div className="h-[30rem]">
+          <div className="h-[30rem] bg-transparent tablet:w-2/3 tablet:absolute tablet:left-1/3 xl:w-3/5 overflow-x-hidden">
             <Card filter={filter} />
           </div>
         </div>

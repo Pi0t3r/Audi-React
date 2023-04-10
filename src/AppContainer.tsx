@@ -5,6 +5,7 @@ import { themeLight, themeDark } from "./utilities/style/theme";
 import App from "./App";
 import Models from "./view/Models";
 import Car from "./view/Car";
+import "./index.css"
 
 const router = createBrowserRouter([
   {
