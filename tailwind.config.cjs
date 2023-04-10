@@ -20,6 +20,7 @@ module.exports = {
       tablet: "552px",
       md: "768px",
       nethub: "912px",
+      xl:"1174px",
     },
   },
   plugins: [],

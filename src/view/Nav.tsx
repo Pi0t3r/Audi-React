@@ -12,7 +12,7 @@ function Nav() {
     setMove(!move);
   };
   return (
-    <div className="h-16 fixed left-0 right-0 z-10 top-0 shadow-[0_14px_20px_5px_#959595]">
+    <div className="h-16 fixed left-0 right-0 z-10 top-0 shadow-[0_14px_20px_5px_#959595] max-w-7xl mx-auto">
       <ul
         style={{
           backgroundColor: isDarkMode
@@ -36,7 +36,7 @@ function Nav() {
           </button>
         </li>
         <li className="tracking-[-0.3em] text-4xl w-1/3 h-full flex items-center justify-center z-20 relative">
-          <a href="/">
+          <a href="/" className="cursor-auto">
             {isDarkMode ? (
               <img
                 src="https://www.freepnglogos.com/uploads/audi-logo-2.png"

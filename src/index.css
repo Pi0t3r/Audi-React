@@ -20,17 +20,24 @@ button.react-multiple-carousel__arrow {
   z-index: 1;
 }
 
-div.bg-white ul.react-multi-carousel-dot-list {
-  position: absolute;
-  top: 60%;
-}
+div.bg-white ul.react-multi-carousel-dot-list,
 div.bg-black ul.react-multi-carousel-dot-list {
   position: absolute;
   top: 60%;
 }
+
 li.react-multi-carousel-dot--active button {
   background: #00b6ff7a;
 }
 li.react-multi-carousel-dot button {
   border-color: #007bf1;
+}
+
+
+/* MEDIA */
+@media screen and (min-width: 552px) {
+  div.bg-white ul.react-multi-carousel-dot-list,
+  div.bg-black ul.react-multi-carousel-dot-list {
+    top: 90%;
+  }
 }

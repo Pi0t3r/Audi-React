@@ -1,4 +1,4 @@
-import React, {useContext} from "react";
+import React, { ReactNode, useContext } from "react";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import { ListItem } from "../components/List";
 import FacebookIcon from "@mui/icons-material/Facebook";
@@ -9,7 +9,7 @@ import CopyrightIcon from "@mui/icons-material/Copyright";
 import { ParagraphFooter } from "../components/FooterP";
 import { ThemeContext } from "../utilities/style/ThemeContext";
 interface iItem {
-  title: string;
+  title?: string;
   listItems: string[];
 }
 
@@ -30,11 +30,47 @@ const Item = ({ title, listItems }: iItem) => {
     </ul>
   );
 };
+const SecondItem = ({ listItems }: iItem) => {
+  return (
+    <ul className="mt-3 node:leading-9 xl:flex xl:justify-between xl:items-center">
+      {listItems.map((item, index) => (
+        <li key={index}>
+          <a href="" className="hover:text-neutral-400 ease-in duration-300">
+            {item}
+          </a>
+        </li>
+      ))}
+    </ul>
+  );
+};
+
+interface iSocialMedia {
+  href: string;
+  icon: ReactNode;
+}
+
+const SocialMedia = ({ href, icon }: iSocialMedia) => {
+  return (
+    <li>
+      <a
+        href={href}
+        target="_blank"
+        className="hover:text-neutral-500 ease-in duration-300"
+      >
+        {icon}
+      </a>
+    </li>
+  );
+};
 
 function Footer() {
   const { isDarkMode, setIsDarkMode } = useContext(ThemeContext);
   return (
-    <div className={`${isDarkMode ? 'bg-black text-white' : 'bg-white text-black'} py-4 ease-in duration-300 border-t-[3px]`}>
+    <div
+      className={`${
+        isDarkMode ? "bg-black text-white" : "bg-white text-black"
+      } py-4 ease-in duration-300 border-t-[3px]`}
+    >
       <div className="text-right px-4">
         <button>
           <a href="#">
@@ -135,7 +171,7 @@ function Footer() {
             title="Elektromobilność"
             listItems={[
               "Elektromobilność Audi",
-              ">Wszystkie modele elektryczne",
+              "Wszystkie modele elektryczne",
               "Wszysktie hybrydy plug-in",
               "Ładowanie",
               "Zasięg",
@@ -172,73 +208,45 @@ function Footer() {
       </div>
       <div className="mt-10 border-b-[1px] border-neutral-100/70 pb-5 mx-4">
         <ul className="flex flex-row justify-between px-14">
-          <li>
-            <a href="https://www.facebook.com/audiofficial/" target="_blank">
-              <FacebookIcon />
-            </a>
-          </li>
-          <li>
-            <a target="_blank" href="https://www.instagram.com/audi/">
-              <InstagramIcon />
-            </a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/@Audi">
-              <YouTubeIcon />
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/AudiOfficial" target="_blank">
-              <Twitter />
-            </a>
-          </li>
+          <SocialMedia
+            href="https://www.facebook.com/audiofficial/"
+            icon={<FacebookIcon />}
+          />
+          <SocialMedia
+            href="https://www.instagram.com/audi/"
+            icon={<InstagramIcon />}
+          />
+          <SocialMedia
+            href="https://www.youtube.com/@Audi"
+            icon={<YouTubeIcon />}
+          />
+          <SocialMedia
+            href="https://twitter.com/AudiOfficial"
+            icon={<Twitter />}
+          />
         </ul>
       </div>
       <div className="mt-5 px-4">
         <p>
           <CopyrightIcon /> 2022 Audi Polska.
         </p>
-        <ul className="mt-3 node:leading-9">
-          <li>
-            <a href="">Dealerzy i partnerzy</a>
-          </li>
-          <li>
-            <a href="">Centrum Medialne Audi</a>
-          </li>
-          <li>
-            <a href="">Informacje dla warsztatów</a>
-          </li>
-          <li>
-            <a href="">Emisja CO2 oraz Recykling</a>
-          </li>
-          <li>
-            <a href="">Polityka prywatności</a>
-          </li>
-          <li>
-            <a href="">Polityka plików cookies</a>
-          </li>
-          <li>
-            <a href="">Regulamin</a>
-          </li>
-          <li>
-            <a href="">Regulamin newslettera</a>
-          </li>
-          <li>
-            <a href="">Formularz cofnięcia zgód</a>
-          </li>
-          <li>
-            <a href="">Newsletter Audi</a>
-          </li>
-          <li>
-            <a href="">System zgłoszeń naruszeń</a>
-          </li>
-          <li>
-            <a href="">Ustawienia cookies</a>
-          </li>
-          <li>
-            <a href="">Kontakt</a>
-          </li>
-        </ul>
+        <SecondItem
+          listItems={[
+            "Dealerzy i partnerzy",
+            "Centrum Medialne Audi",
+            "Informacje dla warsztatów",
+            "Emisja CO2 oraz Recykling",
+            "Polityka prywatności",
+            "Polityka plików cookies",
+            "Regulamin",
+            "Regulamin newslettera",
+            "Formularz cofnięcia zgód",
+            "Newsletter Audi",
+            "System zgłoszeń naruszeń",
+            "Ustawienia cookies",
+            "Kontakt",
+          ]}
+        />
         <>
           <ParagraphFooter
             text=" Od 1 września 2018 r. wszystkie nowe pojazdy wprowadzane do obrotu w

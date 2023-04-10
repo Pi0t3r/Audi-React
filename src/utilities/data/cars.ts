@@ -1069,6 +1069,9 @@ export const Audi = [
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/f5prxa/2023.png?imwidth=550",
     headerImage:
       "https://www.audi.pl/content/dam/nemo/models/a5/rs-5-coupe/my-2022/NeMo-Derivative-Startpage/stage/1080x1920-rs5_2020_1510.jpg?imwidth=768",
+    headerImage2:
+      "https://www.audi.pl/content/dam/nemo/models/a5/rs-5-coupe/my-2022/NeMo-Derivative-Startpage/stage/1920x1080-rs5_2020_1510.jpg?imwidth=768",
+    headerImage3:"https://www.audi.pl/content/dam/nemo/models/a5/rs-5-coupe/my-2022/NeMo-Derivative-Startpage/stage/1920x1080-rs5_2020_1510.jpg?imwidth=1920",
     emission: "223-213",
     consumption: "9,8-9,4 l/100km",
     power: {
@@ -1078,7 +1081,7 @@ export const Audi = [
       hp: 450,
     },
     fixedBackground:
-      "bg-[url('https://www.audi.pl/content/dam/nemo/models/a5/rs-5-coupe/my-2022/NeMo-Derivative-Startpage/parallax-teaser/1534x2500-rs5_2020_1515.jpg?imwidth=767')]",
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/a5/rs-5-coupe/my-2022/NeMo-Derivative-Startpage/parallax-teaser/3840x4000-rs5_2020_1515.jpg?imwidth=1920')]",
     cardTitle: "Dynamika - od startu do celu",
     cardText:
       "Gdy dynamika nabiera kształtu Audi RS 5 Coupé staje się synonimem najwyższych osiągów. Performance is an attitude.",
@@ -1166,7 +1169,7 @@ export const Audi = [
       "bg-[url('https://www.audi.pl/content/dam/nemo/pl/modele/a6/a6-limousine/AA6_L_181007_2_570x857.jpg')]",
     cardTitle: "Luksus z każdej perspektywy",
     cardText:
-      "Od poszerzonej osłony chłodnicy Singleframe po boczne wloty powietrza ze sportowymi, chromowanymi elementami i płaskie reflektory – przód Audi A6 Limousine daje jasną deklarację swojego charakteru.",
+      "Od poszerzonej osłony chłodnicy Singleframe po boczne wloty powietrza ze sportowymi, chromowanymi elementami i płaskie reflektory - przód Audi A6 Limousine daje jasną deklarację swojego charakteru.",
     power: {
       speed: 9.2,
       kilowatt: 120,
@@ -3185,15 +3188,21 @@ export const Audi = [
       kilowatt: 456,
     },
     carousel: {
-      image1: "https://www.audi.pl/content/dam/nemo/models/r8/r8-spyder-v10-performance-quattro/my-2021/derivative-startpage/product-highlight/1920x1920-r8_2020_1633.jpg?imwidth=768",
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/r8/r8-spyder-v10-performance-quattro/my-2021/derivative-startpage/product-highlight/1920x1920-r8_2020_1633.jpg?imwidth=768",
       title1: "Przyjemność z jazdy zdefiniowana na nowo",
-      text1: "Sportowy charakter, unikatowy design i doskonałe osiągi - poczujesz je intensywnie, sprawią Ci ogromną przyjemność podczas jazdy.",
-      image2: "https://www.audi.pl/content/dam/nemo/models/r8/r8-spyder-v10-performance-quattro/my-2021/derivative-startpage/product-highlight/1920x1920-audi-r8-performance-spyder-r8_2020_1634.jpg?imwidth=768",
+      text1:
+        "Sportowy charakter, unikatowy design i doskonałe osiągi - poczujesz je intensywnie, sprawią Ci ogromną przyjemność podczas jazdy.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/r8/r8-spyder-v10-performance-quattro/my-2021/derivative-startpage/product-highlight/1920x1920-audi-r8-performance-spyder-r8_2020_1634.jpg?imwidth=768",
       title2: "Dynamika która zachwyca",
-      text2: "W przypadku opcjonalnego zawieszenia sportowego ze stabilizatorem CFK podwójne aluminiowe wahacze trójkątne umożliwiają niezależną pracę każdego z kół. Optymalnie zestrojone wspomaganie układu kierowniczego przenosi w sposób bezpośredni impulsy z kierownicy, zapewniając niezwykle precyzyjną informację zwrotną z podłoża.",
-      image3: "https://www.audi.pl/content/dam/nemo/models/r8/r8-spyder-v10-performance-quattro/my-2021/derivative-startpage/product-highlight/1920x1920-audi-r8-performance-spyder-r8_2020_1636.jpg?imwidth=768",
+      text2:
+        "W przypadku opcjonalnego zawieszenia sportowego ze stabilizatorem CFK podwójne aluminiowe wahacze trójkątne umożliwiają niezależną pracę każdego z kół. Optymalnie zestrojone wspomaganie układu kierowniczego przenosi w sposób bezpośredni impulsy z kierownicy, zapewniając niezwykle precyzyjną informację zwrotną z podłoża.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/r8/r8-spyder-v10-performance-quattro/my-2021/derivative-startpage/product-highlight/1920x1920-audi-r8-performance-spyder-r8_2020_1636.jpg?imwidth=768",
       title3: "Koncentracja na dynamice",
-      text3: "Dynamika jazdy z szerokim wachlarzem możliwości: od sportowego zawieszenia ze stabilizatorem CFK poprzez dynamiczny układ kierowniczy aż po ceramiczne tarcze hamulcowe.",
+      text3:
+        "Dynamika jazdy z szerokim wachlarzem możliwości: od sportowego zawieszenia ze stabilizatorem CFK poprzez dynamiczny układ kierowniczy aż po ceramiczne tarcze hamulcowe.",
     },
   },
   {
@@ -3207,28 +3216,36 @@ export const Audi = [
     instalment: undefined,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4srref/2022.png?imwidth=550",
-    headerImage: "https://www.audi.pl/content/dam/nemo/models/r8/r8-spyder-v10-performance-rwd/my-2022/stage/1080x1920-audi-r8-spyder-v10-performance-rwd-stage-desktop_2021_3012.jpg?imwidth=768",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/r8/r8-spyder-v10-performance-rwd/my-2022/stage/1080x1920-audi-r8-spyder-v10-performance-rwd-stage-desktop_2021_3012.jpg?imwidth=768",
     emission: "313-305",
     consumption: "13,8-13,4 l/100km",
-    fixedBackground: "bg-[url('https://www.audi.pl/content/dam/nemo/models/r8/r8-spyder-v10-performance-rwd/my-2022/stage-large-image/1080x1920audi-r8-spyder-v10-performance-rwd-textmodule_2021_3013.jpg?imwidth=768')]",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/r8/r8-spyder-v10-performance-rwd/my-2022/stage-large-image/1080x1920audi-r8-spyder-v10-performance-rwd-textmodule_2021_3013.jpg?imwidth=768')]",
     cardTitle: "Napęd na tylne koła to nowa perspektywa jazdy",
     cardText: "Performance is an attitude",
     power: {
-      Nm:550,
-      hp:570,
-      speed:3.8,
-      kilowatt:419
+      Nm: 550,
+      hp: 570,
+      speed: 3.8,
+      kilowatt: 419,
     },
     carousel: {
-      image1: "https://www.audi.pl/content/dam/nemo/models/r8/r8-spyder-v10-performance-rwd/my-2022/feature-gallery/810x1080-R8-2021-3105.jpg?imwidth=768&imdensity=1",
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/r8/r8-spyder-v10-performance-rwd/my-2022/feature-gallery/810x1080-R8-2021-3105.jpg?imwidth=768&imdensity=1",
       title1: "Jeszcze bardziej niezwykłe",
-      text1: "Dodaj swojemu Audi R8 Spyder V10 performance RWD jeszcze więcej niepowtarzalnego charakteru dzięki specjalnym lakierom Audi exclusive. Wśród nich jest kolor fioletowy Velvet perłowy.",
-      image2: "https://www.audi.pl/content/dam/nemo/models/r8/r8-spyder-v10-performance-rwd/my-2022/stage-large-image/1080x1920-audi-r8-spyder-v10-performance-rwd-stage-large_seats_2021_3015.jpg?imwidth=768",
+      text1:
+        "Dodaj swojemu Audi R8 Spyder V10 performance RWD jeszcze więcej niepowtarzalnego charakteru dzięki specjalnym lakierom Audi exclusive. Wśród nich jest kolor fioletowy Velvet perłowy.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/r8/r8-spyder-v10-performance-rwd/my-2022/stage-large-image/1080x1920-audi-r8-spyder-v10-performance-rwd-stage-large_seats_2021_3015.jpg?imwidth=768",
       title2: "Audi exclusive: tak indywidualne jak Ty",
-      text2: "Twoje Audi R8 stanie się jeszcze bardziej ekskluzywne2 dzięki szerokiej palecie matowych lakierów, pakietom stylistycznym i optycznym, jak również bogatej gamie dowolnie konfigurowalnych skórzanych tapicerek.",
-      image3: "https://www.audi.pl/content/dam/nemo/models/r8/r8-spyder-v10-performance-rwd/my-2022/feature-gallery/810x1080-audi-r8-spyder-v10-performance-rwd-front_2021_3010.jpg?imwidth=768&imdensity=1",
+      text2:
+        "Twoje Audi R8 stanie się jeszcze bardziej ekskluzywne2 dzięki szerokiej palecie matowych lakierów, pakietom stylistycznym i optycznym, jak również bogatej gamie dowolnie konfigurowalnych skórzanych tapicerek.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/r8/r8-spyder-v10-performance-rwd/my-2022/feature-gallery/810x1080-audi-r8-spyder-v10-performance-rwd-front_2021_3010.jpg?imwidth=768&imdensity=1",
       title3: "Dynamiczna sylwetka",
-      text3: "Charakterystyczna osłona chłodnicy z logo R8 nawet w bezruchu zachęca do sportowej jazdy. Efekt ten potęgują boczne kanały wentylacyjne i trzy wloty powietrza umieszczone powyżej osłony chłodnicy, stanowiące hołd dla ikony marki - Audi Sport quattro.",
+      text3:
+        "Charakterystyczna osłona chłodnicy z logo R8 nawet w bezruchu zachęca do sportowej jazdy. Efekt ten potęgują boczne kanały wentylacyjne i trzy wloty powietrza umieszczone powyżej osłony chłodnicy, stanowiące hołd dla ikony marki - Audi Sport quattro.",
     },
   },
   {
@@ -3242,26 +3259,35 @@ export const Audi = [
     instalment: undefined,
     imageCar:
       "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/4sprdf/2023.png?imwidth=550",
-    headerImage: "https://www.audi.pl/content/dam/nemo/models/r8/r8-gt/my-2023/stage/R8_GT_2022_4290-S.jpg?imwidth=768",
+    headerImage:
+      "https://www.audi.pl/content/dam/nemo/models/r8/r8-gt/my-2023/stage/R8_GT_2022_4290-S.jpg?imwidth=768",
     emission: "339-341",
     consumption: "14,9-15,0 l/100km",
-    fixedBackground: "bg-[url('https://www.audi.pl/content/dam/nemo/models/r8/r8-gt/my-2023/parallax-teaser/R8_GT_2022_4295-S.jpg?imwidth=767')]",
+    fixedBackground:
+      "bg-[url('https://www.audi.pl/content/dam/nemo/models/r8/r8-gt/my-2023/parallax-teaser/R8_GT_2022_4295-S.jpg?imwidth=767')]",
     cardTitle: "Piękna bestia - Audi R8 GT",
-    cardText: "Najwyższa moc silnika, kultowy design: Audi R8 GT2. Limitowane do 333 egzemplarzy.",
+    cardText:
+      "Najwyższa moc silnika, kultowy design: Audi R8 GT2. Limitowane do 333 egzemplarzy.",
     power: {
-      kilowatt:456,
-      speed:3.4,
+      kilowatt: 456,
+      speed: 3.4,
     },
     carousel: {
-      image1: "https://www.audi.pl/content/dam/nemo/models/r8/r8-gt/my-2023/product-highlight/R8_GT_2022_4291-L.jpg?imwidth=768",
+      image1:
+        "https://www.audi.pl/content/dam/nemo/models/r8/r8-gt/my-2023/product-highlight/R8_GT_2022_4291-L.jpg?imwidth=768",
       title1: "Fenomenalna przyczepność",
-      text1: "Zawieszenie sportowe ze stabilizatorem CFK w połączeniu z hamulcami ceramicznymi wraz z ich spektakularnymi właściwościami sprawiają, że pokonywanie krętych odcinków to jedyna w swoim rodzaju przyjemność.",
-      image2: "https://www.audi.pl/content/dam/nemo/models/r8/r8-gt/my-2023/product-highlight/R8_GT_2022_4288-L.jpg?imwidth=768",
+      text1:
+        "Zawieszenie sportowe ze stabilizatorem CFK w połączeniu z hamulcami ceramicznymi wraz z ich spektakularnymi właściwościami sprawiają, że pokonywanie krętych odcinków to jedyna w swoim rodzaju przyjemność.",
+      image2:
+        "https://www.audi.pl/content/dam/nemo/models/r8/r8-gt/my-2023/product-highlight/R8_GT_2022_4288-L.jpg?imwidth=768",
       title2: "Wymarzony napęd na tylne koła",
-      text2: "Najmocniejsze Audi R8 z napędem na tylne koła: od 0 do 100 km/h w 3,4 sekundy.",
-      image3: "https://www.audi.pl/content/dam/nemo/models/r8/r8-gt/my-2023/product-highlight/R8_GT_2022_4287-L.jpg?imwidth=768",
+      text2:
+        "Najmocniejsze Audi R8 z napędem na tylne koła: od 0 do 100 km/h w 3,4 sekundy.",
+      image3:
+        "https://www.audi.pl/content/dam/nemo/models/r8/r8-gt/my-2023/product-highlight/R8_GT_2022_4287-L.jpg?imwidth=768",
       title3: "Aerodynamika, która wprawia w zachwyt",
-      text3: "Pakiet Carbon Aerokit imponuje rozwiązaniami optymalizującymi aerodynamikę R8 - od przedniego splittera przez elementy boku po tylny spoiler. Z tyłu wzrok przyciąga sygnatura modelu: R8 GT.",
+      text3:
+        "Pakiet Carbon Aerokit imponuje rozwiązaniami optymalizującymi aerodynamikę R8 - od przedniego splittera przez elementy boku po tylny spoiler. Z tyłu wzrok przyciąga sygnatura modelu: R8 GT.",
     },
   },
 ];
