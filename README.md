@@ -5,7 +5,7 @@
 <h3>Demo</h3>
 <p>Aby zobaczyć demo projektu, odwiedź stronę: <a href="https://pi0t3r-audi.netlify.app/">DEMO</a>
 
-##Technologie
+<h3>Technologie<h3>
 
 <ul>
     <li>Reactjs</li>
