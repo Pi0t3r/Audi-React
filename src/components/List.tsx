@@ -1,12 +1,13 @@
-import React, { useState } from "react";
-import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
+import React, { useState, useContext } from "react";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import { ThemeContext } from "../utilities/style/ThemeContext";
 interface iListItem {
   text: string;
   listItems?: string[];
 }
 
 export const ListItem = ({ text, listItems }: iListItem) => {
+  const { isDarkMode, setIsDarkMode } = useContext(ThemeContext);
   const [expand, setExpand] = useState<boolean>(false);
   const handleClick = () => {
     setExpand(!expand);
@@ -27,7 +28,7 @@ export const ListItem = ({ text, listItems }: iListItem) => {
         </span>
       </li>
       {expand && (
-        <div className="bg-neutral-900 p-4 leading-8">
+        <div className={`${isDarkMode ? 'bg-neutral-900 text-white' : 'bg-neutral-300'} p-4 leading-8`}>
           {listItems?.map((item, index) => (
             <li key={index}>{item}</li>
           ))}

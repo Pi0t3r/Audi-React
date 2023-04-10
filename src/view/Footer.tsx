@@ -1,3 +1,4 @@
+import React, {useContext} from "react";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import { ListItem } from "../components/List";
 import FacebookIcon from "@mui/icons-material/Facebook";
@@ -6,7 +7,7 @@ import YouTubeIcon from "@mui/icons-material/YouTube";
 import Twitter from "@mui/icons-material/Twitter";
 import CopyrightIcon from "@mui/icons-material/Copyright";
 import { ParagraphFooter } from "../components/FooterP";
-
+import { ThemeContext } from "../utilities/style/ThemeContext";
 interface iItem {
   title: string;
   listItems: string[];
@@ -31,8 +32,9 @@ const Item = ({ title, listItems }: iItem) => {
 };
 
 function Footer() {
+  const { isDarkMode, setIsDarkMode } = useContext(ThemeContext);
   return (
-    <div className="bg-black text-white py-4">
+    <div className={`${isDarkMode ? 'bg-black text-white' : 'bg-white text-black'} py-4 ease-in duration-300 border-t-[3px]`}>
       <div className="text-right px-4">
         <button>
           <a href="#">
@@ -192,7 +194,7 @@ function Footer() {
           </li>
         </ul>
       </div>
-      <div className="mt-5 pl-4">
+      <div className="mt-5 px-4">
         <p>
           <CopyrightIcon /> 2022 Audi Polska.
         </p>

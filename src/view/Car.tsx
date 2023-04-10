@@ -1,10 +1,11 @@
-import React from "react";
+import React, {useContext} from "react";
 import Nav from "./Nav";
 import { useParams } from "react-router-dom";
 import { Audi } from "../utilities/data/cars";
 import Carousel from "react-multi-carousel";
 import "../index.css";
 import Footer from "./Footer";
+import { ThemeContext } from "../utilities/style/ThemeContext";
 const responsive = {
   mobile: {
     breakpoint: { max: 464, min: 0 },
@@ -25,6 +26,7 @@ const responsive = {
 };
 
 function Car() {
+  const { isDarkMode, setIsDarkMode } = useContext(ThemeContext);
   const { carID } = useParams<{ carID: string }>();
   const car = Audi.find((car) => car.id.toString() === carID);
   if (!car) {
@@ -38,12 +40,10 @@ function Car() {
           <picture className="relative">
             <img src={car.headerImage} alt={car.name} />
             <div className="absolute inset-0 shadow-[inset_0px_-100px_35px_2px_black;] p-5">
-              <h2 className="text-3xl font-medium text-white mb-4 absolute bottom-36 left-5">
+              <h2 className="text-3xl font-medium text-white mb-4 absolute bottom-20 left-5 z-10">
                 {car.name}
               </h2>
-              <button className="bg-white p-4 text-lg bottom-20 inset-x-5 absolute">
-                Rozpocznij konfigurację
-              </button>
+              <div className={`absolute inset-0 ${isDarkMode ? 'bg-black/70' : 'bg-transparent'} ease-in duration-300`}/>
             </div>
           </picture>
           {car.emission && (
@@ -59,13 +59,13 @@ function Car() {
         <div
           className={`${car.fixedBackground} bg-cover bg-center bg-fixed w-full h-[35rem] flex items-center justify-center`}
         >
-          <div className="bg-white text-left p-10 mx-5">
+          <div className={`${isDarkMode ? 'bg-black text-white' : 'bg-white text-black'} text-left p-10 mx-5 ease-in duration-300`}>
             <h3 className="font-bold text-xl">{car.cardTitle}</h3>
-            <p className="mt-6 text-neutral-700 font-medium">{car.cardText}</p>
+            <p className={`mt-6 font-medium ${isDarkMode ? 'text-neutral-100' : 'text-neutral-700'} ease-in duration-300`}>{car.cardText}</p>
           </div>
         </div>
-        <div className="text-center mt-10 text-4xl font-medium px-5">
-          <h3>Audi {car.name} w liczbach</h3>
+        <div className={`text-center text-4xl font-medium px-5 ease-in duration-300 ${isDarkMode ? 'bg-black text-white' : 'bg-white text black'}`}>
+          <h3 className="pt-5">Audi {car.name} w liczbach</h3>
           <div className="text-base mt-14 border-b-[1px] pb-5">
             <p className="font-bold text-lg">Moc</p>
             <p className="font-light">
@@ -113,7 +113,7 @@ function Car() {
             </h3>
           </div>
         )}
-        <div className="bg-white">
+        <div className={`${isDarkMode ? 'bg-black text-white' : 'bg-white text-black'} ease-in duration-300`}>
           <Carousel
             responsive={responsive}
             swipeable={true}
