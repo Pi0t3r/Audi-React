@@ -63,7 +63,7 @@ function DropdownModel() {
         Model
         <div
           onClick={handleCLick}
-          className="flex flex-row justify-between border-b-[1px]"
+          className="flex flex-row justify-between border-b-[1px] cursor-pointer"
         >
           <span>{selected}</span>
           <span>
@@ -71,7 +71,7 @@ function DropdownModel() {
           </span>
         </div>
         {expand && (
-          <div className="fixed inset-x-0 top-0 z-50 bg-white text-black overflow-scroll h-screen max-w-[1400px] mx-auto">
+          <div className="fixed inset-x-0 top-0 z-50 bg-slate-50  text-black overflow-scroll h-screen max-w-[1400px] mx-auto">
             <div className="flex flex-row justify-between bg-neutral-600 p-4 text-white">
               <div className="flex flex-col">
                 <span className="text-neutral-300">Model</span>

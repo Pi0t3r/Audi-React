@@ -1,4 +1,4 @@
-# Audi - kopia strony internetowej
+# Strona Audi
 
 <p>Projekt ten jest inspirowany oryginalną stroną internetowej marki Audi. Został stworzony z wykorzystaniem technologii Reactjs, Typescript oraz Tailwind do stylowania. Celem projektu jest zaprezentowanie umiejętności w zakresie programowania interfejsów użytkownika oraz zastosowania popularnych narzędzi i bibliotek.</p>
 
