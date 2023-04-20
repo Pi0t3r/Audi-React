@@ -53,7 +53,9 @@ function Car() {
   }
   return (
     <div>
-      <Nav />
+     <div className="fixed top-0 inset-x-0 max-w-[1400px] mx-auto z-50">
+        <Nav />
+      </div>
       <div className="mt-16">
         <>
           <picture className="relative">

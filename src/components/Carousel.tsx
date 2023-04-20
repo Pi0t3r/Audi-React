@@ -37,14 +37,13 @@ const Item = ({ filter, imageFront, imageSide, title }: iItemBody) => {
   const filterAudi = Audi.filter((item) => item.model === filter);
   return (
     <>
-      <div>
-        <picture>
+      <div className="cursor-pointer md:mx-3">
           <img
             onClick={handleClick}
             src={expand ? imageFront : imageSide}
             className="h-26"
+            loading="lazy"
           />
-        </picture>
         <p
           className={`legend text-lg ${
             expand ? "font-bold border-b-[1px] border-black" : "font-medium"
@@ -56,7 +55,7 @@ const Item = ({ filter, imageFront, imageSide, title }: iItemBody) => {
           <>
             {expand && (
               <>
-                <Link to={`/Car/${item.id}`}>
+                <Link to={`/Car/${item.model}/${item.name}/${item.id}`}>
                   <div className="relative">
                     <div>
                       <img
@@ -87,7 +86,7 @@ const Body = ({ body, imageFront, imageBack, title }: iItemBody) => {
   );
   return (
     <>
-      <div>
+      <div className="cursor-pointer md:mx-3">
         <img
           loading="lazy"
           onClick={handleClick}
@@ -105,7 +104,7 @@ const Body = ({ body, imageFront, imageBack, title }: iItemBody) => {
           <>
             {expand && (
               <>
-                <Link to={`/Car/${item.id}`}>
+                <Link to={`/Car/${item.model}/${item.name}/${item.id}`}>
                   <div className="relative">
                     <div>
                       <img

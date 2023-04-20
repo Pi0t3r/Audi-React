@@ -52,7 +52,7 @@ export const Card = ({ filter }: iModel) => {
               ? themeDark.colors.whiteText
               : themeLight.colors.blackText,
           }}
-          className="absolute w-[90%] max-w-sm -top-60 left-1/2 -translate-x-[45%] xl:left-40 h-96 ease-in duration-300 tablet:-top-48 overflow-x-hidden"
+          className="absolute w-[80%] max-w-sm -top-60 left-1/2 -translate-x-[45%] xl:left-40 h-96 ease-in duration-300 tablet:-top-48 overflow-x-hidden"
         >
           <div className="p-5 absolute top-0">
             <h4 className="font-bold mb-3">{item.name}</h4>
@@ -96,13 +96,11 @@ const Model = ({ background, textImage, filter }: iModel) => {
             <img
               src={textImage}
               className="absolute top-0 scale-75 -left-[15%]"
-            />
-            <picture>
+            />    
               <img
                 src={background}
-                className="absolute -right-1/3 h-26 scale-125 tablet:top-1/2 tablet:left-0"
+                className="absolute -right-1/3 tablet:top-1/2 tablet:left-0"
               />
-            </picture>
           </div>
           <div className="h-[30rem] bg-transparent tablet:w-2/3 tablet:absolute tablet:left-1/3 xl:w-3/5 overflow-x-hidden">
             <Card filter={filter} />

@@ -8,6 +8,7 @@ import {
 import { themeDark, themeLight } from "../utilities/style/theme";
 import { ThemeContext } from "../utilities/style/ThemeContext";
 import DropdownModel from "../components/Dropdown";
+import Nav from "./Nav";
 
 interface iButton {
   text: string;
@@ -46,9 +47,22 @@ function Main() {
 
   return (
     <div>
+      <div className="fixed top-0 inset-x-0 max-w-[1400px] mx-auto z-50">
+        <Nav />
+      </div>
       <div className="bg-headerImageMain bg-cover bg-center w-full h-[100vh] text-white relative flex flex-col items-start px-4 mt-16">
-        <div className={`absolute inset-0 ${isDarkMode ? "bg-black/70" : "bg-gradient-to-t via-transparent from-black to-transparent"}`} />
-        <div className={`absolute bottom-1/2 small:text-xl node:pr-10 text-2xl pr-16 small:pr-4 small:bottom-[45%] md:bottom-[30%] ${isDarkMode ? "text-neutral-400" : "text-white"}`}>
+        <div
+          className={`absolute inset-0 ${
+            isDarkMode
+              ? "bg-black/70"
+              : "bg-gradient-to-t via-transparent from-black to-transparent"
+          }`}
+        />
+        <div
+          className={`absolute bottom-1/2 small:text-xl node:pr-10 text-2xl pr-16 small:pr-4 small:bottom-[45%] md:bottom-[30%] ${
+            isDarkMode ? "text-neutral-400" : "text-white"
+          }`}
+        >
           <h2 className="font-medium text-3xl">Doświadczaj postępu.</h2>
           <p className="mt-4 pr-20">
             Poznaj nową gamę w pełni elektrycznych modeli Audi Q8 e-tron, z
@@ -92,11 +106,12 @@ function Main() {
         <h3 className="text-3xl font-medium">Skonfiguruj swoje Audi</h3>
         <div className="flex flex-row justify-start mt-4 text-lg">
           <button
-            className={
-              activeButton === "Modele"
-                ? "border-b-[1px] border-black"
-                : "text-gray-400"
-            }
+            className={`
+              ${
+                activeButton === "Modele"
+                  ? "border-b-[1px] border-black"
+                  : "text-gray-400"
+              } hover:scale-105 ease-in duration-300 hover:text-gray-800 hover:font-medium`}
             onClick={() => handleButtonClick("Modele", "CarouselOne")}
           >
             Modele
@@ -107,7 +122,7 @@ function Main() {
                 activeButton === "Typ nadwozia"
                   ? "border-b-[1px] border-black"
                   : "text-gray-400"
-              } ml-8
+              } ml-8 hover:scale-105 ease-in duration-300 hover:text-gray-800 hover:font-medium
             `}
             onClick={() => handleButtonClick("Typ nadwozia", "CarouselTwo")}
           >

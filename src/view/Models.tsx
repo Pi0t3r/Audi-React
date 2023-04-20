@@ -16,8 +16,10 @@ function Models() {
   };
 
   return (
-    <div className="max-w-7xl">
+    <div className="overflow-x-hidden">
+      <div className="fixed top-0 inset-x-0 max-w-[1400px] mx-auto z-50">
         <Nav />
+      </div>
       <div className="mt-16">
         <div
           className={`text-4xl py-10 pl-5 ease-in duration-300 ${

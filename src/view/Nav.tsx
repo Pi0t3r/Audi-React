@@ -26,7 +26,7 @@ function Nav() {
     setMove(!move);
   };
   return (
-    <div className="h-16 fixed left-0 right-0 z-10 top-0 shadow-[0_14px_20px_5px_#959595] max-w-7xl mx-auto">
+    <div className="h-16 shadow-[0_14px_20px_5px_#959595]">
       <ul
         style={{
           backgroundColor: isDarkMode
