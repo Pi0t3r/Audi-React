@@ -71,7 +71,7 @@ function DropdownModel() {
           </span>
         </div>
         {expand && (
-          <div className="fixed inset-x-0 top-0 z-50 bg-white text-black overflow-scroll h-screen">
+          <div className="fixed inset-x-0 top-0 z-50 bg-white text-black overflow-scroll h-screen max-w-7xl mx-auto">
             <div className="flex flex-row justify-between bg-neutral-600 p-4 text-white">
               <div className="flex flex-col">
                 <span className="text-neutral-300">Model</span>

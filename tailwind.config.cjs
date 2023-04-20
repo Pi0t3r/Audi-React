@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         headerImageMain:
-          "url(https://www.audi.pl/content/dam/nemo/pl/glowna/02-2023/Q8_FAM_1440x1920_v2.jpg?imwidth=768)",
+          "url(https://www.audi.pl/content/dam/nemo/pl/glowna/02-2023/Q8_FAM_1920x1920_v2.jpg?imwidth=1920)",
         backgroundEle:
           "url(https://www.audi.pl/content/dam/nemo/pl/glowna/02-2023/Activesphere_748x2500.jpg?imwidth=374)",
         etron:

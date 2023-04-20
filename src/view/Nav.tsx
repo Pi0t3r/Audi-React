@@ -26,7 +26,7 @@ function Nav() {
     setMove(!move);
   };
   return (
-    <div className="h-16 fixed left-0 right-0 z-10 top-0 shadow-[0_14px_20px_5px_#959595] max-w-7xl mx-auto smd:pr-5 ">
+    <div className="h-16 fixed left-0 right-0 z-10 top-0 shadow-[0_14px_20px_5px_#959595] max-w-7xl mx-auto">
       <ul
         style={{
           backgroundColor: isDarkMode
@@ -57,13 +57,13 @@ function Nav() {
               <img
                 src="https://www.freepnglogos.com/uploads/audi-logo-2.png"
                 alt="logo Audi gray"
-                className="w-20 h-16"
+                className="w-20 h-16 cursor-pointer"
               />
             ) : (
               <img
                 src="https://logos-world.net/wp-content/uploads/2021/03/Audi-Logo.png"
                 alt="logo Audi black"
-                className="w-20 h-12"
+                className="w-20 h-12 cursor-pointer"
               />
             )}
           </a>

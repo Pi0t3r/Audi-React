@@ -72,7 +72,7 @@ export function OfferWithoutBackground({ title, text, button }: iOffer) {
         style={{
           borderColor: isDarkMode ? "white" : "black",
         }}
-        className="border-[1px] border-black w-full py-3 iphone:w-2/3"
+        className="border-[1px] border-black w-full py-3 iphone:w-2/3 max-w-lg"
       >
         {button}
       </button>
