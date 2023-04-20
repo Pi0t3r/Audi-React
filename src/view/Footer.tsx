@@ -68,8 +68,8 @@ function Footer() {
   return (
     <div
       className={`${
-        isDarkMode ? "bg-black text-white" : "bg-white text-black"
-      } py-4 ease-in duration-300 border-t-[3px]`}
+        isDarkMode ? "bg-black text-white" : "bg-slate-50 text-black"
+      } py-4 ease-in duration-300 border-t-[3px] px-5`}
     >
       <div className="text-right px-4">
         <button>
@@ -206,7 +206,7 @@ function Footer() {
           />
         </ol>
       </div>
-      <div className="mt-10 border-b-[1px] border-neutral-100/70 pb-5 mx-4">
+      <div className="mt-10 border-b-[1px] border-neutral-100/70 pb-5">
         <ul className="flex flex-row justify-between px-14">
           <SocialMedia
             href="https://www.facebook.com/audiofficial/"
@@ -226,7 +226,7 @@ function Footer() {
           />
         </ul>
       </div>
-      <div className="mt-5 px-4">
+      <div className="mt-5">
         <p>
           <CopyrightIcon /> 2022 Audi Polska.
         </p>

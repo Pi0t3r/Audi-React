@@ -34,7 +34,7 @@ const Item = ({ image, title, text }: iItem) => {
   return (
     <div className="tablet:flex">
       <img src={image}  className="tablet:w-1/2"/>
-      <div className="p-5">
+      <div className="px-10 flex items-center justify-center">
         <p className="font-light text-sm tablet:text-lg">
           <span className="font-bold mr-2">{title}:</span>
           {text}
@@ -52,7 +52,7 @@ function Car() {
     return <div>Car not found</div>;
   }
   return (
-    <div className="">
+    <div>
       <Nav />
       <div className="mt-16">
         <>
@@ -167,7 +167,7 @@ function Car() {
         )}
         <div
           className={`${
-            isDarkMode ? "bg-black text-white" : "bg-white text-black"
+            isDarkMode ? "bg-black text-white" : "bg-slate-50 text-black"
           } ease-in duration-300`}
         >
           <Carousel

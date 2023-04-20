@@ -78,7 +78,7 @@ export const Card = ({ filter }: iModel) => {
                 isDarkMode ? "border-white" : "border-black"
               }`}
             >
-              <Link to={`/Car/${item.id}`}>Poznaj model</Link>
+              <Link to={`/Car/${item.model}/${item.name}/${item.id}`}>Poznaj model</Link>
             </button>
           </div>
         </div>
