@@ -17,7 +17,7 @@ const Item = ({ title, listItems }: iItem) => {
   return (
     <ul className="text-xl font-bold tracking-widest">
       {title}
-      <div className="mt-6 tracking-normal">
+      <div className="mt-6">
         {listItems.map((item, index) => (
           <li
             key={index}
@@ -147,7 +147,7 @@ function Footer() {
             ]}
           />
         </ul>
-        <ol className="hidden md:block md:flex md:flex-row md:flex-wrap md:justify-between md:px-8 md:gap-2">
+        <ol className="hidden md:block md:flex md:flex-row md:flex-wrap md:justify-between md:px-2 md:grid-cols-4 md:gap-2">
           <Item
             title="Modele"
             listItems={["Wszystkie modele", "Konfigurator", "Oferty specjalne"]}
