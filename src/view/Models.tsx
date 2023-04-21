@@ -41,7 +41,7 @@ function Models() {
           </button>
         </div>
         {expand && (
-          <div className="overflow-scroll h-[100%] bg-neutral-800 z-20 fixed top-16 left-0 right-0 bottom-0">
+          <div className="overflow-scroll h-[100%] bg-neutral-800 z-20 fixed top-16 left-0 right-0 bottom-0 max-w-[1400px] mx-auto">
             <button
               onClick={handleClick}
               className="bg-black w-full h-16 text-white text-left pl-5 text-xl"
@@ -55,7 +55,7 @@ function Models() {
         <div
           className={`w-full ${
             isDarkMode ? "bg-[#1c1c1c]" : "bg-[#f2f2f2]"
-          } pb-10 pl-10`}
+          } pb-10`}
         >
           <ModelsComponent setTheme={isDarkMode} />
         </div>

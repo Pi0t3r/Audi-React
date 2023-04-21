@@ -6,10 +6,6 @@ module.exports = {
       backgroundImage: {
         headerImageMain:
           "url(https://www.audi.pl/content/dam/nemo/pl/glowna/02-2023/Q8_FAM_1920x1920_v2.jpg?imwidth=1920)",
-        backgroundEle:
-          "url(https://www.audi.pl/content/dam/nemo/pl/glowna/02-2023/Activesphere_748x2500.jpg?imwidth=374)",
-        etron:
-          "url(https://www.audi.pl/content/dam/nemo/pl/glowna/02-2023/etronGT_748x2500.jpg?imwidth=374)",
       },
     },
     screens: {
@@ -18,11 +14,12 @@ module.exports = {
       node: "360px",
       iphone: "412px",
       tablet: "552px",
-      smd:"620px",
-      mdmd:"731px",
+      smd: "620px",
+      mdmd: "731px",
       md: "768px",
       nethub: "912px",
-      xl:"1174px",
+      xl: "1174px",
+      "2xl": "2000px",
     },
   },
   plugins: [],
