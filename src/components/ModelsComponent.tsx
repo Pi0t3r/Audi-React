@@ -76,7 +76,7 @@ export const Card = ({ filter }: iModel) => {
           </div>
           <div className="text-center mt-3 absolute bottom-5 inset-x-0">
             <button
-              className={`border-[2px] w-11/12 text-lg p-3 ease-in duration-300 ${
+              className={`border-[2px] w-11/12 text-lg p-3 ease-in duration-300 hover:scale-y-110 hover:bg-neutral-700 hover:text-white ${
                 isDarkMode ? "border-white" : "border-black"
               }`}
             >
